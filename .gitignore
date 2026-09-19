@@ -1,0 +1,11 @@
+# Local tooling, scratch work and superseded packages do not belong in releases.
+Engineering/
+Archive/
+_work/
+_inspection/
+.venv*/
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store
+*.tmp

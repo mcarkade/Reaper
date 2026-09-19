@@ -1,0 +1,1289 @@
+[
+  {
+    "pattern": "F01",
+    "label": "wing_inner_A",
+    "source": "MQ9 Assembled v28 - Inner_Wing v1.step",
+    "source_face_zero_based": 9,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.34073385228272635,
+    "p99_edge_strain_percent": 0.09743067176732505,
+    "max_edge_error_mm": 0.04733290790756306,
+    "flat_area_mm2": 167058.9740021169,
+    "cut_bbox_mm": [
+      443.05563430306336,
+      455.6246842331172
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F01.1",
+        "vertex": 137
+      },
+      {
+        "label": "F01.2",
+        "vertex": 67
+      },
+      {
+        "label": "F01.3",
+        "vertex": 69
+      },
+      {
+        "label": "F01.4",
+        "vertex": 68
+      }
+    ],
+    "source_inventory_id": "P20"
+  },
+  {
+    "pattern": "F02",
+    "label": "wing_inner_B",
+    "source": "MQ9 Assembled v28 - Inner_Wing v1 (1).step",
+    "source_face_zero_based": 9,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.34071377247242296,
+    "p99_edge_strain_percent": 0.09745774991367917,
+    "max_edge_error_mm": 0.04702601236728425,
+    "flat_area_mm2": 167058.84843814792,
+    "cut_bbox_mm": [
+      443.05481150471337,
+      455.6243317611336
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F02.1",
+        "vertex": 138
+      },
+      {
+        "label": "F02.2",
+        "vertex": 68
+      },
+      {
+        "label": "F02.3",
+        "vertex": 70
+      },
+      {
+        "label": "F02.4",
+        "vertex": 69
+      }
+    ],
+    "source_inventory_id": "P19"
+  },
+  {
+    "pattern": "F03",
+    "label": "wing_outer_A",
+    "source": "MQ9 Assembled v28 - Outer_Wing v1 (1).step",
+    "source_face_zero_based": 13,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.3567469950502278,
+    "p99_edge_strain_percent": 0.1295608183449109,
+    "max_edge_error_mm": 0.29568256222339745,
+    "flat_area_mm2": 91701.70943500531,
+    "cut_bbox_mm": [
+      237.07397795549542,
+      514.6768469098567
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F03.1",
+        "vertex": 6
+      },
+      {
+        "label": "F03.2",
+        "vertex": 69
+      },
+      {
+        "label": "F03.3",
+        "vertex": 2
+      },
+      {
+        "label": "F03.4",
+        "vertex": 76
+      }
+    ],
+    "source_inventory_id": "P55"
+  },
+  {
+    "pattern": "F04",
+    "label": "wing_outer_B",
+    "source": "MQ9 Assembled v28 - Outer_Wing v1 (3).step",
+    "source_face_zero_based": 13,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.3664029095371113,
+    "p99_edge_strain_percent": 0.1301382397589829,
+    "max_edge_error_mm": 0.3083238734654111,
+    "flat_area_mm2": 91701.72661977733,
+    "cut_bbox_mm": [
+      237.07397789910505,
+      514.675656005605
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F04.1",
+        "vertex": 5
+      },
+      {
+        "label": "F04.2",
+        "vertex": 68
+      },
+      {
+        "label": "F04.3",
+        "vertex": 0
+      },
+      {
+        "label": "F04.4",
+        "vertex": 75
+      }
+    ],
+    "source_inventory_id": "P57"
+  },
+  {
+    "pattern": "F05",
+    "label": "tail_A_rootcollar1",
+    "source": "MQ9 Assembled v28 - V_Tail_Stabilizer v1.step",
+    "source_face_zero_based": 0,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.2777309464912614,
+    "p99_edge_strain_percent": 0.08654122044306464,
+    "max_edge_error_mm": 0.02250415424304402,
+    "flat_area_mm2": 39318.734617020986,
+    "cut_bbox_mm": [
+      177.37640595554055,
+      290.4799374562581
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F05.1",
+        "vertex": 114
+      },
+      {
+        "label": "F05.2",
+        "vertex": 193
+      },
+      {
+        "label": "F05.3",
+        "vertex": 94
+      },
+      {
+        "label": "F05.4",
+        "vertex": 279
+      }
+    ],
+    "source_inventory_id": "P62"
+  },
+  {
+    "pattern": "F06",
+    "label": "tail_B_rootcollar1",
+    "source": "MQ9 Assembled v28 - V_Tail_Stabilizer v1 (1).step",
+    "source_face_zero_based": 0,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.27768752607211233,
+    "p99_edge_strain_percent": 0.08570391974635717,
+    "max_edge_error_mm": 0.022425988905872683,
+    "flat_area_mm2": 39318.60660971587,
+    "cut_bbox_mm": [
+      177.37640897329217,
+      290.4802230778722
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F06.1",
+        "vertex": 114
+      },
+      {
+        "label": "F06.2",
+        "vertex": 193
+      },
+      {
+        "label": "F06.3",
+        "vertex": 94
+      },
+      {
+        "label": "F06.4",
+        "vertex": 276
+      }
+    ],
+    "source_inventory_id": "P61"
+  },
+  {
+    "pattern": "F07",
+    "label": "tail_A_rootcollar2",
+    "source": "MQ9 Assembled v28 - V_Tail_Stabilizer v1.step",
+    "source_face_zero_based": 0,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.17362791395193478,
+    "p99_edge_strain_percent": 0.11058211004041568,
+    "max_edge_error_mm": 0.012249993253489095,
+    "flat_area_mm2": 12579.189378608338,
+    "cut_bbox_mm": [
+      83.64904983266067,
+      192.89370601331143
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F07.1",
+        "vertex": 2
+      },
+      {
+        "label": "F07.2",
+        "vertex": 32
+      },
+      {
+        "label": "F07.3",
+        "vertex": 4
+      },
+      {
+        "label": "F07.4",
+        "vertex": 7
+      }
+    ],
+    "source_inventory_id": "P62"
+  },
+  {
+    "pattern": "F08",
+    "label": "tail_B_rootcollar2",
+    "source": "MQ9 Assembled v28 - V_Tail_Stabilizer v1 (1).step",
+    "source_face_zero_based": 0,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.17367530661600572,
+    "p99_edge_strain_percent": 0.1106465043051671,
+    "max_edge_error_mm": 0.012589689804977551,
+    "flat_area_mm2": 12579.192426779133,
+    "cut_bbox_mm": [
+      83.64914057385279,
+      192.89367979002665
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F08.1",
+        "vertex": 2
+      },
+      {
+        "label": "F08.2",
+        "vertex": 32
+      },
+      {
+        "label": "F08.3",
+        "vertex": 4
+      },
+      {
+        "label": "F08.4",
+        "vertex": 7
+      }
+    ],
+    "source_inventory_id": "P61"
+  },
+  {
+    "pattern": "F09",
+    "label": "fuselage_forward_A",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (3).step",
+    "source_face_zero_based": 9,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.023240342717478768,
+    "p99_edge_strain_percent": 0.023240342717452123,
+    "max_edge_error_mm": 0.0009546242332079706,
+    "flat_area_mm2": 12633.857279920416,
+    "cut_bbox_mm": [
+      61.628572097172764,
+      205.0
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F09.1",
+        "vertex": 16
+      },
+      {
+        "label": "F09.2",
+        "vertex": 31
+      },
+      {
+        "label": "F09.3",
+        "vertex": 15
+      },
+      {
+        "label": "F09.4",
+        "vertex": 0
+      }
+    ],
+    "source_inventory_id": "P44"
+  },
+  {
+    "pattern": "F10",
+    "label": "fuselage_forward_B",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (3).step",
+    "source_face_zero_based": 11,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.023240342717567586,
+    "p99_edge_strain_percent": 0.023240342717567586,
+    "max_edge_error_mm": 0.0009546242332119252,
+    "flat_area_mm2": 12633.857279924494,
+    "cut_bbox_mm": [
+      61.628572097192674,
+      205.00000000000009
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F10.1",
+        "vertex": 16
+      },
+      {
+        "label": "F10.2",
+        "vertex": 31
+      },
+      {
+        "label": "F10.3",
+        "vertex": 15
+      },
+      {
+        "label": "F10.4",
+        "vertex": 0
+      }
+    ],
+    "source_inventory_id": "P44"
+  },
+  {
+    "pattern": "F11",
+    "label": "fuselage_middle_A",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (21).step",
+    "source_face_zero_based": 17,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.02324034271952158,
+    "p99_edge_strain_percent": 0.023240342718362506,
+    "max_edge_error_mm": 0.000954624233292184,
+    "flat_area_mm2": 22719.373103630067,
+    "cut_bbox_mm": [
+      61.62857209719269,
+      368.6500000000001
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F11.1",
+        "vertex": 15
+      },
+      {
+        "label": "F11.2",
+        "vertex": 0
+      },
+      {
+        "label": "F11.3",
+        "vertex": 17
+      },
+      {
+        "label": "F11.4",
+        "vertex": 16
+      }
+    ],
+    "source_inventory_id": "P36"
+  },
+  {
+    "pattern": "F12",
+    "label": "fuselage_middle_B",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (21).step",
+    "source_face_zero_based": 19,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.023240342718455764,
+    "p99_edge_strain_percent": 0.023240342718202633,
+    "max_edge_error_mm": 0.0009546242332480563,
+    "flat_area_mm2": 22719.373103622736,
+    "cut_bbox_mm": [
+      61.628572097172764,
+      368.65
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F12.1",
+        "vertex": 15
+      },
+      {
+        "label": "F12.2",
+        "vertex": 0
+      },
+      {
+        "label": "F12.3",
+        "vertex": 17
+      },
+      {
+        "label": "F12.4",
+        "vertex": 16
+      }
+    ],
+    "source_inventory_id": "P36"
+  },
+  {
+    "pattern": "F13",
+    "label": "fuselage_src3_face8",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (3).step",
+    "source_face_zero_based": 8,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.017999875219620876,
+    "p99_edge_strain_percent": 0.017999875219397055,
+    "max_edge_error_mm": 0.0006498161146502342,
+    "flat_area_mm2": 2960.826781876144,
+    "cut_bbox_mm": [
+      14.443057472566572,
+      205.00000000000009
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F13.1",
+        "vertex": 5
+      },
+      {
+        "label": "F13.2",
+        "vertex": 9
+      },
+      {
+        "label": "F13.3",
+        "vertex": 4
+      },
+      {
+        "label": "F13.4",
+        "vertex": 0
+      }
+    ],
+    "source_inventory_id": "P44"
+  },
+  {
+    "pattern": "F14",
+    "label": "fuselage_src3_face10",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (3).step",
+    "source_face_zero_based": 10,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 2.2666313270747196e-10,
+    "p99_edge_strain_percent": 2.2666313270747196e-10,
+    "max_edge_error_mm": 4.6454020601852524e-10,
+    "flat_area_mm2": 1082.0234123874789,
+    "cut_bbox_mm": [
+      5.278162987256016,
+      205.00000000046438
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F14.1",
+        "vertex": 2
+      },
+      {
+        "label": "F14.2",
+        "vertex": 3
+      },
+      {
+        "label": "F14.3",
+        "vertex": 1
+      },
+      {
+        "label": "F14.4",
+        "vertex": 0
+      }
+    ],
+    "source_inventory_id": "P44"
+  },
+  {
+    "pattern": "F15",
+    "label": "fuselage_src3_face12",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (3).step",
+    "source_face_zero_based": 12,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.019037559188106457,
+    "p99_edge_strain_percent": 0.01903755918807093,
+    "max_edge_error_mm": 0.0006873847809389758,
+    "flat_area_mm2": 2961.3188372441573,
+    "cut_bbox_mm": [
+      14.44545774265444,
+      205.00000000000009
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F15.1",
+        "vertex": 5
+      },
+      {
+        "label": "F15.2",
+        "vertex": 9
+      },
+      {
+        "label": "F15.3",
+        "vertex": 4
+      },
+      {
+        "label": "F15.4",
+        "vertex": 0
+      }
+    ],
+    "source_inventory_id": "P44"
+  },
+  {
+    "pattern": "F16",
+    "label": "fuselage_src21_face2",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (21).step",
+    "source_face_zero_based": 2,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.017999875219820716,
+    "p99_edge_strain_percent": 0.017999875219739003,
+    "max_edge_error_mm": 0.0006498161146574576,
+    "flat_area_mm2": 5324.433137261669,
+    "cut_bbox_mm": [
+      14.4430574725666,
+      368.6500000000001
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F16.1",
+        "vertex": 4
+      },
+      {
+        "label": "F16.2",
+        "vertex": 0
+      },
+      {
+        "label": "F16.3",
+        "vertex": 6
+      },
+      {
+        "label": "F16.4",
+        "vertex": 5
+      }
+    ],
+    "source_inventory_id": "P36"
+  },
+  {
+    "pattern": "F17",
+    "label": "fuselage_src21_face16",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (21).step",
+    "source_face_zero_based": 16,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.019037559169832186,
+    "p99_edge_strain_percent": 0.019037559169817975,
+    "max_edge_error_mm": 0.0006873847802791494,
+    "flat_area_mm2": 5325.317996829319,
+    "cut_bbox_mm": [
+      14.445457742653808,
+      368.6500000000001
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F17.1",
+        "vertex": 4
+      },
+      {
+        "label": "F17.2",
+        "vertex": 0
+      },
+      {
+        "label": "F17.3",
+        "vertex": 6
+      },
+      {
+        "label": "F17.4",
+        "vertex": 5
+      }
+    ],
+    "source_inventory_id": "P36"
+  },
+  {
+    "pattern": "F18",
+    "label": "fuselage_src21_face18",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (21).step",
+    "source_face_zero_based": 18,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 6.727951529228449e-12,
+    "p99_edge_strain_percent": 6.7270633508087485e-12,
+    "max_edge_error_mm": 2.47232702168668e-11,
+    "flat_area_mm2": 1945.7947852476425,
+    "cut_bbox_mm": [
+      5.278162987244414,
+      368.6500000000247
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F18.1",
+        "vertex": 0
+      },
+      {
+        "label": "F18.2",
+        "vertex": 1
+      },
+      {
+        "label": "F18.3",
+        "vertex": 3
+      },
+      {
+        "label": "F18.4",
+        "vertex": 2
+      }
+    ],
+    "source_inventory_id": "P36"
+  },
+  {
+    "pattern": "F19",
+    "label": "fuselage_src10_face16",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (10).step",
+    "source_face_zero_based": 16,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.0003878199510420899,
+    "p99_edge_strain_percent": 0.00038720051703156066,
+    "max_edge_error_mm": 0.0005828581432182185,
+    "flat_area_mm2": 2192.9189715697603,
+    "cut_bbox_mm": [
+      14.604905264229568,
+      151.0021406397625
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F19.1",
+        "vertex": 6
+      },
+      {
+        "label": "F19.2",
+        "vertex": 0
+      },
+      {
+        "label": "F19.3",
+        "vertex": 2
+      },
+      {
+        "label": "F19.4",
+        "vertex": 1
+      }
+    ],
+    "source_inventory_id": "P24"
+  },
+  {
+    "pattern": "F20",
+    "label": "fuselage_src10_face17",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (10).step",
+    "source_face_zero_based": 17,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.03711679368078036,
+    "p99_edge_strain_percent": 0.024253052991960854,
+    "max_edge_error_mm": 0.0042766462915705735,
+    "flat_area_mm2": 8951.270278872336,
+    "cut_bbox_mm": [
+      61.61310939032177,
+      151.1237752287611
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F20.1",
+        "vertex": 27
+      },
+      {
+        "label": "F20.2",
+        "vertex": 0
+      },
+      {
+        "label": "F20.3",
+        "vertex": 2
+      },
+      {
+        "label": "F20.4",
+        "vertex": 1
+      }
+    ],
+    "source_inventory_id": "P24"
+  },
+  {
+    "pattern": "F21",
+    "label": "fuselage_src10_face19",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (10).step",
+    "source_face_zero_based": 19,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.034934785674267665,
+    "p99_edge_strain_percent": 0.025632538212786903,
+    "max_edge_error_mm": 0.008311699825804745,
+    "flat_area_mm2": 9319.156974737494,
+    "cut_bbox_mm": [
+      61.799930776150774,
+      151.44858132442636
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F21.1",
+        "vertex": 27
+      },
+      {
+        "label": "F21.2",
+        "vertex": 0
+      },
+      {
+        "label": "F21.3",
+        "vertex": 2
+      },
+      {
+        "label": "F21.4",
+        "vertex": 1
+      }
+    ],
+    "source_inventory_id": "P24"
+  },
+  {
+    "pattern": "F22",
+    "label": "fuselage_src10_face20",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (10).step",
+    "source_face_zero_based": 20,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.0003976622158452514,
+    "p99_edge_strain_percent": 0.00039703582931127634,
+    "max_edge_error_mm": 0.0005976892298134184,
+    "flat_area_mm2": 2211.2262207986246,
+    "cut_bbox_mm": [
+      14.84514385588108,
+      151.00055031347293
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F22.1",
+        "vertex": 6
+      },
+      {
+        "label": "F22.2",
+        "vertex": 0
+      },
+      {
+        "label": "F22.3",
+        "vertex": 2
+      },
+      {
+        "label": "F22.4",
+        "vertex": 1
+      }
+    ],
+    "source_inventory_id": "P24"
+  },
+  {
+    "pattern": "F23",
+    "label": "fuselage_src22_face11",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (22).step",
+    "source_face_zero_based": 11,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 1,
+    "max_edge_strain_percent": 0.030121173973407522,
+    "p99_edge_strain_percent": 0.022832800070447214,
+    "max_edge_error_mm": 0.007472514690025054,
+    "flat_area_mm2": 11725.279710503895,
+    "cut_bbox_mm": [
+      79.28964453012287,
+      156.23582686641987
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F23.1",
+        "vertex": 24
+      },
+      {
+        "label": "F23.2",
+        "vertex": 25
+      },
+      {
+        "label": "F23.3",
+        "vertex": 0
+      },
+      {
+        "label": "F23.4",
+        "vertex": 23
+      }
+    ],
+    "source_inventory_id": "P37"
+  },
+  {
+    "pattern": "F24",
+    "label": "fuselage_src22_face13",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (22).step",
+    "source_face_zero_based": 13,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 1,
+    "max_edge_strain_percent": 0.03728141091980941,
+    "p99_edge_strain_percent": 0.02953357708749269,
+    "max_edge_error_mm": 0.008592829270007962,
+    "flat_area_mm2": 12007.502291901481,
+    "cut_bbox_mm": [
+      78.78607435419423,
+      156.3799936721539
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F24.1",
+        "vertex": 3
+      },
+      {
+        "label": "F24.2",
+        "vertex": 32
+      },
+      {
+        "label": "F24.3",
+        "vertex": 6
+      },
+      {
+        "label": "F24.4",
+        "vertex": 33
+      }
+    ],
+    "source_inventory_id": "P37"
+  },
+  {
+    "pattern": "F25",
+    "label": "fuselage_src25_face6",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (25).step",
+    "source_face_zero_based": 6,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 6.957484477432274e-06,
+    "p99_edge_strain_percent": 1.827773998819282e-06,
+    "max_edge_error_mm": 9.046447594847331e-06,
+    "flat_area_mm2": 10192.424135582505,
+    "cut_bbox_mm": [
+      78.4041881129308,
+      130.0002008790893
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F25.1",
+        "vertex": 26
+      },
+      {
+        "label": "F25.2",
+        "vertex": 0
+      },
+      {
+        "label": "F25.3",
+        "vertex": 51
+      },
+      {
+        "label": "F25.4",
+        "vertex": 27
+      }
+    ],
+    "source_inventory_id": "P40"
+  },
+  {
+    "pattern": "F26",
+    "label": "fuselage_src25_face8",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (25).step",
+    "source_face_zero_based": 8,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 6.353013826121412e-06,
+    "p99_edge_strain_percent": 3.129831141368563e-06,
+    "max_edge_error_mm": 8.2604865068356e-06,
+    "flat_area_mm2": 10192.221535317949,
+    "cut_bbox_mm": [
+      78.40408637102294,
+      130.00040608031367
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F26.1",
+        "vertex": 27
+      },
+      {
+        "label": "F26.2",
+        "vertex": 28
+      },
+      {
+        "label": "F26.3",
+        "vertex": 0
+      },
+      {
+        "label": "F26.4",
+        "vertex": 26
+      }
+    ],
+    "source_inventory_id": "P40"
+  },
+  {
+    "pattern": "F27",
+    "label": "fuselage_src18_face14_axis1_strip1of4",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (18).step",
+    "source_face_zero_based": 14,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.2865179343126689,
+    "p99_edge_strain_percent": 0.1382641591577655,
+    "max_edge_error_mm": 0.022996032832481906,
+    "flat_area_mm2": 7854.413159097952,
+    "cut_bbox_mm": [
+      55.23389433214238,
+      150.2482961853077
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F27.1",
+        "vertex": 5
+      },
+      {
+        "label": "F27.2",
+        "vertex": 2
+      },
+      {
+        "label": "F27.3",
+        "vertex": 660
+      },
+      {
+        "label": "F27.4",
+        "vertex": 220
+      }
+    ],
+    "source_inventory_id": "P32"
+  },
+  {
+    "pattern": "F28",
+    "label": "fuselage_src18_face14_axis1_strip2of4",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (18).step",
+    "source_face_zero_based": 14,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.29519549592660344,
+    "p99_edge_strain_percent": 0.16831493886892765,
+    "max_edge_error_mm": 0.02363869509102564,
+    "flat_area_mm2": 7361.0925205217445,
+    "cut_bbox_mm": [
+      55.949612845498976,
+      144.39705516720812
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F28.1",
+        "vertex": 163
+      },
+      {
+        "label": "F28.2",
+        "vertex": 85
+      },
+      {
+        "label": "F28.3",
+        "vertex": 434
+      },
+      {
+        "label": "F28.4",
+        "vertex": 133
+      }
+    ],
+    "source_inventory_id": "P32"
+  },
+  {
+    "pattern": "F29",
+    "label": "fuselage_src18_face14_axis1_strip3of4",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (18).step",
+    "source_face_zero_based": 14,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.33577380433187365,
+    "p99_edge_strain_percent": 0.18753713701049263,
+    "max_edge_error_mm": 0.02549976272883411,
+    "flat_area_mm2": 6551.954973068309,
+    "cut_bbox_mm": [
+      56.497990903916914,
+      132.3439411905678
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F29.1",
+        "vertex": 201
+      },
+      {
+        "label": "F29.2",
+        "vertex": 103
+      },
+      {
+        "label": "F29.3",
+        "vertex": 189
+      },
+      {
+        "label": "F29.4",
+        "vertex": 143
+      }
+    ],
+    "source_inventory_id": "P32"
+  },
+  {
+    "pattern": "F30",
+    "label": "fuselage_src18_face14_axis1_strip4of4",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (18).step",
+    "source_face_zero_based": 14,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 0.3212705257773507,
+    "p99_edge_strain_percent": 0.21636443067268402,
+    "max_edge_error_mm": 0.02958004103554166,
+    "flat_area_mm2": 5424.869420504667,
+    "cut_bbox_mm": [
+      56.97003522137731,
+      113.93691274472918
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F30.1",
+        "vertex": 349
+      },
+      {
+        "label": "F30.2",
+        "vertex": 213
+      },
+      {
+        "label": "F30.3",
+        "vertex": 4
+      },
+      {
+        "label": "F30.4",
+        "vertex": 0
+      }
+    ],
+    "source_inventory_id": "P32"
+  },
+  {
+    "pattern": "F31",
+    "label": "tail_control_blank_A",
+    "source": "tail_control_A.step",
+    "source_face_zero_based": 2,
+    "quantity": 2,
+    "nominal_board_mm": 5,
+    "reference": "laminate carve blank10mm",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 4.076352144721795e-06,
+    "p99_edge_strain_percent": 4.0763521385045465e-06,
+    "max_edge_error_mm": 1.4267232506526284e-06,
+    "flat_area_mm2": 9276.246800459847,
+    "cut_bbox_mm": [
+      45.00000142672367,
+      275.0356123054279
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F31.1",
+        "vertex": 3
+      },
+      {
+        "label": "F31.2",
+        "vertex": 0
+      },
+      {
+        "label": "F31.3",
+        "vertex": 2
+      },
+      {
+        "label": "F31.4",
+        "vertex": 1
+      }
+    ],
+    "source_inventory_id": "assembled A41"
+  },
+  {
+    "pattern": "F32",
+    "label": "tail_control_blank_B",
+    "source": "tail_control_B.step",
+    "source_face_zero_based": 2,
+    "quantity": 2,
+    "nominal_board_mm": 5,
+    "reference": "laminate carve blank10mm",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 4.030020761547348e-09,
+    "p99_edge_strain_percent": 4.030020761547348e-09,
+    "max_edge_error_mm": 1.4105072665415719e-09,
+    "flat_area_mm2": 9276.246422585442,
+    "cut_bbox_mm": [
+      45.000000001410505,
+      275.03561206343136
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F32.1",
+        "vertex": 1
+      },
+      {
+        "label": "F32.2",
+        "vertex": 0
+      },
+      {
+        "label": "F32.3",
+        "vertex": 3
+      },
+      {
+        "label": "F32.4",
+        "vertex": 2
+      }
+    ],
+    "source_inventory_id": "assembled A60"
+  },
+  {
+    "pattern": "F33",
+    "label": "fuselage_src10_face18",
+    "source": "MQ9 Assembled v28 - MQ9 Assembled v28 (10).step",
+    "source_face_zero_based": 18,
+    "quantity": 1,
+    "nominal_board_mm": 5,
+    "reference": "preserved outer paper",
+    "paper_trim_allowance_mm": 0,
+    "max_edge_strain_percent": 4.138203613113234e-06,
+    "p99_edge_strain_percent": 4.138177662760256e-06,
+    "max_edge_error_mm": 6.250889638290341e-06,
+    "flat_area_mm2": 766.8588638596815,
+    "cut_bbox_mm": [
+      5.277584223324679,
+      151.1313710984613
+    ],
+    "valid_boundary": true,
+    "flipped_triangles": 0,
+    "registration": [
+      {
+        "label": "F33.1",
+        "vertex": 3
+      },
+      {
+        "label": "F33.2",
+        "vertex": 0
+      },
+      {
+        "label": "F33.3",
+        "vertex": 2
+      },
+      {
+        "label": "F33.4",
+        "vertex": 1
+      }
+    ],
+    "source_inventory_id": "P24"
+  }
+]

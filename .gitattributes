@@ -1,0 +1,10 @@
+# Keep CAD, templates and verification bytes unchanged across Windows/Linux.
+* -text -diff
+*.md text diff eol=lf
+*.json text diff eol=lf
+*.csv text diff eol=lf
+*.tsv text diff eol=lf
+*.txt text diff eol=lf
+.gitignore text diff eol=lf
+.gitattributes text diff eol=lf
+Manufacturing/07_Source/** -text -diff

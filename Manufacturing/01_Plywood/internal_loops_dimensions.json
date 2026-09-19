@@ -1,0 +1,510 @@
+[
+  {
+    "assembly_id": "A01",
+    "loop": 1,
+    "width_mm": 8.200000000000003,
+    "height_mm": 8.2,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A04",
+    "loop": 1,
+    "width_mm": 3.0,
+    "height_mm": 3.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A04",
+    "loop": 2,
+    "width_mm": 64.00000020150303,
+    "height_mm": 59.37441789973768,
+    "edge_types": [
+      "ELLIPSE",
+      "LINE",
+      "ELLIPSE",
+      "LINE",
+      "BSPLINE",
+      "BSPLINE",
+      "LINE"
+    ]
+  },
+  {
+    "assembly_id": "A04",
+    "loop": 3,
+    "width_mm": 3.0,
+    "height_mm": 3.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A10",
+    "loop": 1,
+    "width_mm": 3.0,
+    "height_mm": 3.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A13",
+    "loop": 1,
+    "width_mm": 2.0,
+    "height_mm": 2.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A13",
+    "loop": 2,
+    "width_mm": 2.0,
+    "height_mm": 2.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A13",
+    "loop": 3,
+    "width_mm": 2.0,
+    "height_mm": 2.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A13",
+    "loop": 4,
+    "width_mm": 2.0,
+    "height_mm": 2.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A13",
+    "loop": 5,
+    "width_mm": 2.0,
+    "height_mm": 2.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A13",
+    "loop": 6,
+    "width_mm": 2.0,
+    "height_mm": 2.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A13",
+    "loop": 7,
+    "width_mm": 3.0,
+    "height_mm": 3.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A13",
+    "loop": 8,
+    "width_mm": 3.0,
+    "height_mm": 2.9999999999999982,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A13",
+    "loop": 9,
+    "width_mm": 3.0,
+    "height_mm": 3.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A13",
+    "loop": 10,
+    "width_mm": 3.0,
+    "height_mm": 3.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A16",
+    "loop": 1,
+    "width_mm": 64.000000199995,
+    "height_mm": 66.40374478398289,
+    "edge_types": [
+      "BSPLINE",
+      "BSPLINE",
+      "LINE",
+      "CIRCLE",
+      "LINE",
+      "CIRCLE",
+      "LINE"
+    ]
+  },
+  {
+    "assembly_id": "A18",
+    "loop": 1,
+    "width_mm": 55.88299252322899,
+    "height_mm": 66.092581307253,
+    "edge_types": [
+      "CIRCLE",
+      "BSPLINE",
+      "CIRCLE",
+      "LINE",
+      "CIRCLE",
+      "LINE",
+      "CIRCLE",
+      "BSPLINE",
+      "CIRCLE",
+      "BSPLINE",
+      "BSPLINE",
+      "BSPLINE",
+      "BSPLINE",
+      "BSPLINE",
+      "BSPLINE"
+    ]
+  },
+  {
+    "assembly_id": "A24",
+    "loop": 1,
+    "width_mm": 10.200000000000003,
+    "height_mm": 10.2,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A24",
+    "loop": 2,
+    "width_mm": 18.000000193709,
+    "height_mm": 5.000000000000008,
+    "edge_types": [
+      "LINE",
+      "CIRCLE",
+      "LINE",
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A26",
+    "loop": 1,
+    "width_mm": 12.0,
+    "height_mm": 12.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A26",
+    "loop": 2,
+    "width_mm": 5.000000000000998,
+    "height_mm": 9.999969408500593,
+    "edge_types": [
+      "LINE",
+      "LINE",
+      "LINE",
+      "LINE"
+    ]
+  },
+  {
+    "assembly_id": "A26",
+    "loop": 3,
+    "width_mm": 3.200000000000001,
+    "height_mm": 3.200000000000003,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A26",
+    "loop": 4,
+    "width_mm": 3.200000000000001,
+    "height_mm": 3.1999999999999993,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A26",
+    "loop": 5,
+    "width_mm": 3.1999999999999993,
+    "height_mm": 3.200000000000003,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A26",
+    "loop": 6,
+    "width_mm": 3.1999999999999993,
+    "height_mm": 3.1999999999999993,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A34",
+    "loop": 1,
+    "width_mm": 64.000000199995,
+    "height_mm": 66.40374478398252,
+    "edge_types": [
+      "BSPLINE",
+      "BSPLINE",
+      "LINE",
+      "CIRCLE",
+      "LINE",
+      "CIRCLE",
+      "LINE"
+    ]
+  },
+  {
+    "assembly_id": "A34",
+    "loop": 2,
+    "width_mm": 2.0,
+    "height_mm": 2.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A34",
+    "loop": 3,
+    "width_mm": 2.0,
+    "height_mm": 2.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A34",
+    "loop": 4,
+    "width_mm": 2.0,
+    "height_mm": 2.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A35",
+    "loop": 1,
+    "width_mm": 25.747898476686004,
+    "height_mm": 7.696219525406,
+    "edge_types": [
+      "CIRCLE",
+      "CIRCLE",
+      "BSPLINE",
+      "CIRCLE",
+      "BSPLINE",
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A35",
+    "loop": 2,
+    "width_mm": 8.0,
+    "height_mm": 8.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A35",
+    "loop": 3,
+    "width_mm": 10.200000000000003,
+    "height_mm": 10.2,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A43",
+    "loop": 1,
+    "width_mm": 3.0,
+    "height_mm": 3.0000000000000018,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A43",
+    "loop": 2,
+    "width_mm": 3.0,
+    "height_mm": 3.0000000000000018,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A43",
+    "loop": 3,
+    "width_mm": 3.0,
+    "height_mm": 3.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A43",
+    "loop": 4,
+    "width_mm": 3.0,
+    "height_mm": 3.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A44",
+    "loop": 1,
+    "width_mm": 2.0,
+    "height_mm": 2.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A44",
+    "loop": 2,
+    "width_mm": 2.0,
+    "height_mm": 2.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A44",
+    "loop": 3,
+    "width_mm": 3.000032844338847,
+    "height_mm": 3.000790990630634,
+    "edge_types": [
+      "ELLIPSE"
+    ]
+  },
+  {
+    "assembly_id": "A47",
+    "loop": 1,
+    "width_mm": 3.200000000000003,
+    "height_mm": 3.1999999999999993,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A47",
+    "loop": 2,
+    "width_mm": 3.1999999999999993,
+    "height_mm": 3.1999999999999993,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A53",
+    "loop": 1,
+    "width_mm": 3.0,
+    "height_mm": 3.0,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A54",
+    "loop": 1,
+    "width_mm": 64.000000199995,
+    "height_mm": 66.40374478398252,
+    "edge_types": [
+      "BSPLINE",
+      "BSPLINE",
+      "LINE",
+      "CIRCLE",
+      "LINE",
+      "CIRCLE",
+      "LINE"
+    ]
+  },
+  {
+    "assembly_id": "A62F",
+    "loop": 1,
+    "width_mm": 2.200000000000003,
+    "height_mm": 2.2,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A62F",
+    "loop": 2,
+    "width_mm": 2.1999999999999886,
+    "height_mm": 2.2,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A62R",
+    "loop": 1,
+    "width_mm": 2.200000000000003,
+    "height_mm": 2.2,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A62R",
+    "loop": 2,
+    "width_mm": 2.1999999999999993,
+    "height_mm": 2.2,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A63",
+    "loop": 1,
+    "width_mm": 2.1999999999999957,
+    "height_mm": 2.2000000000000006,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A63",
+    "loop": 2,
+    "width_mm": 2.200000000000003,
+    "height_mm": 2.2000000000000006,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A63",
+    "loop": 3,
+    "width_mm": 2.200000000000003,
+    "height_mm": 2.2000000000000006,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  },
+  {
+    "assembly_id": "A63",
+    "loop": 4,
+    "width_mm": 2.1999999999999993,
+    "height_mm": 2.2000000000000006,
+    "edge_types": [
+      "CIRCLE"
+    ]
+  }
+]

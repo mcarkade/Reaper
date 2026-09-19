@@ -1,0 +1,177 @@
+{
+  "A37_nose_mount_bypass": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 19618.666034263377
+  },
+  "A62_spine_bypass": {
+    "valid": true,
+    "solids": 2,
+    "volume_mm3": 39640.29873569836
+  },
+  "A63_left_nose_doubler_2p5mm": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1887.9867288915639
+  },
+  "A64_right_nose_doubler_2p5mm": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1887.9867288915639
+  },
+  "checks": [
+    {
+      "part": "A37_nose_mount_bypass",
+      "against": "A09",
+      "overlap_mm3": 0.0,
+      "distance_mm": 2.913225216616411e-13
+    },
+    {
+      "part": "A37_nose_mount_bypass",
+      "against": "A46",
+      "overlap_mm3": 0.0,
+      "distance_mm": 0.09998438446888569
+    },
+    {
+      "part": "A37_nose_mount_bypass",
+      "against": "A59",
+      "overlap_mm3": 0.0,
+      "distance_mm": 37.58087524251415
+    },
+    {
+      "part": "A37_nose_mount_bypass",
+      "against": "A56",
+      "overlap_mm3": 0.0,
+      "distance_mm": 2.6645352591003757e-15
+    },
+    {
+      "part": "A37_nose_mount_bypass",
+      "against": "A62",
+      "overlap_mm3": 0.002406744971763321,
+      "distance_mm": 0.0
+    },
+    {
+      "part": "A62_spine_bypass",
+      "against": "A09",
+      "overlap_mm3": 0.0,
+      "distance_mm": 14.999977341874132
+    },
+    {
+      "part": "A62_spine_bypass",
+      "against": "A37",
+      "overlap_mm3": 0.002406744971763321,
+      "distance_mm": 0.0
+    },
+    {
+      "part": "A62_spine_bypass",
+      "against": "A46",
+      "overlap_mm3": 0.0,
+      "distance_mm": 0.19999999999998863
+    },
+    {
+      "part": "A62_spine_bypass",
+      "against": "A59",
+      "overlap_mm3": 0.0,
+      "distance_mm": 1.4028469311706293
+    },
+    {
+      "part": "A62_spine_bypass",
+      "against": "A56",
+      "overlap_mm3": 0.28755145918650116,
+      "distance_mm": 0.0
+    },
+    {
+      "part": "A63_left_nose_doubler_2p5mm",
+      "against": "A09",
+      "overlap_mm3": 0.0,
+      "distance_mm": 11.50005381119
+    },
+    {
+      "part": "A63_left_nose_doubler_2p5mm",
+      "against": "A37",
+      "overlap_mm3": 0.0,
+      "distance_mm": 0.14999999999997105
+    },
+    {
+      "part": "A63_left_nose_doubler_2p5mm",
+      "against": "A46",
+      "overlap_mm3": 0.0,
+      "distance_mm": 1.0000156155309559
+    },
+    {
+      "part": "A63_left_nose_doubler_2p5mm",
+      "against": "A59",
+      "overlap_mm3": 0.0,
+      "distance_mm": 54.580223677883836
+    },
+    {
+      "part": "A63_left_nose_doubler_2p5mm",
+      "against": "A56",
+      "overlap_mm3": 0.0,
+      "distance_mm": 0.1601463291701351
+    },
+    {
+      "part": "A63_left_nose_doubler_2p5mm",
+      "against": "A62",
+      "overlap_mm3": 0.0,
+      "distance_mm": 1.551551379730398e-05
+    },
+    {
+      "part": "A64_right_nose_doubler_2p5mm",
+      "against": "A09",
+      "overlap_mm3": 0.0,
+      "distance_mm": 11.50005381119438
+    },
+    {
+      "part": "A64_right_nose_doubler_2p5mm",
+      "against": "A37",
+      "overlap_mm3": 0.0,
+      "distance_mm": 0.14999999999999858
+    },
+    {
+      "part": "A64_right_nose_doubler_2p5mm",
+      "against": "A46",
+      "overlap_mm3": 0.0,
+      "distance_mm": 0.9999843844681113
+    },
+    {
+      "part": "A64_right_nose_doubler_2p5mm",
+      "against": "A59",
+      "overlap_mm3": 0.0,
+      "distance_mm": 54.58025941184017
+    },
+    {
+      "part": "A64_right_nose_doubler_2p5mm",
+      "against": "A56",
+      "overlap_mm3": 0.0,
+      "distance_mm": 0.16014970306283838
+    },
+    {
+      "part": "A64_right_nose_doubler_2p5mm",
+      "against": "A62",
+      "overlap_mm3": 0.007427586712110797,
+      "distance_mm": 0.0
+    }
+  ],
+  "holes": {
+    "axis": "X",
+    "diameter_mm": 2.2,
+    "y_stations_mm": [
+      -320.0,
+      -302.0,
+      -282.0,
+      -264.0
+    ],
+    "z_mm": -37.964
+  },
+  "plate_dimensions_mm": [
+    2.5,
+    72,
+    10.7
+  ],
+  "removed_spine_slot_y_mm": [
+    -295.35,
+    -291.95
+  ],
+  "note": "A62 becomes two valid solids; continuous side doublers and four transverse fasteners bridge it."
+}

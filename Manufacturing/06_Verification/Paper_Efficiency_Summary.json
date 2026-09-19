@@ -1,0 +1,11 @@
+{
+  "plywood_pages": 7,
+  "foam_pages": 23,
+  "foam_cutting_pages": 22,
+  "tail_tooling_pages": 2,
+  "previous_plywood_pages": 22,
+  "previous_foam_pages": 72,
+  "whole_part_fit_rule": "Any part that fits one usable A4 sheet is contained on one page; see per-part placement proofs.",
+  "hard_margin_mm": 5,
+  "scale": 1
+}

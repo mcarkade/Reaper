@@ -1,0 +1,573 @@
+{
+  "DXF": [
+    {
+      "file": "04_Hardware/A02_Main_gear_front_template.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "04_Hardware/A46_Nose_wire_side_template.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F01_wing_inner_A.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F02_wing_inner_B.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F03_wing_outer_A.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F04_wing_outer_B.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F05_tail_A_rootcollar1.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F06_tail_B_rootcollar1.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F07_tail_A_rootcollar2.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F08_tail_B_rootcollar2.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F09_fuselage_forward_A.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F10_fuselage_forward_B.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F11_fuselage_middle_A.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F12_fuselage_middle_B.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F13_fuselage_src3_face8.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F14_fuselage_src3_face10.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F15_fuselage_src3_face12.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F16_fuselage_src21_face2.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F17_fuselage_src21_face16.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F18_fuselage_src21_face18.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F19_fuselage_src10_face16.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F20_fuselage_src10_face17.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F21_fuselage_src10_face19.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F22_fuselage_src10_face20.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F23_fuselage_src22_face11.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F24_fuselage_src22_face13.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F25_fuselage_src25_face6.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F26_fuselage_src25_face8.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F27_fuselage_src18_face14_axis1_strip1of4.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F28_fuselage_src18_face14_axis1_strip2of4.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F29_fuselage_src18_face14_axis1_strip3of4.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F30_fuselage_src18_face14_axis1_strip4of4.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F31_tail_control_blank_A.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F32_tail_control_blank_B.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/DXF/F33_fuselage_src10_face18.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/Sheet_Layouts/Foam_Sheet_01_1000x600.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/Sheet_Layouts/Foam_Sheet_02_1000x600.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/Sheet_Layouts/Foam_Sheet_03_1000x600.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/TOOLING_DXF/T01_split_collar.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/TOOLING_DXF/T02_split_collar.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "02_Foam/TOOLING_DXF/T03_split_collar.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Sheet_Layouts/Plywood_2.5mm_1220x2440.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Sheet_Layouts/Plywood_3mm_1220x2440.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Sheet_Layouts/Plywood_5mm_1220x2440.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/2.500mm/A18.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/2.500mm/A63.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/3.000mm/A10.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/3.000mm/A53.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/4.990mm/A44.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A01.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A04.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A05.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A07.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A13.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A16.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A24.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A25.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A26.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A34.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A35.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A43.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A47.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A48.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A54.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A62F.dxf",
+      "units": 4,
+      "errors": 0
+    },
+    {
+      "file": "01_Plywood/Individual_DXF/5.000mm/A62R.dxf",
+      "units": 4,
+      "errors": 0
+    }
+  ],
+  "STL": [
+    {
+      "file": "03_Print/Aircraft_STL/A06_Centre_fairing.stl",
+      "faces": 92204,
+      "watertight": true,
+      "winding_consistent": true,
+      "dimensions_mm": [
+        106.36817169189453,
+        233.64999389648438,
+        51.240234375
+      ]
+    },
+    {
+      "file": "03_Print/Aircraft_STL/A09_Nose_steering_bearing.stl",
+      "faces": 28886,
+      "watertight": true,
+      "winding_consistent": true,
+      "dimensions_mm": [
+        21.99960708618164,
+        22.9957275390625,
+        10.999999046325684
+      ]
+    },
+    {
+      "file": "03_Print/Aircraft_STL/A11_Left_aileron.stl",
+      "faces": 120486,
+      "watertight": true,
+      "winding_consistent": true,
+      "dimensions_mm": [
+        274.38702392578125,
+        74.30140686035156,
+        14.618609428405762
+      ]
+    },
+    {
+      "file": "03_Print/Aircraft_STL/A12_Tail_fairing.stl",
+      "faces": 456560,
+      "watertight": true,
+      "winding_consistent": true,
+      "dimensions_mm": [
+        105.68429565429688,
+        210.6453857421875,
+        89.63660430908203
+      ]
+    },
+    {
+      "file": "03_Print/Aircraft_STL/A21_Right_aileron.stl",
+      "faces": 120186,
+      "watertight": true,
+      "winding_consistent": true,
+      "dimensions_mm": [
+        274.38702392578125,
+        74.30140686035156,
+        14.618609428405762
+      ]
+    },
+    {
+      "file": "03_Print/Aircraft_STL/A23_Left_aileron_hinge.stl",
+      "faces": 86858,
+      "watertight": true,
+      "winding_consistent": true,
+      "dimensions_mm": [
+        274.427978515625,
+        19.701278686523438,
+        16.721784591674805
+      ]
+    },
+    {
+      "file": "03_Print/Aircraft_STL/A36_Right_aileron_hinge.stl",
+      "faces": 87012,
+      "watertight": true,
+      "winding_consistent": true,
+      "dimensions_mm": [
+        274.427978515625,
+        19.701278686523438,
+        16.721784591674805
+      ]
+    },
+    {
+      "file": "03_Print/Aircraft_STL/A37_Nose_gear_mount.stl",
+      "faces": 17200,
+      "watertight": true,
+      "winding_consistent": true,
+      "dimensions_mm": [
+        35.43144607543945,
+        39.29998779296875,
+        25.648759841918945
+      ]
+    },
+    {
+      "file": "03_Print/Aircraft_STL/A45_Right_wing_root.stl",
+      "faces": 5196,
+      "watertight": true,
+      "winding_consistent": true,
+      "dimensions_mm": [
+        10.0,
+        183.66317749023438,
+        29.118932723999023
+      ]
+    },
+    {
+      "file": "03_Print/Aircraft_STL/A55_Left_wing_root.stl",
+      "faces": 5196,
+      "watertight": true,
+      "winding_consistent": true,
+      "dimensions_mm": [
+        10.0,
+        183.66317749023438,
+        29.118932723999023
+      ]
+    },
+    {
+      "file": "03_Print/Aircraft_STL/A59_Nose_shell.stl",
+      "faces": 137296,
+      "watertight": true,
+      "winding_consistent": true,
+      "dimensions_mm": [
+        109.035888671875,
+        309.68011474609375,
+        88.5566177368164
+      ]
+    },
+    {
+      "file": "03_Print/Test_Coupon/Print_fit_coupon_80x35x4mm.stl",
+      "faces": 3568,
+      "watertight": true,
+      "winding_consistent": true,
+      "dimensions_mm": [
+        80.0,
+        35.0,
+        4.0
+      ]
+    }
+  ],
+  "PDF": [
+    {
+      "file": "Build Guide/01_Airframe_Manufacturing_and_Assembly.pdf",
+      "pages": 12,
+      "text_outside_page": []
+    },
+    {
+      "file": "Build Guide/Complete_Build_Guide.pdf",
+      "pages": 62,
+      "text_outside_page": []
+    },
+    {
+      "file": "Build Guide/Detailed_Parts_List.pdf",
+      "pages": 3,
+      "text_outside_page": []
+    },
+    {
+      "file": "Build Guide/Foam_Assembly_Map.pdf",
+      "pages": 5,
+      "text_outside_page": []
+    },
+    {
+      "file": "Build Guide/Foam_Forming_Instructions.pdf",
+      "pages": 6,
+      "text_outside_page": []
+    },
+    {
+      "file": "Build Guide/Foam_Pattern_Overview.pdf",
+      "pages": 6,
+      "text_outside_page": []
+    },
+    {
+      "file": "Build Guide/Foam_Sheet_Layouts.pdf",
+      "pages": 3,
+      "text_outside_page": []
+    },
+    {
+      "file": "Build Guide/Hardware_and_Forming_Notes.pdf",
+      "pages": 1,
+      "text_outside_page": []
+    },
+    {
+      "file": "Build Guide/Manufacturing_Profile_Atlas.pdf",
+      "pages": 4,
+      "text_outside_page": []
+    },
+    {
+      "file": "Build Guide/Motor_Mount_Pattern_Comparison.pdf",
+      "pages": 1,
+      "text_outside_page": []
+    },
+    {
+      "file": "Build Guide/Shop_Sheet_Overview.pdf",
+      "pages": 3,
+      "text_outside_page": []
+    },
+    {
+      "file": "Build Guide/Verification_Summary.pdf",
+      "pages": 2,
+      "text_outside_page": []
+    },
+    {
+      "file": "Print_Templates/Foam_1to1_A4_Tiles.pdf",
+      "pages": 23,
+      "text_outside_page": []
+    },
+    {
+      "file": "Print_Templates/Plywood_2.5mm_A4_Tiles.pdf",
+      "pages": 1,
+      "text_outside_page": []
+    },
+    {
+      "file": "Print_Templates/Plywood_3mm_A4_Tiles.pdf",
+      "pages": 1,
+      "text_outside_page": []
+    },
+    {
+      "file": "Print_Templates/Plywood_5mm_A4_Tiles.pdf",
+      "pages": 5,
+      "text_outside_page": []
+    },
+    {
+      "file": "Print_Templates/Tail_Forming_Profiles.pdf",
+      "pages": 2,
+      "text_outside_page": []
+    },
+    {
+      "file": "02_Foam/Sheet_Layouts/Foam_Sheet_Layouts.pdf",
+      "pages": 3,
+      "text_outside_page": []
+    }
+  ],
+  "manifest_records": 79,
+  "manifest_missing_files": [],
+  "counts": {
+    "aircraft_stl": 11,
+    "print_coupons": 1,
+    "plywood_profiles": 22,
+    "foam_profiles": 33
+  },
+  "source_sha256": {
+    "MQ9 Assembled.step": "9712521a7d414563127ac9a09a4198b7c24f499a9b1a6a84175dbe054e65b4dd",
+    "MQ9 Disassembled.zip": "0606fe1ef0e06d56d19cd54fe64c9cd4fc178a7f76135d2cf44abd31536148da",
+    "NoteGPT_Transcript_Building a DIY REAPER Drone... Ended Badly.txt": "4f108266c67c763ba180da8f49cbde2a537fd1bd74d6fe207df29fba60abf9ab"
+  }
+}

@@ -1,0 +1,1989 @@
+[
+  {
+    "assembly_id": "A01",
+    "assembly_name": "MQ9 Assembled v28",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "MQ9 Assembled v28"
+    ],
+    "volume_mm3": 2402.4471825459423,
+    "bbox": [
+      128.00002151395998,
+      79.29846089176,
+      8.135738733426999,
+      133.00002171396,
+      122.6978979343103,
+      23.452614146543002
+    ],
+    "center": [
+      130.50002161396012,
+      100.53117813333402,
+      15.838693458884283
+    ],
+    "thickness_mm": 5.0,
+    "profile_area_mm2": 480.5167315444114,
+    "profile_width_mm": 43.399437042550225,
+    "profile_height_mm": 15.316875413116001,
+    "inner_wires": 1,
+    "missing_mm3": 0.0,
+    "extra_mm3": 0.0,
+    "reconstructed_volume_mm3": 2402.583657720254,
+    "symmetric_difference_percent": 0.0,
+    "status": "CHECKED_PROFILE",
+    "dxf": "assembly_profiles\\checked\\5.000mm\\A01.dxf",
+    "local_origin_world": [
+      133.00002161396,
+      100.53261284125757,
+      15.838701720162575
+    ],
+    "local_x_world": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "local_y_world": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "local_normal_world": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "local_shift_mm": [
+      21.234151949497484,
+      7.702962986735577,
+      1.0000002118649023e-07
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 2,
+    "quantity_evidence": "One positive-X wing CAD occurrence; mirrored opposite wing inferred from bilateral full-span airframe",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "CIRCLE": 1,
+      "LINE": 6,
+      "SPLINE": 2,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A01.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A01_manufacturing.step",
+    "design_changes": [
+      {
+        "change": "Circular bore enlarged; source axis corrected to sleeve center where specified",
+        "old_radius_mm": 4,
+        "new_radius_mm": 4.1,
+        "old_local_center": [
+          21.201890736540022,
+          6.934759718313002,
+          1.0000002248490001e-07
+        ],
+        "new_local_center": [
+          21.201890736540022,
+          6.934759718313002,
+          0.0
+        ],
+        "area_expected_mm2": 477.97204149500425,
+        "area_actual_mm2": 477.9720414950041,
+        "area_residual_mm2": -1.7053025658242404e-13
+      }
+    ],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 477.9720414950041,
+    "manufacturing_volume_mm3": 2389.860207473217,
+    "manufacturing_expected_volume_mm3": 2389.8602074750206,
+    "manufacturing_note": "Source planar profile; only explicitly listed bore revisions applied.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A04",
+    "assembly_name": "Aft_Fuselage_Hoop v1",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "Aft_Fuselage_Hoop v1"
+    ],
+    "volume_mm3": 11600.459096868954,
+    "bbox": [
+      -47.82415880700001,
+      384.64999716384,
+      -38.40907221760122,
+      47.823769973338536,
+      389.64999678349443,
+      41.62816310169372
+    ],
+    "center": [
+      -0.01746416821827028,
+      387.1499715421891,
+      -1.4460618656520798
+    ],
+    "thickness_mm": 4.99999931850169,
+    "profile_area_mm2": 2320.3820741191967,
+    "profile_width_mm": 95.64791612051891,
+    "profile_height_mm": 80.02650468542737,
+    "inner_wires": 3,
+    "missing_mm3": 0.029554528467610197,
+    "extra_mm3": 1.3292724213506597,
+    "reconstructed_volume_mm3": 11602.017679676277,
+    "symmetric_difference_percent": 0.011713561838126104,
+    "status": "REVIEW_NONPRISMATIC",
+    "dxf": "assembly_profiles\\REVIEW_nonprismatic\\5.000mm\\A04.dxf",
+    "local_origin_world": [
+      -0.0023367188036380604,
+      384.6499973142479,
+      -1.448257678975779
+    ],
+    "local_x_world": [
+      1.0,
+      -1.05121369276e-09,
+      -8.916779882192731e-20
+    ],
+    "local_y_world": [
+      0.0,
+      -8.482366566955001e-11,
+      1.0
+    ],
+    "local_normal_world": [
+      -1.05121369276e-09,
+      -1.0,
+      -8.482366566955001e-11
+    ],
+    "local_shift_mm": [
+      47.82180942837675,
+      36.951042590154245,
+      1.478406878394425e-07
+    ],
+    "opposite_cap_areas_mm2": [
+      2320.3820741191967,
+      2319.8334124652156
+    ],
+    "sampled_max_cap_material_departure_mm": 2.4256088714778556,
+    "departure_check": "Bidirectional cap edge samples at <=1mm arc increments projected to opposite cap; distance to cap material. Sampled estimate, not certified global maximum.",
+    "planar_thickness_mm": 4.99999931850169,
+    "cad_occurrences": 1,
+    "intended_build_quantity": 1,
+    "quantity_evidence": "Centered fuselage member; one original assembly occurrence",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "CIRCLE": 2,
+      "ELLIPSE": 5,
+      "LINE": 15,
+      "SPLINE": 5,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A04.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A04_manufacturing.step",
+    "design_changes": [
+      {
+        "change": "Bottom spine notch widened to5.2mm at x0 and finished to world z-30.9. Clears5mm unifiedspine without severing spine; hoop remains one piece.",
+        "slot_width_mm": 5.2,
+        "slot_top_world_z_mm": -30.9,
+        "removed_area_mm2": 1.9892764185556189
+      }
+    ],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 2318.3927977006656,
+    "manufacturing_volume_mm3": 11592.071308122191,
+    "manufacturing_expected_volume_mm3": 11591.962408522553,
+    "manufacturing_note": "Prismatic blank from original major cap; source has side taper/unequal opposite cap. Finish edge to assembly skin/fit. This is declared manufacturing geometry, not exact source reconstruction.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A05",
+    "assembly_name": "Front_Spar v1",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "Front_Spar v1"
+    ],
+    "volume_mm3": 27080.070631723087,
+    "bbox": [
+      53.00002185000195,
+      79.29786816300124,
+      7.6261456475079985,
+      493.00002170123,
+      84.31160370406012,
+      24.170443089812
+    ],
+    "center": [
+      256.64588552331935,
+      81.80477190222302,
+      16.013208464438936
+    ],
+    "thickness_mm": 5.000000000000058,
+    "profile_area_mm2": 5416.031899658715,
+    "profile_width_mm": 439.9999998512281,
+    "profile_height_mm": 16.54015060455986,
+    "inner_wires": 0,
+    "missing_mm3": 0.0,
+    "extra_mm3": 0.4296767836294306,
+    "reconstructed_volume_mm3": 27080.013460037873,
+    "symmetric_difference_percent": 0.0015866900403357278,
+    "status": "CHECKED_PROFILE",
+    "dxf": "assembly_profiles\\checked\\5.000mm\\A05.dxf",
+    "local_origin_world": [
+      256.6501696905239,
+      79.30463791711567,
+      16.015273138907588
+    ],
+    "local_x_world": [
+      1.0,
+      -1.921542367225446e-14,
+      -1.595896157046084e-17
+    ],
+    "local_y_world": [
+      0.0,
+      -0.0008305284514458547,
+      0.9999996551111863
+    ],
+    "local_normal_world": [
+      -1.9215430299441422e-14,
+      -0.9999996551111863,
+      -0.0008305284514458547
+    ],
+    "local_shift_mm": [
+      203.65014784052195,
+      8.389130384716784,
+      1.0925041376831359e-07
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 2,
+    "quantity_evidence": "One positive-X wing CAD occurrence; mirrored opposite wing inferred from bilateral full-span airframe",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "LINE": 17,
+      "SPLINE": 5,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A05.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A05_manufacturing.step",
+    "design_changes": [],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 5416.031899658986,
+    "manufacturing_volume_mm3": 27080.013460038073,
+    "manufacturing_expected_volume_mm3": 27080.15949829524,
+    "manufacturing_note": "Source planar profile; only explicitly listed bore revisions applied.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A07",
+    "assembly_name": "Rear_Spar v1",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "Rear_Spar v1"
+    ],
+    "volume_mm3": 30841.269873752324,
+    "bbox": [
+      53.00002118199794,
+      117.70067586874677,
+      7.606693938652,
+      803.00002138199,
+      122.71163309399245,
+      20.80575406158799
+    ],
+    "center": [
+      357.57104771811765,
+      120.20581793039626,
+      14.611450342991535
+    ],
+    "thickness_mm": 4.9999999999941,
+    "profile_area_mm2": 6168.259060942332,
+    "profile_width_mm": 750.0000001999921,
+    "profile_height_mm": 13.194912031457482,
+    "inner_wires": 0,
+    "missing_mm3": 0.0,
+    "extra_mm3": 0.0,
+    "reconstructed_volume_mm3": 30841.269723608275,
+    "symmetric_difference_percent": 0.0,
+    "status": "CHECKED_PROFILE",
+    "dxf": "assembly_profiles\\checked\\5.000mm\\A07.dxf",
+    "local_origin_world": [
+      357.57116698097167,
+      122.70581706184807,
+      14.613532896375393
+    ],
+    "local_x_world": [
+      1.0,
+      1.0503425999036575e-14,
+      8.723397137436084e-18
+    ],
+    "local_y_world": [
+      1.5407439555097887e-33,
+      0.0008305284513485549,
+      -0.9999996551111864
+    ],
+    "local_normal_world": [
+      -1.0503429621551956e-14,
+      0.9999996551111864,
+      0.0008305284513485549
+    ],
+    "local_shift_mm": [
+      304.57114579897376,
+      6.192223300841112,
+      1.0000316902060135e-07
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 2,
+    "quantity_evidence": "One positive-X wing CAD occurrence; mirrored opposite wing inferred from bilateral full-span airframe",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "LINE": 14,
+      "SPLINE": 1,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A07.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A07_manufacturing.step",
+    "design_changes": [],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 6168.259060941362,
+    "manufacturing_volume_mm3": 30841.269723605863,
+    "manufacturing_expected_volume_mm3": 30841.295304670417,
+    "manufacturing_note": "Source planar profile; only explicitly listed bore revisions applied.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A10",
+    "assembly_name": "Outer_Aileron_Plate v1",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "Outer_Aileron_Plate v1"
+    ],
+    "volume_mm3": 1478.2003036705307,
+    "bbox": [
+      769.964799686266,
+      122.703674174418,
+      8.201212990857,
+      773.2927606864959,
+      193.42329496743,
+      21.301130924304005
+    ],
+    "center": [
+      771.5879948991897,
+      151.61176451025506,
+      13.122936031514413
+    ],
+    "thickness_mm": 2.9999999999991585,
+    "profile_area_mm2": 492.3689753025382,
+    "profile_width_mm": 70.72051996105291,
+    "profile_height_mm": 13.034474887994179,
+    "inner_wires": 1,
+    "missing_mm3": 1.1837124702537647,
+    "extra_mm3": 0.09033466964140886,
+    "reconstructed_volume_mm3": 1477.1069259069775,
+    "symmetric_difference_percent": 0.08618907307295075,
+    "status": "REVIEW_NONPRISMATIC",
+    "dxf": "assembly_profiles\\REVIEW_nonprismatic\\3.000mm\\A10.dxf",
+    "local_origin_world": [
+      773.0886851508801,
+      151.63746311239373,
+      13.155983204802025
+    ],
+    "local_x_world": [
+      -0.005041349775508954,
+      0.9999872856132287,
+      -0.00011577706166682028
+    ],
+    "local_y_world": [
+      -0.022959435010437977,
+      0.0,
+      0.9997363974288431
+    ],
+    "local_normal_world": [
+      0.9997236863936168,
+      0.005042679038669067,
+      0.022959143095301202
+    ],
+    "local_shift_mm": [
+      28.93415681803518,
+      4.889290307486214,
+      1.0000287482154611e-07
+    ],
+    "opposite_cap_areas_mm2": [
+      492.3689753025382,
+      432.0816166358291
+    ],
+    "sampled_max_cap_material_departure_mm": 10.71239905345668,
+    "departure_check": "Bidirectional cap edge samples at <=1mm arc increments projected to opposite cap; distance to cap material. Sampled estimate, not certified global maximum.",
+    "planar_thickness_mm": 2.9999999999991585,
+    "cad_occurrences": 1,
+    "intended_build_quantity": 2,
+    "quantity_evidence": "One positive-X wing CAD occurrence; mirrored opposite wing inferred from bilateral full-span airframe",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "CIRCLE": 1,
+      "LINE": 9,
+      "SPLINE": 1,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\3.000mm\\A10.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A10_manufacturing.step",
+    "design_changes": [],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 492.368975302403,
+    "manufacturing_volume_mm3": 1477.1069259068515,
+    "manufacturing_expected_volume_mm3": 1477.1069259067947,
+    "manufacturing_note": "Prismatic blank from original major cap; source has side taper/unequal opposite cap. Finish edge to assembly skin/fit. This is declared manufacturing geometry, not exact source reconstruction.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A13",
+    "assembly_name": "Front_Lateral_Hoop v1",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "Front_Lateral_Hoop v1"
+    ],
+    "volume_mm3": 53690.04477612354,
+    "bbox": [
+      -47.822208953000064,
+      -435.0101999916,
+      -5.000000100013106,
+      47.822240184016074,
+      115.6500001125,
+      1.0000250333819983e-07
+    ],
+    "center": [
+      0.00041367254088642876,
+      -170.13446235904698,
+      -2.500121423344288
+    ],
+    "thickness_mm": 4.9999999999997495,
+    "profile_area_mm2": 10737.941257601284,
+    "profile_width_mm": 95.64444913701605,
+    "profile_height_mm": 550.6602001041,
+    "inner_wires": 10,
+    "missing_mm3": 0.0,
+    "extra_mm3": 0.0,
+    "reconstructed_volume_mm3": 53689.70507223437,
+    "symmetric_difference_percent": 0.0,
+    "status": "CHECKED_PROFILE",
+    "dxf": "assembly_profiles\\checked\\5.000mm\\A13.dxf",
+    "local_origin_world": [
+      -2.8920112047137177e-05,
+      -170.95734537974448,
+      -5.000000000001011
+    ],
+    "local_x_world": [
+      1.0,
+      -9.210684727393228e-32,
+      2.223915496202e-15
+    ],
+    "local_y_world": [
+      0.0,
+      -1.0,
+      -4.141652298895e-17
+    ],
+    "local_normal_world": [
+      2.223915496202e-15,
+      4.141652298895e-17,
+      -1.0
+    ],
+    "local_shift_mm": [
+      47.82218003288798,
+      286.6073454922445,
+      1.0000411315773107e-07
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 1,
+    "quantity_evidence": "Centered fuselage member; one original assembly occurrence",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "CIRCLE": 10,
+      "LINE": 25,
+      "SPLINE": 4,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A13.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A13_manufacturing.step",
+    "design_changes": [],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 10737.941257600885,
+    "manufacturing_volume_mm3": 53689.70507223333,
+    "manufacturing_expected_volume_mm3": 53689.70628800174,
+    "manufacturing_note": "Source planar profile; only explicitly listed bore revisions applied.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A16",
+    "assembly_name": "Fwd_Fuselage_Hoop v1 (2)",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "Fwd_Fuselage_Hoop v1 (2)"
+    ],
+    "volume_mm3": 12657.007829324304,
+    "bbox": [
+      -47.82220295454,
+      233.6499998999999,
+      -41.70688168806971,
+      47.82224618247404,
+      238.65000010000009,
+      46.18979859515502
+    ],
+    "center": [
+      3.045215735665662e-05,
+      236.1500014485766,
+      -0.44383539861951754
+    ],
+    "thickness_mm": 5.000000000000028,
+    "profile_area_mm2": 2531.356984183131,
+    "profile_width_mm": 95.64444913700416,
+    "profile_height_mm": 87.89668028322471,
+    "inner_wires": 1,
+    "missing_mm3": 0.0,
+    "extra_mm3": 0.00034467535131190656,
+    "reconstructed_volume_mm3": 12656.784923651481,
+    "symmetric_difference_percent": 2.723197741201896e-06,
+    "status": "CHECKED_PROFILE",
+    "dxf": "assembly_profiles\\checked\\5.000mm\\A16.dxf",
+    "local_origin_world": [
+      2.16139737179999e-05,
+      233.65,
+      -0.44420474466660753
+    ],
+    "local_x_world": [
+      1.0,
+      1.788228853189e-15,
+      -1.551041286023014e-33
+    ],
+    "local_y_world": [
+      0.0,
+      8.673617379884e-19,
+      1.0
+    ],
+    "local_normal_world": [
+      1.788228853189e-15,
+      -1.0,
+      8.673617379884e-19
+    ],
+    "local_shift_mm": [
+      47.82222456850387,
+      41.2626769434031,
+      1.0000015250037335e-07
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 1,
+    "quantity_evidence": "Centered fuselage member; one original assembly occurrence",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "ARC": 6,
+      "LINE": 16,
+      "SPLINE": 4,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A16.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A16_manufacturing.step",
+    "design_changes": [],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 2531.3569841831677,
+    "manufacturing_volume_mm3": 12656.78492365162,
+    "manufacturing_expected_volume_mm3": 12656.78492091591,
+    "manufacturing_note": "Source planar profile; only explicitly listed bore revisions applied.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A18",
+    "assembly_name": "MQ9 Assembled v28",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "MQ9 Assembled v28"
+    ],
+    "volume_mm3": 10284.642613652282,
+    "bbox": [
+      -40.5000001000001,
+      457.9999998999899,
+      -31.000000100014503,
+      40.50000010000677,
+      460.5000001000018,
+      86.590341575797
+    ],
+    "center": [
+      0.001440411305336088,
+      459.2499999993031,
+      16.96403162739179
+    ],
+    "thickness_mm": 2.5,
+    "profile_area_mm2": 4113.844588673264,
+    "profile_width_mm": 81.00000020000687,
+    "profile_height_mm": 117.5903416758115,
+    "inner_wires": 1,
+    "missing_mm3": 0.0,
+    "extra_mm3": 0.0,
+    "reconstructed_volume_mm3": 10284.642133518631,
+    "symmetric_difference_percent": 0.0,
+    "status": "CHECKED_PROFILE",
+    "dxf": "assembly_profiles\\checked\\2.500mm\\A18.dxf",
+    "local_origin_world": [
+      -0.0005876544722433405,
+      460.50000000000085,
+      16.960205678838914
+    ],
+    "local_x_world": [
+      1.0,
+      4.087939514284e-14,
+      3.233131711238068e-27
+    ],
+    "local_y_world": [
+      0.0,
+      7.908951930284e-14,
+      -1.0
+    ],
+    "local_normal_world": [
+      -4.087939514284e-14,
+      1.0,
+      7.908951930284e-14
+    ],
+    "local_shift_mm": [
+      40.49941244552786,
+      69.63013589695808,
+      1.000120270199934e-07
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 1,
+    "quantity_evidence": "Centered fuselage member; one original assembly occurrence",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "ARC": 13,
+      "LINE": 19,
+      "SPLINE": 16,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\2.500mm\\A18.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A18_manufacturing.step",
+    "design_changes": [],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 4113.84458867328,
+    "manufacturing_volume_mm3": 10284.642133518282,
+    "manufacturing_expected_volume_mm3": 10284.6114716832,
+    "manufacturing_note": "Source planar profile; only explicitly listed bore revisions applied.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A24",
+    "assembly_name": "Middle_Rib v1",
+    "thickness_mm": 5.000000000000019,
+    "volume_mm3": 5973.546746919953,
+    "profile_area_mm2": 1201.9988325627444,
+    "profile_width_mm": 153.89141706760364,
+    "profile_height_mm": 13.563817615730901,
+    "inner_wires": 2,
+    "status": "REVIEW_NONPRISMATIC",
+    "dxf": "assembly_profiles\\REVIEW_nonprismatic\\5.000mm\\A24.dxf",
+    "local_origin_world": [
+      247.35002126107972,
+      97.37978144174684,
+      14.46777833025121
+    ],
+    "local_x_world": [
+      8.334773048465933e-11,
+      1.0,
+      8.362596593176337e-18
+    ],
+    "local_y_world": [
+      1.003338248629995e-07,
+      0.0,
+      -0.9999999999999951
+    ],
+    "local_normal_world": [
+      -0.9999999999999951,
+      8.334773048465975e-11,
+      -1.003338248629995e-07
+    ],
+    "local_shift_mm": [
+      69.25453116187049,
+      8.18895886043711,
+      1.0549255219084443e-07
+    ],
+    "bbox": [
+      247.35002033789002,
+      28.12525027982823,
+      9.092919574957449,
+      252.35002189816595,
+      182.01666734748,
+      22.65673719068828
+    ],
+    "reconstruction_note": "Boolean reconstruction too slow/inconclusive; opposite face areas differ. No passing exact reconstruction claimed.",
+    "opposite_cap_areas_mm2": [
+      1201.9988325627444,
+      1186.8172720656287
+    ],
+    "sampled_max_cap_material_departure_mm": 0.4516024366913304,
+    "departure_check": "Bidirectional cap edge samples at <=1mm arc increments projected to opposite cap; distance to cap material. Sampled estimate, not certified global maximum.",
+    "planar_thickness_mm": 5.000000000000019,
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "Middle_Rib v1"
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 2,
+    "quantity_evidence": "One positive-X wing CAD occurrence; mirrored opposite wing inferred from bilateral full-span airframe",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "ARC": 4,
+      "CIRCLE": 2,
+      "LINE": 16,
+      "SPLINE": 10,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A24.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A24_manufacturing.step",
+    "design_changes": [
+      {
+        "change": "Circular bore enlarged; source axis corrected to sleeve center where specified",
+        "old_radius_mm": 5,
+        "new_radius_mm": 5.1,
+        "old_local_center": [
+          32.328999556892974,
+          6.932401953953,
+          1.0549939588599998e-07
+        ],
+        "new_local_center": [
+          32.32907587439765,
+          7.024238976196326,
+          0.0
+        ],
+        "area_expected_mm2": 1198.8258239825707,
+        "area_actual_mm2": 1198.825768945983,
+        "area_residual_mm2": -5.503658758243546e-05
+      }
+    ],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 1198.825768945983,
+    "manufacturing_volume_mm3": 5994.128697835576,
+    "manufacturing_expected_volume_mm3": 5994.128844729938,
+    "manufacturing_note": "Prismatic blank from original major cap; source has side taper/unequal opposite cap. Finish edge to assembly skin/fit. This is declared manufacturing geometry, not exact source reconstruction.",
+    "sanding_guide": "Projected opposite cap on SANDING_GUIDE_NONCUT; finish only outer edge to skin/fit. Do not laser-cut guide or use as substitute bore geometry.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A25",
+    "assembly_name": "MQ9 Assembled v28",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "MQ9 Assembled v28"
+    ],
+    "volume_mm3": 9931.208731203233,
+    "bbox": [
+      -47.82220285454,
+      125.0,
+      -15.000000000003086,
+      47.822246082474,
+      130.0,
+      9.999999999999032
+    ],
+    "center": [
+      1.1367746343187698e-05,
+      127.50000000858294,
+      -1.924631081893839
+    ],
+    "thickness_mm": 5.0,
+    "profile_area_mm2": 1986.2417553326463,
+    "profile_width_mm": 95.644448937014,
+    "profile_height_mm": 25.000000000002117,
+    "inner_wires": 0,
+    "missing_mm3": 0.0,
+    "extra_mm3": 0.0,
+    "reconstructed_volume_mm3": 9931.208776662375,
+    "symmetric_difference_percent": 0.0,
+    "status": "CHECKED_PROFILE",
+    "dxf": "assembly_profiles\\checked\\5.000mm\\A25.dxf",
+    "local_origin_world": [
+      1.1418466011625268e-05,
+      125.0,
+      -1.9246311343894265
+    ],
+    "local_x_world": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "local_y_world": [
+      0.0,
+      -0.0,
+      1.0
+    ],
+    "local_normal_world": [
+      0.0,
+      -1.0,
+      -0.0
+    ],
+    "local_shift_mm": [
+      47.82221427300602,
+      13.075368865613658,
+      1.8626400049015501e-06
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 1,
+    "quantity_evidence": "Centered fuselage member; one original assembly occurrence",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "ARC": 4,
+      "LINE": 24,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A25.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A25_manufacturing.step",
+    "design_changes": [],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 1986.2417553326595,
+    "manufacturing_volume_mm3": 9931.20877666238,
+    "manufacturing_expected_volume_mm3": 9931.208776663298,
+    "manufacturing_note": "Source planar profile; only explicitly listed bore revisions applied.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A26",
+    "assembly_name": "Notor_Mount v1",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "Notor_Mount v1"
+    ],
+    "volume_mm3": 6273.333355309987,
+    "bbox": [
+      -23.772749438251918,
+      577.6499999040078,
+      -22.499997412234663,
+      23.77278066446549,
+      582.6500001072122,
+      17.499997412226662
+    ],
+    "center": [
+      -0.00030196609111879033,
+      580.1498358442088,
+      -1.9989721250691108
+    ],
+    "thickness_mm": 5.0,
+    "profile_area_mm2": 1254.7457336800244,
+    "profile_width_mm": 47.545530101942816,
+    "profile_height_mm": 39.999994824461325,
+    "inner_wires": 6,
+    "missing_mm3": 0.06355061046241195,
+    "extra_mm3": 0.03560417758716497,
+    "reconstructed_volume_mm3": 6273.728668400577,
+    "symmetric_difference_percent": 0.0015805757869641751,
+    "status": "CHECKED_PROFILE",
+    "dxf": "assembly_profiles\\checked\\5.000mm\\A26.dxf",
+    "local_origin_world": [
+      1.5613467705066775e-05,
+      582.6500000056116,
+      -2.00189324106364
+    ],
+    "local_x_world": [
+      1.0,
+      -1.5483009349e-10,
+      1.056924451724271e-24
+    ],
+    "local_y_world": [
+      0.0,
+      -6.8263502779098595e-15,
+      -1.0
+    ],
+    "local_normal_world": [
+      1.5483009349e-10,
+      1.0,
+      -6.8263502779098595e-15
+    ],
+    "local_shift_mm": [
+      23.77276505094503,
+      19.501890653290303,
+      5.799162073508091e-12
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 1,
+    "quantity_evidence": "Centered fuselage member; one original assembly occurrence",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "CIRCLE": 5,
+      "ELLIPSE": 2,
+      "LINE": 10,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A26.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A26_manufacturing.step",
+    "design_changes": [
+      {
+        "change": "Replace original four3mm holes on25mmPCD with four3.2mm holes on19mmPCD, manufacturer Emax drawing. Preserve12mm central opening and rectangular receiving slot. Verify physical motor before drilling.",
+        "centers_world_mm": [
+          [
+            -6.71749880777,
+            582.6500000056116,
+            -9.21751442127
+          ],
+          [
+            -6.71749880777,
+            582.6500000056116,
+            4.21751442127
+          ],
+          [
+            6.717530034769999,
+            582.6500000056116,
+            -9.21751442127
+          ],
+          [
+            6.717530034769999,
+            582.6500000056116,
+            4.21751442127
+          ]
+        ],
+        "bolt_hole_diameter_mm": 3.2,
+        "bolt_circle_mm": 19,
+        "minimum_radial_web_to_central_bore_mm": 1.9,
+        "area_change_mm2": -3.895574890265152
+      }
+    ],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 1250.8501587897736,
+    "manufacturing_volume_mm3": 6254.250793948667,
+    "manufacturing_expected_volume_mm3": 6254.250793948868,
+    "manufacturing_note": "Motor pattern corrected:4x3.2mm on19mmPCD, source25mmPCD holes replaced. Physical motor fit check before drilling.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A34",
+    "assembly_name": "Fwd_Fuselage_Hoop v1 (1)",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "Fwd_Fuselage_Hoop v1 (1)"
+    ],
+    "volume_mm3": 12609.883939438349,
+    "bbox": [
+      -47.82220295454,
+      -130.00000010000008,
+      -41.70688168806971,
+      47.82224618247404,
+      -124.99999989989996,
+      46.18979859515502
+    ],
+    "center": [
+      3.0347235685477007e-05,
+      -127.49999862440394,
+      -0.5338893572387106
+    ],
+    "thickness_mm": 5.000000000100002,
+    "profile_area_mm2": 2521.932206222256,
+    "profile_width_mm": 95.64444913700416,
+    "profile_height_mm": 87.8966802832247,
+    "inner_wires": 4,
+    "missing_mm3": 0.0,
+    "extra_mm3": 0.00034467535176453993,
+    "reconstructed_volume_mm3": 12609.661034099317,
+    "symmetric_difference_percent": 2.733374497496699e-06,
+    "status": "CHECKED_PROFILE",
+    "dxf": "assembly_profiles\\checked\\5.000mm\\A34.dxf",
+    "local_origin_world": [
+      2.1613974853826323e-05,
+      -130.0,
+      -0.5342468868779511
+    ],
+    "local_x_world": [
+      1.0,
+      1.698023232438e-15,
+      5.302081375315169e-32
+    ],
+    "local_y_world": [
+      0.0,
+      -3.122502256758e-17,
+      1.0
+    ],
+    "local_normal_world": [
+      1.698023232438e-15,
+      -1.0,
+      -3.122502256758e-17
+    ],
+    "local_shift_mm": [
+      47.82222456850501,
+      41.172634801191755,
+      1.0009998758203249e-07
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 1,
+    "quantity_evidence": "Centered fuselage member; one original assembly occurrence",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "ARC": 6,
+      "CIRCLE": 3,
+      "LINE": 16,
+      "SPLINE": 4,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A34.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A34_manufacturing.step",
+    "design_changes": [],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 2521.932206222295,
+    "manufacturing_volume_mm3": 12609.661034099461,
+    "manufacturing_expected_volume_mm3": 12609.661031363672,
+    "manufacturing_note": "Source planar profile; only explicitly listed bore revisions applied.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A35",
+    "assembly_name": "Inner_Rib v1",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "Inner_Rib v1"
+    ],
+    "volume_mm3": 8780.464381328638,
+    "bbox": [
+      53.00002151396448,
+      10.594341800519997,
+      7.449857643316529,
+      58.00002171396648,
+      194.25752791125063,
+      24.119012174699012
+    ],
+    "center": [
+      55.49654013786401,
+      95.6653249652937,
+      14.110168886516895
+    ],
+    "thickness_mm": 5.000000000000007,
+    "profile_area_mm2": 1756.0856386438152,
+    "profile_width_mm": 183.6631861107307,
+    "profile_height_mm": 16.669154531382482,
+    "inner_wires": 3,
+    "missing_mm3": 0.0,
+    "extra_mm3": 0.0,
+    "reconstructed_volume_mm3": 8780.465936397683,
+    "symmetric_difference_percent": 0.0,
+    "status": "CHECKED_PROFILE",
+    "dxf": "assembly_profiles\\checked\\5.000mm\\A35.dxf",
+    "local_origin_world": [
+      53.000021613966034,
+      95.584369438916,
+      14.209475067530027
+    ],
+    "local_x_world": [
+      -1.5791574048840003e-15,
+      1.0,
+      7.72511201149262e-30
+    ],
+    "local_y_world": [
+      -4.891920202255e-15,
+      0.0,
+      -1.0
+    ],
+    "local_normal_world": [
+      -1.0,
+      -1.5791574048840003e-15,
+      4.891920202255e-15
+    ],
+    "local_shift_mm": [
+      84.99002763839599,
+      9.909537107168983,
+      1.0000010658141036e-07
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 2,
+    "quantity_evidence": "One positive-X wing CAD occurrence; mirrored opposite wing inferred from bilateral full-span airframe",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "ARC": 4,
+      "CIRCLE": 2,
+      "LINE": 6,
+      "SPLINE": 6,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A35.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A35_manufacturing.step",
+    "design_changes": [
+      {
+        "change": "Circular bore enlarged; source axis corrected to sleeve center where specified",
+        "old_radius_mm": 5,
+        "new_radius_mm": 5.1,
+        "old_local_center": [
+          49.85998435375403,
+          8.486513960208004,
+          1.00000207226e-07
+        ],
+        "new_local_center": [
+          49.85998435375399,
+          8.486513960207011,
+          0.0
+        ],
+        "area_expected_mm2": 1752.912630063688,
+        "area_actual_mm2": 1752.9276654295722,
+        "area_residual_mm2": 0.015035365884159546
+      }
+    ],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 1752.9276654295722,
+    "manufacturing_volume_mm3": 8764.625944138028,
+    "manufacturing_expected_volume_mm3": 8764.638327147873,
+    "manufacturing_note": "Source planar profile; only explicitly listed bore revisions applied.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A43",
+    "assembly_name": "Aft_Lateral_Hoop v1",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "Aft_Lateral_Hoop v1"
+    ],
+    "volume_mm3": 47739.6243401137,
+    "bbox": [
+      -47.82220895300007,
+      115.64999989769001,
+      -5.0000001000110945,
+      47.822240184016,
+      582.6500001056108,
+      1.0000363797880709e-07
+    ],
+    "center": [
+      0.00021124048263091935,
+      364.99994413546534,
+      -2.5000003389848646
+    ],
+    "thickness_mm": 4.999999999999522,
+    "profile_area_mm2": 9547.80550170991,
+    "profile_width_mm": 95.64444913701604,
+    "profile_height_mm": 467.0000002079199,
+    "inner_wires": 4,
+    "missing_mm3": 0.0,
+    "extra_mm3": 0.0,
+    "reconstructed_volume_mm3": 47739.02291350083,
+    "symmetric_difference_percent": 0.0,
+    "status": "CHECKED_PROFILE",
+    "dxf": "assembly_profiles\\checked\\5.000mm\\A43.dxf",
+    "local_origin_world": [
+      0.0014864774299088988,
+      365.0986456228489,
+      -1.4679366135846793e-12
+    ],
+    "local_x_world": [
+      1.0,
+      4.732416124208482e-31,
+      -1.347186251444e-14
+    ],
+    "local_y_world": [
+      0.0,
+      1.0,
+      3.512815038853e-17
+    ],
+    "local_normal_world": [
+      1.347186251444e-14,
+      -3.512815038853e-17,
+      1.0
+    ],
+    "local_shift_mm": [
+      47.82369543042995,
+      249.44864572515888,
+      1.000040154148934e-07
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 1,
+    "quantity_evidence": "Centered fuselage member; one original assembly occurrence",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "CIRCLE": 4,
+      "LINE": 40,
+      "SPLINE": 8,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A43.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A43_manufacturing.step",
+    "design_changes": [],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 9547.805501709912,
+    "manufacturing_volume_mm3": 47739.022913500776,
+    "manufacturing_expected_volume_mm3": 47739.027508545,
+    "manufacturing_note": "Source planar profile; only explicitly listed bore revisions applied.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A44",
+    "assembly_name": "Outer_Rib v1",
+    "thickness_mm": 4.98999999999997,
+    "volume_mm3": 3210.0667677711435,
+    "profile_area_mm2": 647.9683210855482,
+    "profile_width_mm": 117.02558792633313,
+    "profile_height_mm": 14.63417803761659,
+    "inner_wires": 3,
+    "status": "REVIEW_NONPRISMATIC",
+    "dxf": "assembly_profiles\\REVIEW_nonprismatic\\4.990mm\\A44.dxf",
+    "local_origin_world": [
+      488.0100213146472,
+      101.43079300978383,
+      13.937227232907123
+    ],
+    "local_x_world": [
+      8.313972134780869e-11,
+      1.0,
+      8.341725901368606e-18
+    ],
+    "local_y_world": [
+      1.0033382077949949e-07,
+      0.0,
+      -0.999999999999995
+    ],
+    "local_normal_world": [
+      -0.999999999999995,
+      8.31397213478091e-11,
+      -1.0033382077949949e-07
+    ],
+    "local_shift_mm": [
+      51.59729083141282,
+      6.845461869934254,
+      9.296852911371388e-07
+    ],
+    "bbox": [
+      488.0100186768,
+      49.833502178368114,
+      6.148511065224825,
+      493.00002470228713,
+      166.85909010470414,
+      20.782689102841342
+    ],
+    "reconstruction_note": "Boolean reconstruction too slow/inconclusive; opposite face areas differ. No passing exact reconstruction claimed.",
+    "opposite_cap_areas_mm2": [
+      647.9683210855482,
+      638.6483209978327
+    ],
+    "sampled_max_cap_material_departure_mm": 0.4506992318185619,
+    "departure_check": "Bidirectional cap edge samples at <=1mm arc increments projected to opposite cap; distance to cap material. Sampled estimate, not certified global maximum.",
+    "planar_thickness_mm": 4.98999999999997,
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "Outer_Rib v1"
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 2,
+    "quantity_evidence": "One positive-X wing CAD occurrence; mirrored opposite wing inferred from bilateral full-span airframe",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "CIRCLE": 4,
+      "ELLIPSE": 2,
+      "LINE": 31,
+      "SPLINE": 8,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\4.990mm\\A44.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A44_manufacturing.step",
+    "design_changes": [],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 647.968321085513,
+    "manufacturing_volume_mm3": 3233.262705527421,
+    "manufacturing_expected_volume_mm3": 3233.3619222166903,
+    "manufacturing_note": "Prismatic blank from original major cap; source has side taper/unequal opposite cap. Finish edge to assembly skin/fit. This is declared manufacturing geometry, not exact source reconstruction.",
+    "sanding_guide": "Projected opposite cap on SANDING_GUIDE_NONCUT; finish only outer edge to skin/fit. Do not laser-cut guide or use as substitute bore geometry.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A47",
+    "assembly_name": "MQ9 Assembled v28",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "MQ9 Assembled v28"
+    ],
+    "volume_mm3": 6387.8526382229065,
+    "bbox": [
+      -35.37217386264,
+      125.0,
+      -15.000000100000008,
+      37.37221709057904,
+      147.7,
+      -9.999999899999992
+    ],
+    "center": [
+      0.7231550619142587,
+      136.3499997021377,
+      -12.499999999999998
+    ],
+    "thickness_mm": 5.0,
+    "profile_area_mm2": 1277.570535095221,
+    "profile_width_mm": 72.744390953219,
+    "profile_height_mm": 22.69999999999999,
+    "inner_wires": 2,
+    "missing_mm3": 0.0,
+    "extra_mm3": 0.0,
+    "reconstructed_volume_mm3": 6387.852675476102,
+    "symmetric_difference_percent": 0.0,
+    "status": "CHECKED_PROFILE",
+    "dxf": "assembly_profiles\\checked\\5.000mm\\A47.dxf",
+    "local_origin_world": [
+      0.7231552928653895,
+      136.34999999999894,
+      -10.000000000000007
+    ],
+    "local_x_world": [
+      1.0,
+      0.0,
+      -8.881784197001e-15
+    ],
+    "local_y_world": [
+      -0.0,
+      1.0,
+      0.0
+    ],
+    "local_normal_world": [
+      8.881784197001e-15,
+      0.0,
+      1.0
+    ],
+    "local_shift_mm": [
+      36.09532915550539,
+      11.349999999998943,
+      4.021834407523138e-13
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 1,
+    "quantity_evidence": "Centered fuselage member; one original assembly occurrence",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "CIRCLE": 2,
+      "LINE": 28,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A47.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A47_manufacturing.step",
+    "design_changes": [
+      {
+        "change": "Two gear retention holes enlarged2.0->3.2mm for M3 through bolts, large washers and nyloc nuts. Centers preserved; matching root gear strip revised separately.",
+        "diameter_mm": 3.2
+      }
+    ],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 1267.7687660160213,
+    "manufacturing_volume_mm3": 6338.843830080105,
+    "manufacturing_expected_volume_mm3": 6338.843830080106,
+    "manufacturing_note": "Source planar profile; only explicitly listed bore revisions applied.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A48",
+    "assembly_name": "MQ9 Assembled v28",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "MQ9 Assembled v28"
+    ],
+    "volume_mm3": 9931.20873120299,
+    "bbox": [
+      -47.82220285454,
+      142.7,
+      -15.000000000003086,
+      47.822246082474,
+      147.7,
+      9.999999999999032
+    ],
+    "center": [
+      1.1367746073191714e-05,
+      145.1999999914171,
+      -1.924631081893557
+    ],
+    "thickness_mm": 5.0,
+    "profile_area_mm2": 1986.2417553326459,
+    "profile_width_mm": 95.644448937014,
+    "profile_height_mm": 25.000000000002117,
+    "inner_wires": 0,
+    "missing_mm3": 0.0,
+    "extra_mm3": 0.0,
+    "reconstructed_volume_mm3": 9931.20877666237,
+    "symmetric_difference_percent": 0.0,
+    "status": "CHECKED_PROFILE",
+    "dxf": "assembly_profiles\\checked\\5.000mm\\A48.dxf",
+    "local_origin_world": [
+      1.1418466016349653e-05,
+      142.7,
+      -1.9246311343894238
+    ],
+    "local_x_world": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "local_y_world": [
+      0.0,
+      -0.0,
+      1.0
+    ],
+    "local_normal_world": [
+      0.0,
+      -1.0,
+      -0.0
+    ],
+    "local_shift_mm": [
+      47.82221427300602,
+      13.075368865613662,
+      -0.0
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 1,
+    "quantity_evidence": "Centered fuselage member; one original assembly occurrence",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "ARC": 4,
+      "LINE": 24,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A48.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A48_manufacturing.step",
+    "design_changes": [],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 1986.2417553326607,
+    "manufacturing_volume_mm3": 9931.20877666238,
+    "manufacturing_expected_volume_mm3": 9931.208776663303,
+    "manufacturing_note": "Source planar profile; only explicitly listed bore revisions applied.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A53",
+    "assembly_name": "Inner_Aileron_Plate v1",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "Inner_Aileron_Plate v1"
+    ],
+    "volume_mm3": 2401.562208576951,
+    "bbox": [
+      492.8426728165295,
+      122.68724785978412,
+      6.058931255274307,
+      496.2616739325406,
+      208.56670271925614,
+      22.849528092557193
+    ],
+    "center": [
+      494.49981340414877,
+      155.6153256648598,
+      12.330379467234895
+    ],
+    "thickness_mm": 2.99999999999732,
+    "profile_area_mm2": 800.5243405049324,
+    "profile_width_mm": 85.86541854849523,
+    "profile_height_mm": 16.726126485348654,
+    "inner_wires": 1,
+    "missing_mm3": 0.0,
+    "extra_mm3": 0.0,
+    "reconstructed_volume_mm3": 2401.557110440686,
+    "symmetric_difference_percent": 0.0,
+    "status": "CHECKED_PROFILE",
+    "dxf": "assembly_profiles\\checked\\3.000mm\\A53.dxf",
+    "local_origin_world": [
+      493.0002651188457,
+      155.59698839618267,
+      12.296685412358725
+    ],
+    "local_x_world": [
+      -0.0050413497755431155,
+      0.9999872856132286,
+      -0.00011577706153326615
+    ],
+    "local_y_world": [
+      0.022959434983811682,
+      -1.3552527156068802e-20,
+      -0.9997363974294545
+    ],
+    "local_normal_world": [
+      -0.9997236863942282,
+      -0.005042679038700152,
+      -0.022959143068675244
+    ],
+    "local_shift_mm": [
+      32.91015896888706,
+      10.483995787888965,
+      1.000028627930191e-07
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 2,
+    "quantity_evidence": "One positive-X wing CAD occurrence; mirrored opposite wing inferred from bilateral full-span airframe",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "ARC": 1,
+      "CIRCLE": 1,
+      "LINE": 7,
+      "SPLINE": 1,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\3.000mm\\A53.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A53_manufacturing.step",
+    "design_changes": [],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 800.5243405049457,
+    "manufacturing_volume_mm3": 2401.557110440739,
+    "manufacturing_expected_volume_mm3": 2401.573021512692,
+    "manufacturing_note": "Source planar profile; only explicitly listed bore revisions applied.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A54",
+    "assembly_name": "Fwd_Fuselage_Hoop v1",
+    "source_occurrence_path": [
+      "MQ9 Assembled v28",
+      "Fwd_Fuselage_Hoop v1"
+    ],
+    "volume_mm3": 12657.007829324326,
+    "bbox": [
+      -47.82220295454,
+      -5.0000001000000935,
+      -41.70688168806971,
+      47.82224618247404,
+      1.0000023803181648e-07,
+      46.18979859515502
+    ],
+    "center": [
+      3.045215871176895e-05,
+      -2.4999985514231136,
+      -0.443835398619326
+    ],
+    "thickness_mm": 5.000000000000085,
+    "profile_area_mm2": 2531.3569841830063,
+    "profile_width_mm": 95.64444913700414,
+    "profile_height_mm": 87.8966802832247,
+    "inner_wires": 1,
+    "missing_mm3": 0.0,
+    "extra_mm3": 0.0003446753512967236,
+    "reconstructed_volume_mm3": 12656.78492365106,
+    "symmetric_difference_percent": 2.723197741081934e-06,
+    "status": "CHECKED_PROFILE",
+    "dxf": "assembly_profiles\\checked\\5.000mm\\A54.dxf",
+    "local_origin_world": [
+      2.1613975057539624e-05,
+      -5.0,
+      -0.44420474466732335
+    ],
+    "local_x_world": [
+      1.0,
+      1.58689589789e-15,
+      5.333599538001986e-32
+    ],
+    "local_y_world": [
+      0.0,
+      -3.361026734705e-17,
+      1.0
+    ],
+    "local_normal_world": [
+      1.58689589789e-15,
+      -1.0,
+      -3.361026734705e-17
+    ],
+    "local_shift_mm": [
+      47.822224568505206,
+      41.26267694340238,
+      1.0000014718342051e-07
+    ],
+    "cad_occurrences": 1,
+    "intended_build_quantity": 1,
+    "quantity_evidence": "Centered fuselage member; one original assembly occurrence",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "ARC": 6,
+      "LINE": 16,
+      "SPLINE": 4,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A54.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A54_manufacturing.step",
+    "design_changes": [],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 2531.356984183046,
+    "manufacturing_volume_mm3": 12656.784923651212,
+    "manufacturing_expected_volume_mm3": 12656.784920915445,
+    "manufacturing_note": "Source planar profile; only explicitly listed bore revisions applied.",
+    "manufacturing_dxf_audit_errors": 0
+  },
+  {
+    "assembly_id": "A62F",
+    "assembly_name": "Unified spine forward segment",
+    "source_occurrence_path": [
+      "DERIVED",
+      "Unified spine forward segment"
+    ],
+    "volume_mm3": 5386.88386234943,
+    "bbox": [
+      -2.4999846097355163,
+      -429.0704517021,
+      -41.71392353165014,
+      2.5000158408395654,
+      595.6652832876327,
+      1.0320482145622451e-07
+    ],
+    "center": [
+      1.5615531368193843e-05,
+      82.46821020469274,
+      -34.3504971324151
+    ],
+    "thickness_mm": 5.0,
+    "profile_area_mm2": 7835.236532871531,
+    "profile_width_mm": 133.7204517017437,
+    "profile_height_mm": 41.71392353041406,
+    "inner_wires": 2,
+    "missing_mm3": 0.0,
+    "extra_mm3": 0.005936686187630852,
+    "reconstructed_volume_mm3": 39176.18276463428,
+    "symmetric_difference_percent": 1.5153816853580635e-05,
+    "status": "DERIVED_MANUFACTURING_PROFILE",
+    "dxf": "Individual_DXF\\5.000mm\\A62F.dxf",
+    "local_origin_world": [
+      2.500015415516181,
+      -362.2102258509,
+      -20.85696176549355
+    ],
+    "local_x_world": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "local_y_world": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "local_normal_world": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "local_shift_mm": [
+      66.86022585084376,
+      20.856961765206243,
+      0
+    ],
+    "cad_occurrences": 0,
+    "intended_build_quantity": 1,
+    "quantity_evidence": "Root-authorized nose bypass: two distinct center segments + two identical continuous side doublers",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "ARC": 2,
+      "CIRCLE": 2,
+      "LINE": 6,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A62F.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A62F_manufacturing.step",
+    "design_changes": [
+      {
+        "change": "Union A40+A62 into one spine; subtract crossing A04,A18,A26 to preserve receiving notches",
+        "removed_duplicate_overlap_mm3": 17742.13160409931,
+        "receiving_reliefs": [
+          {
+            "receiving_part": "A04",
+            "removed_mm3": 2.444724811978276
+          },
+          {
+            "receiving_part": "A18",
+            "removed_mm3": 38.886997359608415
+          },
+          {
+            "receiving_part": "A26",
+            "removed_mm3": 58.17318083216492
+          }
+        ]
+      },
+      {
+        "change": "Nose bypass from foamworker verified geometry. Four2.2mm transverseM2 holesY-320,-302,-282,-264,Z-37.964. Center gap3.4mm; continuous72x10.7x2.5mm cheekpair carries bypass load path.",
+        "source": "_work\\foam\\nose_fix\\output",
+        "source_part": "A62_spine_bypass"
+      },
+      {
+        "change": "Nose bypass from foamworker verified geometry. Four2.2mm transverseM2 holesY-320,-302,-282,-264,Z-37.964. Center gap3.4mm; continuous72x10.7x2.5mm cheekpair carries bypass load path.",
+        "source": "_work\\foam\\nose_fix\\output",
+        "source_part": "A62_spine_bypass"
+      }
+    ],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 1077.376772469602,
+    "manufacturing_volume_mm3": 5386.88386234943,
+    "manufacturing_expected_volume_mm3": 5386.88386234801,
+    "manufacturing_note": "Nose bypass assembly: intentional3.4mm gap bridged by2 continuous2.5mm aircraft-ply cheeks and4 transverseM2 bolts. Do not assemble center pieces without doublers.",
+    "manufacturing_dxf_audit_errors": 0,
+    "unified_spine_source_ids": [
+      "A40",
+      "A62"
+    ],
+    "unified_spine_receiving_reliefs": [
+      {
+        "receiving_part": "A04",
+        "removed_mm3": 2.444724811978276
+      },
+      {
+        "receiving_part": "A18",
+        "removed_mm3": 38.886997359608415
+      },
+      {
+        "receiving_part": "A26",
+        "removed_mm3": 58.17318083216492
+      }
+    ],
+    "unified_spine_reconstruction_difference_mm3": null,
+    "unified_spine_profile_method": "Exact native mid-thickness section of union A40+A62 with receiving reliefs; avoids fragmented near-coplanar outer caps. Extruded constant5mm as manufacturing geometry.",
+    "nose_bypass_reconstruction_missing_mm3": 0.0,
+    "nose_bypass_reconstruction_extra_mm3": 0.0
+  },
+  {
+    "assembly_id": "A62R",
+    "assembly_name": "Unified spine rear segment",
+    "source_occurrence_path": [
+      "DERIVED",
+      "Unified spine rear segment"
+    ],
+    "volume_mm3": 34253.41487321621,
+    "bbox": [
+      -2.4999846097355163,
+      -429.0704517021,
+      -41.71392353165014,
+      2.5000158408395654,
+      595.6652832876327,
+      1.0320482145622451e-07
+    ],
+    "center": [
+      1.5615531368193843e-05,
+      82.46821020469274,
+      -34.3504971324151
+    ],
+    "thickness_mm": 5.0,
+    "profile_area_mm2": 7835.236532871531,
+    "profile_width_mm": 887.6152834893586,
+    "profile_height_mm": 41.71392373163795,
+    "inner_wires": 2,
+    "missing_mm3": 0.0,
+    "extra_mm3": 0.005936686187630852,
+    "reconstructed_volume_mm3": 39176.18276463428,
+    "symmetric_difference_percent": 1.5153816853580635e-05,
+    "status": "DERIVED_MANUFACTURING_PROFILE",
+    "dxf": "Individual_DXF\\5.000mm\\A62R.dxf",
+    "local_origin_world": [
+      2.5000155155528945,
+      151.85764164392702,
+      -20.85696176582084
+    ],
+    "local_x_world": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "local_y_world": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "local_normal_world": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "local_shift_mm": [
+      443.80764174392704,
+      20.856961865818974,
+      0
+    ],
+    "cad_occurrences": 0,
+    "intended_build_quantity": 1,
+    "quantity_evidence": "Root-authorized nose bypass: two distinct center segments + two identical continuous side doublers",
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "ARC": 5,
+      "CIRCLE": 2,
+      "LINE": 26,
+      "SPLINE": 1,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4,
+    "manufacturing_dxf": "Individual_DXF\\5.000mm\\A62R.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A62R_manufacturing.step",
+    "design_changes": [
+      {
+        "change": "Union A40+A62 into one spine; subtract crossing A04,A18,A26 to preserve receiving notches",
+        "removed_duplicate_overlap_mm3": 17742.13160409931,
+        "receiving_reliefs": [
+          {
+            "receiving_part": "A04",
+            "removed_mm3": 2.444724811978276
+          },
+          {
+            "receiving_part": "A18",
+            "removed_mm3": 38.886997359608415
+          },
+          {
+            "receiving_part": "A26",
+            "removed_mm3": 58.17318083216492
+          }
+        ]
+      },
+      {
+        "change": "Nose bypass from foamworker verified geometry. Four2.2mm transverseM2 holesY-320,-302,-282,-264,Z-37.964. Center gap3.4mm; continuous72x10.7x2.5mm cheekpair carries bypass load path.",
+        "source": "_work\\foam\\nose_fix\\output",
+        "source_part": "A62_spine_bypass"
+      },
+      {
+        "change": "Nose bypass from foamworker verified geometry. Four2.2mm transverseM2 holesY-320,-302,-282,-264,Z-37.964. Center gap3.4mm; continuous72x10.7x2.5mm cheekpair carries bypass load path.",
+        "source": "_work\\foam\\nose_fix\\output",
+        "source_part": "A62_spine_bypass"
+      }
+    ],
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 6850.682974551424,
+    "manufacturing_volume_mm3": 34253.41487321621,
+    "manufacturing_expected_volume_mm3": 34253.41487275712,
+    "manufacturing_note": "Nose bypass assembly: intentional3.4mm gap bridged by2 continuous2.5mm aircraft-ply cheeks and4 transverseM2 bolts. Do not assemble center pieces without doublers.",
+    "manufacturing_dxf_audit_errors": 0,
+    "unified_spine_source_ids": [
+      "A40",
+      "A62"
+    ],
+    "unified_spine_receiving_reliefs": [
+      {
+        "receiving_part": "A04",
+        "removed_mm3": 2.444724811978276
+      },
+      {
+        "receiving_part": "A18",
+        "removed_mm3": 38.886997359608415
+      },
+      {
+        "receiving_part": "A26",
+        "removed_mm3": 58.17318083216492
+      }
+    ],
+    "unified_spine_reconstruction_difference_mm3": null,
+    "unified_spine_profile_method": "Exact native mid-thickness section of union A40+A62 with receiving reliefs; avoids fragmented near-coplanar outer caps. Extruded constant5mm as manufacturing geometry.",
+    "nose_bypass_reconstruction_missing_mm3": 0.0,
+    "nose_bypass_reconstruction_extra_mm3": 0.0
+  },
+  {
+    "assembly_id": "A63",
+    "assembly_name": "Nose gear continuous side doubler pair (A63/A64)",
+    "thickness_mm": 2.5,
+    "profile_width_mm": 72.0,
+    "profile_height_mm": 10.700000000000003,
+    "inner_wires": 4,
+    "volume_mm3": 1887.9867288915643,
+    "status": "DERIVED_MANUFACTURING_PROFILE",
+    "intended_build_quantity": 2,
+    "cad_occurrences": 0,
+    "quantity_evidence": "Root-authorized nose bypass: two distinct center segments + two identical continuous side doublers",
+    "manufacturing_dxf": "Individual_DXF\\2.500mm\\A63.dxf",
+    "manufacturing_solid": "Positioned_STEP\\A63_manufacturing.step",
+    "manufacturing_valid": true,
+    "manufacturing_area_mm2": 755.1946915566257,
+    "manufacturing_volume_mm3": 1887.9867288915643,
+    "manufacturing_expected_volume_mm3": 1887.9867288915643,
+    "local_origin_world": [
+      -2.5000001,
+      -293.0,
+      -36.064
+    ],
+    "local_x_world": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "local_y_world": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "local_normal_world": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "local_shift_mm": [
+      36.0,
+      5.350000000000001,
+      0
+    ],
+    "nose_bypass_reconstruction_missing_mm3": 0.0,
+    "nose_bypass_reconstruction_extra_mm3": 0.0,
+    "source_occurrence_path": [
+      "DERIVED",
+      "Nose gear continuous side doubler pair (A63/A64)"
+    ],
+    "dxf": "Individual_DXF\\2.500mm\\A63.dxf",
+    "manufacturing_note": "Nose bypass assembly: intentional3.4mm gap bridged by2 continuous2.5mm aircraft-ply cheeks and4 transverseM2 bolts. Do not assemble center pieces without doublers.",
+    "design_changes": [
+      {
+        "change": "Nose bypass from foamworker verified geometry. Four2.2mm transverseM2 holesY-320,-302,-282,-264,Z-37.964. Center gap3.4mm; continuous72x10.7x2.5mm cheekpair carries bypass load path.",
+        "source": "_work\\foam\\nose_fix\\output",
+        "source_part": "A63_left_nose_doubler_2p5mm"
+      }
+    ],
+    "process": "Aircraft plywood; preserve measured thickness",
+    "units": "mm",
+    "curve_export": "Native curves; no kerf offset",
+    "dxf_entity_counts": {
+      "CIRCLE": 4,
+      "LINE": 4,
+      "TEXT": 1
+    },
+    "dxf_audit_errors": 0,
+    "dxf_units": 4
+  }
+]

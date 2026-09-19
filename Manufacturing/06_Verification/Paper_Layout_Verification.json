@@ -1,0 +1,872 @@
+{
+  "units": "mm",
+  "hard_margin_mm": 5,
+  "landscape_window_mm": [
+    287,
+    200
+  ],
+  "portrait_window_mm": [
+    200,
+    287
+  ],
+  "overlap_mm": 10,
+  "flattening_tolerance_mm": 0.01,
+  "layouts": [
+    {
+      "nominal_stock_mm": 5,
+      "pages": 5,
+      "piece_count": 24,
+      "page_orientations": [
+        "landscape",
+        "landscape",
+        "landscape",
+        "landscape",
+        "portrait"
+      ],
+      "page_manifest": [
+        {
+          "part": "A43",
+          "copy": 1,
+          "page": 1,
+          "mode": "tiled",
+          "rotation_deg": 90,
+          "local_bbox_mm": [
+            -266,
+            0,
+            201.00000000792005,
+            95.64444899096996
+          ]
+        },
+        {
+          "part": "A62R",
+          "copy": 1,
+          "page": 1,
+          "mode": "tiled",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            -831,
+            98.64444899096996,
+            56.61528328935856,
+            140.3583725226079
+          ]
+        },
+        {
+          "part": "A05",
+          "copy": 2,
+          "page": 1,
+          "mode": "tiled",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            -266,
+            175.74819618551993,
+            173.99999965121998,
+            192.28834659007993
+          ]
+        },
+        {
+          "part": "A16",
+          "copy": 1,
+          "page": 1,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            176.99999965121998,
+            101.64444899096996,
+            272.644448588224,
+            189.54112907419466
+          ]
+        },
+        {
+          "part": "A25",
+          "copy": 1,
+          "page": 1,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            59.61528328935856,
+            101.64444899096996,
+            155.25973222637256,
+            126.644448990972
+          ]
+        },
+        {
+          "part": "A26",
+          "copy": 1,
+          "page": 1,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            204.00000000792005,
+            2,
+            251.54553010986285,
+            41.999994824461325
+          ]
+        },
+        {
+          "part": "A13",
+          "copy": 1,
+          "page": 2,
+          "mode": "tiled",
+          "rotation_deg": 90,
+          "local_bbox_mm": [
+            0,
+            0,
+            550.6601999041,
+            95.64444893701598
+          ]
+        },
+        {
+          "part": "A62R",
+          "copy": 1,
+          "page": 2,
+          "mode": "tiled",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            0,
+            98.64444899096996,
+            887.6152832893586,
+            140.3583725226079
+          ]
+        },
+        {
+          "part": "A07",
+          "copy": 1,
+          "page": 2,
+          "mode": "tiled",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            0,
+            143.3583725226079,
+            749.9999999999899,
+            156.55328435406392
+          ]
+        },
+        {
+          "part": "A07",
+          "copy": 2,
+          "page": 2,
+          "mode": "tiled",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            0,
+            159.55328435406392,
+            749.9999999999899,
+            172.74819618551993
+          ]
+        },
+        {
+          "part": "A05",
+          "copy": 1,
+          "page": 2,
+          "mode": "tiled",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            0,
+            175.74819618551993,
+            439.99999965122,
+            192.28834659007993
+          ]
+        },
+        {
+          "part": "A62F",
+          "copy": 1,
+          "page": 2,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            99,
+            12,
+            232.7204517017437,
+            53.71392353041406
+          ]
+        },
+        {
+          "part": "A35",
+          "copy": 1,
+          "page": 2,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            69,
+            60,
+            252.66318591073,
+            76.66906687340148
+          ]
+        },
+        {
+          "part": "A35",
+          "copy": 2,
+          "page": 2,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            12,
+            111,
+            195.66318591073,
+            127.66906687340148
+          ]
+        },
+        {
+          "part": "A13",
+          "copy": 1,
+          "page": 3,
+          "mode": "tiled",
+          "rotation_deg": 90,
+          "local_bbox_mm": [
+            -277,
+            0,
+            273.66019990409995,
+            95.64444893701598
+          ]
+        },
+        {
+          "part": "A62R",
+          "copy": 1,
+          "page": 3,
+          "mode": "tiled",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            -277,
+            98.64444899096996,
+            610.6152832893586,
+            140.3583725226079
+          ]
+        },
+        {
+          "part": "A07",
+          "copy": 1,
+          "page": 3,
+          "mode": "tiled",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            -277,
+            143.3583725226079,
+            472.9999999999899,
+            156.55328435406392
+          ]
+        },
+        {
+          "part": "A07",
+          "copy": 2,
+          "page": 3,
+          "mode": "tiled",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            -277,
+            159.55328435406392,
+            472.9999999999899,
+            172.74819618551993
+          ]
+        },
+        {
+          "part": "A05",
+          "copy": 1,
+          "page": 3,
+          "mode": "tiled",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            -277,
+            175.74819618551993,
+            162.99999965121998,
+            192.28834659007993
+          ]
+        },
+        {
+          "part": "A01",
+          "copy": 1,
+          "page": 3,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            165.99999965121998,
+            178.74819618551993,
+            209.39943649377008,
+            194.06507139863592
+          ]
+        },
+        {
+          "part": "A01",
+          "copy": 2,
+          "page": 3,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            213.39943649377008,
+            178.74819618551993,
+            256.7988733363202,
+            194.06507139863592
+          ]
+        },
+        {
+          "part": "A48",
+          "copy": 1,
+          "page": 3,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            33,
+            15,
+            128.644448937014,
+            40.000000000002025
+          ]
+        },
+        {
+          "part": "A24",
+          "copy": 1,
+          "page": 3,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            12,
+            48,
+            165.89141686759936,
+            61.56381619595049
+          ]
+        },
+        {
+          "part": "A24",
+          "copy": 2,
+          "page": 3,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            12,
+            111,
+            165.89141686759936,
+            124.5638161959505
+          ]
+        },
+        {
+          "part": "A44",
+          "copy": 1,
+          "page": 3,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            156,
+            15,
+            273.02558749773004,
+            29.634177743390346
+          ]
+        },
+        {
+          "part": "A43",
+          "copy": 1,
+          "page": 4,
+          "mode": "tiled",
+          "rotation_deg": 90,
+          "local_bbox_mm": [
+            11,
+            0,
+            478.00000000792005,
+            95.64444899096996
+          ]
+        },
+        {
+          "part": "A62R",
+          "copy": 1,
+          "page": 4,
+          "mode": "tiled",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            -554,
+            98.64444899096996,
+            333.61528328935856,
+            140.3583725226079
+          ]
+        },
+        {
+          "part": "A07",
+          "copy": 1,
+          "page": 4,
+          "mode": "tiled",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            -554,
+            143.3583725226079,
+            195.99999999998988,
+            156.55328435406392
+          ]
+        },
+        {
+          "part": "A07",
+          "copy": 2,
+          "page": 4,
+          "mode": "tiled",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            -554,
+            159.55328435406392,
+            195.99999999998988,
+            172.74819618551993
+          ]
+        },
+        {
+          "part": "A05",
+          "copy": 2,
+          "page": 4,
+          "mode": "tiled",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            11,
+            175.74819618551993,
+            450.99999965122,
+            192.28834659007993
+          ]
+        },
+        {
+          "part": "A47",
+          "copy": 1,
+          "page": 4,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            198.99999999998988,
+            146.3583725226079,
+            271.7443909532089,
+            169.0583725226079
+          ]
+        },
+        {
+          "part": "A44",
+          "copy": 2,
+          "page": 4,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            75,
+            18,
+            192.02558749773002,
+            32.634177743390346
+          ]
+        },
+        {
+          "part": "A34",
+          "copy": 1,
+          "page": 5,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            2,
+            2,
+            97.644448937004,
+            89.8966800832247
+          ]
+        },
+        {
+          "part": "A54",
+          "copy": 1,
+          "page": 5,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            101.644448937004,
+            2,
+            197.288897874008,
+            89.8966800832247
+          ]
+        },
+        {
+          "part": "A04",
+          "copy": 1,
+          "page": 5,
+          "mode": "whole",
+          "rotation_deg": 90,
+          "local_bbox_mm": [
+            2,
+            95.8966800832247,
+            82.0225656926545,
+            191.54459090393766
+          ]
+        }
+      ],
+      "paired_registration_marks": [
+        {
+          "id": "J1-1",
+          "world_mm": [
+            282,
+            30
+          ],
+          "pages": [
+            2,
+            3
+          ],
+          "tiles": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "J1-2",
+          "world_mm": [
+            282,
+            90
+          ],
+          "pages": [
+            2,
+            3
+          ],
+          "tiles": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "J1-3",
+          "world_mm": [
+            282,
+            135
+          ],
+          "pages": [
+            2,
+            3
+          ],
+          "tiles": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "J1-4",
+          "world_mm": [
+            282,
+            188
+          ],
+          "pages": [
+            2,
+            3
+          ],
+          "tiles": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "J2-1",
+          "world_mm": [
+            559,
+            30
+          ],
+          "pages": [
+            3,
+            4
+          ],
+          "tiles": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "J2-2",
+          "world_mm": [
+            559,
+            90
+          ],
+          "pages": [
+            3,
+            4
+          ],
+          "tiles": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "J2-3",
+          "world_mm": [
+            559,
+            135
+          ],
+          "pages": [
+            3,
+            4
+          ],
+          "tiles": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "J2-4",
+          "world_mm": [
+            559,
+            188
+          ],
+          "pages": [
+            3,
+            4
+          ],
+          "tiles": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "J3-1",
+          "world_mm": [
+            836,
+            30
+          ],
+          "pages": [
+            4,
+            1
+          ],
+          "tiles": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "J3-2",
+          "world_mm": [
+            836,
+            90
+          ],
+          "pages": [
+            4,
+            1
+          ],
+          "tiles": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "J3-3",
+          "world_mm": [
+            836,
+            135
+          ],
+          "pages": [
+            4,
+            1
+          ],
+          "tiles": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "J3-4",
+          "world_mm": [
+            836,
+            188
+          ],
+          "pages": [
+            4,
+            1
+          ],
+          "tiles": [
+            2,
+            3
+          ]
+        }
+      ],
+      "max_pdf_registration_error_mm": 3.702117827473408e-05,
+      "calibration_actual_mm": [
+        100.00000883738198,
+        19.999995846218532
+      ],
+      "actual_curve_scale_error_mm": 7.169344928570354e-05,
+      "single_page_fit_parts_split": [],
+      "long_parts_above_minimum_tiles": [],
+      "whole_part_overlaps": 0,
+      "tested_page_pack_options": [
+        {
+          "orientation": "portrait",
+          "placed": 3,
+          "remaining": 0,
+          "remaining_bbox_area_mm2": 0
+        },
+        {
+          "orientation": "landscape",
+          "placed": 3,
+          "remaining": 0,
+          "remaining_bbox_area_mm2": 0
+        }
+      ],
+      "single_page_test_window_mm": [
+        287,
+        200
+      ],
+      "printable_page_id_positions_mm": [
+        [
+          4,
+          14
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          134,
+          39
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          89,
+          99
+        ]
+      ]
+    },
+    {
+      "nominal_stock_mm": 3,
+      "pages": 1,
+      "piece_count": 4,
+      "page_orientations": [
+        "portrait"
+      ],
+      "page_manifest": [
+        {
+          "part": "A53",
+          "copy": 1,
+          "page": 1,
+          "mode": "whole",
+          "rotation_deg": 90,
+          "local_bbox_mm": [
+            115,
+            2,
+            131.725797802161,
+            87.86541834849916
+          ]
+        },
+        {
+          "part": "A53",
+          "copy": 2,
+          "page": 1,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            2,
+            41,
+            87.86541834849916,
+            57.725797802161
+          ]
+        },
+        {
+          "part": "A10",
+          "copy": 1,
+          "page": 1,
+          "mode": "whole",
+          "rotation_deg": 90,
+          "local_bbox_mm": [
+            91.86541834849916,
+            41,
+            104.89989303649301,
+            111.72051976105101
+          ]
+        },
+        {
+          "part": "A10",
+          "copy": 2,
+          "page": 1,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            2,
+            63.725797802161,
+            72.72051976105101,
+            76.76027249015485
+          ]
+        }
+      ],
+      "paired_registration_marks": [],
+      "max_pdf_registration_error_mm": 0,
+      "calibration_actual_mm": [
+        100.00000883738198,
+        20.000006612141924
+      ],
+      "actual_curve_scale_error_mm": 1.348565787395728e-05,
+      "single_page_fit_parts_split": [],
+      "long_parts_above_minimum_tiles": [],
+      "whole_part_overlaps": 0,
+      "tested_page_pack_options": [],
+      "single_page_test_window_mm": [
+        287,
+        200
+      ],
+      "printable_page_id_positions_mm": [
+        [
+          134,
+          4
+        ]
+      ]
+    },
+    {
+      "nominal_stock_mm": 2.5,
+      "pages": 1,
+      "piece_count": 3,
+      "page_orientations": [
+        "portrait"
+      ],
+      "page_manifest": [
+        {
+          "part": "A18",
+          "copy": 1,
+          "page": 1,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            115,
+            2,
+            195.9999999999999,
+            119.59034147579001
+          ]
+        },
+        {
+          "part": "A63",
+          "copy": 1,
+          "page": 1,
+          "mode": "whole",
+          "rotation_deg": 0,
+          "local_bbox_mm": [
+            2,
+            41,
+            74.0,
+            51.7
+          ]
+        },
+        {
+          "part": "A63",
+          "copy": 2,
+          "page": 1,
+          "mode": "whole",
+          "rotation_deg": 90,
+          "local_bbox_mm": [
+            78.0,
+            41,
+            88.7,
+            113.0
+          ]
+        }
+      ],
+      "paired_registration_marks": [],
+      "max_pdf_registration_error_mm": 0,
+      "calibration_actual_mm": [
+        100.00000883738198,
+        20.000006612141924
+      ],
+      "actual_curve_scale_error_mm": 1.9497341568808224e-05,
+      "single_page_fit_parts_split": [],
+      "long_parts_above_minimum_tiles": [],
+      "whole_part_overlaps": 0,
+      "tested_page_pack_options": [],
+      "single_page_test_window_mm": [
+        287,
+        200
+      ],
+      "printable_page_id_positions_mm": [
+        [
+          4,
+          59
+        ]
+      ]
+    }
+  ],
+  "total_pages": 7,
+  "total_piece_copies": 31,
+  "packing_method": "Shared minimum-tile landscape strips; whole-part portrait/landscape comparisons; verified nesting inside empty U-profile regions. Best tested layout, not global optimality proof."
+}

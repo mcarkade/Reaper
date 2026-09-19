@@ -1,0 +1,32 @@
+[
+  {
+    "tool": "T01",
+    "source_sha256": "300f60852141be69507605c7f444377cdcafd22a761dc3b1c64d1c84ac5d3957",
+    "cut_count": 2,
+    "cut_width_mm": 101.68040423726153,
+    "cut_height_mm": 42.4999999999998,
+    "pdf_page": 2,
+    "placement_x_mm": 54.15979788136924,
+    "placement_y_mm": 211.0
+  },
+  {
+    "tool": "T02",
+    "source_sha256": "03b9de4f942a5c3f8a81d15e0aa56dd19e3cf41006943a4c78895efd258e96f9",
+    "cut_count": 2,
+    "cut_width_mm": 90.00173780113909,
+    "cut_height_mm": 42.50046307626067,
+    "pdf_page": 2,
+    "placement_x_mm": 59.99913109943046,
+    "placement_y_mm": 140.0
+  },
+  {
+    "tool": "T03",
+    "source_sha256": "2fb9b08c898b22583cd17aacca2af24ffa5a79a8193d7e58601a98ed36732502",
+    "cut_count": 2,
+    "cut_width_mm": 118.32307972795809,
+    "cut_height_mm": 42.50117065796394,
+    "pdf_page": 2,
+    "placement_x_mm": 45.838460136020956,
+    "placement_y_mm": 69.0
+  }
+]

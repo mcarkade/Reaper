@@ -1,0 +1,13 @@
+ts	phase	decision	why	evidence	result
+2026-09-19	frame	Separate electronics and manufacturing handoffs	The user and teammate have different responsibilities	WORK_PLAN.md	Defined
+2026-09-19	geometry	Recover assembly placements through XCAF	Individual STEP positions differ from assembled positions	main/assembly_map.json	62 occurrence shapes exported
+2026-09-19	geometry	Use adaptive CAD volume integration	Default estimates differ on curved solids	main/inventory.json	Measured at relative tolerance 1e-9
+2026-09-19T17:43:36	structure	Added eight missing opposite-wing plywood members	Original assembly has only one-sided members	01_Plywood/manufacturing_register.csv	Revised quantities
+2026-09-19T17:43:36	structure	Replaced overlapping source spine with unified profile then bolted nose bypass	Source spine conflicts with rear duplicate and steering shaft	05_Assembly/Nose_Bypass_Build.md	Digitally checked; physical loading remains
+2026-09-19T17:43:36	hardware	Corrected front joiner diameter and sleeves; rear joiner centred	Original front references overlap and contradict root holes	04_Hardware/Tube_Cutting_Schedule.csv	Digital mating checks passed
+2026-09-19T17:43:36	hardware	Motor holes changed to19 mm PCD; main gear through-bolted	Official motor drawing differs from original25 mm PCD	04_Hardware/EMAX_Official_Mounting_Drawing.jpg	Drawing checked; actual screw engagement remains
+2026-09-19T17:43:36	hardware	Extended steering shaft through bearing	Original wire ended below its bearing	04_Hardware/A46_Nose_wire_extended.step	Corrected wire/mount/spine clear
+2026-09-19T17:43:36	mesh	Used absolute0.015 mm export and adaptive span-split CAD integration	Relative mesh settings and default volume integration were misleading	06_Verification/print_checks.json	11 printable meshes checked
+2026-09-19T17:43:36	foam	Regenerated after discovering relative meshing bug	Coarse-mesh strain did not prove source-surface accuracy	02_Foam/Surface_Mesh_Validation.json	Absolute mesh and source-surface samples checked
+2026-09-19T17:43:36	review	Archived superseded Rev0 notes outside release	Old notes had unconfirmed foam and lacked current hardware decisions	READ_ME_FIRST.txt	Current guides selected
+2026-09-19T17:43:36	release	Preserved physical shop and flight checks as explicit work	Digital files cannot verify material behaviour or flight performance	06_Verification/Verification_Summary.pdf	No physical testing claimed

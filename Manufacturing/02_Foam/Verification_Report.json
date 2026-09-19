@@ -1,0 +1,213 @@
+{
+  "patterns": 33,
+  "dxf_files": 33,
+  "a4_tile_pages": 23,
+  "all_pdf_pages_rendered_and_contact_reviewed": true,
+  "max_edge_strain_percent": 0.3664029095371113,
+  "max_absolute_edge_error_mm": 0.3083238734654111,
+  "all_boundaries_simple": true,
+  "reversed_triangles_total": 0,
+  "physical_foam_validation": false,
+  "checks": [
+    {
+      "pattern": "F01",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F02",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F03",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F04",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F05",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F06",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F07",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F08",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F09",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F10",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F11",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F12",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F13",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F14",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F15",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F16",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F17",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F18",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F19",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F20",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F21",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F22",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F23",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F24",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F25",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F26",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F27",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F28",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F29",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F30",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F31",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F32",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    },
+    {
+      "pattern": "F33",
+      "millimetres": true,
+      "closed_cut_loops": 1
+    }
+  ],
+  "cut_piece_quantity": 35,
+  "mesh_relative": false,
+  "mesh_absolute_deflection_mm": 0.2,
+  "mesh_angular_tolerance_rad": 0.15,
+  "maximum_sampled_triangle_normal_deviation_mm": 0.19970911612857078,
+  "maximum_added_seam_length_mismatch_mm": 0.026665338898681057,
+  "assembly_map_pages": 5,
+  "tail_forming_tool_pages": 2,
+  "tail_forming_tool_dxf_files": 3,
+  "tail_forming_tool_halves": 6,
+  "source_face_coverage_records": 205,
+  "all_pdf_text_within_page_bounds": {
+    "Foam_Pattern_Overview.pdf": true,
+    "Foam_Assembly_Map.pdf": true,
+    "Tail_Forming_Profiles.pdf": true,
+    "Foam_1to1_A4_Tiles.pdf": true
+  },
+  "a4_cutting_pages": 22,
+  "a4_index_pages": 1,
+  "calibration_rectangle_100x20mm_verified": true,
+  "optimized_usable_page_mm": {
+    "portrait": [
+      200,
+      287
+    ],
+    "landscape": [
+      287,
+      200
+    ]
+  },
+  "hard_print_margin_mm": 5,
+  "paired_registration_marks_actual_pdf_verified": 40,
+  "pdf_cut_vertices_max_error_mm": 0.0001967976559617832,
+  "single_page_fit_patterns_kept_whole": true,
+  "tail_tool_pdf_calibration_rectangle_verified": true
+}

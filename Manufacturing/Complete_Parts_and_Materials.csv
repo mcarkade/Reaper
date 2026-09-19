@@ -1,23 +1,23 @@
 id,name,route,quantity,material,file,note
-A01,Rear joiner support,Plywood cut,2,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A01.dxf,Source planar profile; only explicitly listed bore revisions applied.
-A04,Aft fuselage former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A04.dxf,"Prismatic blank from original major cap; source has side taper/unequal opposite cap. Finish edge to assembly skin/fit. This is declared manufacturing geometry, not exact source reconstruction."
-A05,Front wing spar,Plywood cut,2,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A05.dxf,Source planar profile; only explicitly listed bore revisions applied.
-A07,Rear wing spar,Plywood cut,2,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A07.dxf,Source planar profile; only explicitly listed bore revisions applied.
-A10,Outer aileron end plate,Plywood cut,2,3.000 mm plywood,01_Plywood/Individual_DXF/3.000mm/A10.dxf,"Prismatic blank from original major cap; source has side taper/unequal opposite cap. Finish edge to assembly skin/fit. This is declared manufacturing geometry, not exact source reconstruction."
-A13,Forward longitudinal former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A13.dxf,Source planar profile; only explicitly listed bore revisions applied.
-A16,Middle fuselage former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A16.dxf,Source planar profile; only explicitly listed bore revisions applied.
-A18,Tail bulkhead,Plywood cut,1,2.500 mm plywood,01_Plywood/Individual_DXF/2.500mm/A18.dxf,Source planar profile; only explicitly listed bore revisions applied.
-A24,Middle wing rib,Plywood cut,2,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A24.dxf,"Prismatic blank from original major cap; source has side taper/unequal opposite cap. Finish edge to assembly skin/fit. This is declared manufacturing geometry, not exact source reconstruction."
-A25,Front gear bulkhead,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A25.dxf,Source planar profile; only explicitly listed bore revisions applied.
+A01,Rear joiner support,Plywood cut,2,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A01.dxf,Cut the listed quantity; preserve grain and millimetre scale.
+A04,Aft fuselage former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A04.dxf,Finish outer edge to the assembly skin; preserve mounting holes and bores.
+A05,Front wing spar,Plywood cut,2,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A05.dxf,Cut the listed quantity; preserve grain and millimetre scale.
+A07,Rear wing spar,Plywood cut,2,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A07.dxf,Cut the listed quantity; preserve grain and millimetre scale.
+A10,Outer aileron end plate,Plywood cut,2,3.000 mm plywood,01_Plywood/Individual_DXF/3.000mm/A10.dxf,Finish outer edge to the assembly skin; preserve mounting holes and bores.
+A13,Forward longitudinal former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A13.dxf,Cut the listed quantity; preserve grain and millimetre scale.
+A16,Middle fuselage former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A16.dxf,Cut the listed quantity; preserve grain and millimetre scale.
+A18,Tail bulkhead,Plywood cut,1,2.500 mm plywood,01_Plywood/Individual_DXF/2.500mm/A18.dxf,Cut the listed quantity; preserve grain and millimetre scale.
+A24,Middle wing rib,Plywood cut,2,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A24.dxf,Finish outer edge to the assembly skin; preserve mounting holes and bores.
+A25,Front gear bulkhead,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A25.dxf,Cut the listed quantity; preserve grain and millimetre scale.
 A26,Motor mount,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A26.dxf,"Motor pattern corrected:4x3.2mm on19mmPCD, source25mmPCD holes replaced. Physical motor fit check before drilling."
-A34,Forward fuselage former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A34.dxf,Source planar profile; only explicitly listed bore revisions applied.
-A35,Inner wing rib,Plywood cut,2,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A35.dxf,Source planar profile; only explicitly listed bore revisions applied.
-A43,Aft longitudinal former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A43.dxf,Source planar profile; only explicitly listed bore revisions applied.
-A44,Outer wing rib,Plywood cut,2,4.990 mm plywood,01_Plywood/Individual_DXF/4.990mm/A44.dxf,"Prismatic blank from original major cap; source has side taper/unequal opposite cap. Finish edge to assembly skin/fit. This is declared manufacturing geometry, not exact source reconstruction."
-A47,Main gear base,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A47.dxf,Source planar profile; only explicitly listed bore revisions applied.
-A48,Rear gear bulkhead,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A48.dxf,Source planar profile; only explicitly listed bore revisions applied.
-A53,Inner aileron end plate,Plywood cut,2,3.000 mm plywood,01_Plywood/Individual_DXF/3.000mm/A53.dxf,Source planar profile; only explicitly listed bore revisions applied.
-A54,Central forward former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A54.dxf,Source planar profile; only explicitly listed bore revisions applied.
+A34,Forward fuselage former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A34.dxf,Cut the listed quantity; preserve grain and millimetre scale.
+A35,Inner wing rib,Plywood cut,2,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A35.dxf,Cut the listed quantity; preserve grain and millimetre scale.
+A43,Aft longitudinal former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A43.dxf,Cut the listed quantity; preserve grain and millimetre scale.
+A44,Outer wing rib,Plywood cut,2,4.990 mm plywood,01_Plywood/Individual_DXF/4.990mm/A44.dxf,Finish outer edge to the assembly skin; preserve mounting holes and bores.
+A47,Main gear base,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A47.dxf,Cut the listed quantity; preserve grain and millimetre scale.
+A48,Rear gear bulkhead,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A48.dxf,Cut the listed quantity; preserve grain and millimetre scale.
+A53,Inner aileron end plate,Plywood cut,2,3.000 mm plywood,01_Plywood/Individual_DXF/3.000mm/A53.dxf,Cut the listed quantity; preserve grain and millimetre scale.
+A54,Central forward former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A54.dxf,Cut the listed quantity; preserve grain and millimetre scale.
 A62F,Front nose spine segment,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A62F.dxf,Nose bypass assembly: intentional3.4mm gap bridged by2 continuous2.5mm aircraft-ply cheeks and4 transverseM2 bolts. Do not assemble center pieces without doublers.
 A62R,Rear spine segment,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A62R.dxf,Nose bypass assembly: intentional3.4mm gap bridged by2 continuous2.5mm aircraft-ply cheeks and4 transverseM2 bolts. Do not assemble center pieces without doublers.
 A63,Nose cheek doublers (A63/A64),Plywood cut,2,2.500 mm plywood,01_Plywood/Individual_DXF/2.500mm/A63.dxf,Nose bypass assembly: intentional3.4mm gap bridged by2 continuous2.5mm aircraft-ply cheeks and4 transverseM2 bolts. Do not assemble center pieces without doublers.
@@ -69,12 +69,12 @@ T01,T01 front joiner,Purchase / cut tube,1,Carbon OD8/ID6 mm,04_Hardware/Tube_Cu
 T02,T02 right front sleeve,Purchase / cut tube,1,Carbon OD10/ID8.2 mm,04_Hardware/Tube_Cutting_Schedule.csv,Length 199.35 mm; matched slip fit required
 T03,T03 left front sleeve,Purchase / cut tube,1,Carbon OD10/ID8.2 mm,04_Hardware/Tube_Cutting_Schedule.csv,Length 199.35 mm; matched slip fit required
 T04,T04 rear joiner,Purchase / cut tube,1,Carbon OD8/ID6 mm,04_Hardware/Tube_Cutting_Schedule.csv,Length 390 mm; matched slip fit required
-H01,Main formed landing gear,Hardware,1,12.7 x3.175 mm suitable formed metal,04_Hardware/HARDWARE_README.txt,Select final fastener/rod length at dry assembly where stated
-H02,Nose wire extended,Hardware,1,3 mm spring steel wire,04_Hardware/HARDWARE_README.txt,Select final fastener/rod length at dry assembly where stated
-H03,Wheels,Hardware,3,"50.8 mm diameter,3 mm bore",04_Hardware/HARDWARE_README.txt,Select final fastener/rod length at dry assembly where stated
-H04,Servos,Hardware,5,9 g metal gear; actual model fit/voltage check,04_Hardware/HARDWARE_README.txt,Select final fastener/rod length at dry assembly where stated
-H05,Control horns,Hardware,4,Purchased lightweight RC horns,04_Hardware/HARDWARE_README.txt,Select final fastener/rod length at dry assembly where stated
-H06,Nose steering arm,Hardware,1,3 mm clamping arm,04_Hardware/HARDWARE_README.txt,Select final fastener/rod length at dry assembly where stated
-H07,Pushrod and clevis sets,Hardware,5,Matched RC linkage,04_Hardware/HARDWARE_README.txt,Select final fastener/rod length at dry assembly where stated
-H08,Aileron pins,Hardware,2,3 mm smooth rod; start285 mm,04_Hardware/HARDWARE_README.txt,Select final fastener/rod length at dry assembly where stated
-H09,Fastener pack,Hardware,1,See airframe guide page3 and hardware instructions,04_Hardware/HARDWARE_README.txt,Select final fastener/rod length at dry assembly where stated
+H01,Main formed landing gear,Hardware,1,12.7 x3.175 mm suitable formed metal,04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
+H02,Nose wire extended,Hardware,1,3 mm spring steel wire,04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
+H03,Wheels,Hardware,3,"50.8 mm diameter,3 mm bore",04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
+H04,Servos,Hardware,5,9 g metal gear; actual model fit/voltage check,04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
+H05,Control horns,Hardware,4,Purchased lightweight RC horns,04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
+H06,Nose steering arm,Hardware,1,3 mm clamping arm,04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
+H07,Pushrod and clevis sets,Hardware,5,Matched RC linkage,04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
+H08,Aileron pins,Hardware,2,3 mm smooth rod; start285 mm,04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
+H09,Fastener pack,Hardware,1,See airframe guide page3 and hardware instructions,04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated

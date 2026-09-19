@@ -30,7 +30,7 @@ Use this release as a set. Older AI packages, rejected trials, caches and instal
 
 ## Checked digitally; still to test physically
 
-Profiles, quantities, selected mesh topology, source comparisons, foam development and PDF scale/registration have recorded checks. See the [verification summary](Build%20Guide/Verification_Summary.pdf).
+Profiles, quantities, selected mesh topology, source comparisons, foam development and PDF scale/registration have recorded checks. See the [verification summary](Build%20Guide/Reference/Verification_Summary.pdf).
 
 The builders still need to qualify stock and printer fits, foam forming, assembled clearances, joints and landing gear, then record actual mass and balance. The 522 mm aft-nose mark is a provisional geometric reference. The owned 9-inch propeller / 40 A ESC combination remains unqualified. Follow the guides before powered or flight testing.
 

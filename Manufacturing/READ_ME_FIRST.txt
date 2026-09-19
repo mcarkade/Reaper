@@ -15,6 +15,6 @@ DECLARED REVISIONS
 Missing opposite-wing wood completed; tube overlap and diameter mismatch resolved; front sleeve bores corrected; overlapping spines combined, then deliberately split for the bolted nose bypass; 19 mm PCD motor pattern; through-bolted main gear; extended nose wire; printed bearing/root/tail-pocket clearances; foam skins developed from curved surfaces with absolute-mesh verification. See the revision register and airframe guide.
 
 PHYSICAL CHECKS STILL TO PERFORM
-Actual slot and printer fits; forming coupon and complete foam dry-fit; local inner-core relief and gear-exit trimming; gear/structure load and deflection inspection; hinge/linkage checks; completed mass and balance; powered propulsion tests and flight assessment. These are not claimed complete by the files. See ../Build Guide/Verification_Summary.pdf and the guide checklist.
+Actual slot and printer fits; forming coupon and complete foam dry-fit; local inner-core relief and gear-exit trimming; gear/structure load and deflection inspection; hinge/linkage checks; completed mass and balance; powered propulsion tests and flight assessment. These are not claimed complete by the files. See ../Build Guide/Reference/Verification_Summary.pdf and the guide checklist.
 
 The 522 mm aft-nose CG mark is a provisional geometric setup reference, not a flight-approved CG range. The owned 9-inch propeller / 40 A ESC combination is not approved by this package. Hand the body to the electronics owner with access open and actual mass recorded.

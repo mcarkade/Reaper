@@ -4,7 +4,7 @@ Fabrication files and illustrated instructions for the 2-metre MQ9 model.
 
 ## Download
 
-**[Download the complete manufacturing ZIP](https://github.com/mcarkade/Reaper/releases/download/rev2/MQ9_Manufacturing_Rev2.zip)**
+**[Download the complete manufacturing ZIP](https://github.com/mcarkade/Reaper/releases/latest/download/MQ9_Manufacturing_Rev2.zip)**
 
 Extract the ZIP. **Start with the [Complete Build Guide](Build%20Guide/Complete_Build_Guide.pdf)** and follow the chapter for your team. The separate team PDFs contain the same chapters, not additional instructions.
 

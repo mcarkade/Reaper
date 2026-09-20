@@ -1,22 +1,19 @@
 # Manufacturing Team
 
-**[Download the complete manufacturing package ZIP](https://github.com/mcarkade/Reaper/releases/download/rev1.1/MQ9_Manufacturing_Rev1.1.zip)**
+**[Download the complete ZIP](https://github.com/mcarkade/Reaper/releases/download/rev2/MQ9_Manufacturing_Rev2.zip)** · **[Read the assembly guide](../Build%20Guide/01_Airframe_Manufacturing_and_Assembly.pdf)**
 
-Start with the [illustrated assembly guide](../Build%20Guide/01_Airframe_Manufacturing_and_Assembly.pdf) and [parts list](Complete_Parts_and_Materials.csv).
+1. Measure stock and run the plywood, printer and foam coupons.
+2. Fabricate the listed quantities. Dry-fit the frame, both wings and actual hardware.
+3. Install mounts, controls and removable covers; prove access before closing skins.
+4. Form and bond the foam. Record masses and physical checks for the Electronics Team.
 
-| Workshop task | Files and instructions |
+| Work | Files |
 |---|---|
-| Cut the skeleton | [Plywood](01_Plywood/README.md) |
-| Cut and form the skins | [Foam](02_Foam/README.md) |
-| Print aircraft parts | [3D printing](03_Print/README.md) |
-| Prepare tubes and landing gear | [Hardware](04_Hardware/README.md) |
-| Check assembled positions | [Assembly reference](05_Assembly/README.md) |
-| Print paper patterns | [A4 templates](Print_Templates/README.md) |
+| Laser/CNC plywood | [Profiles and layouts](01_Plywood/README.md) |
+| Knife-cut and form foam | [Patterns and forming](02_Foam/README.md) |
+| 3D printing | [Parts, quantities and coupon](03_Print/README.md) |
+| Metalwork and purchased hardware | [Gear, tubes and fasteners](04_Hardware/README.md) |
+| Assembly positions | [STEP and illustrations](05_Assembly/README.md) |
+| Paper cutting | [Actual-size A4 PDFs](Print_Templates/README.md) |
 
-## Workshop sequence
-
-1. Measure stock thickness and run the slot and printer fit coupons.
-2. Confirm millimetre units and preserve model scale. Use only the specified cutting layers.
-3. Cut or print the parts, then dry-fit the skeleton and skins before bonding.
-4. Form, bevel, trim and assemble following the guide. Machines make the blanks; assembly requires these finishing operations.
-5. Record fit and structural checks in the [build record](../Build%20Guide/Build_Record.csv). Leave electronics access open and record airframe mass for the Electronics Team.
+[Complete parts and materials list](Complete_Parts_and_Materials.csv). Dimensions are millimetres; do not rescale parts. The metal shop qualifies the bend allowance before cutting the final gear blank.

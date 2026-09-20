@@ -1,25 +1,23 @@
-# MQ9 RC build
+# Reaper RC build
 
-Fabrication files and illustrated instructions for the 2-metre RC airframe.
+Fabrication files and illustrated instructions for the 2-metre MQ9 model.
 
 ## Download
 
-**[Download the complete manufacturing package ZIP](https://github.com/mcarkade/Reaper/releases/download/rev1.1/MQ9_Manufacturing_Rev1.1.zip)**
+**[Download the complete manufacturing ZIP](https://github.com/mcarkade/Reaper/releases/download/rev2/MQ9_Manufacturing_Rev2.zip)**
 
-Download and extract the ZIP to get the build guides, cutting files, print files and parts lists together. No GitHub account or Git installation is needed. Use this link when sending files to the workshop.
+Extract the ZIP. **Start with the [Complete Build Guide](Build%20Guide/Complete_Build_Guide.pdf)** and follow the chapter for your team. The separate team PDFs contain the same chapters, not additional instructions.
 
-## Start with your team
+Read the Weight and flight assessment before the full fabrication batch. This revision has not cleared hand launch or flight.
 
-| Team | Instructions |
+| Team | Start here |
 |---|---|
 | Manufacturing Team | [Fabrication and body assembly](Manufacturing/README.md) |
 | Electronics Team | [Wiring, placement and calibration](Build%20Guide/Electronics_Build_Guide.pdf) |
 | Both teams | [Complete illustrated build guide](Build%20Guide/Complete_Build_Guide.pdf) |
 
-[Parts and materials](Manufacturing/Complete_Parts_and_Materials.csv) · [Paper cutting templates](Manufacturing/Print_Templates/README.md) · [Build record](Build%20Guide/Build_Record.csv)
+[Parts and materials](Manufacturing/Complete_Parts_and_Materials.csv) · [Actual-size templates](Manufacturing/Print_Templates/README.md)
 
-## Before building
+Run the material/process coupons before the full batch. File checks are recorded in the guide; physical strength, final balance and flight checks remain part of the build.
 
-Digital geometry and print-scale checks are complete. Follow the guides for physical fit, forming, structural, propulsion and balance checks. The 522 mm aft-nose balance reference is provisional; the 9-inch propeller / 40 A ESC combination requires testing. See the [checks summary](Build%20Guide/Reference/Verification_Summary.pdf).
-
-Based on the [original build video](https://www.youtube.com/watch?v=X-Q08HQq7fM) and [Onshape model](https://cad.onshape.com/documents/da0c1a9f98b6358f736153b1/w/040544fbf77b8cf6608e2eb9/e/28c526eeb45b3f50fa69269f). Original design credit remains with its creator; no new licence for the original design is granted here.
+Design credit: [build video](https://www.youtube.com/watch?v=X-Q08HQq7fM) and [Onshape design](https://cad.onshape.com/documents/da0c1a9f98b6358f736153b1/w/040544fbf77b8cf6608e2eb9/e/28c526eeb45b3f50fa69269f). Original design rights remain with its creator.

@@ -1,80 +1,137 @@
 id,name,route,quantity,material,file,note
-A01,Rear joiner support,Plywood cut,2,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A01.dxf,Cut the listed quantity; preserve grain and millimetre scale.
-A04,Aft fuselage former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A04.dxf,Finish outer edge to the assembly skin; preserve mounting holes and bores.
-A05,Front wing spar,Plywood cut,2,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A05.dxf,Cut the listed quantity; preserve grain and millimetre scale.
-A07,Rear wing spar,Plywood cut,2,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A07.dxf,Cut the listed quantity; preserve grain and millimetre scale.
-A10,Outer aileron end plate,Plywood cut,2,3.000 mm plywood,01_Plywood/Individual_DXF/3.000mm/A10.dxf,Finish outer edge to the assembly skin; preserve mounting holes and bores.
-A13,Forward longitudinal former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A13.dxf,Cut the listed quantity; preserve grain and millimetre scale.
-A16,Middle fuselage former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A16.dxf,Cut the listed quantity; preserve grain and millimetre scale.
-A18,Tail bulkhead,Plywood cut,1,2.500 mm plywood,01_Plywood/Individual_DXF/2.500mm/A18.dxf,Cut the listed quantity; preserve grain and millimetre scale.
-A24,Middle wing rib,Plywood cut,2,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A24.dxf,Finish outer edge to the assembly skin; preserve mounting holes and bores.
-A25,Front gear bulkhead,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A25.dxf,Cut the listed quantity; preserve grain and millimetre scale.
-A26,Motor mount,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A26.dxf,"Motor pattern corrected:4x3.2mm on19mmPCD, source25mmPCD holes replaced. Physical motor fit check before drilling."
-A34,Forward fuselage former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A34.dxf,Cut the listed quantity; preserve grain and millimetre scale.
-A35,Inner wing rib,Plywood cut,2,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A35.dxf,Cut the listed quantity; preserve grain and millimetre scale.
-A43,Aft longitudinal former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A43.dxf,Cut the listed quantity; preserve grain and millimetre scale.
-A44,Outer wing rib,Plywood cut,2,4.990 mm plywood,01_Plywood/Individual_DXF/4.990mm/A44.dxf,Finish outer edge to the assembly skin; preserve mounting holes and bores.
-A47,Main gear base,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A47.dxf,Cut the listed quantity; preserve grain and millimetre scale.
-A48,Rear gear bulkhead,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A48.dxf,Cut the listed quantity; preserve grain and millimetre scale.
-A53,Inner aileron end plate,Plywood cut,2,3.000 mm plywood,01_Plywood/Individual_DXF/3.000mm/A53.dxf,Cut the listed quantity; preserve grain and millimetre scale.
-A54,Central forward former,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A54.dxf,Cut the listed quantity; preserve grain and millimetre scale.
-A62F,Front nose spine segment,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A62F.dxf,Nose bypass assembly: intentional3.4mm gap bridged by2 continuous2.5mm aircraft-ply cheeks and4 transverseM2 bolts. Do not assemble center pieces without doublers.
-A62R,Rear spine segment,Plywood cut,1,5.000 mm plywood,01_Plywood/Individual_DXF/5.000mm/A62R.dxf,Nose bypass assembly: intentional3.4mm gap bridged by2 continuous2.5mm aircraft-ply cheeks and4 transverseM2 bolts. Do not assemble center pieces without doublers.
-A63,Nose cheek doublers (A63/A64),Plywood cut,2,2.500 mm plywood,01_Plywood/Individual_DXF/2.500mm/A63.dxf,Nose bypass assembly: intentional3.4mm gap bridged by2 continuous2.5mm aircraft-ply cheeks and4 transverseM2 bolts. Do not assemble center pieces without doublers.
-A06,Centre fairing,3D print,1,LW-PLA preferred; PLA+ mass must be budgeted,03_Print/Aircraft_STL/A06_Centre_fairing.stl,"Millimetres, no scaling; see print settings and actual dimensions"
-A09,Nose steering bearing,3D print,1,PLA+ or PETG; functional coupon required,03_Print/Aircraft_STL/A09_Nose_steering_bearing.stl,"Millimetres, no scaling; see print settings and actual dimensions"
+A01,Rear joiner support,Plywood cut,2,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A01.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
+A04,Aft fuselage former,Plywood cut,1,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A04.dxf,Retain the edge-finishing operation shown by the assembly/reference contour; preserve bores and slots.
+A05,Front wing spar,Plywood cut,2,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A05.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
+A07,Rear wing spar,Plywood cut,2,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A07.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
+A10,Outer aileron end plate,Plywood cut,2,3.000 mm aircraft plywood,01_Plywood/Individual_DXF/3.000mm/A10.dxf,Retain the edge-finishing operation shown by the assembly/reference contour; preserve bores and slots.
+A13,Forward longitudinal former,Plywood cut,1,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A13.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
+A16,Middle fuselage former,Plywood cut,1,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A16.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
+A18,Tail bulkhead,Plywood cut,1,2.500 mm aircraft plywood,01_Plywood/Individual_DXF/2.500mm/A18.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
+A24,Middle wing rib,Plywood cut,2,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A24.dxf,Retain the edge-finishing operation shown by the assembly/reference contour; preserve bores and slots.
+A25,Front gear bulkhead,Plywood cut,1,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A25.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
+A26,Motor mount,Plywood cut,1,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A26.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
+A34,Forward fuselage former,Plywood cut,1,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A34.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
+A35,Inner wing rib,Plywood cut,2,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A35.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
+A43,Aft longitudinal former,Plywood cut,1,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A43.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
+A44,Outer wing rib,Plywood cut,2,4.990 mm aircraft plywood,01_Plywood/Individual_DXF/4.990mm/A44.dxf,Cut two handed ribs; finish nominal 5 mm stock to the 4.990 mm geometry. MG90S ear slots included.
+A47,Main gear base,Plywood cut,1,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A47.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
+A48,Rear gear bulkhead,Plywood cut,1,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A48.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
+A53,Inner aileron end plate,Plywood cut,2,3.000 mm aircraft plywood,01_Plywood/Individual_DXF/3.000mm/A53.dxf,Retain the edge-finishing operation shown by the assembly/reference contour; preserve bores and slots.
+A54,Central forward former,Plywood cut,1,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A54.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
+A62F,Front nose spine segment,Plywood cut,1,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A62F.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
+A62R,Rear spine segment,Plywood cut,1,5.000 mm aircraft plywood,01_Plywood/Individual_DXF/5.000mm/A62R.dxf,Rear end is flush with the motor mounting face at Y582.65; omit the former aft tab. Nose shaft gap is 4.4 mm with A62F.
+A63,Nose cheek doublers (A63/A64),Plywood cut,2,2.500 mm aircraft plywood,01_Plywood/Individual_DXF/2.500mm/A63.dxf,Cut two from this profile; install as A63 left cheek and A64 right cheek. Do not cut an additional pair.
+G03,Main gear mounting doubler,Plywood cut,1,3.000 mm aircraft plywood,01_Plywood/Individual_DXF/3.000mm/G03.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
+H05B,Control horn backing plate,Plywood cut,4,2.500 mm aircraft plywood,01_Plywood/Individual_DXF/2.500mm/H05B.dxf,Four 25 x20 mm backing blanks. Drill to the purchased horn template after checking the hinge axis; use crush-resistant spacers through foam or hollow printed controls.
+I01,Adjustable battery tray,Plywood cut,1,3.000 mm aircraft plywood,01_Plywood/Individual_DXF/3.000mm/I01.dxf,Cut the listed quantity at 100% scale. Qualify stock/kerf with a coupon.
 A11,Left aileron,3D print,1,LW-PLA preferred; PLA+ mass must be budgeted,03_Print/Aircraft_STL/A11_Left_aileron.stl,"Millimetres, no scaling; see print settings and actual dimensions"
-A12,Tail fairing,3D print,1,LW-PLA preferred; PLA+ mass must be budgeted,03_Print/Aircraft_STL/A12_Tail_fairing.stl,"Millimetres, no scaling; see print settings and actual dimensions"
 A21,Right aileron,3D print,1,LW-PLA preferred; PLA+ mass must be budgeted,03_Print/Aircraft_STL/A21_Right_aileron.stl,"Millimetres, no scaling; see print settings and actual dimensions"
 A23,Left aileron hinge,3D print,1,LW-PLA preferred; PLA+ mass must be budgeted,03_Print/Aircraft_STL/A23_Left_aileron_hinge.stl,"Millimetres, no scaling; see print settings and actual dimensions"
 A36,Right aileron hinge,3D print,1,LW-PLA preferred; PLA+ mass must be budgeted,03_Print/Aircraft_STL/A36_Right_aileron_hinge.stl,"Millimetres, no scaling; see print settings and actual dimensions"
-A37,Nose gear mount,3D print,1,PLA+ or PETG; functional coupon required,03_Print/Aircraft_STL/A37_Nose_gear_mount.stl,"Millimetres, no scaling; see print settings and actual dimensions"
 A45,Right wing root,3D print,1,PLA+ or PETG; functional coupon required,03_Print/Aircraft_STL/A45_Right_wing_root.stl,"Millimetres, no scaling; see print settings and actual dimensions"
 A55,Left wing root,3D print,1,PLA+ or PETG; functional coupon required,03_Print/Aircraft_STL/A55_Left_wing_root.stl,"Millimetres, no scaling; see print settings and actual dimensions"
-A59,Nose shell,3D print,1,LW-PLA preferred; PLA+ mass must be budgeted,03_Print/Aircraft_STL/A59_Nose_shell.stl,"Millimetres, no scaling; see print settings and actual dimensions"
-F01,Left inner wing,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F01_wing_inner_A.dxf,Preserved outside paper reference; see forming guide
-F02,Right inner wing,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F02_wing_inner_B.dxf,Preserved outside paper reference; see forming guide
-F03,Right outer wing,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F03_wing_outer_A.dxf,Preserved outside paper reference; see forming guide
-F04,Left outer wing,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F04_wing_outer_B.dxf,Preserved outside paper reference; see forming guide
-F05,Right fixed tail - main,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F05_tail_A_rootcollar1.dxf,Preserved outside paper reference; see forming guide
-F06,Left fixed tail - main,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F06_tail_B_rootcollar1.dxf,Preserved outside paper reference; see forming guide
-F07,Right fixed tail - root collar,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F07_tail_A_rootcollar2.dxf,Preserved outside paper reference; see forming guide
-F08,Left fixed tail - root collar,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F08_tail_B_rootcollar2.dxf,Preserved outside paper reference; see forming guide
-F09,Forward lower fuselage - left curve,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F09_fuselage_forward_A.dxf,Preserved outside paper reference; see forming guide
-F10,Forward lower fuselage - right curve,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F10_fuselage_forward_B.dxf,Preserved outside paper reference; see forming guide
-F11,Middle lower fuselage - right curve,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F11_fuselage_middle_A.dxf,Preserved outside paper reference; see forming guide
-F12,Middle lower fuselage - left curve,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F12_fuselage_middle_B.dxf,Preserved outside paper reference; see forming guide
-F13,Forward lower fuselage - left lip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F13_fuselage_src3_face8.dxf,Preserved outside paper reference; see forming guide
-F14,Forward lower fuselage - bottom strip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F14_fuselage_src3_face10.dxf,Preserved outside paper reference; see forming guide
-F15,Forward lower fuselage - right lip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F15_fuselage_src3_face12.dxf,Preserved outside paper reference; see forming guide
-F16,Middle lower fuselage - left lip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F16_fuselage_src21_face2.dxf,Preserved outside paper reference; see forming guide
-F17,Middle lower fuselage - right lip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F17_fuselage_src21_face16.dxf,Preserved outside paper reference; see forming guide
-F18,Middle lower fuselage - bottom strip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F18_fuselage_src21_face18.dxf,Preserved outside paper reference; see forming guide
-F19,Aft lower fuselage - left lip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F19_fuselage_src10_face16.dxf,Preserved outside paper reference; see forming guide
-F20,Aft lower fuselage - left curve,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F20_fuselage_src10_face17.dxf,Preserved outside paper reference; see forming guide
-F21,Aft lower fuselage - right curve,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F21_fuselage_src10_face19.dxf,Preserved outside paper reference; see forming guide
-F22,Aft lower fuselage - right lip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F22_fuselage_src10_face20.dxf,Preserved outside paper reference; see forming guide
-F23,Aft upper fuselage - left,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F23_fuselage_src22_face11.dxf,Preserved outside paper reference; see forming guide
-F24,Aft upper fuselage - right,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F24_fuselage_src22_face13.dxf,Preserved outside paper reference; see forming guide
-F25,Forward upper fuselage - right,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F25_fuselage_src25_face6.dxf,Preserved outside paper reference; see forming guide
-F26,Forward upper fuselage - left,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F26_fuselage_src25_face8.dxf,Preserved outside paper reference; see forming guide
-F27,Rear underside band 1 - forward,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F27_fuselage_src18_face14_axis1_strip1of4.dxf,Preserved outside paper reference; see forming guide
-F28,Rear underside band 2,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F28_fuselage_src18_face14_axis1_strip2of4.dxf,Preserved outside paper reference; see forming guide
-F29,Rear underside band 3,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F29_fuselage_src18_face14_axis1_strip3of4.dxf,Preserved outside paper reference; see forming guide
-F30,Rear underside band 4 - aft,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F30_fuselage_src18_face14_axis1_strip4of4.dxf,Preserved outside paper reference; see forming guide
-F31,Right tail control laminate blank,Knife cut and form,2,5 mm FliteBoard Pro,02_Foam/DXF/F31_tail_control_blank_A.dxf,2 layers laminated for each tail control blank
-F32,Left tail control laminate blank,Knife cut and form,2,5 mm FliteBoard Pro,02_Foam/DXF/F32_tail_control_blank_B.dxf,2 layers laminated for each tail control blank
-F33,Aft lower fuselage - bottom strip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F33_fuselage_src10_face18.dxf,Preserved outside paper reference; see forming guide
+I04,FC Bridge,3D print,1,qualified PETG / PLA+,03_Print/Aircraft_STL/I04_FC_Bridge.stl,Matek 30.5 mm hole grid. Use supplied grommets and 6 mm M3 nylon spacers; four M2 foot bolts. Do not crush grommets. Final assembly fit must pass before release.
+I05-1,Nose Cover Column,3D print,1,qualified PETG / PLA+,03_Print/Aircraft_STL/I05-1_Nose_Cover_Column.stl,Shaped top fits the original hood interior. One long M2 through-bolt per column with washers and locking nut below A13. Keep columns secured to tray for repeatable cover removal.
+I05-2,Nose Cover Column,3D print,1,qualified PETG / PLA+,03_Print/Aircraft_STL/I05-2_Nose_Cover_Column.stl,Shaped top fits the original hood interior. One long M2 through-bolt per column with washers and locking nut below A13. Keep columns secured to tray for repeatable cover removal.
+I05-3,Nose Cover Column,3D print,1,qualified PETG / PLA+,03_Print/Aircraft_STL/I05-3_Nose_Cover_Column.stl,Shaped top fits the original hood interior. One long M2 through-bolt per column with washers and locking nut below A13. Keep columns secured to tray for repeatable cover removal.
+I05-4,Nose Cover Column,3D print,1,qualified PETG / PLA+,03_Print/Aircraft_STL/I05-4_Nose_Cover_Column.stl,Shaped top fits the original hood interior. One long M2 through-bolt per column with washers and locking nut below A13. Keep columns secured to tray for repeatable cover removal.
+I07,FC Service Hatch,3D print,1,original shell print material,03_Print/Aircraft_STL/I07_FC_Service_Hatch.stl,"0.3 mm perimeter gap. Fit internal support tabs at the ends and retain with two replaceable 20 mm reinforced-tape strips across the end seams. Tape hinge/retention is a specified service method, not a glue-shut cover."
+I08-1,Hatch Support Tab,3D print,1,qualified PETG / PLA+,03_Print/Aircraft_STL/I08-1_Hatch_Support_Tab.stl,Bond the half outside the opening to the fairing interior; leave the projecting half free to support the removable lid. Do not bond the lid shut.
+I08-2,Hatch Support Tab,3D print,1,qualified PETG / PLA+,03_Print/Aircraft_STL/I08-2_Hatch_Support_Tab.stl,Bond the half outside the opening to the fairing interior; leave the projecting half free to support the removable lid. Do not bond the lid shut.
+I13,Airspeed Board Carrier,3D print,1,PETG / PLA+,03_Print/Aircraft_STL/I13_Airspeed_Board_Carrier.stl,"ASPD-4525 PCB 20 x20, two M2 screws on verified 15 mm spacing. Slotted stand-offs accommodate the hole-row offset. Ports forward, connector aft. Board clear of tray and nose cover."
+A37,Nose gear mount,3D print,1,qualified PLA+ or PETG,03_Print/Aircraft_STL/A37_Nose_gear_mount.stl,"23.4 x13.0 mm body clearance, original ear seat retained; two slotted M2 through-bolts with washers/locking nuts. 4.2 mm nose-wire bearing bore. Verify actual servo ears and full horn sweep before closing."
+A09,Nose steering bearing,3D print,1,qualified PLA+ or PETG,03_Print/Aircraft_STL/A09_Nose_steering_bearing.stl,"4.2 mm bore for 4 mm spring-wire shaft. Ream after coupon, preserve running clearance; do not force an undersize printed bore."
+I02,Battery Corner Stop,3D print,2,qualified PETG / PLA+,03_Print/Aircraft_STL/I02_Battery_Corner_Stop.stl,"Two corner restraints replace the long side rails. Fit front stop with fingers aft; rotate rear stop 180 degrees. M2 bolts, wide washers and locking nuts in tray slots. Pad pouch contact; do not squeeze cells."
+I17-1L,Battery Hanger,3D print,1,qualified PETG / PLA+,03_Print/Aircraft_STL/I17-1L_Battery_Hanger.stl,M2 foot bolt through A13 at X +/-40. M2 tray bolt at X +/-32 runs from tray underside through the hanger; use 35-37 mm finished length with washer and locking nut. Battery and stop clear the hanger inner face.
+I17-1R,Battery Hanger,3D print,1,qualified PETG / PLA+,03_Print/Aircraft_STL/I17-1R_Battery_Hanger.stl,M2 foot bolt through A13 at X +/-40. M2 tray bolt at X +/-32 runs from tray underside through the hanger; use 35-37 mm finished length with washer and locking nut. Battery and stop clear the hanger inner face.
+I17-2L,Battery Hanger,3D print,1,qualified PETG / PLA+,03_Print/Aircraft_STL/I17-2L_Battery_Hanger.stl,M2 foot bolt through A13 at X +/-40. M2 tray bolt at X +/-32 runs from tray underside through the hanger; use 35-37 mm finished length with washer and locking nut. Battery and stop clear the hanger inner face.
+I17-2R,Battery Hanger,3D print,1,qualified PETG / PLA+,03_Print/Aircraft_STL/I17-2R_Battery_Hanger.stl,M2 foot bolt through A13 at X +/-40. M2 tray bolt at X +/-32 runs from tray underside through the hanger; use 35-37 mm finished length with washer and locking nut. Battery and stop clear the hanger inner face.
+I00,Nose Cover Spacer 6mm,3D print,4,nylon or qualified print material,03_Print/Aircraft_STL/I00_Nose_Cover_Spacer_6mm.stl,One six-mm spacer on each A13 cover anchor supports the matching I05 column. The old 3 mm tray spacers are omitted.
+I10,Nose Receiver Carrier,3D print,1,qualified PETG / PLA+,03_Print/Aircraft_STL/I10_Nose_Receiver_Carrier.stl,"Receiver centre Y=-300. Non-slip insulating pad, two soft straps. Keeps the forward battery-loading route clear. Two antenna supports attach separately to the outer paper; never cut spars for antennas."
+A06,Centre fairing,3D print,1,original shell print material,03_Print/Aircraft_STL/A06_Centre_fairing.stl,"Front battery-access opening X +/-27, Y5..112; existing FC hatch retained. Tubes and A54 former remain intact. Replaces A06."
+I18,Battery Access Hatch,3D print,1,original shell print material,03_Print/Aircraft_STL/I18_Battery_Access_Hatch.stl,"0.3 mm edge clearance, supports at ends. Retain with two replaceable 20 mm reinforced-tape strips. Access the rear battery stop and strap; pack loads from the nose, not through the wing joiners."
+I19-1,Battery Hatch Tab,3D print,1,qualified PETG / PLA+,03_Print/Aircraft_STL/I19-1_Battery_Hatch_Tab.stl,Bond only the half outside the opening. The other half supports the removable lid.
+I19-2,Battery Hatch Tab,3D print,1,qualified PETG / PLA+,03_Print/Aircraft_STL/I19-2_Battery_Hatch_Tab.stl,Bond only the half outside the opening. The other half supports the removable lid.
+I12,Forward ESC Carrier,3D print,1,qualified PETG / PLA+,03_Print/Aircraft_STL/I12_Forward_ESC_Carrier.stl,Four M2 foot bolts to A43; insulating pad and two soft straps. Keep connectors and heat-sink surface exposed. Removable upper rear foam cover provides access.
+I11,Aft Telemetry Carrier,3D print,1,qualified PETG / PLA+,03_Print/Aircraft_STL/I11_Aft_Telemetry_Carrier.stl,Four M2 foot bolts to A43; insulating pad and two soft straps. Keep connectors and heat-sink surface exposed. Removable upper rear foam cover provides access.
+A12,Tail fairing,3D print,1,original shell print material,03_Print/Aircraft_STL/A12_Tail_fairing.stl,"Both MG90S pockets relieved and M2 ear slots provided. ESC is in the forward foam bay, so no tail roof hatch or tail ESC bolt holes are needed."
+A59,Nose shell,3D print,1,PLA+ / nylon fittings,03_Print/Aircraft_STL/A59_Nose_shell.stl,"Original exterior, no roof-mounted equipment and no GPS roof holes. Narrow service slot for adjustable pitot. Four nylon M2 cover fasteners. GPS stays on the internal frame when cover lifts."
+I09,Internal GPS Bridge,3D print,1,PLA+ / nylon fittings,03_Print/Aircraft_STL/I09_Internal_GPS_Bridge.stl,"GPS centre Y=-153, PCB underside Z24 on six-mm printed stand-offs; inside A59. Four M2 nylon feet at X+/-40,Y-163/-143. M9N 26 mm grid, ceramic antenna up, arrow forward, nylon M2 fasteners. Keep bolt tips above Z11 and the battery loading corridor clear. No metallic paint or foil above antenna."
+I14,Slim Pitot Carrier,3D print,1,PLA+ / nonmagnetic fittings,03_Print/Aircraft_STL/I14_Slim_Pitot_Carrier.stl,Same four A13 anchors. Adjustable M2 tab slot Y=-438..-400; choose tab position from actual probe so every pressure port is forward of Y=-489.65. Retain with washer/nyloc and two small anti-rotation ties. No clamp pressure on tube. Pressure tubing stays inside the nose.
+I06-1,Compact Cover Washer,3D print,1,PLA+ / nonmagnetic fittings,03_Print/Aircraft_STL/I06-1_Compact_Cover_Washer.stl,6 mm outside diameter shaped washer seat. Use matching I05 column and nylon M2 cover fastener. Do not substitute the old bulky washer.
+I06-2,Compact Cover Washer,3D print,1,PLA+ / nonmagnetic fittings,03_Print/Aircraft_STL/I06-2_Compact_Cover_Washer.stl,6 mm outside diameter shaped washer seat. Use matching I05 column and nylon M2 cover fastener. Do not substitute the old bulky washer.
+I06-3,Compact Cover Washer,3D print,1,PLA+ / nonmagnetic fittings,03_Print/Aircraft_STL/I06-3_Compact_Cover_Washer.stl,6 mm outside diameter shaped washer seat. Use matching I05 column and nylon M2 cover fastener. Do not substitute the old bulky washer.
+I06-4,Compact Cover Washer,3D print,1,PLA+ / nonmagnetic fittings,03_Print/Aircraft_STL/I06-4_Compact_Cover_Washer.stl,6 mm outside diameter shaped washer seat. Use matching I05 column and nylon M2 cover fastener. Do not substitute the old bulky washer.
+F01,Left inner wing,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F01_Left_inner_wing.dxf,Preserved outside paper reference; see forming guide
+F02,Right inner wing,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F02_Right_inner_wing.dxf,Preserved outside paper reference; see forming guide
+F03,Right outer wing,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F03_Right_outer_wing.dxf,Preserved outside paper reference; see forming guide
+F04,Left outer wing,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F04_Left_outer_wing.dxf,Preserved outside paper reference; see forming guide
+F05,Right fixed tail - main,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F05_Right_fixed_tail_main.dxf,Preserved outside paper reference; see forming guide
+F06,Left fixed tail - main,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F06_Left_fixed_tail_main.dxf,Preserved outside paper reference; see forming guide
+F07,Right fixed tail - root collar,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F07_Right_fixed_tail_root_collar.dxf,Preserved outside paper reference; see forming guide
+F08,Left fixed tail - root collar,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F08_Left_fixed_tail_root_collar.dxf,Preserved outside paper reference; see forming guide
+F09,Forward lower fuselage - left curve,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F09_Forward_lower_fuselage_left_curve.dxf,Preserved outside paper reference; see forming guide
+F10,Forward lower fuselage - right curve,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F10_Forward_lower_fuselage_right_curve.dxf,Preserved outside paper reference; see forming guide
+F11,Middle lower fuselage - right curve,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F11_Middle_lower_fuselage_right_curve.dxf,Preserved outside paper reference; see forming guide
+F12,Middle lower fuselage - left curve,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F12_Middle_lower_fuselage_left_curve.dxf,Preserved outside paper reference; see forming guide
+F13,Forward lower fuselage - left lip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F13_Forward_lower_fuselage_left_lip.dxf,Preserved outside paper reference; see forming guide
+F14,Forward lower fuselage - bottom strip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F14_Forward_lower_fuselage_bottom_strip.dxf,Preserved outside paper reference; see forming guide
+F15,Forward lower fuselage - right lip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F15_Forward_lower_fuselage_right_lip.dxf,Preserved outside paper reference; see forming guide
+F16,Middle lower fuselage - left lip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F16_Middle_lower_fuselage_left_lip.dxf,Preserved outside paper reference; see forming guide
+F17,Middle lower fuselage - right lip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F17_Middle_lower_fuselage_right_lip.dxf,Preserved outside paper reference; see forming guide
+F18,Middle lower fuselage - bottom strip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F18_Middle_lower_fuselage_bottom_strip.dxf,Preserved outside paper reference; see forming guide
+F19,Aft lower fuselage - left lip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F19_Aft_lower_fuselage_left_lip.dxf,Preserved outside paper reference; see forming guide
+F20,Aft lower fuselage - left curve,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F20_Aft_lower_fuselage_left_curve.dxf,Preserved outside paper reference; see forming guide
+F21,Aft lower fuselage - right curve,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F21_Aft_lower_fuselage_right_curve.dxf,Preserved outside paper reference; see forming guide
+F22,Aft lower fuselage - right lip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F22_Aft_lower_fuselage_right_lip.dxf,Preserved outside paper reference; see forming guide
+F23,Aft upper fuselage - left,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F23_Aft_upper_fuselage_left.dxf,Preserved outside paper reference; see forming guide
+F24,Aft upper fuselage - right,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F24_Aft_upper_fuselage_right.dxf,Preserved outside paper reference; see forming guide
+F25,Forward upper fuselage - right,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F25_Forward_upper_fuselage_right.dxf,Preserved outside paper reference; see forming guide
+F26,Forward upper fuselage - left,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F26_Forward_upper_fuselage_left.dxf,Preserved outside paper reference; see forming guide
+F27,Rear underside band 1 - forward,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F27_Rear_underside_band_1_forward.dxf,Preserved outside paper reference; see forming guide
+F28,Rear underside band 2,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F28_Rear_underside_band_2.dxf,Preserved outside paper reference; see forming guide
+F29,Rear underside band 3,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F29_Rear_underside_band_3.dxf,Preserved outside paper reference; see forming guide
+F30,Rear underside band 4 - aft,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F30_Rear_underside_band_4_aft.dxf,Preserved outside paper reference; see forming guide
+F31,Right tail control laminate blank,Knife cut and form,2,5 mm FliteBoard Pro,02_Foam/DXF/F31_Right_tail_control_laminate_blank.dxf,2 layers laminated for each tail control blank
+F32,Left tail control laminate blank,Knife cut and form,2,5 mm FliteBoard Pro,02_Foam/DXF/F32_Left_tail_control_laminate_blank.dxf,2 layers laminated for each tail control blank
+F33,Aft lower fuselage - bottom strip,Knife cut and form,1,5 mm FliteBoard Pro,02_Foam/DXF/F33_Aft_lower_fuselage_bottom_strip.dxf,Preserved outside paper reference; see forming guide
 T01,T01 front joiner,Purchase / cut tube,1,Carbon OD8/ID6 mm,04_Hardware/Tube_Cutting_Schedule.csv,Length 406 mm; matched slip fit required
 T02,T02 right front sleeve,Purchase / cut tube,1,Carbon OD10/ID8.2 mm,04_Hardware/Tube_Cutting_Schedule.csv,Length 199.35 mm; matched slip fit required
 T03,T03 left front sleeve,Purchase / cut tube,1,Carbon OD10/ID8.2 mm,04_Hardware/Tube_Cutting_Schedule.csv,Length 199.35 mm; matched slip fit required
 T04,T04 rear joiner,Purchase / cut tube,1,Carbon OD8/ID6 mm,04_Hardware/Tube_Cutting_Schedule.csv,Length 390 mm; matched slip fit required
-H01,Main formed landing gear,Hardware,1,12.7 x3.175 mm suitable formed metal,04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
-H02,Nose wire extended,Hardware,1,3 mm spring steel wire,04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
-H03,Wheels,Hardware,3,"50.8 mm diameter,3 mm bore",04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
-H04,Servos,Hardware,5,9 g metal gear; actual model fit/voltage check,04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
 H05,Control horns,Hardware,4,Purchased lightweight RC horns,04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
-H06,Nose steering arm,Hardware,1,3 mm clamping arm,04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
 H07,Pushrod and clevis sets,Hardware,5,Matched RC linkage,04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
 H08,Aileron pins,Hardware,2,3 mm smooth rod; start285 mm,04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
-H09,Fastener pack,Hardware,1,See airframe guide page3 and hardware instructions,04_Hardware/README.md,Select final fastener/rod length at dry assembly where stated
+G01,Main landing gear,Hardware,1,20 x4 mm 6061-T6 aluminium,04_Hardware/G01_Main_Gear_20x4_6061T6.step,"Inside bend radius 12 mm. Qualify the bend coupon/K factor, then form and drill to the STEP. No plastic substitute."
+G02,Steerable nose gear,Hardware,1,"4 mm spring wire, shop-qualified forming",04_Hardware/G02_Nose_Gear_4mm_Spring_Wire.step,Wire axle extends to X46. Fit 4 mm steering arm and collars; preserve source steering axis.
+W01,Lightweight wheels,Hardware,3,"76.2 mm OD, 22 mm nominal hub width, 4 mm bore",04_Hardware/README.md,Match the reference envelope. Adapt axle spacers to measured hubs; wheels must rotate freely.
+H10,Electronics carrier fasteners,Hardware,20,"M2 x16 starting length, washers and locking nuts",04_Hardware/README.md,"Four each for FC, RX, ESC, SiK and pitot. Airspeed carrier adds four more foot fasteners; see H11."
+H11,Airspeed carrier fasteners,Hardware,6,Four M2 x16 foot bolts + two M2 PCB screws,04_Hardware/README.md,Use insulating washers; select PCB screw length to the stand-off stack.
+H12,Battery hanger fasteners,Hardware,8,Four M2 x16 foot bolts + four M2 finished 35-37 mm tray bolts,04_Hardware/README.md,Washers and locking nuts. Trim surplus thread; recheck tube and pack clearance.
+H13,Battery stop fasteners,Hardware,4,"M2 x12 starting length, 4-5 mm OD washers, locking nuts",04_Hardware/README.md,Use a ball-end hex driver where a tube blocks straight access. Set stops during dry assembly. Keep nuts accessible with long-nose pliers before closing skins.
+H14,Nose cover fasteners,Hardware,4,"Nonmagnetic M2 brass/nylon: two x80 and two x60 starting lengths, washers/locking nuts",04_Hardware/README.md,Trim to actual stack. Use matching curved washer seats and columns; do not crush the shell.
+H15,Internal GPS fasteners,Hardware,8,Four M2 x25 nylon bridge bolts + four M2 x14 nylon PCB bolts; washers and nuts,04_Hardware/README.md,Bridge feet through A13; PCB on six-mm printed stand-offs. Trim PCB bolt tips above Z11 to clear battery loading. Verify actual stack and component clearance.
+H16,FC stand-offs,Hardware,4,"M3 nylon 6 mm spacers, screws and supplied grommets",04_Hardware/README.md,"30.5 mm grid; grommets remain resilient, not crushed."
+H17,Servo mounting fasteners,Hardware,10,"M2 through-bolts, broad washers and locking nuts",04_Hardware/README.md,Two per MG90S. Slots accommodate the ear pattern; choose screw lengths after measuring the actual stack.
+H18,Cable and sensor installation,Hardware,1 set,"Soft straps, tie bases, grommets, extension leads, heat-shrink, XPS-safe adhesive",04_Hardware/README.md,"Include a labelled shared-I2C harness, two pitot tubes, wing disconnects and independent antenna support."
+H20,Wing root retainers,Hardware,6,M2 x20 starting length; 12 washers and 6 locking nuts,04_Hardware/README.md,Three per wing; verify the final stack and linkage clearance.
+H21,Nose bypass fasteners,Hardware,4,Two M2 x40-45 inner bolts and two M2 x16 outer bolts; washers and locking nuts,04_Hardware/README.md,"At Y -320, -302, -282, -264, Z -37.964. Preserve the four-mm shaft passage."
+H22,Nose bearing fasteners,Hardware,4,M3 x16-20 starting length; washers and locking nuts,04_Hardware/README.md,Bearing to A37; no screw may touch the rotating shaft.
+H23,Motor screws,Hardware,4,M3 with washers; length from measured thread depth,04_Hardware/README.md,Through 5 mm A26; avoid the motor windings.
+H24,Control horn fasteners,Hardware,8,"M2 through-bolts, washers, locking nuts and crush-resistant spacer sleeves",04_Hardware/README.md,Two per horn. Drill backing blanks to the actual horn template; finish spacer lengths to the moving-surface thickness.
+E01,Flight controller,Electronics,1,Matek F405-WING V2,../Build Guide/Electronics_Build_Guide.pdf,Use the labelled connector map and physical checks in the Electronics Team guide.
+E02,GNSS and compass,Electronics,1,Matek M9N-5883,../Build Guide/Electronics_Build_Guide.pdf,Use the labelled connector map and physical checks in the Electronics Team guide.
+E03,Airspeed kit,Electronics,1,Matek ASPD-4525 with pitot and two tubes,../Build Guide/Electronics_Build_Guide.pdf,Use the labelled connector map and physical checks in the Electronics Team guide.
+E04,Receiver,Electronics,1,FlySky FS-iA10B,../Build Guide/Electronics_Build_Guide.pdf,Use the labelled connector map and physical checks in the Electronics Team guide.
+E05,ESC,Electronics,1,"ReadytoSky 40 A, 2-4S, 5 V /3 A BEC",../Build Guide/Electronics_Build_Guide.pdf,Use the labelled connector map and physical checks in the Electronics Team guide.
+E06,Flight battery,Electronics,1,"GenX 4S 5200 mAh 40C; 138 x43 x33 mm, 512 g",../Build Guide/Electronics_Build_Guide.pdf,Use the labelled connector map and physical checks in the Electronics Team guide.
+E07,Motor,Electronics,1,Emax ECO II 2807 1300 KV,../Build Guide/Electronics_Build_Guide.pdf,Use the labelled connector map and physical checks in the Electronics Team guide.
+E08,Propeller,Electronics,1,"Gemfan 9045CL, 9-inch three-blade, selected handedness",../Build Guide/Electronics_Build_Guide.pdf,Use the labelled connector map and physical checks in the Electronics Team guide.
+E09,Telemetry pair,Electronics,1,"SiK 433 MHz, user-specified 100 mW; only air radio flies",../Build Guide/Electronics_Build_Guide.pdf,Use the labelled connector map and physical checks in the Electronics Team guide.
+E10,Transmitter,Electronics,1,FlySky FS-i6X; ground equipment,../Build Guide/Electronics_Build_Guide.pdf,Use the labelled connector map and physical checks in the Electronics Team guide.
+E11,Servos,Electronics,5,TowerPro MG90S; nominal 13.4 g each,../Build Guide/Electronics_Build_Guide.pdf,Use the labelled connector map and physical checks in the Electronics Team guide.
+H01,Main gear bolts,Hardware,2,"M3 x20 starting length, broad washers and locking nuts",04_Hardware/README.md,"Through A47, G03 and G01. Select finished length for full nut engagement and two exposed threads."
+H02,Main wheel axles,Hardware,2,"M4 x40 starting length, smooth shank, spacers and locking nuts",04_Hardware/README.md,Do not clamp the hubs. Align wheels on the supplied reference axle centres.
+H03,Nose arm and collars,Hardware,1 arm + 4 collars,4 mm clamp steering arm and 4 mm shaft collars,04_Hardware/README.md,Two collars retain the nose wheel; two bearing/shaft retainers as required by the arm stack. Check full clamp engagement.
+H04,Battery straps,Hardware,2,"20 mm wide, at least 250 mm long, non-stretch hook-and-loop",04_Hardware/README.md,Wrap both battery and tray. Add 1 mm non-slip pad and the two corner stops.
+H25,Pitot tab fastener,Hardware,1,"M2 x10 starting length, two washers and locking nut; two small anti-rotation ties",04_Hardware/README.md,Select final bolt length to the actual tab. Retain through the adjustable I14 slot without crushing the pressure tube.

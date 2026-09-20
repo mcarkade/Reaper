@@ -1,11 +1,9 @@
-# Reference drawings
+# Reference PDFs
 
-These documents are also included in the [complete guide](../Complete_Build_Guide.pdf). Use the separate copies when working on a specific assembly.
+[Parts list](Detailed_Parts_List.pdf) · [Hardware](Hardware_and_Forming_Notes.pdf) · [Checks](Verification_Summary.pdf)
 
-- [Parts list](Detailed_Parts_List.pdf)
-- [Plywood profile atlas](Manufacturing_Profile_Atlas.pdf) and [sheet overview](Shop_Sheet_Overview.pdf)
-- [Foam assembly map](Foam_Assembly_Map.pdf), [forming instructions](Foam_Forming_Instructions.pdf), [pattern overview](Foam_Pattern_Overview.pdf) and [sheet layouts](Foam_Sheet_Layouts.pdf)
-- [Hardware notes](Hardware_and_Forming_Notes.pdf) and [motor mount pattern](Motor_Mount_Pattern_Comparison.pdf)
-- [Checks summary](Verification_Summary.pdf)
+[Foam panel map](Foam_Assembly_Map.pdf) · [Foam forming](Foam_Forming_Instructions.pdf) · [Foam pattern overview](Foam_Pattern_Overview.pdf)
 
-These pages are reading references. Use the [actual-size templates](../../Manufacturing/Print_Templates/README.md) for cutting.
+[Plywood profiles](Manufacturing_Profile_Atlas.pdf) · [Plywood sheet overview](Shop_Sheet_Overview.pdf) · [Foam sheet layouts](Foam_Sheet_Layouts.pdf) · [Motor mount](Motor_Mount_Pattern.pdf)
+
+These are reading references. Actual-size cutting PDFs are in Manufacturing /Print_Templates.

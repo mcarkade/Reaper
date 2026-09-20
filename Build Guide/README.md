@@ -1,14 +1,13 @@
 # Build guides
 
-| Guide | Contents |
+**[Complete illustrated guide](Complete_Build_Guide.pdf)** is the primary manual. Follow it in order or use its bookmarks. The files below are standalone copies of its chapters; you do not need to read both versions.
+
+| Task | PDF |
 |---|---|
-| [Complete build guide](Complete_Build_Guide.pdf) | All illustrated instructions in one bookmarked PDF |
-| [Manufacturing Team guide](01_Airframe_Manufacturing_and_Assembly.pdf) | Materials, fabrication and body assembly |
-| [Electronics Team guide](Electronics_Build_Guide.pdf) | Connections, placement, calibration and balance |
-| [Build record](Build_Record.csv) | Record measurements and test results |
+| Build the body | [Manufacturing Team guide](01_Airframe_Manufacturing_and_Assembly.pdf) |
+| Install and configure electronics | [Electronics Team guide](Electronics_Build_Guide.pdf) |
+| Find a specific reference | [Reference index](Reference/README.md) |
 
-Start with your team's guide. Coordinate battery access and cable routes before closing the body. The Manufacturing Team should leave access open and record airframe mass before transfer to the Electronics Team.
+[Build record](Build_Record.csv) · [Mass and balance worksheet](Mass_Balance_Worksheet.csv)
 
-[Reference drawings](Reference/README.md) are available separately. [Cutting templates](../Manufacturing/Print_Templates/README.md) are in Manufacturing.
-
-To save a PDF from its GitHub preview, select **Download raw file**.
+The mass worksheet contains stated estimates. Replace them with measured masses before using the result for balance. Cutting templates are in [Manufacturing](../Manufacturing/Print_Templates/README.md), not in the reading manual.

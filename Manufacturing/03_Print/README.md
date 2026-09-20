@@ -1,9 +1,11 @@
 # 3D printing
 
-[Aircraft STLs](Aircraft_STL) · [Fit coupon](Test_Coupon) · [Positioned STEP](Positioned_STEP)
+Print **42 installed pieces from 38 files**, using the quantities below. Print the process coupon first.
 
-Use Aircraft_STL only for installed printed parts, one each of 11 files. The separate Test_Coupon is not installed. STL units are millimetres; use 100% scale.
+[Dimensions and quantities](Print_Dimensions_and_Checks.csv) · [Aircraft STLs](Aircraft_STL/README.md) · [Fit coupon](Test_Coupon/README.md)
 
-Positioned_STEP contains assembly coordinates. STLs have been translated to positive coordinates for the slicer without scaling or shape changes. Match dimensions against Print_Dimensions_and_Checks.csv. The shop selects orientation and supports and qualifies material fit. Read the airframe guide, page 10. Do not print reference wheels, carbon tubes, metal gear, servo models or the entire assembly.
+Files are millimetres at 100%. Long parts may require a larger printer. Use the guide's starting settings, choose load-aware orientation and inspect the actual print. PLA+ is not LW-PLA; record slicer and finished masses.
 
-LW-PLA is preferred for shell and aileron mass. Available HS PLA+ requires a slicer mass estimate and actual weighing. Functional roots, bearing and gear mount require material, temperature and layer-bond checks. Initial settings are not a structural strength rating. Preserve hinge bores and run fit coupons before production. Do not split long parts arbitrarily to fit a small bed.
+Matching [positioned STEP parts](Positioned_STEP/README.md) show assembly location. The STL origin is translated onto the build plate; do not infer installed position from its origin.
+
+[Per-part filament estimate](Print_Material_Estimate.csv): about 1.30 kg including automatic supports, or 1.49 kg with 15% waste allowance. Budget two 1 kg spools. The shop must reslice for its printer and chosen orientations.

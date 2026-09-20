@@ -1,0 +1,114 @@
+part,mass_g,y_mm,from_nose_mm,basis,category
+A01,2.6288462282204734,101.39917244992469,541.0491724499246,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A04,6.3756392194648654,387.14999699014294,826.799996990143,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A05,29.788014806042032,81.80574802582282,521.4557480258228,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A07,33.925396695967166,120.20537278485634,559.8553727848563,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A10,1.6248176184978518,142.42026506934724,582.0702650693472,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A13,29.278450198822338,-153.84740301469756,285.80259698530244,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A16,6.961231708009312,236.15000000000026,675.8000000000002,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A18,5.656553173476612,459.2499999947917,898.8999999947916,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A24,6.593541572846088,97.86004281551453,537.5100428155145,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A25,5.462164827165008,127.5000002660914,567.1500002660914,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A26,3.4398379366716223,580.1500000063502,1019.8000000063502,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A34,6.935313568755712,-127.49999999991233,312.15000000008763,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A35,9.641088538551859,79.77805647712775,519.4280564771277,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A43,26.131018733912978,339.5780157993001,779.2280157993,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A44,3.428541332009322,103.81111827942978,543.4611182794298,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A47,3.4863641065440585,136.34999999999894,575.9999999999989,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A48,5.462164827165009,145.19999999999933,584.8499999999993,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A53,2.6417128214855095,145.2087135125359,584.8587135125358,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A54,6.961231708009137,-2.4999999999999556,437.15000000000003,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A62F,2.9524736242922027,-360.46589712749966,79.18410287250032,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A62R,18.392599667091996,372.2144021270261,811.8644021270261,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+A63,2.076785401780721,-292.5,147.14999999999998,Plywood 0.55 g/cm3 assumed; weigh actual stock,plywood
+I01,17.697231241068433,-34.28571428571427,405.3642857142857,Plywood 0.55 g/cm3 assumed,plywood
+G03,2.5144598252624726,136.3500000000002,576.0000000000002,Plywood 0.55 g/cm3 assumed,plywood
+H05B,2.749999999999999,300,739.65,Plywood 0.55 g/cm3 assumed,plywood
+A06,65.43421691212858,122.68919299843955,562.3391929984396,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+A09,2.2886832089645384,-293.65000003074556,145.99999996925442,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+A11,57.2908492917566,160.1969250122187,599.8469250122187,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+A12,122.14493204660357,457.9950816184593,897.6450816184592,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+A21,57.32763620673134,160.29538352657522,599.9453835265751,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+A23,28.055976896107676,131.9018684512317,571.5518684512317,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+A36,28.09566684583769,131.8984032021084,571.5484032021084,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+A37,16.861704308233787,-285.24124306057655,154.40875693942343,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+A45,28.249956608307972,97.67221854799654,537.3222185479965,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+A55,28.245704178670895,97.67456998159135,537.3245699815914,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+A59,150.15431134862956,-313.57165988502135,126.07834011497863,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I04_FC_Bridge,15.856262585234504,170.00000000000009,609.6500000000001,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I05_1_Nose_Cover_Column,1.7646260829240137,-299.903374111625,139.74662588837498,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I05_2_Nose_Cover_Column,1.0396355795918515,-169.82711577138744,269.82288422861257,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I05_3_Nose_Cover_Column,1.763395721593772,-299.8935597401875,139.75644025981245,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I05_4_Nose_Cover_Column,1.0398209748703529,-169.95891236954992,269.69108763045006,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I07_FC_Service_Hatch,16.760054904486726,185.0388534836086,624.6888534836086,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I08_1_Hatch_Support_Tab,1.5183749832024875,131.99999999999997,571.65,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I08_2_Hatch_Support_Tab,2.501752431148025,219.39468520090583,659.0446852009059,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I13_Airspeed_Board_Carrier,7.828279247777582,-361.40707964601694,78.24292035398304,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I02_Battery_Corner_Stop,9.893772519428307,-40,399.65,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I17_1_L_Battery_Hanger,1.5885884640786079,-115.0,324.65,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I17_1_R_Battery_Hanger,1.5889239114237375,-114.99999999999997,324.65,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I17_2_L_Battery_Hanger,1.5885884640786079,65.0,504.65,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I17_2_R_Battery_Hanger,1.5889239114237375,65.0,504.65,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I00_Nose_Cover_Spacer_6mm,1.007078009320479,-235,204.64999999999998,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I10_Nose_Receiver_Carrier,13.892332611126397,-299.9999999999984,139.65000000000157,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I18_Battery_Access_Hatch,18.55043607802602,47.52173913043479,487.1717391304348,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I19_1_Battery_Hatch_Tab,2.761359685899723,5.6724137931034475,445.3224137931034,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I19_2_Battery_Hatch_Tab,1.0346060466760023,111.99999999999999,551.65,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I12_Forward_ESC_Carrier,12.287738354670154,280.00000000000114,719.6500000000011,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I11_Aft_Telemetry_Carrier,13.141143929621153,352.00000000000057,791.6500000000005,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I09_Internal_GPS_Bridge,9.617902227402249,-153.0,286.65,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I14_Slim_Pitot_Carrier,4.580211292968455,-415.86420408095995,23.785795919040027,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I06_1_Compact_Cover_Washer,0.1830413311176855,-299.89575951228744,139.75424048771254,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I06_2_Compact_Cover_Washer,0.15649389639515593,-169.84566022430002,269.8043397757,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I06_3_Compact_Cover_Washer,0.18337215551105404,-299.62681687971246,140.0231831202875,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+I06_4_Compact_Cover_Washer,0.15648751373917136,-169.82994921831244,269.82005078168754,"Nominal sliced object extrusion only, supports excluded; weigh finished part",print
+F01,66.82358960084677,118.47834652802653,558.1283465280266,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F02,66.82353937525917,118.47834652802666,558.1283465280267,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F03,36.68068377400213,118.52277596610367,558.1727759661037,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F04,36.680690647910936,118.5227758750363,558.1727758750362,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F05,15.727493846808395,469.49922147854465,909.1492214785446,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F06,15.727442643886349,469.49922147854465,909.1492214785446,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F07,5.031675751443336,443.5996829891045,883.2496829891045,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F08,5.031676970711653,443.5996829891045,883.2496829891045,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F09,5.053542911968167,-232.5,207.14999999999998,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F10,5.053542911969798,-232.49999999999994,207.15000000000003,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F11,9.087749241452027,54.325000000000045,493.975,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F12,9.087749241449094,54.324999999999946,493.9749999999999,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F13,1.1843307127504576,-232.50000000000006,207.14999999999992,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F14,0.43280936495499156,-232.5,207.14999999999998,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F15,1.184527534897663,-232.49999999999994,207.15000000000003,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F16,2.1297732549046677,54.324999999999946,493.9749999999999,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F17,2.130127198731728,54.325000000000045,493.975,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F18,0.778317914099057,54.32499999999999,493.97499999999997,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F19,0.8771675886279041,314.14999831631496,753.7999983163149,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F20,3.5805081115489346,314.1499977651714,753.7999977651714,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F21,3.727662789894998,314.1500000529751,753.8000000529751,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F22,0.8844904883194499,314.14999831631496,753.7999983163149,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F23,4.690111884201558,311.64999831620537,751.2999983162053,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F24,4.803000916760593,311.65000970808273,751.3000097080827,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F25,4.076969654233002,-64.99999999999989,374.6500000000001,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F26,4.07688861412718,-64.99999999999993,374.65000000000003,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F27,3.141765263639181,416.2294744666861,855.8794744666861,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F28,2.944437008208698,469.25211185898576,908.9021118589858,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F29,2.6207819892273236,522.0021127031805,961.6521127031805,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F30,2.1699477682018666,574.4794769972148,1014.1294769972147,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F31,7.420997440367878,518.6005455778587,958.2505455778587,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F32,7.420997138068354,518.6005455778549,958.2505455778548,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+F33,0.3067435455438726,314.1499983163149,753.7999983163149,400 GSM unpeeled board; panel midpoint used for moment estimate,foam
+G01,119.98852291402692,136.34999999999928,575.9999999999993,Nominal metal density and CAD volume,metal
+G02,24.11069957424948,-293.6499999999998,146.00000000000017,Nominal metal density and CAD volume,metal
+Battery,512,-40,399.65,User measured specification,battery
+Motor,47.6,596,1035.65,Manufacturer mass; leads separate,hardware
+Propeller and nut,25,620,1059.65,Explicit provisional allowance; weigh the selected 9-inch three-blade and nut,hardware
+Five MG90S,67,147.77308,587.42308,"13.4 g each, mean installed Y",hardware
+F405-WING V2,25,170,609.65,Manufacturer board mass,hardware
+M9N-5883,14.5,-153,286.65,Manufacturer board mass,hardware
+ASPD and pitot,15,-410,29.649999999999977,"Allowance, weigh kit",hardware
+SiK air radio,12,352,791.65,Retailer bare air-board specification,hardware
+Receiver,18,-300,139.64999999999998,"Allowance, weigh receiver",hardware
+ESC,40,280,719.65,"Allowance, weigh ESC",hardware
+Wheels,75,-7,432.65,25 g per wheel allowance; actual supplier unknown,hardware
+Tubes and retainers,70,80,519.65,"Allowance, weigh tube schedule",hardware
+Wiring and connectors,80,110,549.65,"Allowance, weigh installed harness",hardware
+Adhesive and tape,90,100,539.65,"Allowance, track used adhesive",hardware
+Fasteners and linkages,90,90,529.65,"Allowance, weigh actual hardware",hardware

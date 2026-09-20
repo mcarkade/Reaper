@@ -1,3 +1,5 @@
-# Aircraft STL
+# Aircraft print files
 
-Print one of each aircraft STL in millimetres at 100%. Read the printing instructions and qualify fit using the separate coupon first.
+Follow [dimensions and quantities](../Print_Dimensions_and_Checks.csv). A-series files are airframe parts; I-series files are installation parts. Each file is required only in its listed quantity.
+
+The Manufacturing Team guide identifies the mounts, spacer/column sets, hatches and hangers. Use millimetres and 100% scale. The printer coupon is separate.

@@ -8,4 +8,4 @@ Files are millimetres at 100%. Long parts may require a larger printer. Use the 
 
 Matching [positioned STEP parts](Positioned_STEP/README.md) show assembly location. The STL origin is translated onto the build plate; do not infer installed position from its origin.
 
-[Per-part filament estimate](Print_Material_Estimate.csv): about 1.30 kg including automatic supports, or 1.49 kg with 15% waste allowance. Budget two 1 kg spools. The shop must reslice for its printer and chosen orientations.
+[Per-part filament estimate](Print_Material_Estimate.csv): about 1.30 kg including automatic supports, or 1.50 kg with 15% waste allowance. Budget two 1 kg spools. The shop must reslice for its printer and chosen orientations.

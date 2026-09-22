@@ -1,5 +1,7 @@
 # 3D printing
 
+**STOP: the 42-piece list below is the old Rev2 design, not the current order. Print only [A59 Nose N1](../Nose_Print_N1/README.md), quantity one.** Its separate filename avoids confusion with the old notched A59. Remaining print parts and mounts await simplification.
+
 Print **42 installed pieces from 38 files**, using the quantities below. Print the process coupon first.
 
 [Dimensions and quantities](Print_Dimensions_and_Checks.csv) · [Aircraft STLs](Aircraft_STL/README.md) · [Fit coupon](Test_Coupon/README.md)

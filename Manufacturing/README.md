@@ -1,6 +1,8 @@
 # Manufacturing Team
 
-**[Download the complete ZIP](https://github.com/mcarkade/Reaper/releases/latest/download/MQ9_Manufacturing_Rev2.zip)** · **[Read the assembly guide](../Build%20Guide/01_Airframe_Manufacturing_and_Assembly.pdf)**
+**Current order: [N1 nose only](Nose_Print_N1/README.md).** The old print set and landing gear are on hold. The intended new aircraft has no landing gear. Remaining wood, foam and equipment installation details await redesign; retain existing templates as references until the reuse list is complete.
+
+**[Historical Rev2.3 ZIP](https://github.com/mcarkade/Reaper/releases/download/rev2.3/MQ9_Manufacturing_Rev2.zip)** · **[Read the reference assembly guide](../Build%20Guide/01_Airframe_Manufacturing_and_Assembly.pdf)**
 
 1. Measure stock and run the plywood, printer and foam coupons.
 2. Fabricate the listed quantities. Dry-fit the frame, both wings and actual hardware.

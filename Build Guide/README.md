@@ -1,6 +1,8 @@
 # Build guides
 
-**[Complete illustrated guide](Complete_Build_Guide.pdf)** is the primary manual. Follow it in order or use its bookmarks. The files below are standalone copies of its chapters; you do not need to read both versions.
+**N1 nose is the only current printing order.** Use the [N1 nose guide](../Manufacturing/Nose_Print_N1/Nose_N1_Print_Guide.pdf) and [STL](../Manufacturing/Nose_Print_N1/A59_Nose_N1_mm.stl). Landing gear is removed from the intended design. The remaining aircraft, mass/CG, mounts and full guides await redesign. The PDFs below carry a notice and retain Rev2 content for reference; do not follow their old nose bolts, pitot notch or landing-gear instructions.
+
+**[Complete illustrated guide](Complete_Build_Guide.pdf)** is the historical Rev2 manual. The files below are standalone copies of its chapters.
 
 | Task | PDF |
 |---|---|

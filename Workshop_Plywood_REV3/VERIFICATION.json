@@ -1,0 +1,158 @@
+{
+  "revision": "PLY_REV3",
+  "nominal_thickness_mm": 6,
+  "actual_stock_measurement_required": true,
+  "sheet_mm": [
+    2438.4,
+    1219.2
+  ],
+  "aircraft_parts": 32,
+  "test_pieces": 5,
+  "removed_aircraft_part": "FMGB",
+  "changed_aircraft_parts": [
+    "FMF",
+    "FMT"
+  ],
+  "unchanged_aircraft_parts": 30,
+  "cut_geometry_bounds_mm": [
+    10.0,
+    10.0,
+    986.4851510807991,
+    488.4063118592261
+  ],
+  "minimum_gap_mm": 5.999999999999995,
+  "all_closed_loops_match_sources": true,
+  "microloops_in_output": 0,
+  "sources": {
+    "FLR": {
+      "source_dxf_sha256": "84ea46b538f3942b3d6d7c974bbe3e2d15167151f4a296efeebe804c6872a3f7",
+      "changed": false
+    },
+    "FLL": {
+      "source_dxf_sha256": "04cfd73441426faf6e1a0dca54e5f1f4cf1a561d7e07185641a160484e973734",
+      "changed": false
+    },
+    "FK": {
+      "source_dxf_sha256": "92cdce51bd1849eb04756228a237356c36573167a7ffc971c4cfa59c356e6133",
+      "changed": false
+    },
+    "FX0L": {
+      "source_dxf_sha256": "6b9d0dc48b0da0ca42117ba4f0d07700c4c3c5654309aeab5bf0f6a362553d90",
+      "changed": false
+    },
+    "FX0R": {
+      "source_dxf_sha256": "e24fdd19dd927b3ee8eb033ef6459a093c056cdc0c32b25376d194a1c9655231",
+      "changed": false
+    },
+    "FX1": {
+      "source_dxf_sha256": "b8e2e4e52531a3d4319d2ae6140e27480a19056bac289a41c7ee40ae76768f66",
+      "changed": false
+    },
+    "FX2": {
+      "source_dxf_sha256": "00f34f7913b91b09be98fe5ddeb9fa7e6b25ba2956002ce92d3fb6c9e591eca4",
+      "changed": false
+    },
+    "FX3": {
+      "source_dxf_sha256": "db22ef662e43adf54943b0609b1319ecbeede15f2469992dcbe7b7ba6ae72049",
+      "changed": false
+    },
+    "FBT": {
+      "source_dxf_sha256": "d3479c591a13f1e797b6ef523fffb6bf1ca7d9d7fff204b95af5db478c188737",
+      "changed": false
+    },
+    "FBWR": {
+      "source_dxf_sha256": "28440dc642b1412bfc324bac7a8ad332e45130acfcfcd196c4fa31e45415c976",
+      "changed": false
+    },
+    "FBWL": {
+      "source_dxf_sha256": "78ef7d4dc33287226289e41a390535611c8ce027a6aa87875fabdcb4eed73853",
+      "changed": false
+    },
+    "FBC": {
+      "source_dxf_sha256": "7d4d7d2e3df5a1ee407576fee917582cd504069a5e7ffaa4e925d7c50f30e0ed",
+      "changed": false
+    },
+    "FMF": {
+      "source_dxf_sha256": "37cc7d6845f4cca869ca2b12fdce9a94bb17290ae93b7470f5533a31c2ac1405",
+      "changed": true
+    },
+    "FMT": {
+      "source_dxf_sha256": "ecef0a3a243567e4c23adcaa4b2eeb7e8c8989afd6be1d5675d1d896fb4f76f4",
+      "changed": true
+    },
+    "FMGR": {
+      "source_dxf_sha256": "5f28afee15221b1d152ee49e3e4edd3213c9936b2ba49d5f19f6fffa01e76787",
+      "changed": false
+    },
+    "FMGL": {
+      "source_dxf_sha256": "868838a713f6e50872e4e4b1e1205030095110f5bc81609194b61c6666d295ee",
+      "changed": false
+    },
+    "WRRI": {
+      "source_dxf_sha256": "a109ee57e72aa6b5a8213291ffc8eada4b4a0cd03f26abfd84f5efda0b5a6615",
+      "changed": false
+    },
+    "JR1": {
+      "source_dxf_sha256": "099c02400c480aabe8151912f9bca8bc10e0ccfd2144fb1720b6e6bbe3684d49",
+      "changed": false
+    },
+    "JR2": {
+      "source_dxf_sha256": "94d904ba44db012bedd7eaa32e67c451a09831b30fb601502bfc4eedc633e057",
+      "changed": false
+    },
+    "JR3": {
+      "source_dxf_sha256": "ea731251592959e90cc1a9a901b5dc28878f75d460ac70a99a1145a8a5d20a9b",
+      "changed": false
+    },
+    "WLRI": {
+      "source_dxf_sha256": "bc6c55e92f4f86d521759e7c7627d464962e2c41e283d08a360185c922fdf30d",
+      "changed": false
+    },
+    "JL1": {
+      "source_dxf_sha256": "952d934325bd5e4b90bfa0a2cbfc74c2311f2ee6481a887ade658c0154f2b4bf",
+      "changed": false
+    },
+    "JL2": {
+      "source_dxf_sha256": "c2858ce94bb16788d21afb4f64f774526c9cd300d0b3ad6b61fdf1f918dd3bec",
+      "changed": false
+    },
+    "JL3": {
+      "source_dxf_sha256": "08b7a5192b262b55bb5da9dd085351a61fda8d9d5859684c443ea6fad74eafdf",
+      "changed": false
+    },
+    "JF": {
+      "source_dxf_sha256": "a4b7249f96ed1db2e551308fcc2466b809be63ca5d4c1390ae9076951f5ec972",
+      "changed": false
+    },
+    "JB": {
+      "source_dxf_sha256": "ead2cc159e5816aa03b068727c1aae848d1f62d9c06873bc9c6205a8e1df5958",
+      "changed": false
+    },
+    "JLOW": {
+      "source_dxf_sha256": "d2be24c33e1100e42d46c50a00ec5c4d5e2338ebdaf9fb921ab8871097993899",
+      "changed": false
+    },
+    "JTOP": {
+      "source_dxf_sha256": "3efbdff305d3d2905136cccd7e0376ec53e2f72c50ea6ba454ec7f856138f5fd",
+      "changed": false
+    },
+    "TROOT": {
+      "source_dxf_sha256": "72d1242dd50a7a30c7aa0e02ba100b9658e6e56d71a47871a84353b204b95def",
+      "changed": false
+    },
+    "GLEG_L": {
+      "source_dxf_sha256": "9d0b2f4b70c6ec8b0ce634abd61f2d13f87edf0073d94e0957157516f547625e",
+      "changed": false
+    },
+    "GLEG_R": {
+      "source_dxf_sha256": "f03309cae4290a6fd136202ffd8ee32a5c1854634f1bdb1eb3652c14985ddac7",
+      "changed": false
+    },
+    "GLEG_N": {
+      "source_dxf_sha256": "a4e21694e22f798b06e7237279e2fee36524ea814420321cfe5e28cab292b722",
+      "changed": false
+    }
+  },
+  "dxf_sha256": "8cdbd328cb4aa6eb3edbda36a21d219c7e3aef4102c3748a0baf7c442c7757eb",
+  "limits": "Nominal6mm prototype cutting blanks. Test stock/kerf/lamination and actual motor hardware before main cutting. Foam/control corrections and physical strength/flight qualification remain separate."
+}

@@ -1,5 +1,7 @@
 # Reaper prototype
 
+> **Plywood shop update: REV3.** Use [the single corrected plywood DXF](Workshop_Plywood_REV3/REAPER_PLYWOOD_6mm_8x4ft_REV3.dxf) and [shop instructions](Workshop_Plywood_REV3/SHOP_INSTRUCTIONS.md). It contains32 aircraft pieces and5 test pieces for nominal6mm stock. Cut the test layer first. FMF/FMT are corrected; FMGB is removed. Do not use the older33-piece plywood sheet. The complete guide/CAD package below is the prior baseline pending integration; the foam, linkage and physical qualification findings remain open. Corrected motor STEP files are included with REV3.
+
 ![Current aircraft with three-blade propeller and fixed gear](Illustrations/Assembly.png)
 
 Start with the [illustrated build guide](Build_Guide.pdf) or its [text version](Build_Guide.md). The guide has a front-page performance summary, exact part galleries, numbered assembly stages, wiring diagrams and pass/fail setup checks. Use only this package's cutting and print files.

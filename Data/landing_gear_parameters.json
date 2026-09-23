@@ -1,0 +1,48 @@
+{
+  "status": "Three simple leg blanks; owner handles attachment to body and existing complete wheel hardware",
+  "parts": [
+    "GLEG_L",
+    "GLEG_R",
+    "GLEG_N"
+  ],
+  "wheel_inventory": "Owner states three wheel assemblies; photograph shows a black wheel with metal stem/axle and an orange wheel already in a caster fork with mounting/swivel plate. Do not infer three identical bare wheels.",
+  "main_leg_top_centres_xyz_mm": [
+    [
+      -42,
+      135,
+      -6
+    ],
+    [
+      42,
+      135,
+      -6
+    ]
+  ],
+  "main_leg_bottom_centres_xyz_mm": [
+    [
+      -180,
+      135,
+      -200
+    ],
+    [
+      180,
+      135,
+      -200
+    ]
+  ],
+  "nose_leg_bottom_centre_xyz_mm": [
+    6,
+    -290,
+    -200
+  ],
+  "wheel_centre_or_ground_plane_confirmed": false,
+  "removed": "No custom forks, axle carriers, braces, brackets, mounting pads or attachment-hole patterns. All four bicycle spokes remain for control pushrods.",
+  "physical_checks": [
+    "Owner attaches each existing wheel assembly to its stick and the stick to actual wood frame",
+    "Positively hold any swivel straight, without relying on swivel friction",
+    "Measure real wheel axle offsets, loaded ride height and ground contact plane",
+    "Turn real prop through a full rotation with aircraft loaded and tilted10 degrees nose-up; maintain20 mm clearance",
+    "Check straight rolling, wheel retention and leg attachments before powered use"
+  ],
+  "geometry_limit": "Leg lengths and spread are provisional visual geometry; unknown wheel assembly dimensions prevent a proven ground-clearance claim."
+}

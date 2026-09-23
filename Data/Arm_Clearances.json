@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ARMAR",
+    "arm_plane_xyz_mm": [
+      489,
+      132.26,
+      12.33
+    ],
+    "shaft_tip_x_mm": 487.35,
+    "provisional_arm_seating_offset_mm": 1.65,
+    "sweep_radius_mm": 14,
+    "hub_radius_mm": 3.5,
+    "half_thickness_clearance_mm": 2.5,
+    "angles_deg": [
+      -60,
+      60
+    ],
+    "clearance_step": "CAD/Reference_Clearances/ARMAR_clearance.step",
+    "note": "Factory arm is not measured. Confirm its actual hub/arm envelope before cutting; tools include the10mm pin and extra tip/width clearance.",
+    "manufacture": false
+  },
+  {
+    "id": "ARMAL",
+    "arm_plane_xyz_mm": [
+      -489,
+      132.26,
+      12.33
+    ],
+    "shaft_tip_x_mm": -487.35,
+    "provisional_arm_seating_offset_mm": 1.65,
+    "sweep_radius_mm": 14,
+    "hub_radius_mm": 3.5,
+    "half_thickness_clearance_mm": 2.5,
+    "angles_deg": [
+      -60,
+      60
+    ],
+    "clearance_step": "CAD/Reference_Clearances/ARMAL_clearance.step",
+    "note": "Factory arm is not measured. Confirm its actual hub/arm envelope before cutting; tools include the10mm pin and extra tip/width clearance.",
+    "manufacture": false
+  },
+  {
+    "id": "ARMTR",
+    "arm_plane_xyz_mm": [
+      63.85,
+      411.1,
+      11.115
+    ],
+    "shaft_tip_x_mm": 62.205,
+    "provisional_arm_seating_offset_mm": 1.65,
+    "sweep_radius_mm": 14,
+    "hub_radius_mm": 3.5,
+    "half_thickness_clearance_mm": 2.5,
+    "angles_deg": [
+      -60,
+      60
+    ],
+    "clearance_step": "CAD/Reference_Clearances/ARMTR_clearance.step",
+    "note": "Factory arm is not measured. Confirm its actual hub/arm envelope before cutting; tools include the10mm pin and extra tip/width clearance.",
+    "manufacture": false
+  },
+  {
+    "id": "ARMTL",
+    "arm_plane_xyz_mm": [
+      -63.85,
+      411.1,
+      11.115
+    ],
+    "shaft_tip_x_mm": -62.205,
+    "provisional_arm_seating_offset_mm": 1.65,
+    "sweep_radius_mm": 14,
+    "hub_radius_mm": 3.5,
+    "half_thickness_clearance_mm": 2.5,
+    "angles_deg": [
+      -60,
+      60
+    ],
+    "clearance_step": "CAD/Reference_Clearances/ARMTL_clearance.step",
+    "note": "Factory arm is not measured. Confirm its actual hub/arm envelope before cutting; tools include the10mm pin and extra tip/width clearance.",
+    "manufacture": false
+  }
+]

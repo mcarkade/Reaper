@@ -1,8 +1,0 @@
-{
-  "reference_filament_g_including_support": 327.64,
-  "settings": "0.4 mm nozzle; 0.2 mm layers; 2 perimeters; 4 top/bottom layers; 5% gyroid; automatic supports at 45 degrees; PLA density 1.24 g/cm3; 400 mm reference bed. Supplied orientation.",
-  "limits": "Shop must choose orientation/supports and slice for actual machine. Estimate includes supports and is not installed mass. G-code is private and must not be used for manufacture.",
-  "upright_reference_filament_g_including_support_and_brim": 228.55,
-  "upright_orientation": "Rotate -90 degrees about supplied X: rear opening down, nose tip up. Approximately 109 x 89 mm footprint, 310 mm height, plus brim/support clearance.",
-  "upright_brim_width_mm": 8
-}

@@ -1,0 +1,178 @@
+{
+  "revision": "prototype_r2_2026-09-23",
+  "status": "design; owned items owner-reported; installed wiring unverified",
+  "flight_controller": "Matek F405-WING V2",
+  "firmware_target": "ArduPlane MatekF405-Wing 4.4 or newer; record installed version",
+  "battery": "GenX 4S1P LiPo 5200mAh 14.8V 40C/80C burst; stated 512g +/-2%",
+  "propulsion": {
+    "motor": "Emax ECO II 2807 1300KV; manufacturer lists 3-6S",
+    "propeller": "Gemfan9045 three-blade,9inch diameter,4.5inch pitch,M5 bore; verify actual propeller label and hand",
+    "esc": "ReadytoSky 40A 2-4S; sold as Opto and 5V/3A BEC; actual lead/power behavior must be measured",
+    "current_thrust_temperature": "unknown for this 4S motor prop ESC combination"
+  },
+  "controls": {
+    "installed_servos": "4 TowerPro MG90S: left/right aileron and left/right V-tail",
+    "spare": "1 TowerPro MG90S uninstalled; no nose steering",
+    "pushrods": "4 owned bicycle spokes; end geometry and lengths to measure",
+    "horns": "4 printed; qualify bond and local reinforcement"
+  },
+  "avionics": {
+    "rc": "FlySky FS-i6X transmitter and FS-iA10B receiver servo iBUS output",
+    "gps_compass": "Matek M9N-5883 GNSS and compass",
+    "airspeed": "Matek ASPD-4525 digital sensor with pitot and pressure tubes",
+    "telemetry": "SiK 433MHz pair; actual air radio label and power draw to verify"
+  },
+  "airframe_context": "Original rounded wood/foam airframe; removable wings and printed N1; nominal6mm plywood; fixed three-wheel gear, no steering servo; actual wheel and axle fit unverified.",
+  "wire_length_policy": "measure fitted routes on completed geometry; connections.csv lengths blank until then",
+  "placement_status": "Nominal digital equipment boxes and reserved service space. Actual plugs, cables, fastening and thermal performance remain unverified.",
+  "placements": [
+    {
+      "id": "battery",
+      "centre_xyz_mm": [
+        0,
+        -154,
+        12.5
+      ],
+      "size_xyz_mm": [
+        43,
+        138,
+        33
+      ],
+      "mass_g": 512,
+      "mass_basis": "Owner specification",
+      "mount": "FBT lowered floor with 2 mm nonslip pad and two owned straps",
+      "status": "Installed and removal envelope checked locally; final integration audit required",
+      "travel_y_mm": [
+        -280,
+        -120
+      ]
+    },
+    {
+      "id": "motor",
+      "centre_xyz_mm": [
+        0,
+        600,
+        0
+      ],
+      "size_xyz_mm": [
+        33.9,
+        20,
+        33.9
+      ],
+      "mass_g": 47.6,
+      "mass_basis": "Manufacturer nominal excluding leads",
+      "mount": "FMF rear face Y590; supplied motor screws",
+      "status": "Body/base is 20 mm; 14 mm shaft included in 34 mm total. Approximate body-centre mass placement; actual motor CG unmeasured."
+    },
+    {
+      "id": "flight_controller",
+      "centre_xyz_mm": [
+        0,
+        270,
+        13.5
+      ],
+      "size_xyz_mm": [
+        54,
+        36,
+        13
+      ],
+      "mass_g": 25,
+      "mass_basis": "Previous manufacturer nominal; weigh installed board",
+      "mount": "FEQ plus 2 mm pad",
+      "status": "bare box and reserved service envelope clear; actual board arrow and plugs required",
+      "open_cover": "FSU2"
+    },
+    {
+      "id": "receiver",
+      "centre_xyz_mm": [
+        0,
+        315,
+        14.35
+      ],
+      "size_xyz_mm": [
+        47,
+        33.1,
+        14.7
+      ],
+      "mass_g": 19.3,
+      "mass_basis": "FlySky manufacturer nominal",
+      "mount": "FEQ plus 2 mm pad",
+      "status": "bare box and reserved service envelope clear",
+      "open_cover": "FSU2"
+    },
+    {
+      "id": "gps_compass",
+      "centre_xyz_mm": [
+        0,
+        -300,
+        59
+      ],
+      "size_xyz_mm": [
+        32,
+        32,
+        10
+      ],
+      "mass_g": 14.5,
+      "mass_basis": "Previous manufacturer nominal; weigh installed module",
+      "mount": "FGPS plus 2 mm pad",
+      "status": "digital box and service envelope clear",
+      "open_cover": "N1"
+    },
+    {
+      "id": "airspeed_board",
+      "centre_xyz_mm": [
+        16,
+        -60,
+        -20
+      ],
+      "size_xyz_mm": [
+        20,
+        20,
+        12
+      ],
+      "mass_g": 3.5,
+      "mass_basis": "Matek board-only nominal; pitot and tubing additional",
+      "mount": "Insulated pad under aft end of FBT; reach from open tray rear edge after battery removal; height allowance provisional",
+      "status": "20x20 PCB verified previously;12mm height/service box provisional",
+      "open_cover": "N1 and FSU1; tubes disconnected at pitot"
+    },
+    {
+      "id": "esc",
+      "centre_xyz_mm": [
+        0,
+        365,
+        15
+      ],
+      "size_xyz_mm": [
+        65,
+        32,
+        16
+      ],
+      "mass_g": 40,
+      "mass_basis": "Explicit allowance; actual model dimensions and mass unmeasured",
+      "mount": "FES0/FES1 plus 2 mm pad and ties",
+      "status": "Actual ESC size, leads and cooling unverified",
+      "open_cover": "FSU2"
+    },
+    {
+      "id": "telemetry",
+      "centre_xyz_mm": [
+        0,
+        180,
+        16
+      ],
+      "size_xyz_mm": [
+        28,
+        60,
+        18
+      ],
+      "mass_g": 12,
+      "mass_basis": "Explicit allowance; exact variant unverified",
+      "mount": "On FTM0/FTM1 with 2 mm pad and ties; upward service after FCF removal",
+      "status": "Exact radio dimensions and antenna fit unverified",
+      "open_cover": "FCF"
+    }
+  ],
+  "cg_use": "Use nominated centres from mechanical/fuselage_layout.json. Actual installed component masses, wires, wheel hardware and final balance must be measured.",
+  "placement_contract": "../mechanical/fuselage_layout.json"
+}

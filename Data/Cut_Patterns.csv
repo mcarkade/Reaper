@@ -1,0 +1,107 @@
+pattern_id,assembly_id,name,material,thickness_mm,quantity,blank_area_mm2,reference_dxf
+FLR,FLR,R continuous load longeron,Plywood,6,1,4284.0,Reference_Profiles/FLR.dxf
+FLL,FLL,L continuous load longeron,Plywood,6,1,4284.0,Reference_Profiles/FLL.dxf
+FF1,FF1,Original contour open former,Balsa,5,1,1243.524,Reference_Profiles/FF1.dxf
+FF3,FF3,Original contour open former,Balsa,5,1,954.425,Reference_Profiles/FF3.dxf
+FK,FK,Lightened lower longitudinal keel,Plywood,6,1,16581.574,Reference_Profiles/FK.dxf
+FX0L,FX0L,Forward cross tie outer L,Plywood,6,1,93.0,Reference_Profiles/FX0L.dxf
+FX0R,FX0R,Forward cross tie outer R,Plywood,6,1,93.0,Reference_Profiles/FX0R.dxf
+FX1,FX1,Lower rail cross tie,Plywood,6,1,468.0,Reference_Profiles/FX1.dxf
+FX2,FX2,Lower rail cross tie,Plywood,6,1,468.0,Reference_Profiles/FX2.dxf
+FX3,FX3,Lower rail cross tie,Plywood,6,1,468.0,Reference_Profiles/FX3.dxf
+FBT,FBT,Lower adjustable battery tray,Plywood,6,1,21470.0,Reference_Profiles/FBT.dxf
+FBWR,FBWR,R lowered tray support web,Plywood,6,1,3280.0,Reference_Profiles/FBWR.dxf
+FBWL,FBWL,L lowered tray support web,Plywood,6,1,3280.0,Reference_Profiles/FBWL.dxf
+FBC,FBC,Battery box lower cross tie,Plywood,6,1,360.0,Reference_Profiles/FBC.dxf
+FGPS,FGPS,GPS shelf,Balsa,5,1,2720.0,Reference_Profiles/FGPS.dxf
+FGPR,FGPR,GPS shelf post,Balsa,5,1,2120.0,Reference_Profiles/FGPR.dxf
+FGPL,FGPL,GPS shelf post,Balsa,5,1,2120.0,Reference_Profiles/FGPL.dxf
+FEQ,FEQ,Aft FC and receiver deck,Balsa,5,1,6120.0,Reference_Profiles/FEQ.dxf
+FEC0,FEC0,Equipment deck cross tie,Balsa,5,1,390.0,Reference_Profiles/FEC0.dxf
+FEC1,FEC1,Equipment deck cross tie,Balsa,5,1,390.0,Reference_Profiles/FEC1.dxf
+FES0,FES0,Simple ESC support strip,Balsa,5,1,540.0,Reference_Profiles/FES0.dxf
+FES1,FES1,Simple ESC support strip,Balsa,5,1,540.0,Reference_Profiles/FES1.dxf
+FTM0,FTM0,Simple radio tie strip,Balsa,5,1,450.0,Reference_Profiles/FTM0.dxf
+FTM1,FTM1,Simple radio tie strip,Balsa,5,1,450.0,Reference_Profiles/FTM1.dxf
+FMF,FMF,Motor load firewall,Plywood,6,1,1864.08,Reference_Profiles/FMF.dxf
+FMT,FMT,Rear motor cross tie,Plywood,6,1,447.588,Reference_Profiles/FMT.dxf
+FMGR,FMGR,Motor triangular load gusset,Plywood,6,1,329.137,Reference_Profiles/FMGR.dxf
+FMGL,FMGL,Motor triangular load gusset,Plywood,6,1,329.137,Reference_Profiles/FMGL.dxf
+FMGB,FMGB,Motor gusset base,Plywood,6,1,1576.315,Reference_Profiles/FMGB.dxf
+FNG1,FNG1,Formed lower nose gore 1,Foam,5,1,2938.481,Reference_Profiles/FNG1.dxf
+FNG2,FNG2,Formed lower nose gore 2,Foam,5,1,3155.42,Reference_Profiles/FNG2.dxf
+FNG3,FNG3,Formed lower nose gore 3,Foam,5,1,3154.528,Reference_Profiles/FNG3.dxf
+FNG4,FNG4,Formed lower nose gore 4,Foam,5,1,2937.332,Reference_Profiles/FNG4.dxf
+FF0R,FF0R,Right lower former piece FF0,Balsa,5,1,499.597,Reference_Profiles/FF0R.dxf
+FF0U,FF0U,Upper former piece FF0,Balsa,5,1,1177.582,Reference_Profiles/FF0U.dxf
+FF0L,FF0L,Left lower former piece FF0,Balsa,5,1,499.596,Reference_Profiles/FF0L.dxf
+FF2R,FF2R,Right lower former piece FF2,Balsa,5,1,586.397,Reference_Profiles/FF2R.dxf
+FF2U,FF2U,Upper former piece FF2,Balsa,5,1,1233.648,Reference_Profiles/FF2U.dxf
+FF2L,FF2L,Left lower former piece FF2,Balsa,5,1,586.397,Reference_Profiles/FF2L.dxf
+WRRI,WRRI,Plywood6 root rib with positive wing tie slot R,Plywood,6,1,1626.215,Reference_Profiles/WRRI.dxf
+WRRM_1,WRRM_1,Balsa5 wing R RM separate rib segment 1,Balsa,5,1,413.221,Reference_Profiles/WRRM_1.dxf
+WRRM_2,WRRM_2,Balsa5 wing R RM separate rib segment 2,Balsa,5,1,619.132,Reference_Profiles/WRRM_2.dxf
+WRRO_1,WRRO_1,Balsa5 wing R RO separate rib segment 1,Balsa,5,1,277.999,Reference_Profiles/WRRO_1.dxf
+WRRO_2,WRRO_2,Balsa5 wing R RO separate rib segment 2,Balsa,5,1,231.47,Reference_Profiles/WRRO_2.dxf
+JR1,JR1,Root tongue laminate R1,Plywood,6,1,4267.45,Reference_Profiles/JR1.dxf
+JR2,JR2,Root tongue laminate R2,Plywood,6,1,4267.45,Reference_Profiles/JR2.dxf
+JR3,JR3,Root tongue laminate R3,Plywood,6,1,4267.45,Reference_Profiles/JR3.dxf
+WLRI,WLRI,Plywood6 root rib with positive wing tie slot L,Plywood,6,1,1626.215,Reference_Profiles/WLRI.dxf
+WLRM_1,WLRM_1,Balsa5 wing L RM separate rib segment 1,Balsa,5,1,413.221,Reference_Profiles/WLRM_1.dxf
+WLRM_2,WLRM_2,Balsa5 wing L RM separate rib segment 2,Balsa,5,1,619.132,Reference_Profiles/WLRM_2.dxf
+WLRO_1,WLRO_1,Balsa5 wing L RO separate rib segment 1,Balsa,5,1,277.996,Reference_Profiles/WLRO_1.dxf
+WLRO_2,WLRO_2,Balsa5 wing L RO separate rib segment 2,Balsa,5,1,231.469,Reference_Profiles/WLRO_2.dxf
+JL1,JL1,Root tongue laminate L1,Plywood,6,1,4267.45,Reference_Profiles/JL1.dxf
+JL2,JL2,Root tongue laminate L2,Plywood,6,1,4267.45,Reference_Profiles/JL2.dxf
+JL3,JL3,Root tongue laminate L3,Plywood,6,1,4267.45,Reference_Profiles/JL3.dxf
+JF,JF,Continuous root spar receiver cheek,Plywood,6,1,1700.0,Reference_Profiles/JF.dxf
+JB,JB,Continuous root spar receiver cheek,Plywood,6,1,1684.0,Reference_Profiles/JB.dxf
+JLOW,JLOW,Root receiver bottom bearing cap,Plywood,6,1,3030.0,Reference_Profiles/JLOW.dxf
+JTOP,JTOP,Root receiver top bearing cap,Plywood,6,1,3030.0,Reference_Profiles/JTOP.dxf
+TROOT,TROOT,V-tail load crosshead,Plywood,6,1,922.0,Reference_Profiles/TROOT.dxf
+TRS,TRS,Balsa tail internal spine R,Balsa,5,1,1560.0,Reference_Profiles/TRS.dxf
+TLS,TLS,Balsa tail internal spine L,Balsa,5,1,1560.0,Reference_Profiles/TLS.dxf
+MTR,MTR,Tail servo tie tray R,Balsa,5,1,1194.0,Reference_Profiles/MTR.dxf
+MTL,MTL,Tail servo tie tray L,Balsa,5,1,1194.0,Reference_Profiles/MTL.dxf
+ARP,ARP,Balsa end plug AR,Balsa,5,1,899.571,Reference_Profiles/ARP.dxf
+ALP,ALP,Balsa end plug AL,Balsa,5,1,899.571,Reference_Profiles/ALP.dxf
+TRCP,TRCP,Balsa end plug TRC,Balsa,5,1,425.25,Reference_Profiles/TRCP.dxf
+TLCP,TLCP,Balsa end plug TLC,Balsa,5,1,425.25,Reference_Profiles/TLCP.dxf
+LCR,LCR,Balsa5 lower spar cap R,Balsa,5,1,17998.886,Reference_Profiles/LCR.dxf
+WBR,WBR,Balsa5 continuous spar web R,Balsa,5,1,5524.414,Reference_Profiles/WBR.dxf
+LCL,LCL,Balsa5 lower spar cap L,Balsa,5,1,17998.886,Reference_Profiles/LCL.dxf
+WBL,WBL,Balsa5 continuous spar web L,Balsa,5,1,5524.414,Reference_Profiles/WBL.dxf
+GLEG_L,GLEG_L,L plain main wood leg,Plywood,6,1,3104.0,Reference_Profiles/GLEG_L.dxf
+GLEG_R,GLEG_R,R plain main wood leg,Plywood,6,1,3104.0,Reference_Profiles/GLEG_R.dxf
+GLEG_N,GLEG_N,Plain nose wood leg,Plywood,6,1,2880.0,Reference_Profiles/GLEG_N.dxf
+SKIN_F09,FSL0,fuselage_forward_A,Foam,5.0,1,12633.857,Reference_Profiles/BODY_F09_fuselage_forward_A.dxf
+SKIN_F10,FSL0,fuselage_forward_B,Foam,5.0,1,12633.857,Reference_Profiles/BODY_F10_fuselage_forward_B.dxf
+SKIN_F11,FSL1,fuselage_middle_A,Foam,5.0,1,22719.372,Reference_Profiles/BODY_F11_fuselage_middle_A.dxf
+SKIN_F12,FSL1,fuselage_middle_B,Foam,5.0,1,22719.372,Reference_Profiles/BODY_F12_fuselage_middle_B.dxf
+SKIN_F13,FSL0,fuselage_src3_face8,Foam,5.0,1,2960.827,Reference_Profiles/BODY_F13_fuselage_src3_face8.dxf
+SKIN_F14,FSL0,fuselage_src3_face10,Foam,5.0,1,1082.023,Reference_Profiles/BODY_F14_fuselage_src3_face10.dxf
+SKIN_F15,FSL0,fuselage_src3_face12,Foam,5.0,1,2961.319,Reference_Profiles/BODY_F15_fuselage_src3_face12.dxf
+SKIN_F16,FSL1,fuselage_src21_face2,Foam,5.0,1,5324.434,Reference_Profiles/BODY_F16_fuselage_src21_face2.dxf
+SKIN_F17,FSL1,fuselage_src21_face16,Foam,5.0,1,5325.319,Reference_Profiles/BODY_F17_fuselage_src21_face16.dxf
+SKIN_F18,FSL1,fuselage_src21_face18,Foam,5.0,1,1945.794,Reference_Profiles/BODY_F18_fuselage_src21_face18.dxf
+SKIN_F19,FSL2,fuselage_src10_face16,Foam,5.0,1,2192.92,Reference_Profiles/BODY_F19_fuselage_src10_face16.dxf
+SKIN_F20,FSL2,fuselage_src10_face17,Foam,5.0,1,8951.27,Reference_Profiles/BODY_F20_fuselage_src10_face17.dxf
+SKIN_F21,FSL2,fuselage_src10_face19,Foam,5.0,1,9319.157,Reference_Profiles/BODY_F21_fuselage_src10_face19.dxf
+SKIN_F22,FSL2,fuselage_src10_face20,Foam,5.0,1,2211.226,Reference_Profiles/BODY_F22_fuselage_src10_face20.dxf
+SKIN_F23,FSU2,fuselage_src22_face11,Foam,5.0,1,11881.272,Reference_Profiles/BODY_F23_fuselage_src22_face11.dxf
+SKIN_F24,FSU2,fuselage_src22_face13,Foam,5.0,1,12163.494,Reference_Profiles/BODY_F24_fuselage_src22_face13.dxf
+SKIN_F25,FSU1,fuselage_src25_face6,Foam,5.0,1,10192.424,Reference_Profiles/BODY_F25_fuselage_src25_face6.dxf
+SKIN_F26,FSU1,fuselage_src25_face8,Foam,5.0,1,10192.222,Reference_Profiles/BODY_F26_fuselage_src25_face8.dxf
+SKIN_F27,FSL3,fuselage_src18_face14_axis1_strip1of4,Foam,5.0,1,7854.413,Reference_Profiles/BODY_F27_fuselage_src18_face14_axis1_strip1of4.dxf
+SKIN_F28,FSL3,fuselage_src18_face14_axis1_strip2of4,Foam,5.0,1,7361.092,Reference_Profiles/BODY_F28_fuselage_src18_face14_axis1_strip2of4.dxf
+SKIN_F29,FSL3,fuselage_src18_face14_axis1_strip3of4,Foam,5.0,1,6551.955,Reference_Profiles/BODY_F29_fuselage_src18_face14_axis1_strip3of4.dxf
+SKIN_F30,FSL3,fuselage_src18_face14_axis1_strip4of4,Foam,5.0,1,5424.869,Reference_Profiles/BODY_F30_fuselage_src18_face14_axis1_strip4of4.dxf
+SKIN_F33,FSL2,fuselage_src10_face18,Foam,5.0,1,766.858,Reference_Profiles/BODY_F33_fuselage_src10_face18.dxf
+SKIN_WLIN_F01,WLIN,wing_inner_A,Foam,5.0,1,167058.971,Reference_Profiles/WLIN_F01.dxf
+SKIN_WRIN_F02,WRIN,wing_inner_B,Foam,5.0,1,167058.848,Reference_Profiles/WRIN_F02.dxf
+SKIN_WROUT_F03,WROUT,wing_outer_A,Foam,5.0,1,91701.709,Reference_Profiles/WROUT_F03.dxf
+SKIN_WLOUT_F04,WLOUT,wing_outer_B,Foam,5.0,1,91701.728,Reference_Profiles/WLOUT_F04.dxf
+SKIN_TRF_F05,TRF,tail_A_rootcollar1,Foam,5.0,1,39318.735,Reference_Profiles/TRF_F05.dxf
+SKIN_TLF_F06,TLF,tail_B_rootcollar1,Foam,5.0,1,39318.606,Reference_Profiles/TLF_F06.dxf
+SKIN_TRF_F07,TRF,tail_A_rootcollar2,Foam,5.0,1,12579.19,Reference_Profiles/TRF_F07.dxf
+SKIN_TLF_F08,TLF,tail_B_rootcollar2,Foam,5.0,1,12579.192,Reference_Profiles/TLF_F08.dxf

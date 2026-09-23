@@ -1,0 +1,216 @@
+{
+  "revision": "prototype_r2",
+  "wing": {
+    "root_x_mm": 53,
+    "tip_x_mm": 1000,
+    "exposed_planform_area_mm2": 304340.05346495344,
+    "mean_aerodynamic_chord_mm": 169.80860913337483,
+    "mac_leading_edge_y_mm": 40.1985446667963,
+    "quarter_chord_y_mm": 82.65069695014,
+    "envelope": "Final delivered STEP silhouette measurements; definitions and calculation assumptions are in Calculations.json."
+  },
+  "tail": {
+    "cant_deg": 35,
+    "control_forward_shift_mm": 3.5,
+    "hinge_gap_mm": 1.5
+  },
+  "structure": {
+    "tongue_lamination_mm": [
+      6,
+      6,
+      6
+    ],
+    "tongue_total_width_mm": 18,
+    "tongue_depth_mm": 15,
+    "root_step_depth_mm": 17,
+    "receiver_gap_mm": 18.3,
+    "bearing_insertion_each_mm": 50,
+    "balsa_spar_lap_mm": 177.8,
+    "carbon_solid_diameter_mm": 5,
+    "carbon_lengths_mm": [
+      1000,
+      1000
+    ],
+    "beam_lower_cap_mm": [
+      20,
+      5
+    ],
+    "beam_web_thickness_mm": 5,
+    "web_endpoint_x_mm": 900
+  },
+  "battery_centre_travel_y_mm": [
+    -280,
+    -120
+  ],
+  "controls": {
+    "servo_arm_radius_mm": 10,
+    "wing_servo_axis_right_xyz_mm": [
+      489,
+      132.26,
+      12.33
+    ],
+    "tail_servo_axis_right_xyz_mm": [
+      63.85,
+      411.1,
+      11.115
+    ],
+    "neutral_arm_direction_xyz": [
+      0,
+      0,
+      -1
+    ],
+    "aileron_hinge_axis_right_xyz_mm": [
+      [
+        496,
+        148,
+        20.38728
+      ],
+      [
+        770,
+        148,
+        18.9981
+      ]
+    ],
+    "tail_hinge_axis_right_xyz_mm": [
+      [
+        45,
+        492.6,
+        27.81
+      ],
+      [
+        267,
+        492.6,
+        183.25
+      ]
+    ],
+    "aileron_initial_limit_deg": 15,
+    "v_tail_total_mixed_limit_deg": 20,
+    "arm_plane_note": "Axis points are the provisional factory-arm centre planes1.65mm beyond actual source shaft tips; verify actual supplied arm seating. Wing shaft tipX487.35, tail tipX62.205, mirrored left.",
+    "wing_servo_arm_plane_right_xyz_mm": [
+      489,
+      132.26,
+      12.33
+    ],
+    "tail_servo_arm_plane_right_xyz_mm": [
+      63.85,
+      411.1,
+      11.115
+    ]
+  },
+  "qualification": "Digital model only; actual plywood/balsa/foam thickness and density, laminate adhesive, material strength, servo horns, fit, cycling, mass/CG, motor/prop and flight checks remain physical.",
+  "battery_nominal_centre_xyz_mm": [
+    0,
+    -154,
+    12.5
+  ],
+  "battery_removal_slide_y_mm": -205,
+  "equipment_layout_source": "fuselage_layout.json",
+  "equipment": [
+    {
+      "id": "flight_controller",
+      "centre_xyz_mm": [
+        0,
+        270,
+        13.5
+      ],
+      "size_xyz_mm": [
+        54,
+        36,
+        13
+      ],
+      "mount": "FEQ plus 2 mm pad",
+      "open_cover": "FSU2"
+    },
+    {
+      "id": "receiver",
+      "centre_xyz_mm": [
+        0,
+        315,
+        14.35
+      ],
+      "size_xyz_mm": [
+        47,
+        33.1,
+        14.7
+      ],
+      "mount": "FEQ plus 2 mm pad",
+      "open_cover": "FSU2"
+    },
+    {
+      "id": "gps_compass",
+      "centre_xyz_mm": [
+        0,
+        -300,
+        59
+      ],
+      "size_xyz_mm": [
+        32,
+        32,
+        10
+      ],
+      "mount": "FGPS plus 2 mm pad",
+      "open_cover": "N1+FSU1 lifted together; release pitot/tubes first"
+    },
+    {
+      "id": "airspeed_board",
+      "centre_xyz_mm": [
+        16,
+        -60,
+        -20
+      ],
+      "size_xyz_mm": [
+        20,
+        20,
+        12
+      ],
+      "mount": "Insulated pad under aft end of FBT; reach from open tray rear edge after battery removal; height allowance provisional",
+      "open_cover": "N1+FSU1 lifted together; release pitot/tubes first"
+    },
+    {
+      "id": "esc",
+      "centre_xyz_mm": [
+        0,
+        365,
+        15
+      ],
+      "size_xyz_mm": [
+        65,
+        32,
+        16
+      ],
+      "mount": "FES0/FES1 plus 2 mm pad and ties",
+      "open_cover": "FSU2",
+      "status": "Actual ESC size, leads and cooling unverified"
+    },
+    {
+      "id": "telemetry",
+      "centre_xyz_mm": [
+        0,
+        180,
+        16
+      ],
+      "size_xyz_mm": [
+        28,
+        60,
+        18
+      ],
+      "mount": "On FTM0/FTM1 with 2 mm pad and ties; upward service after FCF removal",
+      "open_cover": "FCF",
+      "status": "Exact radio dimensions and antenna fit unverified"
+    }
+  ],
+  "combined_cover_removal": {
+    "covers": [
+      "N1",
+      "FSU1"
+    ],
+    "method": "Release both cover tapes/retainers and pitot/tube connections, lift N1 and FSU1 together, then separate off-airframe; independent vertical lifts collide with the shared rim",
+    "tested_lift_offsets_mm": [
+      2,
+      10,
+      30,
+      60,
+      120
+    ]
+  }
+}

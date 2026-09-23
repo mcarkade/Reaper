@@ -1,0 +1,132 @@
+{
+  "status": "Digital estimates; no fabrication, structural or flight qualification",
+  "register_sha256": "474f563311f56be3104ad261d9d275e01811fa6059c9824e09c22caf76902d94",
+  "mass": {
+    "mass_g": 2547.51068990125,
+    "low_g": 2121.945238595392,
+    "high_g": 3153.7755554092782
+  },
+  "cg_xyz_mm": {
+    "x": -0.1042212392170768,
+    "y": 79.72719714512965,
+    "z": 7.051582594636129
+  },
+  "material_density_g_mm3": {
+    "Plywood": [
+      0.0006,
+      0.00045,
+      0.00075
+    ],
+    "Balsa": [
+      0.00016,
+      0.0001,
+      0.00022
+    ],
+    "Carbon": [
+      0.0016,
+      0.0015,
+      0.0017
+    ],
+    "Steel": [
+      0.00785,
+      0.00775,
+      0.008
+    ]
+  },
+  "foam_areal_density_g_m2": [
+    500,
+    423,
+    600
+  ],
+  "wing_area_m2": 0.30434005346495346,
+  "mac_mm": 169.80860913337483,
+  "mac_le_y_mm": 40.1985446667963,
+  "wing_ac_y_mm": 82.65069695014,
+  "aspect_ratio": 13.143193389708152,
+  "wing_loading_g_dm2": 83.70606040504657,
+  "provisional_20percent_mac_y_mm": 74.16026649347127,
+  "required_battery_centre_y_mm": -181.69885809577863,
+  "battery_nominal_centre_y_mm": -154,
+  "battery_centre_travel_y_mm": [
+    -280,
+    -120
+  ],
+  "cg_y_across_battery_travel_mm": [
+    54.40365277071892,
+    86.56053451600239
+  ],
+  "battery_target_reachable": true,
+  "required_battery_y_material_mass_extremes_mm": [
+    -348.9805927600422,
+    -27.940819238722298
+  ],
+  "target_note": "20% MAC is an analysis starting point, not a validated flight CG; measured balance and trim review required",
+  "tail_pitch_area_m2": 0.048255031289369255,
+  "tail_yaw_area_m2": 0.023658988078161473,
+  "tail_arm_m": 0.3674679678124014,
+  "horizontal_tail_volume": 0.343117818319371,
+  "gear_nose_static_fraction": 0.13005365377616554,
+  "gear_each_main_static_fraction": 0.43497317311191724,
+  "gear_load_basis": "Uses nominal leg-end longitudinal stations; actual wheel contact offsets and attachment details are unknown",
+  "gear_clearance_status": "No verified ground plane: measure complete wheel assemblies and loaded clearance on the actual build",
+  "structural_scenarios": [
+    {
+      "scenario": "lower_moduli",
+      "elastic_modulus_MPa": {
+        "Balsa": 1000,
+        "Plywood": 4000,
+        "Carbon": 70000
+      },
+      "nominal_mass_kg": 2.54751068990125,
+      "load_factor": 3,
+      "tip_deflection_mm": 185.46236574523894,
+      "root_stress_MPa": {
+        "CRFULL": 167.38070378165705,
+        "JR1": 21.096635903823024,
+        "JR2": 21.096635903823024,
+        "JR3": 21.096635903823024
+      }
+    },
+    {
+      "scenario": "central_illustrative",
+      "elastic_modulus_MPa": {
+        "Balsa": 2000,
+        "Plywood": 6000,
+        "Carbon": 100000
+      },
+      "nominal_mass_kg": 2.54751068990125,
+      "load_factor": 3,
+      "tip_deflection_mm": 106.39080595556621,
+      "root_stress_MPa": {
+        "CRFULL": 163.18865909390624,
+        "JR1": 21.208838776779075,
+        "JR2": 21.208838776779075,
+        "JR3": 21.208838776779075
+      }
+    },
+    {
+      "scenario": "higher_moduli",
+      "elastic_modulus_MPa": {
+        "Balsa": 3000,
+        "Plywood": 10000,
+        "Carbon": 130000
+      },
+      "nominal_mass_kg": 2.54751068990125,
+      "load_factor": 3,
+      "tip_deflection_mm": 71.51674922212077,
+      "root_stress_MPa": {
+        "CRFULL": 143.26190502008433,
+        "JR1": 21.775787330429658,
+        "JR2": 21.775787330429658,
+        "JR3": 21.775787330429658
+      }
+    }
+  ],
+  "structural_model": "Actual current STEP material sections at X planes; adaptive area/centroid/inertia of exact planar section faces. Euler-Bernoulli vertical bending; ideal continuous bonds, fully fixed receiver at X50.2mm; no foam stiffness credit, no joint slip, shear deflection, torsion, buckling or nonlinear effects. E values are illustrative assumptions, not measured material or strength limits. Uniform lift over each exposed X53..1000mm half-wing.",
+  "propulsion_status": "Owned motor/9-inch three-blade/4S combination has no verified thrust/current/thermal map; no takeoff distance or endurance promise",
+  "scenario_limits": "CLmax, drag, efficiency and material properties are assumptions. Interval totals are sensitivity bounds, not statistical confidence limits.",
+  "sources": [
+    "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/lift-equation/",
+    "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/induced-drag-coefficient/"
+  ]
+}

@@ -7,4 +7,3 @@
 *.txt text diff eol=lf
 .gitignore text diff eol=lf
 .gitattributes text diff eol=lf
-Manufacturing/07_Source/** -text -diff

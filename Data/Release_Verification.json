@@ -1,0 +1,156 @@
+{
+  "register_sha256": "474f563311f56be3104ad261d9d275e01811fa6059c9824e09c22caf76902d94",
+  "pdf_review": {
+    "Build_Guide": {
+      "pages": 10,
+      "text_within_page": true,
+      "rendered_all_pages": true,
+      "source_sha256": "a21d92aa7c53e941de3764bfd5f38d391e9dc227d3bcf0f1e08df4b423e80777",
+      "actual_size_bar_checked": false,
+      "visual_review": "PASS",
+      "visual_scope": "All-page contact sheets and readable guide manufacturing, grain, clearance, calculation and finishing-locator pages inspected. Corrected tail-spine template tiles inspected after final regeneration; scale and bounds checked on every page."
+    },
+    "Paper_Patterns": {
+      "pages": 180,
+      "text_within_page": true,
+      "rendered_all_pages": true,
+      "source_sha256": "40a5ef735429b4e0f2245a185cb1e945ba828b6344b8efd46ed1c8f4a5f8eb29",
+      "actual_size_bar_checked": true,
+      "visual_review": "PASS",
+      "visual_scope": "All-page contact sheets and readable guide manufacturing, grain, clearance, calculation and finishing-locator pages inspected. Corrected tail-spine template tiles inspected after final regeneration; scale and bounds checked on every page."
+    }
+  },
+  "slicer": {
+    "FCF": {
+      "stl_sha256": "491c4942cd8e9d650e89130a9fa61ba580af2c9cc7b481a1970ab61af80db955",
+      "nominal_installed_g": 102.84304738770635,
+      "total_including_support_brim_g": 189.1,
+      "slicer_warnings": [],
+      "limits": "400mm reference machine; not actual printer fit or a measured part. Private G-code must not be used to print."
+    },
+    "FTF": {
+      "stl_sha256": "7819dba0d7aa4e679b784b2cf5d550f72737440c1e28103ad7b6bf7b2b9b0ae8",
+      "nominal_installed_g": 126.32305882904839,
+      "total_including_support_brim_g": 172.76,
+      "slicer_warnings": [],
+      "limits": "400mm reference machine; not actual printer fit or a measured part. Private G-code must not be used to print."
+    },
+    "N1": {
+      "stl_sha256": "ea643b9f1e572c9716fb70590b11f789533d248ccd11fa072feaaff90f7d31d0",
+      "nominal_installed_g": 140.08297283267618,
+      "total_including_support_brim_g": 226.79,
+      "slicer_warnings": [],
+      "limits": "400mm reference machine; not actual printer fit or a measured part. Private G-code must not be used to print."
+    },
+    "AR": {
+      "stl_sha256": "b7c90753504ea2592f4b39a1df320975e671a4ff75405d0540c374476558425a",
+      "nominal_installed_g": 34.27569005605229,
+      "total_including_support_brim_g": 34.54,
+      "slicer_warnings": [],
+      "limits": "400mm reference machine; not actual printer fit or a measured part. Private G-code must not be used to print."
+    },
+    "AHR": {
+      "stl_sha256": "49019e6854e80bda84b7bb10ea833471c0e05502f431804db8cdd51075262227",
+      "nominal_installed_g": 43.16550732533908,
+      "total_including_support_brim_g": 43.37,
+      "slicer_warnings": [],
+      "limits": "400mm reference machine; not actual printer fit or a measured part. Private G-code must not be used to print."
+    },
+    "AL": {
+      "stl_sha256": "c3c035d06ade2994547eb89397c03c3edfb340fdbe556eb3ae979e9db61108ad",
+      "nominal_installed_g": 34.20126011508635,
+      "total_including_support_brim_g": 34.47,
+      "slicer_warnings": [],
+      "limits": "400mm reference machine; not actual printer fit or a measured part. Private G-code must not be used to print."
+    },
+    "AHL": {
+      "stl_sha256": "2e1bace9eaabf5f306045a5b163a9336eb541848b6a2cfa083b8233968163847",
+      "nominal_installed_g": 43.16930792854952,
+      "total_including_support_brim_g": 43.38,
+      "slicer_warnings": [],
+      "limits": "400mm reference machine; not actual printer fit or a measured part. Private G-code must not be used to print."
+    },
+    "TRC": {
+      "stl_sha256": "e44f63eeb978cc18cc536d82affc0f5f787376b243125a26731ee986bacb8ec4",
+      "nominal_installed_g": 26.614371544673116,
+      "total_including_support_brim_g": 26.87,
+      "slicer_warnings": [
+        "print warning: Detected print stability issues:",
+        "TRC_final.stl",
+        "Low bed adhesion",
+        "Consider enabling supports."
+      ],
+      "limits": "400mm reference machine; not actual printer fit or a measured part. Private G-code must not be used to print."
+    },
+    "TLC": {
+      "stl_sha256": "c569a73d5a44d051d5275b41812e278124e9cc6c8393dfca555d5950c352c1ce",
+      "nominal_installed_g": 26.63358235494522,
+      "total_including_support_brim_g": 26.88,
+      "slicer_warnings": [
+        "print warning: Detected print stability issues:",
+        "TLC_final.stl",
+        "Low bed adhesion",
+        "Consider enabling supports."
+      ],
+      "limits": "400mm reference machine; not actual printer fit or a measured part. Private G-code must not be used to print."
+    },
+    "HAR": {
+      "stl_sha256": "fd34fc1d3c0e114436cef3f4f4186841f4ae7cb933ac4e6ec3ac9e55dfa62c1d",
+      "nominal_installed_g": 0.6693180847617017,
+      "total_including_support_brim_g": 0.79,
+      "slicer_warnings": [],
+      "limits": "400mm reference machine; not actual printer fit or a measured part. Private G-code must not be used to print."
+    },
+    "HTR": {
+      "stl_sha256": "58af31915356a15da521416455037e7920a54dd1e3b651b863d43daa81774b34",
+      "nominal_installed_g": 1.087471915968494,
+      "total_including_support_brim_g": 1.22,
+      "slicer_warnings": [],
+      "limits": "400mm reference machine; not actual printer fit or a measured part. Private G-code must not be used to print."
+    },
+    "HAL": {
+      "stl_sha256": "fd34fc1d3c0e114436cef3f4f4186841f4ae7cb933ac4e6ec3ac9e55dfa62c1d",
+      "nominal_installed_g": 0.6693180847617017,
+      "total_including_support_brim_g": 0.79,
+      "slicer_warnings": [],
+      "limits": "400mm reference machine; not actual printer fit or a measured part. Private G-code must not be used to print."
+    },
+    "HTL": {
+      "stl_sha256": "58af31915356a15da521416455037e7920a54dd1e3b651b863d43daa81774b34",
+      "nominal_installed_g": 1.087471915968494,
+      "total_including_support_brim_g": 1.22,
+      "slicer_warnings": [],
+      "limits": "400mm reference machine; not actual printer fit or a measured part. Private G-code must not be used to print."
+    },
+    "MAR": {
+      "stl_sha256": "bbd2fc2e973af2c3672c9cee03596ecf28b3b1819b91a012454a4787447eba5f",
+      "nominal_installed_g": 2.8513724042439526,
+      "total_including_support_brim_g": 3.1,
+      "slicer_warnings": [],
+      "limits": "400mm reference machine; not actual printer fit or a measured part. Private G-code must not be used to print."
+    },
+    "MAL": {
+      "stl_sha256": "028af05cc99f727aa1047d131a2dd6186f133d208cbeabc893e1381fc5b2f440",
+      "nominal_installed_g": 2.851663918634579,
+      "total_including_support_brim_g": 3.1,
+      "slicer_warnings": [],
+      "limits": "400mm reference machine; not actual printer fit or a measured part. Private G-code must not be used to print."
+    }
+  },
+  "scope": "Exact delivered meshes sliced on a reference machine; rendered PDFs visually reviewed. Actual printer fit, fabrication and flight remain unverified.",
+  "print_review": {
+    "scope": "FCF/FTF fairings, four moving controls, two rails. No installed geometry edits. Toolpath/mesh evidence only; no physical print claim.",
+    "method": "All Bridge-infill moves in exact final G-code checked. Uncovered intervals use0.45mm-wide preceding0.4mm object extrusion/current perimeters and support paths within0.8mm. This is a toolpath proxy, not physical sag prediction. Exact STEP/inputSTL/processedSTL/G-code hashes and settings verified. Support access:101 sampled zero-radius rays per fairing; all FTF samples have cardinal exit;98 FCF samples have cardinal exit and remaining3 have51\u201375/256 unblocked oblique directions. Finite tool access and break strength remain untested.",
+    "findings": [
+      "Original upright FTF60.15mm cavity roof rejected; selected front-end-down removes that span.",
+      "Selected FCF everywhere supports include bridges; FTF buildplate-only supports. Final maximum uncovered intervalsFCF10.18mm/FTF14.18mm. Qualify a representative15mm bridge and support breakout with actual printer/material.",
+      "Exact final AR/AL maximum uncovered interval3.63mm; TRC8.20mm/TLC6.47mm. Legacy horn-pocket roof resolved. Local edge paths still require actual printer qualification.",
+      "AR/AL require3.2x17mm post-print horn slot. No control internal supports; fit end plugs after horns.",
+      "Aligned rails have zero Bridge-infill moves and no Overhang-perimeter mass, with~110mm2 first-layer object footprint.",
+      "All eight meshes watertight with positive volume; physical thin-wall adhesion/strength untested.",
+      "No sampled support point fully enclosed after cardinal/oblique visibility checks. Break supports out through open fairing side; inspect window corners and mating lips. Ray visibility does not establish finite tool clearance.",
+      "TRC/TLC retain slicer Low bed adhesion warnings at263mm height despite8mm brim. This is an explicit actual-printer adhesion gate; no floating-anchor or long-bridge warnings remain. Other six reviewed parts have no slicer warnings."
+    ],
+    "machine_limit": "Reference slicer machine400 mm is not actual printer. Object envelopes in each row exclude additional brim/support footprint; verify real usable volume and tall-part adhesion before printing."
+  }
+}

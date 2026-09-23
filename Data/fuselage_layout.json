@@ -1,0 +1,180 @@
+{
+  "propulsion": {
+    "motor_mount_rear_face_y_mm": 590,
+    "motor_body_length_mm": 20,
+    "motor_shaft_length_mm": 14,
+    "motor_total_length_mm": 34,
+    "motor_mass_centre_xyz_mm": [
+      0,
+      600,
+      0
+    ],
+    "motor_mass_centre_basis": "Approximate centre of body envelope; actual assembled motor balance unmeasured",
+    "prop_seat_y_mm": 610,
+    "prop_nominal_centre_xyz_mm": [
+      0,
+      613.5,
+      0
+    ],
+    "prop_tested_centre_y_mm": [
+      613,
+      617
+    ],
+    "prop_hub_thickness_mm": 7,
+    "prop_hub_thickness_status": "Nominal reference only; measure actual hub and nut engagement"
+  },
+  "units": "mm",
+  "status": "Generated nominal layout; inspect final audit and measure actual hardware",
+  "battery_size_xyz_mm": [
+    43,
+    138,
+    33
+  ],
+  "battery_nominal_centre_xyz_mm": [
+    0,
+    -154,
+    12.5
+  ],
+  "battery_centre_travel_y_mm": [
+    -280,
+    -120
+  ],
+  "battery_removal_slide_y_mm": -205,
+  "required_open_covers": [
+    "N1",
+    "FSU1"
+  ],
+  "battery_removal_waypoints_xyz_mm": [
+    [
+      0,
+      -205,
+      12.5
+    ],
+    [
+      0,
+      -205,
+      112.5
+    ]
+  ],
+  "battery_floor_top_z_mm": -6,
+  "battery_pad_mm": 2,
+  "battery_strap_rows_y_mm": [
+    -310,
+    -270,
+    -230,
+    -190,
+    -150,
+    -110,
+    -70
+  ],
+  "battery_restraint": "Two owned Velcro straps through paired side slots, normally 80 mm apart and both inside pack footprint. Fit non-slip pad. Release and tuck straps clear before sliding.",
+  "equipment_placements": [
+    {
+      "id": "flight_controller",
+      "centre_xyz_mm": [
+        0,
+        270,
+        13.5
+      ],
+      "size_xyz_mm": [
+        54,
+        36,
+        13
+      ],
+      "mount": "FEQ plus 2 mm pad",
+      "open_cover": "FSU2"
+    },
+    {
+      "id": "receiver",
+      "centre_xyz_mm": [
+        0,
+        315,
+        14.35
+      ],
+      "size_xyz_mm": [
+        47,
+        33.1,
+        14.7
+      ],
+      "mount": "FEQ plus 2 mm pad",
+      "open_cover": "FSU2"
+    },
+    {
+      "id": "gps_compass",
+      "centre_xyz_mm": [
+        0,
+        -300,
+        59
+      ],
+      "size_xyz_mm": [
+        32,
+        32,
+        10
+      ],
+      "mount": "FGPS plus 2 mm pad",
+      "open_cover": "N1+FSU1 lifted together; release pitot/tubes first"
+    },
+    {
+      "id": "airspeed_board",
+      "centre_xyz_mm": [
+        16,
+        -60,
+        -20
+      ],
+      "size_xyz_mm": [
+        20,
+        20,
+        12
+      ],
+      "mount": "Insulated pad under aft end of FBT; reach from open tray rear edge after battery removal; height allowance provisional",
+      "open_cover": "N1+FSU1 lifted together; release pitot/tubes first"
+    },
+    {
+      "id": "esc",
+      "centre_xyz_mm": [
+        0,
+        365,
+        15
+      ],
+      "size_xyz_mm": [
+        65,
+        32,
+        16
+      ],
+      "mount": "FES0/FES1 plus 2 mm pad and ties",
+      "open_cover": "FSU2",
+      "status": "Actual ESC size, leads and cooling unverified"
+    },
+    {
+      "id": "telemetry",
+      "centre_xyz_mm": [
+        0,
+        180,
+        16
+      ],
+      "size_xyz_mm": [
+        28,
+        60,
+        18
+      ],
+      "mount": "On FTM0/FTM1 with 2 mm pad and ties; upward service after FCF removal",
+      "open_cover": "FCF",
+      "status": "Exact radio dimensions and antenna fit unverified"
+    }
+  ],
+  "service_rule": "Remove relevant cover before reaching plugs; no lead may obstruct battery travel. Four active servos, no steering.",
+  "combined_cover_removal": {
+    "covers": [
+      "N1",
+      "FSU1"
+    ],
+    "method": "Release both cover tapes/retainers and pitot/tube connections, lift N1 and FSU1 together, then separate off-airframe; independent vertical lifts collide with the shared rim",
+    "tested_lift_offsets_mm": [
+      2,
+      10,
+      30,
+      60,
+      120
+    ]
+  }
+}

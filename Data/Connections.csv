@@ -1,0 +1,18 @@
+id,source_label,destination,signal_or_power,route,measured_fitted_length_mm,verification
+P1,GenX 4S main,F405-WING V2 PDB battery input,4S plus and minus,through battery restraint to FC,,Confirm polarity connector rating and strain relief
+P2,F405-WING V2 PDB motor feed,ReadytoSky 40A ESC input,4S plus and minus,secured high-current route away from sensors,,Measure actual ESC lead and polarity
+P3,ReadytoSky ESC phases,Emax ECO II 2807 motor,three phases,rear firewall,,Confirm direction and prop handedness
+E1,ReadytoSky ESC servo lead,F405-WING V2 S1 and G,PWM signal plus ground; BEC positive individually insulated,away from moving parts,,Meter ESC lead for live BEC first
+A1,F405-WING V2 S3 Vx G,left aileron MG90S,PWM 5V ground,left wing-root labelled disconnect,,Check polarity retention and full removal
+A2,F405-WING V2 S4 Vx G,right aileron MG90S,PWM 5V ground,right wing-root labelled disconnect,,Check polarity retention and full removal
+T1,F405-WING V2 S5 Vx2 G,left V-tail MG90S,PWM 5V ground,fuselage-to-tail strain relief,,Bridge Vx to Vx2 and load-test
+T2,F405-WING V2 S6 Vx2 G,right V-tail MG90S,PWM 5V ground,fuselage-to-tail strain relief,,Bridge Vx to Vx2 and load-test
+R1,FS-iA10B servo iBUS output,F405-WING V2 RX2,iBUS signal,receiver isolated from high-current route,,Confirm iBUS port not SENS
+R2,F405-WING V2 5V G,FS-iA10B supply,regulated 5V ground,receiver route,,Meter polarity and loaded voltage
+G1,M9N-5883 TX and RX,F405-WING V2 RX3 and TX3,GPS UART crossed,clear of ESC and motor,,Meter adapter pinout and confirm GPS fix
+G2,M9N-5883 DA CL,F405-WING V2 DA2 CL2,compass I2C,clear of magnetic and high-current materials,,Confirm I2C detection and heading
+G3,F405-WING V2 5V G,M9N-5883 supply,regulated 5V ground,GPS route,,Meter 4-5.5V and polarity
+S1,ASPD-4525 SDA SCL,F405-WING V2 DA2 CL2,airspeed I2C,clear of pressure tubing bends,,Confirm connector sequence and sensor health
+S2,F405-WING V2 5V G,ASPD-4525 supply,regulated 5V ground,pitot service route,,Meter 4-5.5V and polarity
+L1,F405-WING V2 TX1 RX1,SiK air radio RX TX,UART crossed,antenna supported away from carbon and high-current route,,Verify radio label voltage pinout and telemetry
+L2,F405-WING V2 5V G,SiK air radio supply,regulated 5V ground,telemetry route,,Measure transmit draw within combined 5V budget

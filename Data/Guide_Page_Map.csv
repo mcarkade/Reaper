@@ -1,0 +1,43 @@
+page,section,title
+1,START HERE,Build the Reaper
+2,PLAN THE TESTS,"Flight numbers, without guessing"
+3,CUT / PRINT / BUILD,The whole job at a glance
+4,BEFORE CUTTING,Lay out the stock and owned parts
+5,SHOP HANDOFF,"Cut once, label every piece"
+6,PART PICKER,Wing wood parts / both wings
+7,PART PICKER,Tail and landing-leg wood parts
+8,PART PICKER,Printed parts / 14 new prints + reuse N1
+9,PART PICKER,Body wood parts / panel 1
+10,PART PICKER,Body wood parts / panel 2
+11,PART PICKER,Body wood parts / panel 3
+12,PART PICKER,Match the 35 foam patterns
+13,PART PICKER,Foam shapes / 1 of 2
+14,PART PICKER,Foam shapes / 2 of 2
+15,PRINT SETUP,Print the right parts the right way
+16,ASSEMBLY DATUM,Mark the body before assembly
+17,BUILD,1. Build the straight body base
+18,BUILD,2. Add the body ribs and battery shelf
+19,BUILD,3. Add the equipment shelves
+20,BUILD,4. Fit the wing socket and motor support
+21,ASSEMBLY DETAIL,Detail: wing socket
+22,BUILD,5. Make both wing beams
+23,ASSEMBLY DETAIL,Detail: removable wing roots
+24,BUILD,6. Fit wing ribs and check removal
+25,BUILD,7. Form and fit the wing skins
+26,BUILD,8. Build the fixed V-tail
+27,ASSEMBLY DETAIL,Detail: tail hinge clearance
+28,BUILD,"9. Fit hinges, horns, servos and spokes"
+29,ASSEMBLY DETAIL,Detail: tail linkage
+30,BUILD,10. Close the body and prove access
+31,BUILD,11. Add the simple wheels and propulsion
+32,ELECTRONICS / PLACE,Place the electronics
+33,ELECTRONICS / CONNECT,Wire power and the four servos
+34,ELECTRONICS / CONNECT,"Connect GPS, compass and airspeed"
+35,ELECTRONICS / CONNECT,Connect the receiver and telemetry
+36,ELECTRONICS / PROP OFF,Set up and test 1-3
+37,ELECTRONICS / PROP OFF,Set up and test 4-6
+38,ELECTRONICS / PROP OFF,Set up and test 7-9
+39,ELECTRONICS / PROP OFF,Set up and test 10-12
+40,BEFORE FLIGHT,"Balance, load and service checks"
+41,BEFORE FLIGHT,Ground checks and the first launch
+42,QUICK REFERENCE,Plain-language terms and reference files

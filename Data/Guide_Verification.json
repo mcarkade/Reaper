@@ -1,0 +1,20 @@
+{
+  "pdf_sha256": "078532f6634b00d995cfc10c2f67efdf3311ac6f148562e6eb05f0427cbfb701",
+  "pages": 42,
+  "visual_review": "PASS",
+  "visual_scope": "All 42 rendered pages reviewed: galleries and assembly pages 6-31 independently reviewed; cover, calculations, wiring, calibration, navigation and final changed pages inspected at readable size. No remaining clipping or label/part identity defects found.",
+  "manufacturing_files_unchanged": true,
+  "unchanged_manufacturing_file_count": 276,
+  "made_part_checklist_rows": 120,
+  "wood_part_galleries": 71,
+  "new_prints": 14,
+  "reused_nose": 1,
+  "foam_patterns_shown": 35,
+  "assembly_steps": 11,
+  "wiring_groups": 24,
+  "setup_steps": 12,
+  "pdf_bookmarks": 42,
+  "text_bounds_issues": 0,
+  "register_sha256": "474f563311f56be3104ad261d9d275e01811fa6059c9824e09c22caf76902d94",
+  "limits": "Guide and digital file review only. Physical fit, material/joint strength, actual mass/CG, propulsion, runway and flight performance remain unverified."
+}

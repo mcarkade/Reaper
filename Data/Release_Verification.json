@@ -2,13 +2,13 @@
   "register_sha256": "474f563311f56be3104ad261d9d275e01811fa6059c9824e09c22caf76902d94",
   "pdf_review": {
     "Build_Guide": {
-      "pages": 10,
+      "pages": 42,
       "text_within_page": true,
       "rendered_all_pages": true,
-      "source_sha256": "a21d92aa7c53e941de3764bfd5f38d391e9dc227d3bcf0f1e08df4b423e80777",
+      "source_sha256": "078532f6634b00d995cfc10c2f67efdf3311ac6f148562e6eb05f0427cbfb701",
       "actual_size_bar_checked": false,
       "visual_review": "PASS",
-      "visual_scope": "All-page contact sheets and readable guide manufacturing, grain, clearance, calculation and finishing-locator pages inspected. Corrected tail-spine template tiles inspected after final regeneration; scale and bounds checked on every page."
+      "visual_scope": "All 42 rendered pages reviewed: galleries and assembly pages 6-31 independently reviewed; cover, calculations, wiring, calibration, navigation and final changed pages inspected at readable size. No remaining clipping or label/part identity defects found."
     },
     "Paper_Patterns": {
       "pages": 180,

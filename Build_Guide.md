@@ -1,198 +1,820 @@
-# Reaper: simple prototype build
+# Reaper: illustrated workshop build guide
 
-![Complete aircraft with three-blade 9045 propeller and fixed landing gear](Illustrations/Assembly.png)
 
-A rounded, approximately 2 m-span Reaper with removable wings, the existing N1 nose, four control servos and three simple wooden landing legs. Wood carries the loads; foam and printed fairings form the exterior. The propeller is a purchased-hardware reference, not a print file. Attach the three existing wheel/axle assemblies to the leg ends; their actual offsets are not modelled.
+## Build the Reaper
 
-This is a digitally checked prototype design. The workshop fit, joints, actual weight/balance, controls and exact propulsion combination still need the checks at the end. CAD alone does not establish that the aircraft will fly safely.
+![Finished shape with the owned 9045 three-blade propeller shown as a reference. Fit your three wheel assemblies to the plain legs; their dimensions are not modelled.](Illustrations/Assembly.png)
 
-## Files and materials
+Finished shape with the owned 9045 three-blade propeller shown as a reference. Fit your three wheel assemblies to the plain legs; their dimensions are not modelled.
 
-| File or folder | Use |
+| Before you build | What we know |
 | --- | --- |
-| Cutting/ | Combined stock-sheet DXFs, previews, sheet register and part-to-sheet map. |
-| Print/ | 14 new print files and the orientation/settings schedule. Reuse N1. |
-| CAD/ | Positioned assembly and individual finished parts. Stock_Blanks identifies pieces that require sanding after cutting. |
-| Reference_Profiles/ | Individual profiles for shop re-nesting; these are not additional parts. |
-| Data/ | Complete part list, wiring, mass/balance, calculations, sources and physical-check record. |
-| Paper_Patterns.pdf | Optional actual-size manual templates; use the page map and print only needed pieces. |
+| Size / estimated flying weight | 2.0 m span / 2.55 kg including flight battery. Build sensitivity: 2.12-3.15 kg. Weigh the finished model. |
+| Estimated stall speed | 38-49 km/h (10.6-13.7 m/s), at 2.55 kg under stated lift/air-density assumptions. Not a measured flight speed. |
+| Flight time example | 15-17 minutes IF whole-flight average current is 15 A. Actual current is unknown; see next page. |
+| Runway / launch | Required runway length is UNKNOWN. Planned method: wheeled roll from a smooth runway after ground testing. No qualified hand launch or catapult. |
 
-| Owned stock | Planned use |
+**Resolve before a powered launch** The Emax 2807 motor is listed for 7-inch props. The owned 9-inch three-blade combination has no verified current, thrust or temperature result. The build files do not establish flight readiness.
+
+
+## Flight numbers, without guessing
+
+Battery time: capacity divided by average current
+
+4S 5200 mAh = 5.2 Ah, about 77 Wh at nominal voltage. The examples use 70-80% of rated capacity and leave 20-30% unused. Pack condition and voltage sag may shorten them.
+
+| Assumed whole-flight average | Calculated time |
 | --- | --- |
-| Nominal 6 mm plywood, 8 × 4 ft | 1 layout(s), 2438.4 × 1219.2 mm. Body load frame, root joints, firewall and gear. |
-| Ten 1000 × 100 × 5 mm balsa planks | 2 planks nested. Wing caps/webs/ribs, body formers, tail spines and small plugs. |
-| Ten 1000 × 600 mm FliteBoard sheets | 3 sheets nested. Nominal 5 mm; measure actual thickness and sheet mass. |
-| Two solid 5 × 1000 mm carbon rods | One complete rod per wing as the upper spar member. Do not cut them into short joiners. |
-| 2 kg HS PLA+ | New print estimate 582 g including reference supports/brims; actual printer result will vary. Existing N1 is excluded from the new print order. |
-| Five MG90S; four bicycle spokes | Four servos and four pushrods installed; fifth servo spare. Keep the supplied servo arms/screws. |
-| Three existing wheel/axle assemblies | Reuse them with three plain wooden legs. The owner will handle both end attachments; actual wheel offsets and alignment remain workshop checks. |
-| Two Velcro straps; glue, tape and ties | Battery retention, tested structural bonds, taped hinges and removable covers. |
+| 10 A | 21.8-25.0 min |
+| 15 A | 14.6-16.6 min |
+| 20 A | 10.9-12.5 min |
+| 25 A | 8.7-10.0 min |
 
-Use a ruler/caliper, square, knife, sanding block, drill/reamer, scale, multimeter and wattmeter. Check the actual glue is compatible with each substrate. Test wood/carbon/print bonds; use foam-safe adhesive on exposed XPS. Large glue blobs do not replace a fitted joint.
+Minutes = 60 x 5.2 x usable fraction / average amperes. Include launch, climb, servos and electronics. These are conditional examples, not a prediction of cruise current.
 
-## Cut and print
+Stall: the slowest speed assumed to hold level flight
 
-1. Measure stock thickness and test kerf/slot fit on offcuts first. Cut from this package only. DXFs use millimetres: CUT is through-cut; SCORE is a separate controlled operation; MARK labels parts; STOCK_REFERENCE_DO_NOT_CUT is never cut. Balsa grain follows the long stock direction in the nesting. Label left/right pieces before separating them.
+Wing area is 0.304 m2; loading is about 83.7 g/dm2. Vs = square root of [2 x mass x gravity / (air density x wing area x maximum lift coefficient)]. Assumed maximum lift coefficient: 0.8-1.2; air density: 1.10-1.225 kg/m3.
 
-2. If the shop bed is smaller than the plywood sheet, re-nest complete individual profiles at 100%. Do not scale or split a structural part to fit. Check the final quantities against Part_to_Sheet.csv. Have the shop choose a suitable process for paper-faced XPS; knife/CNC-knife cutting uses the same profiles if laser processing is unsuitable.
+38-49 km/h is airspeed, not GPS ground speed. Turns, gusts and a heavier build raise the requirement. Including the full mass sensitivity gives about 35-55 km/h. Do not target stall during the maiden flight.
 
-3. Foam developments describe the outside paper surface. Form them over the actual ribs/frame, remove inner paper and relieve the inner core locally, bevel seams and protect the outside paper. Local spar/servo pockets and gear exits require the relief instructions and a dry-fit transfer; a flat outline does not make a three-dimensional pocket. Before full wings, make a representative formed section with the real cap/web/rod and deepest cap channel: the nominal model leaves only about0.5mm of outer foam/paper there. Prove you can retain that skin on the actual board; a generic slot coupon is not enough.
+Runway: no defensible minimum yet
 
-4. Follow Print_Schedule.csv per part, at millimetres and 100% scale. It lists the minimum object envelope; allow additional bed space for brim/support. Controls print closed tip down and open root up, with no trapped internal support. Install their balsa plugs after the horns. The two body fairings print front end down with 15% gyroid infill and an 8 mm brim. FCF needs supports everywhere with bridge support enabled; FTF uses buildplate-only supports. Test a 15 mm anchored bridge with the actual PLA+ and printer first. Preview thin walls, horn blocks and support removal before the batch. Do not print the illustrative motor, propeller or wheels.
-
-The tallest new files need about 274.1 mm usable print height, plus the printer's startup clearance. TRC/TLC retain a low-bed-adhesion warning because they are tall and narrow; their 8 mm brim is a starting setup, not proof of adhesion. Verify the actual machine's size, first-layer grip and tall-part stability before ordering the batch.
-
-## Assemble the wooden body
-
-![Load frame and internal structure](Illustrations/Structure.png)
-
-Dry-fit rails FLR/FLL, keel FK, former pieces FF1, FF3, FF0R, FF0U, FF0L, FF2R, FF2U, FF2L, and cross ties FX0L/FX0R plus FX1-FX3. The split former arches and sides are separate labelled pieces supported by the frame; do not glue unrelated pieces together across the battery passage. Fit the wing receiver, motor structure and gear attachments while the underside remains open. Hold the frame square and symmetric, then bond the contacting faces. Foam and removable fairings do not carry these attachment loads.
-
-Fit battery tray FBT, webs FBWL/FBWR and cross tie FBC. Round the strap slots, add a nonslip pad and route both Velcro straps using two slot rows inside the pack footprint. Each strap must restrain the pack without pulling its leads. Fit GPS shelf FGPS and its posts, then prove battery removal: lift N1 and FSU1 together as described below, release/tuck the straps, slide the pack to centre Y-205 to clear the shelf, then lift out. Nominal battery adjustment is Y-280 to -120; actual leads can reduce that range.
-
-Fit equipment deck FEQ on FEC0/FEC1 in the aft service bay, with plugs reachable beneath FSU2. N1 is a taped removable cover and remains unchanged. Tie the pitot to the integral left-forward tab of FBT. For front access, release the tape on both N1 and FSU1, disconnect both labelled pressure tubes and release/withdraw the probe attachment. Lift N1 and FSU1 together, then separate them off the aircraft; their overlapping edges prevent independent straight lifting while the other remains seated. Keep the pressure ports unobstructed and prove the sequence with actual tubing installed.
-
-| Equipment | Simple support and access |
+| Illustration only: reach 18 m/s in still air | Ground roll only |
 | --- | --- |
-| FC and receiver | Pads/ties on FEQ; remove FSU2 for plugs, USB and SD access. |
-| ESC | Across the body on FES0/FES1 with pad/ties; remove FSU2. Keep cooling airflow through the fitted covers and test temperature. |
-| SiK radio | Pad/ties on FTM0/FTM1; remove FCF and reach from above. Keep its antenna clear of carbon and power wiring. |
-| GPS/compass | Pad/ties on FGPS; lift the N1/FSU1 pair for access. Check actual compass interference. |
-| Airspeed board | Insulated pad under the tray's rear edge. Lift the N1/FSU1 pair and remove the battery, release the board attachment, slide the board aft to Y−25, then lift out. Keep both pressure tubes reachable and labelled. |
+| Assume 1 m/s2 net acceleration | 162 m |
+| Assume 2 m/s2 net acceleration | 81 m |
+| Assume 3 m/s2 net acceleration | 54 m |
 
-## Wings, tail and controls
+Distance = speed squared / (2 x net acceleration). Acceleration is unmeasured. These examples exclude obstacle clearance, climb and stopping after an aborted takeoff. 18 m/s is not an approved takeoff speed.
 
-Use the current verified register, stock-blank STEP files and DXFs together. A DXF is a cut outline; it does not imply that a curved groove or pocket is a laser through-cut. The original foam patterns describe the outside paper only. New internal relief and the gear exits are separate operations below.
-
-### Datum and material
-
-X runs along the span, Y aft and Z upward. The right wing begins at X53; left-hand positions are mirrored. Each carbon upper cap uses one complete owned 5 x 1000 mm solid rod. Balsa caps are about 900 mm long, webs about 800 mm, so normal 2 mm stock-end margins fit the 1000 mm boards. Keep grain along the cap/web/spine length and along each rib chord. Keep the root-tongue plywood face grain spanwise; the bending screen assumes this orientation. Measure actual plywood, balsa and foam thickness before accepting the nominal fits. Rib outside perimeters include 0.4 mm assembly/glue clearance; fill it continuously with the qualified adhesive while holding the outside foam profile. Rib beam windows are full-depth cut profiles using the larger clearance needed at either stock face; fill the small angular mismatch continuously with adhesive. The separate root tongue/receiver bearing keeps its specified fit. A dry gap is not a bonded load path.
-
-### Beam and removable root
-
-1. Cut the **stock blanks** for LCR/LCL (5 mm balsa), WBR/WBL (5 mm balsa), and the six JR/JL laminate blanks (6 mm plywood). The finished STEP models also show secondary grooves; these grooves are not all present in the flat DXF. Keep a comparison print of the finished section beside the blank.
-2. Support the lower cap and web in the rib/root jig before shaping the thin web end. Sand the half-round carbon seat progressively with a 5 mm former and thin abrasive. The web rises to the rod centre, giving a real curved glue surface. Do not replace this with a line-contact rod sitting on a flat edge. Dry-fit the actual rod; account for abrasive thickness and glue clearance. The last approximately 100 mm uses a shallow groove directly in the lower cap, where the rod and cap meet and the web ends.
-3. Mark the diagonal rod channel on each root laminate using its finished STEP/template. Fit that relief before bonding the three layers around the protected rod/jig. Do not drill an unplanned transverse hole through the highly stressed tongue. The nominal finished tongue is 18 mm wide; its receiver is 18.3 mm. Recalculate the receiver gap from the measured laminated thickness and a sliding coupon rather than forcing nominal sheets into it.
-4. Bond continuously along the rod/web, web/cap and tongue/cap overlap. The carbon rod is the upper cap, not a loose alignment pin. Keep the removable receiver free of glue. The top and bottom receiver caps transfer vertical load by bearing; its side cheeks alone cannot do that.
-5. The centre fairing must remain removable for retention and wiring access. Use one captive, replaceable 3 mm nylon tie per wing through the root-rib slot and the corresponding fixed JB cheek slot. Root-rib slots lie at Y135-139 / Z10-12; fixed cheek slots at X33-37 or X-37 to-33 / Z11-13. Smooth char and sharp edges. The tie bears on plywood, not foam. Tighten only enough to seat the wing. Check the actual tie size/strength and test withdrawal. For removal, lift the centre cover, unplug the servo and cut the tie, then withdraw the wing straight along the span. Fit a new tie on reassembly.
-
-The final fixed JF/JB cheeks stop at X-50 and X50, matching the bearing caps and 50 mm engagement per wing. Their former outboard guide extensions are removed so they cannot strike the removable root ribs. The larger existing inner-foam clearance remains an access void; it needs no replacement part and is not a structural glue joint.
-
-### Foam relief map
-
-Do not transfer a 3D pocket onto an arbitrary side of a flat pattern. Dry-assemble the beam, ribs and root, protect them from accidental glue, then wrap the correctly labelled foam pattern around that jig. Mark contact lines on the **inner face** with removable transfer colour. Open the foam again, remove inner paper only inside the marked relief, and pare/sand gradually while checking the unchanged outside profile against the jig. Outer-paper protection is essential; a gouge through it is a repair decision, not an acceptable hidden fit.
-
-| Installed foam | Outer-paper pattern | New feature and transfer method |
-|---|---|---|
-| WLIN / WRIN | F01 / F02 | Root tongues, receiver cheeks and plywood root rib: transfer their actual dry-fit contact outlines to the inner face. The source DXF does not contain these pockets. Keep the outer paper and original rounded nose/section. |
-| WLIN / WRIN | F01 / F02 | Lower cap starts 47 mm outboard of the physical wing root (global X100), follows Y=80+0.04*abs(X), and is 20 mm wide. Nominal bottom Z=2.6+0.008*abs(X) leaves about 0.5 mm of the original lower foam/paper. Check a section coupon; do not simply remove the full foam thickness. |
-| WLOUT / WROUT | F04 / F03 | Continue the same lower-cap channel and carbon upper-cap contact relief using the assembled straight rod as the transfer jig. The rod is progressively closer to the upper skin toward the tip; preserve the outside paper and check residual foam. The tip rod seat is in wood, not an overlapping stack of rod and balsa. |
-| WLOUT / WROUT | F04 / F03 | Dry-fit AHL/AHR at the fixed aileron edge (approximately abs(X)496-770, Y123-147). Transfer the actual rail contact to the inner face and pare the marked seat to the finished STEP pocket. Preserve continuous upper outside paper. Where the modeled seat opens at the lower/trailing edge, cut only that marked opening and bond the printed rail as the local replacement edge; do not enlarge the opening into the main wing skin. Clamp the tape landing straight while the joint cures. |
-| WLIN/WLOUT and WRIN/WROUT | F01/F04 and F02/F03 | The relocated aileron servo body is about X455-487, Y111-143 (mirror X for left). Mark the actual body/tray during dry fit. Internal body clearance differs from a through opening: expose only the underside tie/arm service area required by the actual servo. Keep the wing upper surface and main beam intact. The supplied arm requires the separately modeled underside sweep opening and open tray edge; use Data/Arm_Clearances.json and CAD/Reference_Clearances (clearance references, not parts to make). Confirm the actual arm centre plane about 1.65 mm beyond the shaft tip, not a point inside the shaft. Tail trays also have an open outboard edge for their arms. |
-| TLF / TRF | F06+F08 / F05+F07 | Transfer the actual balsa spine contact to the inner tail foam before gluing. Its cut pocket must seat the spine; it must not merely overlap it in the assembly. Retain the outside tail contour. |
-| TLF / TRF | F06+F08 / F05+F07 | At the root, transfer ETL/ETR servo body and TROOT crosshead contact using the assembled tray/crosshead as the jig. Remove inner paper and foam only within those marks, to the finished STEP pockets. Preserve the exposed outside tail paper; do not cut a broad access hole through it. Leave the actual servo ties and arm accessible from the removable rear-cover opening. |
-| TLF / TRF | F06+F08 / F05+F07 | Bevel the fixed trailing-edge underside for control and horn travel. Mark a line 3 mm below the hinge axis, measured normal to the canted tail surface, then pare a 20-degree bevel from the square edge toward the underside/leading side. Apply it only over the moving-control span: right hinge datum (45,492.6,27.81) toward (267,492.6,183.25), span coordinate -1 to266 mm; mirror left. Keep the upper tape landing uncut. Use the finished STEP and tail_travel_relief.json as the jig limits, then cycle the actual taped control and horn through the full mixed +/-20-degree limit. This is a fixed-foam trim; do not reshape the printed control or horn. |
-| FSL body pieces | Body pattern IDs in Data/Cut_Patterns.csv | Landing-leg exits are intentional through openings, unlike the internal wing grooves. Dry-fit the three owned-hardware support sticks and mark their actual exit at the current assembled position. The old body DXFs do not include those exits. Owner handles leg and wheel attachment details. |
-
-Use the per-part finished STEP and stock blank as the limits for secondary shaping. Stop if fitting would require cutting the outer paper away or thinning a structural wood ligament beyond that model. That is a geometry/material mismatch to resolve before gluing, not permission to force the fit.
-
-The source tail-servo undersides intrude locally by 0.022 mm into the nominal MTR/MTL seat. This is a measured CAD residual, not a claim of zero interference. Lightly dress the balsa seat by at most 0.03 mm where the actual servo touches, then check flat support and tie retention. The cut blank remains a flat 5 mm part; no hidden laser depth pocket or servo-axis shift is specified.
-
-### Controls and printing
-
-The fixed aileron rail and thin tape landing are one connected print per side. The moving controls retain the source outline, with the documented hinge changes. Each moving shell prints upright from its closed outboard end with its inboard end open; fit the separate balsa closure only after inspecting/assembling the horn. Both control families have a gradual internal printing ramp; each slicer preview must show no floating internal starts. The outboard tip is trimmed 1 mm and closed with a planar 0.8 mm floor for an actual flat bed footprint. Use an 8 mm brim and verify the actual printer height; the reference slicer bed is not evidence that the owner’s printer fits. Do not use inaccessible trapped support as an automatic repair.
-
-The AR/AL STLs are intentionally **unslotted print blanks**. Their finished positioned STEP files include the 3.2 x 17 mm transverse horn slot. Print the CAD material with 100% rectilinear infill; the actual hollow airfoil cavity remains empty. After printing, use the inboard-end/leading-edge top-view locator DXF to mark the slot, then cut/file it and test the actual horn. This avoids an unsupported internal roof. The locator is not a developed curved-surface template. Four separately printed horns key into reinforced slots. The tail horns have X-axis pins at neutral and an hourglass bore (nominal 2.4 mm throat over 1 mm; 4.4 mm mouths) for a nominal 2 mm spoke. Measure the actual spokes and printed throat. The captive servo-end Z-bend needs 3 mm usable axial movement, with both ends still retained; a tight ordinary Z-bend is not the modeled articulation. Check the entire combined rudder/elevator sweep under load for rubbing, binding, pull-through and wear.
-
-The digital linkage starting limits are ailerons +/-15 degrees and total mixed V-tail motion +/-20 degrees. They are not independent +/-20-degree pitch plus yaw commands. The final aileron linkage needs approximately -36.5/+48.0 degrees of servo rotation for those +/-15-degree surface limits; a default +/-45-degree radio setup is not enough in one direction. Measure the actual available travel and set a smaller surface limit if necessary. Do not force an endpoint. Centre each real servo electrically before bending the final spoke ends. Theoretical reachability does not establish the real arm hole radius, free play, printed bearing durability or flight control settings.
+**Launch plan** First prove propulsion, structure, balance and straight low-speed rolling. An experienced RC pilot then sets the operating speeds, field and abort plan. Do not chase these example speeds in an unqualified ground run.
 
 
-## Landing gear and motor
+## The whole job at a glance
 
-Use three plain wooden legs: one end attaches to the existing wooden body underside, the other to an owned wheel/axle assembly. The owner will take care of these attachments. No custom forks, axle carriers, extra brackets or steering system are included. Carry each attachment into wood, with the wheel assemblies aligned for straight rolling.
-
-Use the owned plywood for these replaceable legs. The nominal main-leg end meets only about 6 × 6 mm of rail; do not use that small butt contact as the completed landing joint. Fit a small flat plywood offcut underneath to spread the load along the wooden frame, and retain the leg with replaceable ties. The leg reaches the frame through a small skin exit; no unbacked end should bear on foam. Tape can stop slipping but does not replace the wood bearing surface. The owner fits this simple load-spreading attachment along with the wheels; it is not represented as a proven joint by the three leg blanks. A tied joint is not automatically a calibrated breakaway device: provide and test an outward/backward release path on a spare representative joint, including its skin opening, to see whether it releases or damages the frame first. A hard impact can still damage the aircraft. The owned PLA+ has not been qualified for impact-loaded landing legs.
-
-Keep the supplied wheel and axle hardware. Use the closest-matching pair for the main wheels and the third at the nose; adjust the stick lengths to their assembled heights so the body sits level. Reserve all four bicycle spokes for the control pushrods. If a supplied wheel assembly swivels, its final attachment must hold the intended straight wheel direction for the fixed-gear setup. The overview shows nominal leg ends, not measured wheel axle positions.
-
-Align all wheel planes parallel to the centreline and axles square. Check free rotation, side play and a slow straight roll. With the finished aircraft loaded, hold 10 degrees nose-up and rotate the actual prop through a full revolution: require at least 20 mm clearance throughout. Adjust leg length to the actual wheel-assembly offset before final attachment. Recheck after load testing for bending and joint movement. The model does not promise clearance at every pitch angle.
-
-Fit FMGB, FMGL/FMGR, FMT and firewall FMF with all intended load faces touching. The motor mounts behind FMF using its actual supplied screws through four holes on a 19 mm pitch circle. Check screw engagement, shaft relief and adapter fit. Check pusher prop orientation/handedness and motor rotation; keep the prop removed for wiring and initial direction tests.
-
-The propeller's front face still faces the aircraft's nose in this rear-motor arrangement, and its leading edges must lead in the selected rotation direction. Confirm the actual Gemfan markings and adapter fit rather than copying another maker's hub details. The secured propulsion test must produce airflow aft and forward thrust, with the nut remaining secure; airflow direction alone does not prove a backwards-mounted blade is correct.
-
-## Close the exterior
-
-Form FSL0-FSL3 and the four lower-nose gores FNG1-FNG4 around the frame. Fit the small hand-shaped FNT tip and dry-fit the unchanged N1 before bonding the lower nose. Use the pattern-to-assembly map to avoid mixing the mirrored wing and tail skins. Transfer local gear exits from the dry assembly without weakening wooden members.
-
-Fit FCF and FTF around their actual clearance pockets. Keep FSU1/FSU2 as taped service covers for battery straps and equipment plugs. Keep the wing connectors reachable through FCF and the tail servos reachable through their local FTF openings. Repeat wing removal, battery removal and linkage checks with the complete exterior installed.
-
-Dry-fit FCF and lift it through its first 5 mm of travel. It can brush the inner wing foam edge by about 0.18 mm; lightly dress that local mating edge by up to 0.2 mm until the cover lifts freely. Leave the printed fairing and wooden root structure unchanged, and recheck with the actual covering/tape fitted.
-
-Dry-fit the FSU2 cover over the tail-servo trays. Transfer each tray edge to the cover's aft edge and cut two small through-notches, about 7 mm wide and 2 mm deep, centred near X=±49.5 mm at Y389.65. Add only the clearance needed by the real trays. Lightly dress the mating right-side foam edges at FSU2/FSL2, FSL3/tray and FTF/FSL3; modeled seam overlaps are at most 0.21 mm. Dress the nose seam only if needed. These are local foam-fitting operations, not cuts into wooden supports or permission to thin the surrounding outer skin.
-
-## Wiring and setup
-
-See the wiring table below and Data/Connections.csv for each route. Measure lead lengths along the fitted route, include connector access and secure them away from hinges, wheels, moving linkages and the propeller.
-
-Keep the propeller off. Check the labels and pin order on the actual F405-WING V2 and every adapter before applying battery power. Use the FC's regulated 5 V rail for the receiver and sensors; use its separate Vx rail at 5 V for the four servos. Bridge Vx to Vx2 so the tail-servo outputs receive power. Verify loaded voltage at every servo plug.
-
-Meter the disconnected ESC signal lead: its listing conflicts about whether it has a BEC. For this wiring plan, connect ESC signal and common ground only, and insulate any powered ESC positive lead. Do not parallel it with FC 5 V or Vx. The FC 5 V regulator is rated 2 A; the servo regulator is rated 5 A continuous/6 A peak. Check the actual combined loads.
-
-| FC label | Connection | Initial setting |
+| Order | Do this | Files in this package |
 | --- | --- | --- |
-| Battery/PDB input and motor feed | Battery through current sensor to ESC | Verify polarity and lead rating |
-| S1, G | ESC signal and ground | `SERVO1_FUNCTION=70` |
-| S3, Vx, G | Left aileron | `SERVO3_FUNCTION=4` |
-| S4, Vx, G | Right aileron | `SERVO4_FUNCTION=4` |
-| S5, Vx2, G | Left V-tail | `SERVO5_FUNCTION=79` |
-| S6, Vx2, G | Right V-tail | `SERVO6_FUNCTION=80` |
-| RX2, 5V, G | iA10B servo iBUS, not SENS | `BRD_ALT_CONFIG=0` |
-| TX3/RX3, 5V, G | M9N GPS; cross TX and RX | `SERIAL3_PROTOCOL=5` |
-| DA2/CL2, 5V, G | M9N compass and ASPD I2C | `ARSPD_TYPE=1`, `ARSPD_BUS=1` initially |
-| TX1/RX1, 5V, G | SiK radio; cross TX and RX | `SERIAL1_PROTOCOL=2` if the pair supports MAVLink2 |
+| 1  CUT WOOD | 33 plywood + 38 balsa pieces. Count 71. | Cutting/ sheet DXFs; Cutting/Part_to_Sheet.csv |
+| 2  CUT FOAM | 35 flat patterns. Knife or CNC knife; form and trim inner pockets by hand. | Cutting/ foam sheet DXFs; individual files in Reference_Profiles/ |
+| 3  PRINT | 14 new PLA+ parts. Reuse the existing N1 nose. | Print/ individual STLs; Print/Print_Schedule.csv |
+| 4  DRY-FIT + GLUE | Body -> wing beams -> ribs/skins -> tail/controls -> covers/legs. | Illustrated steps in this guide; CAD/Reaper_Assembly.step |
+| 5  FIT + WIRE | Owned electronics, four servos, four spokes, two whole carbon rods, three wheel assemblies. | Placement, wiring and setup pages below |
+| 6  CHECK | Count, fit, balance, electrical tests, propulsion test and supervised ground checks. | Data/Guide_Parts_Checklist.csv; Data/Physical_Checks.csv |
 
-Leave S2 and S7-S10 unused with their functions set to 0. The nose wheel is fixed and has no steering servo. M9N needs both UART and I2C. The ASPD connector sequence is 5V, SCL, SDA, GND; verify its orientation. Check the actual radio's voltage, draw and cable mapping.
+**One checklist for the workshop** Data/Guide_Parts_Checklist.csv lists every cut pattern and new print, quantity, individual file and cutting sheet. Tick it as parts arrive. Individual reference profiles are alternatives to sheet layouts, not extra parts.
 
-1. Confirm the V2 board and supported MatekF405-Wing firmware, then record the version. Use ordinary compatible PWM outputs. The S1/S2, S3/S4 and S5/S6 pairs share timer groups.
-2. Mount the FC on aft deck FEQ at (0, 270, 13.5) mm and the receiver at (0, 315, 14.35) mm, using the simple pads/ties. Remove FSU2 for USB/SD and plug access. The FC's long dimension runs across the body: check its arrow and configure board orientation accordingly.
-3. Use a plain transmitter airplane model with V-tail mixing disabled. Bind the receiver, enable servo iBUS and calibrate the radio channels. Centre servo arms mechanically before setting travel limits.
-4. In MANUAL, right roll must give right aileron up/left down; pitch-up must give both V-tail trailing edges up; right yaw must move both V-tail surfaces right. Review 79/80 assignment if one tail axis is wrong, or output reversal if both axes are wrong. Do not accept the numbers without checking the surfaces.
-5. In FBWA with sticks centred, tilting the aircraft right must command left aileron up/right down; tilting the nose up must command both tail surfaces down. Check yaw correction, then test combined full pitch/yaw and aileron travel for binding. Monitor servo-rail voltage and save the verified parameters.
-6. Start V2 battery monitoring with `BATT_MONITOR=4`, `BATT_VOLT_PIN=10`, `BATT_CURR_PIN=11`, `BATT_VOLT_MULT=11.0` and `BATT_AMP_PERVLT=66.7`; calibrate against a meter/known load. Verify GPS, compass, telemetry and gentle pitot response.
-7. Set the chosen RC-loss and battery failsafe actions, including `THR_FAILSAFE=1`. With the propeller off, verify actual RC-loss detection, mode change, restoration and throttle cut. Confirm the logged battery-failsafe behaviour. RTL depends on a healthy GPS, valid home and a suitable route.
+Find the next job
 
-Label both wing-root disconnects and keep their service loops clear of retention joints. Keep high-current pairs together and away from the compass and receiver. Measure the finished harness; the long battery-to-PDB route needs the actual ESC maker's lead/capacitor guidance before extending input wires. Mount the ESC on its wooden supports with usable inlet/outlet airflow, and check temperature with the real covers fitted.
+Parts and cutting: pages 4-15.
+Assembly and intermediate pictures: pages 16-31.
+Electronics placement, wiring and setup: pages 32-39.
+Balance and launch checks: pages 40-41. Terms: page 42.
+
+CAD = the positioned 3D model. DXF = a flat cutting file. STL = a print mesh. R and L mean aircraft right and left when looking forward from the tail. All files use millimetres at 100% scale.
 
 
-## Calculations in plain terms
+## Lay out the stock and owned parts
 
-| Quantity | Estimate and meaning |
+| Have ready | Use |
 | --- | --- |
-| Finished mass | 2.55 kg nominal; material/installation assumptions span 2.12-3.15 kg. |
-| Wing | 0.3043 m² exposed area; 169.8 mm mean aerodynamic chord; 83.7 g/dm² loading at nominal mass. |
-| Balance | Estimated CG Y=79.7 mm at nominal battery centre Y-154. Y increases aft in the CAD coordinates. |
-| Analysis balance reference | 20% MAC is Y=74.2 mm; it is not a flight-approved CG. Estimated required pack centre Y=-181.7 mm; within the modeled adjustment range. |
-| Tail | Pitch-effective area 0.0483 m²; tail-volume estimate 0.343. This is a geometry screen, not a stability certificate. |
-| Wing bending screen | At nominal mass and a3g reference load, the central assumed-stiffness model predicts about 106 mm tip deflection. This excludes joint slip, torsion, buckling and nonlinear response; it is not a structural pass. |
-| Ground loads | Using nominal leg stations, nose reaction is 13.0% and each main 43.5% of static weight. Actual wheel offsets can change this. |
+| 6 mm plywood, 8 x 4 ft | One 2438.4 x 1219.2 mm layout; 33 parts. Measure actual thickness first. |
+| Ten 1000 x 100 x 5 mm balsa planks | Two nested planks; 38 parts. Keep the layout grain direction. |
+| Ten 1000 x 600 mm FliteBoard sheets | Three nested sheets; 35 flat patterns. Measure thickness and sheet mass. |
+| Two solid 5 x 1000 mm carbon rods | Use one full rod in each wing. Do not make short centre joiners. |
+| 2 kg HS PLA+ / existing N1 nose | About 582 g for new prints with estimated supports/brims. Reuse N1. |
+| Five MG90S / four bicycle spokes | Fit four servos and four spokes; one servo stays spare. Keep factory arms/screws. |
+| Three wheel/axle assemblies | Reuse the supplied wheels and axle hardware. Three plain plywood legs. |
+| Two straps / ties / tape / adhesive | Two battery straps; tape hinges/covers; tested joints and simple equipment retention. |
 
-Mass is the sum of parts and equipment. CG (centre of gravity, the balance point) is sum(mass × position) divided by total mass. Wood uses assumed density; foam uses developed blank area and assumed board mass per area; printed parts use sliced object extrusion, excluding supports. Weigh actual parts and the completed aircraft to replace those assumptions. The 3g structural scenario means three times normal weight as distributed lift; it is a calculation case, not a tested manoeuvre rating.
+Tools: ruler/caliper, square, knife, sanding block, drill/reamer, scale, soldering tools, multimeter and wattmeter. Use motor/prop supplied hardware; no new generic fastener kit is specified.
 
-Stall scenarios use V = square-root(2 × weight / (air density × wing area × assumed maximum lift coefficient)). The assumed lift coefficients are 0.8, 1.0 and 1.2; actual stall speed is unmeasured. Power scenarios use assumed drag and propulsive efficiency and cannot predict this motor/prop combination's thrust or flight duration. Structural calculations assume stated material properties and ideal bonds; joint and material proof tests remain necessary.
+**Make three trials first** Test stock-slot fit; a formed wing section with its deepest beam pocket; and real wood/carbon/foam/PLA adhesive joints. Use foam-safe glue on exposed foam. Thin, fitted joints beat large glue blobs.
 
-The Emax motor sheet lists 6-7 inch propellers; the owned 9 inch three-blade is outside that published range. This 4S combination has no measured current/thrust/temperature result here. The 40 A ESC rating alone does not establish a safe operating point or runway takeoff capability. Test the exact combination with a secured rig and appropriate instruments; check cooling and screw/adapter security. Change the prop/setup if the measurements do not support it.
 
-## Finish and verify physically
+## Cut once, label every piece
 
-| Check | Required result |
+1.  Give the shop Cutting/Sheet_Register.csv, Part_to_Sheet.csv and the matching DXFs. Keep every part ID on its cut piece.
+
+2.  Measure plywood, balsa and foam. Test the cutting width (kerf) and slot fit on an offcut before the complete sheet.
+
+3.  CUT means through-cut. SCORE needs a separate controlled pass. MARK labels pieces. Never cut STOCK_REFERENCE_DO_NOT_CUT.
+
+4.  If the laser bed is smaller, re-nest whole individual profiles from Reference_Profiles/. Keep scale at 100%. Do not split a structural part just to fit the bed.
+
+5.  Use knife/CNC-knife for the paper-faced foam unless the shop has established a suitable process. Protect the outer paper; internal pockets are hand-fit later.
+
+6.  Count 33 plywood + 38 balsa + 35 foam patterns. Tick the checklist. Add one tiny hand-shaped FNT foam offcut (13 x 7 mm) during nose fitting.
+
+**Grain and finishing matter** Keep balsa grain along the long stock direction shown. Keep root-tongue plywood face grain along the wing span. Some laser-cut blanks still need grooves or sanding: use CAD/Stock_Blanks for the starting shape and CAD/Parts for the finished shape.
+
+Optional paper cutting
+
+Paper_Patterns.pdf is a tiled, actual-size template set. Find the needed part in Data/Paper_Page_Map.csv. Print only those pages at Actual Size / 100%; measure the scale bar before cutting. Do not print all 180 pages by default.
+
+
+## Wing wood parts / both wings
+
+![Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.](Illustrations/Build_Steps/parts_wing_wood.png)
+
+Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.
+
+Match IDs to Data/Guide_Parts_Checklist.csv. Wood pictures marked as blanks still need the finishing operation. N1 is reused, not part of the 14 new prints.
+
+
+## Tail and landing-leg wood parts
+
+![Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.](Illustrations/Build_Steps/parts_tail_gear_wood.png)
+
+Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.
+
+Match IDs to Data/Guide_Parts_Checklist.csv. Wood pictures marked as blanks still need the finishing operation. N1 is reused, not part of the 14 new prints.
+
+
+## Printed parts / 14 new prints + reuse N1
+
+![Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.](Illustrations/Build_Steps/parts_prints.png)
+
+Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.
+
+Match IDs to Data/Guide_Parts_Checklist.csv. Wood pictures marked as blanks still need the finishing operation. N1 is reused, not part of the 14 new prints.
+
+
+## Body wood parts / panel 1
+
+![Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.](Illustrations/Build_Steps/parts_body_01.png)
+
+Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.
+
+Match IDs to Data/Guide_Parts_Checklist.csv. Wood pictures marked as blanks still need the finishing operation. N1 is reused, not part of the 14 new prints.
+
+
+## Body wood parts / panel 2
+
+![Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.](Illustrations/Build_Steps/parts_body_02.png)
+
+Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.
+
+Match IDs to Data/Guide_Parts_Checklist.csv. Wood pictures marked as blanks still need the finishing operation. N1 is reused, not part of the 14 new prints.
+
+
+## Body wood parts / panel 3
+
+![Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.](Illustrations/Build_Steps/parts_body_03.png)
+
+Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.
+
+Match IDs to Data/Guide_Parts_Checklist.csv. Wood pictures marked as blanks still need the finishing operation. N1 is reused, not part of the 14 new prints.
+
+
+## Match the 35 foam patterns
+
+| Assembled skin | Flat patterns to pick | Count |
+| --- | --- | --- |
+| FNG1-4 - FNG1-4 | FNG1, FNG2, FNG3, FNG4 | 4 |
+| FSL0 - Forward lower body | F09, F10, F13, F14, F15 | 5 |
+| FSL1 - Middle lower body | F11, F12, F16, F17, F18 | 5 |
+| FSL2 - Rear lower body | F19, F20, F21, F22, F33 | 5 |
+| FSU2 - Removable rear upper cover | F23, F24 | 2 |
+| FSU1 - Removable front upper cover | F25, F26 | 2 |
+| FSL3 - Four-strip lower body shell | F27, F28, F29, F30 | 4 |
+| WLIN - Left inner wing | F01 | 1 |
+| WRIN - Right inner wing | F02 | 1 |
+| WROUT - Right outer wing | F03 | 1 |
+| WLOUT - Left outer wing | F04 | 1 |
+| TRF - Right fixed tail | F05, F07 | 2 |
+| TLF - Left fixed tail | F06, F08 | 2 |
+
+The foam sheet previews in Cutting/ show the exact flat shapes and labels. Several flat pieces form one curved skin: 35 patterns do not mean 35 assembled shells. The extra FNT nose tip is a hand-shaped offcut.
+
+**Preserve the outside** Mark contact pockets on the INSIDE while dry-fitting. Remove only the inner paper and needed foam. Bevel mating seams gradually. Keep the outer paper and the finished outside contour intact.
+
+
+## Foam shapes / 1 of 2
+
+![Exact flat DXF outlines, each labelled with pattern / assembled skin / quantity. Solid line = cut; orange dashed line = score. Shapes are independently scaled to fit these boxes.](Illustrations/Build_Steps/foam_picker_1.png)
+
+Exact flat DXF outlines, each labelled with pattern / assembled skin / quantity. Solid line = cut; orange dashed line = score. Shapes are independently scaled to fit these boxes.
+
+Use the actual DXFs or full-size paper templates for cutting. These pictures are for finding and counting parts, not tracing. Match each piece to the preceding foam map.
+
+
+## Foam shapes / 2 of 2
+
+![Exact flat DXF outlines, each labelled with pattern / assembled skin / quantity. Solid line = cut; orange dashed line = score. Shapes are independently scaled to fit these boxes.](Illustrations/Build_Steps/foam_picker_2.png)
+
+Exact flat DXF outlines, each labelled with pattern / assembled skin / quantity. Solid line = cut; orange dashed line = score. Shapes are independently scaled to fit these boxes.
+
+Use the actual DXFs or full-size paper templates for cutting. These pictures are for finding and counting parts, not tracing. Match each piece to the preceding foam map.
+
+
+## Print the right parts the right way
+
+| Pick from Print/ | Qty | How to use |
+| --- | --- | --- |
+| FCF, FTF | 2 | Removable centre and rear fairings. |
+| AR, AL | 2 | Moving ailerons; cut/file horn slots after printing. |
+| TRC, TLC | 2 | Moving V-tail controls. |
+| AHR, AHL | 2 | Fixed aileron hinge rails. |
+| HAR, HAL, HTR, HTL | 4 | Four control horns. |
+| MAR, MAL | 2 | Wing servo plates. |
+
+1.  Load all 14 STLs in millimetres, 100%. Use each row of Print/Print_Schedule.csv; do not use one generic orientation for the whole batch.
+
+2.  Allow about 274.1 mm usable print height plus startup clearance, and extra bed room for support/brim. Check the real machine before ordering.
+
+3.  Print controls closed tip down, open root up. Keep internal supports out. TRC/TLC are tall and narrow: prove first-layer grip and stability with the specified 8 mm brim.
+
+4.  Print FCF/FTF front end down: 0.2 mm layers, 2 walls, 15% gyroid, 8 mm brim. FCF: supports everywhere, bridge support on. FTF: buildplate-only supports.
+
+5.  First test a 15 mm anchored bridge, support removal and representative fits using the actual PLA+/printer. Inspect the sliced walls and horn blocks.
+
+**After printing** Remove support/brim. Check the real horn and hinge fit before a full batch. AR/AL are deliberate unslotted blanks: use Print/Finishing_Templates for their 3.2 x 17 mm horn slots. Fit balsa control plugs after fitting horns.
+
+
+## Mark the body before assembly
+
+![Measure stations aft from the FRONT TIP of FK. Keep rails level on supports; the uneven FK bottom is not a level datum.](Illustrations/Build_Steps/16_body_stations.png)
+
+Measure stations aft from the FRONT TIP of FK. Keep rails level on supports; the uneven FK bottom is not a level datum.
+
+| Front face / reference | Station from FK tip |
 | --- | --- |
-| Stock and manufacture | Measured thickness/kerf, representative slot, foam-forming and print/bond samples fit without forcing. |
-| Structure | Root bending/torsion/withdrawal, spar bonds, tail, battery, firewall and gear withstand the agreed proof loads without cracks or permanent movement. |
-| Access and controls | Wings/battery/nose removable; all four controls move freely through combined commands and return to neutral; no rod escape or horn/tape movement. |
-| Electrical | Correct polarity, isolated ESC BEC positive if present, stable servo power, sensor health, RC range, throttle cut and tested failsafe/recovery. |
-| Weight and balance | Weighed completed aircraft and measured CG with the actual pack, prop, wheels, cables and covers. Review the final CG and control authority with the pilot. |
-| Propulsion and ground run | Measured current/thrust/temperature, loaded prop clearance and straight taxi on the intended runway. Small wheels require a suitable smooth surface. |
-| First flight | Experienced fixed-wing pilot, suitable site/weather, confirmed abort/landing plan and conservative manual/control checks before automated modes. |
+| FK front tip / battery shelf front | 0 / -20 mm |
+| FX0L/R and FF0 front / FF1 front | 205 / 330 mm |
+| FX1 front / receiver JF front / JB front | 335 / 402.55 / 426.85 mm |
+| FX2 and FF2 front / FX3 and FF3 front | 568.65 / 719.65 mm |
+| TROOT front / motor plate FMF front | 779 / 919 mm |
+| Provisional balance line / pack centre | 409.16 / about 153.3 mm |
+| Pack centre for removal | 130 mm; slide toward this mark, then lift |
 
-Record results in Data/Physical_Checks.csv; a blank means untested. Complete prop-off configuration first. Runway takeoff remains conditional on the actual propulsion, taxi, clearance and pilot checks. Research examples inform construction methods; they do not validate this aircraft's performance. Exact references and the limits of the DIY video review are in Data/Sources.md.
+These are longitudinal marks, not glue-face heights. Use the side view and positioned CAD for height and orientation. CAD coordinates: X across wings, Y aft, Z up. Station = CAD Y + 335 mm.
+
+
+## 1. Build the straight body base
+
+![Nose: lower left. Tail: upper right. Rails begin205mm behind the FK front datum.](Illustrations/Build_Steps/01_body_base.png)
+
+Nose: lower left. Tail: upper right. Rails begin205mm behind the FK front datum.
+
+Pick: FK + FLR + FLL + FX0L + FX0R + FX1 + FX2 + FX3 (8 IDs, one each)
+
+1.  Draw a straight centreline on a flat board. Cover the board with release film so glue cannot stick to it.
+
+2.  Support both side rails at equal height with their top faces level. Hold FK, the centre strip, upright at the shown height; its uneven lower edge is not a leveling surface.
+
+3.  Dry-fit the cross strips and the two side rails at the marked stations. Keep the rails flat and the centre strip upright.
+
+4.  Check the top and side views before gluing the touching wood faces. Hold the frame straight until the glue cures.
+
+**Check before moving on** The frame sits square on the jig. Left and right match. No part needs force to reach its shown position.
+
+Do not guess positions from a perspective picture. Use the station plan and the positioned assembly STEP.
+
+
+## 2. Add the body ribs and battery shelf
+
+![Keep the three pieces of each split former together.](Illustrations/Build_Steps/02_body_formers_tray.png)
+
+Keep the three pieces of each split former together.
+
+Pick: FF0L + FF0R + FF0U + FF1 + FF2L + FF2R + FF2U + FF3 + FBT + FBWL + FBWR + FBC (12 IDs, one each)
+
+1.  Fit the eight body-rib pieces at their numbered stations. FF0 and FF2 each have separate left, right and upper pieces.
+
+2.  Fit FBWL and FBWR, the battery-shelf side supports, into the matching rib notches. Add FBC and shelf FBT.
+
+3.  Keep the battery opening clear. Do not join the split rib pieces across this opening.
+
+4.  Round the strap-slot edges. Dry-fit a 2 mm nonslip pad, the battery and both owned Velcro straps before gluing.
+
+**Check before moving on** The real battery slides without catching. Two straps fit through slot rows about 80 mm apart within the battery length.
+
+Battery travel is an adjustment range, not permission to leave the battery loose. Tighten both straps for every test.
+
+
+## 3. Add the equipment shelves
+
+![The equipment goes on these shelves and strips.](Illustrations/Build_Steps/03_body_supports.png)
+
+The equipment goes on these shelves and strips.
+
+Pick: FGPS + FGPL + FGPR + FEQ + FEC0 + FEC1 + FES0 + FES1 + FTM0 + FTM1 (10 IDs, one each)
+
+1.  Fit GPS shelf FGPS on its two posts FGPL/FGPR in the nose bay.
+
+2.  Fit FEC0/FEC1 across the aft body, then add FEQ, the flight-controller and receiver shelf.
+
+3.  Fit FES0/FES1 as the two ESC support strips. Fit FTM0/FTM1 for the telemetry radio.
+
+4.  Set the real equipment on its supports with temporary pads/ties. Check plug access before any covers go on.
+
+**Check before moving on** USB, memory card, receiver plugs and ESC leads remain reachable. Nothing hangs into a control linkage.
+
+Install electronics later. This step checks the empty shelves and the real equipment fit.
+
+
+## 4. Fit the wing socket and motor support
+
+![These are the existing wood parts; use the motor’s supplied hardware.](Illustrations/Build_Steps/04_motor_mount.png)
+
+These are the existing wood parts; use the motor’s supplied hardware.
+
+Pick: JF + JB + JLOW + JTOP + FMF + FMT + FMGL + FMGR + FMGB (9 IDs, one each)
+
+1.  Dry-fit lower plate JLOW and side walls JF/JB. Try a measured three-layer tongue sample BEFORE bonding upper plate JTOP.
+
+2.  Adjust the sliding fit, then close the socket. Keep the sample/tongue and sliding space free of glue. Nominal tongue width is 18 mm; socket gap is 18.3 mm.
+
+3.  Fit rear cross strip FMT, base FMGB and triangular braces FMGL/FMGR. Add upright motor plate FMF.
+
+4.  Dry-fit the motor using its supplied screws. The four holes are on a 19 mm circle. Remove the motor again while gluing.
+
+**Check before moving on** Socket and motor plate meet their supports without gaps. The motor screws engage correctly and cannot touch the windings.
+
+A firewall is the motor mounting plate. Keep the propeller OFF during assembly and electrical setup.
+
+
+## Detail: wing socket
+
+Close the wing socket last
+
+![Detail: wing socket](Illustrations/Build_Steps/05_root_receiver.png)
+
+Test an 18 mm three-layer tongue in the 18.3 mm nominal socket before bonding JTOP. Wood thickness and glue change the real fit. Keep the sliding space clean.
+
+
+## 5. Make both wing beams
+
+![Right wing shown. Build the left from its own mirrored part files.](Illustrations/Build_Steps/07_wing_frame.png)
+
+Right wing shown. Build the left from its own mirrored part files.
+
+Pick: LCR + LCL + WBR + WBL + JR1 + JR2 + JR3 + JL1 + JL2 + JL3 (10 IDs, one each)
+
+Two complete 5 x 1000 mm solid carbon rods: CRFULL and CLFULL.
+
+1.  Sort the right beam parts and their matching left parts. Keep balsa grain along the wing. Keep root-tongue plywood face grain along the wing too.
+
+2.  Use the flat wood blanks first. Shape the round rod seats shown in the finished STEP; a laser cannot cut these curved grooves.
+
+3.  Fit the lower strip, upright web and whole rod in a straight jig. Bond web-to-strip and rod-to-web continuously. Bond the final roughly 100 mm of rod into the lower-strip groove.
+
+4.  Shape the rod channel in each root layer. Glue JR1/JR2/JR3 into one right tongue and JL1/JL2/JL3 into one left tongue. Bond each tongue to its beam and carbon overlap.
+
+**Check before moving on** All rod/web/lower-strip joints touch continuously. Both beams match. Each tongue slides into the body socket without forcing.
+
+A spar is the wing beam. The web is its upright balsa strip. Do not shorten the carbon rods or butt them together at the centre.
+
+
+## Detail: removable wing roots
+
+Make the three-layer wing tongue
+
+![Detail: removable wing roots](Illustrations/Build_Steps/08_laminate_layers.png)
+
+Use each cut blank in its own orientation. Shape the carbon seat before lamination. Bond all three layers into one tongue; do not leave dry gaps.
+
+Seat and retain both wings
+
+![Detail: removable wing roots](Illustrations/Build_Steps/09_wing_root_join.png)
+
+The root-rib slot and JB slot take a 3 mm retention tie. Release the tie and servo connector before sliding the complete wing out.
+
+Rib front faces, measured out from the physical wing root: 0 mm (root), 194.35 mm (middle), 435.01 mm (outer). Mirror the left wing. Each half has one plywood root rib and two-piece balsa middle/outer ribs.
+
+
+## 6. Fit wing ribs and check removal
+
+![Right wing. Ribs are lifted here to show where they seat on the beam.](Illustrations/Build_Steps/18_wing_ribs.png)
+
+Right wing. Ribs are lifted here to show where they seat on the beam.
+
+Pick: WRRI + WLRI + WRRM_1 + WRRM_2 + WLRM_1 + WLRM_2 + WRRO_1 + WRRO_2 + WLRO_1 + WLRO_2 (10 IDs, one each)
+
+1.  Fit one root rib, two middle pieces and two outer pieces per wing. The outer ribs sit about halfway along the half-wing, not at its tip. Do not bridge a beam opening.
+
+2.  Set each rib square at the station shown. Hold the wing profile with the jig while the glue cures.
+
+3.  Insert both wings into the body socket. Check equal angles and equal height before adding skins.
+
+4.  Try a 3 mm tie through each root-rib slot and the matching JB slot. To remove a wing later: lift the centre cover, unplug its servo, cut the tie and slide the whole wing out.
+
+**Check before moving on** Both wings seat fully, stay positively retained and withdraw smoothly after releasing the ties.
+
+Ribs are the crosswise wing-profile pieces. Their small perimeter clearance must become a continuous glue joint, not a dry gap.
+
+
+## 7. Form and fit the wing skins
+
+![Right wing: inner patternF02 and outer patternF03. Left usesF01 andF04.](Illustrations/Build_Steps/17_wing_skin.png)
+
+Right wing: inner patternF02 and outer patternF03. Left usesF01 andF04.
+
+Pick: Foam: WLIN, WRIN, WLOUT, WROUT
+
+Four flat wing patterns: F01 left inner, F02 right inner, F04 left outer, F03 right outer.
+
+1.  First make a short trial section from the real board with the real beam and deepest groove. Prove that the outside paper survives shaping.
+
+2.  Dry-fit MAR/MAL, the real wing servos, centred factory arms and leads before wrapping skins. Mark service openings and disconnect routes.
+
+3.  Wrap each correctly labelled pattern around the dry wing skeleton. Mark beam, rib, root and servo contacts on the INSIDE.
+
+4.  Open the skin again. Remove inner paper only at marked pockets. Pare the foam gradually and refit; keep the outside paper intact.
+
+5.  Bond MAR/MAL to their fitted seats and the fixed aileron rails into the marked rear-edge seats. Glue the skin to its supports while the outside profile stays in the jig.
+
+**Check before moving on** No beam or servo pushes the skin outward. The lower-cap pocket can leave only about 0.5 mm of outer foam/paper, so inspect the trial section first.
+
+The flat foam pattern gives the outside shape. It does not cut the inner pockets for you. Keep servo arms and root ties accessible.
+
+
+## 8. Build the fixed V-tail
+
+![Keep the two spines seated in the fixed foam tails.](Illustrations/Build_Steps/11_tail_structure.png)
+
+Keep the two spines seated in the fixed foam tails.
+
+Pick: TROOT + TRS + TLS + MTR + MTL (5 IDs, one each). Foam: TRF, TLF
+
+Right foam patterns F05 + F07. Left foam patterns F06 + F08.
+
+1.  Fit TROOT, the crosspiece that carries the tail, to the body rails. Fit right/left balsa spines TRS/TLS at 35 degrees above horizontal on each side.
+
+2.  Fit servo trays MTR/MTL. Lightly dress only any local high spot so the real servo rests flat; the modeled bedding allowance is at most 0.03 mm.
+
+3.  Transfer spine, tray, servo and TROOT contacts onto the inside of the tail foam. Shape these pockets, then dry-fit printed controls and horns before bonding the foam.
+
+4.  Bevel the fixed trailing-edge underside. Start 3 mm below the hinge line, measured perpendicular to the canted panel, and pare 20 degrees from the square edge. Keep the upper tape landing.
+
+5.  Prove the full mixed control travel with temporary hinges, then glue the fixed foam in its jig.
+
+**Check before moving on** Tail halves match at 35 degrees. The printed moving tail and horn can swing through the full combined +/-20-degree range without rubbing.
+
+Only bevel the fixed FOAM. Do not reshape the printed control. Use Data/tail_travel_relief.json and the finished STEP for the exact span and limits.
+
+
+## Detail: tail hinge clearance
+
+Make room for tail movement
+
+![Detail: tail hinge clearance](Illustrations/Build_Steps/14_tail_bevel.png)
+
+Bevel the fixed foam underside only. Preserve the upper tape landing. Test the horn as well as the control surface through the full combined travel.
+
+
+## 9. Fit hinges, horns, servos and spokes
+
+![Right underside close-up; foam and ribs hidden. Use the supplied servo arm.](Illustrations/Build_Steps/10_wing_control.png)
+
+Right underside close-up; foam and ribs hidden. Use the supplied servo arm.
+
+Pick: AR + AL + TRC + TLC + AHR + AHL + HAR + HAL + HTR + HTL + MAR + MAL + ARP + ALP + TRCP + TLCP (16 IDs, one each)
+
+Four MG90S servos, four factory arms and four bicycle spokes. Keep the fifth servo as a spare.
+
+1.  Print AR/AL as supplied blanks. Use Print/Finishing_Templates to cut/file their 3.2 x 17 mm horn slots. Dry-fit, then bond all four keyed horns into their matching bosses.
+
+2.  Sand ARP/ALP/TRCP/TLCP blanks to the finished section. Keep upper-edge hinge gaps: 0.7 mm ailerons, 1.5 mm tails. Fit continuous tape on both faces; add plugs after horns cure and pass a pull-check.
+
+3.  Centre servos electrically; fit factory arms with their supplied centre screws. Tie servos to their supports. Measure each spoke between the actual arm/horn holes before bending.
+
+4.  Fit captive spoke ends. The tail spoke end needs 3 mm usable axial movement through the servo-arm hole while retained. Never loosen the arm on its shaft. Check every combined stick corner.
+
+**Check before moving on** Start at no more than +/-15 degrees on ailerons and +/-20 degrees TOTAL on each mixed tail. No rubbing, rod escape, tape peeling or servo buzzing.
+
+AHR/AHL and MAR/MAL were dry-fitted earlier. The modeled servo-arm hole is 10 mm from the shaft; ailerons need about -36.5/+48 degrees of servo rotation. Set endpoints from real surface travel, not a default +/-45-degree servo setting.
+
+
+## Detail: tail linkage
+
+Fit the tail surfaces as a pair
+
+![Detail: tail linkage](Illustrations/Build_Steps/12_tail_controls.png)
+
+The flight controller mixes elevator and rudder commands. Start with neutral arms and check both mixed axes before setting endpoints.
+
+Keep the spoke ends captive
+
+![Detail: tail linkage](Illustrations/Build_Steps/13_tail_linkage.png)
+
+Use the four owned spokes and factory servo arms. Do not assume the spoke thread is M2. Measure and bend to the actual centred linkage.
+
+Nominal pin-centre references: aileron spokes about 29.3 mm; tail spokes about 88.4 mm, before bend allowances. The captive tail spoke end needs 3 mm usable sliding movement through the arm hole. Keep the arm firmly screwed to its shaft. Prove full travel with the actual linkage.
+
+
+## 10. Close the body and prove access
+
+![N1 + FSU1 lift together. Keep the centre and rear covers removable.](Illustrations/Build_Steps/06_body_covers.png)
+
+N1 + FSU1 lift together. Keep the centre and rear covers removable.
+
+Pick: Foam: FSL0, FSL1, FSL2, FSL3, FSU1, FSU2, FNG1, FNG2, FNG3, FNG4
+
+Existing nose N1; printed covers FCF/FTF; one hand-shaped FNT nose-tip offcut, 13 x 7 mm.
+
+1.  Dry-fit GLEG_L/R/N to the frame first. Mark and cut their exits in the lower foam before bonding the skins.
+
+2.  Match the flat body patterns to the skin map. Form lower skins and four nose strips around the frame. Bevel seams and preserve their outside paper.
+
+3.  Round the small FNT offcut to close the last nose gap. Dry-fit your existing N1 before bonding the lower nose.
+
+4.  Fit the removable covers with tape. Transfer two small aft-edge notches into FSU2 around the tail trays, about 7 mm wide and 2 mm deep each.
+
+5.  Check cover removal before closing. N1 and FSU1 lift off TOGETHER after releasing both tapes and the pitot/tubes. FCF may need up to 0.2 mm local inner-wing foam edge fitting.
+
+**Check before moving on** Battery, wings, plugs and servos remain accessible. Unplug the battery, release straps and slide the pack centre to the removal mark, 130 mm behind the FK front tip, then lift it out.
+
+Dress only the marked foam mating edges. Keep structural wood intact. Do not permanently glue service covers shut.
+
+
+## 11. Add the simple wheels and propulsion
+
+![Owner fits the wheel assemblies and load-spreading offcuts/ties.](Illustrations/Build_Steps/15_gear_legs.png)
+
+Owner fits the wheel assemblies and load-spreading offcuts/ties.
+
+Pick: GLEG_L + GLEG_R + GLEG_N (3 IDs, one each)
+
+Three owned wheel/axle assemblies, small plywood offcuts, ties, actual motor/prop hardware.
+
+1.  Fit each plain leg between the body frame and its owned wheel assembly. Spread the body-end load along wood with a small flat offcut and ties.
+
+2.  Measure the complete wheel offsets BEFORE trimming legs. Shortening a leg lowers clearance. Set wheels straight and the body level; lock any swivel.
+
+3.  Install the motor without its prop. Finish the prop-off electrical checks. Then disconnect the battery and temporarily fit the actual prop for clearance checks.
+
+4.  With the loaded plane held 10 degrees nose-up, turn the prop by hand through a full circle. Require at least 20 mm ground clearance, including flex; adjust before final leg attachment.
+
+**Check before moving on** The plane rolls straight. Wheels turn freely. Attachments cannot punch into unsupported foam. Propeller and tail clear the ground.
+
+There is no designed bungee hook or catapult fitting. The basic plan is a tested smooth-runway takeoff; see the launch page.
+
+
+## Place the electronics
+
+![Placement map, not a PCB pin layout. Nose to the left; motor at the rear.](Illustrations/Electronics/04_placement.png)
+
+Placement map, not a PCB pin layout. Nose to the left; motor at the rear.
+
+| Item | Support / access |
+| --- | --- |
+| GenX 4S 5200 mAh | FBT shelf, nonslip pad, two straps. Lift N1 + FSU1 together. |
+| M9N-5883 GPS / compass | FGPS shelf above forward battery; antenna face up. |
+| ASPD-4525 / pitot | Board under tray rear; pitot on left-forward FBT tab. Label both hoses. |
+| SiK 433 air radio | FTM0/FTM1 under FCF; antenna clear of carbon and power wiring. |
+| Matek F405-WING V2 / FS-iA10B | FEQ deck: FC forward, receiver behind it. Remove FSU2. |
+| ReadytoSky 40 A / Emax ECO II 2807 1300KV | ESC across FES0/FES1 with airflow; motor behind FMF. |
+| Four MG90S servos | MAR/MAL wing plates; MTR/MTL tail trays. Keep arms and root plugs accessible. |
+
+Use simple pads and ties. Protect solder joints and restrain leads. FC long side runs across the body: read its actual arrow/top face before setting orientation. Keep USB, SD card and plugs reachable. Test cooling with covers fitted.
+
+
+## Wire power and the four servos
+
+![Follow actual board labels and polarity. A line marked + / - carries two conductors; each servo lead has signal, supply and ground.](Illustrations/Electronics/01_power_servos.png)
+
+Follow actual board labels and polarity. A line marked + / - carries two conductors; each servo lead has signal, supply and ground.
+
+1.  Battery main leads go to the FC battery INPUT pads; ESC supply goes to the FC ESC OUTPUT pads. This keeps current flowing through the board current sensor.
+
+2.  S1 and ground go to the ESC signal input. Any ESC BEC positive stays disconnected and individually insulated. Motor phases go to the motor; swap any two only with power disconnected if direction is wrong.
+
+3.  Leave S2 and S7-S10 unused. Leave 9 V, 12 V and video pads empty. The battery balance plug is not an FC supply.
+
+4.  Keep power leads together and clear of sensors. Measure the battery-to-PDB lead length; follow the actual ESC maker's input-lead/capacitor guidance.
+
+PDB = board power distribution pads. Vx = regulated servo supply; Vx2 is its second output bank. Set 5 V and bridge the labelled Vx/Vx2 pads with power removed. Insulate any ESC BEC positive; do not parallel it with the FC supply.
+
+
+## Connect GPS, compass and airspeed
+
+![TX = transmit; RX = receive. SDA/DA and SCL/CL are the two I2C sensor-bus wires. The two pitot lines are hoses, not electrical wires.](Illustrations/Electronics/02_sensors.png)
+
+TX = transmit; RX = receive. SDA/DA and SCL/CL are the two I2C sensor-bus wires. The two pitot lines are hoses, not electrical wires.
+
+1.  GPS TX goes to RX3; GPS RX to TX3. Compass DA/SDA goes to DA2; CL/SCL to CL2. Both GPS and compass connections are needed.
+
+2.  The ASPD board shares DA2/CL2 with the compass. Its pin order is 5V-SCL-SDA-GND; verify which way the real connector faces.
+
+3.  Label both hoses. Connect pitot total pressure to the sensor total-pressure port and static pressure to static. Check the actual kit diagram; do not rely only on a nipple being above or below.
+
+4.  Keep hose bends open and all pitot openings exposed. Leave enough tube for the removable nose. Keep the GPS away from high-current wire loops.
+
+**Use regulated power** GPS, compass and ASPD use the labelled 5 V and ground supply, never raw 4S battery voltage. Follow pin labels, not connector colours.
+
+
+## Connect the receiver and telemetry
+
+![FS-i6X and the SiK ground radio stay on the ground. USB is for setup; telemetry must also work without the FC USB cable.](Illustrations/Electronics/03_radios.png)
+
+FS-i6X and the SiK ground radio stay on the ground. USB is for setup; telemetry must also work without the FC USB cable.
+
+1.  Use the receiver SERVO iBUS output, not SENS. Its signal goes to RX2; supply comes from FC 5 V and ground. Keep BRD_ALT_CONFIG=0 for this route.
+
+2.  Cross TX1 to air-radio RX and RX1 to air-radio TX. Verify the actual SiK voltage, connector pinout and transmit current before connecting its 5 V supply.
+
+3.  Attach radio antennas. Keep receiver antenna tips clear of carbon and power wiring. Label wing servo disconnects; leave a service loop without loose wires near linkages.
+
+4.  Use common grounds. Check the 2 A electronics budget and 5 A continuous / 6 A peak servo budget under real load; a USB-only test is not enough.
+
+**Before the first power-up** Remove the propeller. Check every + and ground with a meter. Check connector orientation on the real receiver, GPS, sensor and radio. USB power alone cannot prove the battery-powered rails.
+
+
+## Set up and test 1-3
+
+Use Mission Planner on Windows. Connect the FC with a USB data cable, choose its COM port and Connect. SETUP may be called INITIAL SETUP; CONFIG may be CONFIG/TUNING.
+
+1. Inspect and power
+
+Prop off. Check labels, soldering, polarity and no +/G short. Meter disconnected ESC lead; insulate any BEC positive. Set Vx=5 V and bridge Vx2.
+
+PASS: Correct polarity and about 5 V at every low-voltage plug on battery power; no unexpected heating.
+
+IF NOT: Disconnect; correct pins/short/jumper. Never parallel ESC BEC with FC 5V or Vx.
+
+2. Firmware and orientation
+
+In Mission Planner, load supported stable ArduPlane MatekF405-Wing (V2 needs 4.4+); record version. Read fitted FC arrow/top face; set AHRS_ORIENTATION in Full Parameter List.
+
+PASS: Displayed attitude follows nose-up/right-roll correctly; USB/SD remain accessible.
+
+IF NOT: Fix target or board rotation first; do not compensate with servo reversal.
+
+3. Accelerometer
+
+Mission Planner Accel Calibration: disarmed, complete all six positions, holding still at each prompt. Then use Calibrate Level in intended level flying attitude.
+
+PASS: Calibration accepted; level aircraft displays level.
+
+IF NOT: Repeat on firm support; check orientation. Level-only is not full calibration.
+
+| Mission Planner task | Menu |
+| --- | --- |
+| Firmware | Disconnect the software link; SETUP > Install Firmware. |
+| Board rotation / named settings | CONFIG > Full Parameter List. Search, edit, Write Params; reboot when required. |
+| Six-position / level calibration | SETUP > Mandatory Hardware > Accel Calibration. |
+
+A new FC without an ArduPilot bootloader needs the official first-install procedure before normal firmware updates. Use the Matek/ArduPilot links in Data/Guide_Sources.md.
+
+
+## Set up and test 4-6
+
+4. Compass
+
+Mission Planner Compass: calibrate outdoors away from metal/tools, with GPS/compass fixed in final orientation. Reboot if requested.
+
+PASS: Accepted calibration; smooth heading changes matching known directions.
+
+IF NOT: Move magnetic wiring/material; correct orientation and recalibrate.
+
+5. Radio
+
+Plain FS-i6X airplane model; transmitter V-tail mix off. Bind iA10B and select servo iBUS/RX2. In Radio Calibration, move all sticks/switches. Assign MANUAL and FBWA in Flight Modes.
+
+PASS: Inputs match sticks, reach endpoints and centre reliably; modes switch correctly.
+
+IF NOT: Fix input map/reversal or iBUS port, before changing surface outputs.
+
+6. Output map and neutral
+
+Set SERVO1_FUNCTION=70 (ESC); SERVO3_FUNCTION=4 (left aileron); SERVO4_FUNCTION=4 (right aileron); SERVO5_FUNCTION=79 (left V-tail); SERVO6_FUNCTION=80 (right V-tail). Set SERVO2_FUNCTION and SERVO7_FUNCTION through SERVO10_FUNCTION to 0. Use compatible PWM. Secure centred arms; adjust pushrods before trim.
+
+PASS: Four surfaces neutral; no steering output; motor stopped at minimum/disarmed.
+
+IF NOT: Correct output map/linkage/trim. Shared timer pairs must use compatible protocols.
+
+Menus: SETUP > Mandatory Hardware > Compass, Radio Calibration or Servo Output. Flight Modes may be under Mandatory Hardware or CONFIG. Use Full Parameter List for exact SERVOx_* values.
+
+**What the modes mean** MANUAL: your sticks drive the surfaces through the configured mixing. FBWA: the controller stabilizes roll and pitch; you still control throttle. FBWA is not automatic navigation.
+
+
+## Set up and test 7-9
+
+7. Direction and travel
+
+MANUAL: right roll gives right aileron up/left down; pitch-up gives both tail trailing edges up. Right yaw, viewed from behind: left tail trailing edge up/right; right tail down/right. FBWA: tilt right gives left aileron up/right down; nose-up tilt gives both tails down. Test mixed corners.
+
+PASS: Correct responses; no buzz/binding/horn movement. Initial ceilings: ailerons +/-15 degrees, total mixed V-tail +/-20 degrees, subject to real linkage.
+
+IF NOT: Wrong direction: output reversal. V-tail one mixed axis wrong: exchange 79/80; both wrong: reverse output. Reduce MIN/MAX if binding.
+
+8. ESC and motor
+
+Identify ESC protocol/manual after RC/output setup. If its PWM manual specifies high/low teaching: prop off, FC on USB, battery disconnected; select MANUAL and arm as required, set throttle high, connect battery, wait specified calibration tone, then lower throttle immediately. Wait confirmation; disconnect and restart at low throttle. DShot/CAN needs no endpoint calibration.
+
+PASS: Maker acknowledgement; normal reboot gives stopped idle and smooth start. Brief restrained test confirms pusher rotation.
+
+IF NOT: Stop on unknown type/tones. Follow actual ESC manual, not Copter motor wizard. Power off before phase swapping.
+
+9. GPS and telemetry
+
+Obtain GPS fix outdoors. Connect ground SiK to computer; match baud/protocol. Check radio telemetry without FC USB.
+
+PASS: Healthy fix, plausible position and continuously updating radio data.
+
+IF NOT: Check TX/RX crossing, power, antennas, baud and protocol.
+
+GPS: SERIAL3_PROTOCOL=5. SiK: SERIAL1_PROTOCOL=2 if both ends support MAVLink2; match their baud rate. Set named values in CONFIG > Full Parameter List. Never choose a baud rate without checking the actual radio.
+
+
+## Set up and test 10-12
+
+10. Airspeed
+
+Set ARSPD_TYPE=1 and ARSPD_BUS=1. Loosely cover pitot against wind at startup; warm at least 1 minute, then use PREFLIGHT CALIBRATE > Do Action to zero. Uncover; apply gentle airflow/pressure.
+
+PASS: Healthy sensor; near-zero still air, rise with airflow, return afterwards. Small 0-3 m/s noise can be normal.
+
+IF NOT: Check supply, I2C, hoses/leaks/kinks; repeat zero without wind. Do not blow hard. This does not calibrate airspeed ratio.
+
+11. Battery and rail load
+
+Start BATT_MONITOR=4; BATT_VOLT_PIN=10; BATT_CURR_PIN=11; BATT_VOLT_MULT=11.0; BATT_AMP_PERVLT=66.7. Calibrate against meter/known safe load. Move four servos together under representative load.
+
+PASS: Voltage/current agree with reference; no reset/dropout; loaded rails remain within device ratings.
+
+IF NOT: Fix V2 scales/current-sensor path or resistive joints. Failed capacity needs isolated supply review, not parallel BEC.
+
+12. Failsafes and save
+
+Set throttle cut, THR_FAILSAFE=1 and selected RC-loss/low/critical-battery actions. Prop off: switch transmitter off, wait the configured loss timer, then restore it. For a bench battery-trigger check, temporarily set the trigger above measured pack voltage; record action, then restore normal thresholds and reboot. Do not deeply discharge the pack.
+
+PASS: Ground station detects each loss/trigger, applies chosen action and recovers as planned. Throttle cut stops motor. Save parameters/results.
+
+IF NOT: Correct receiver loss reporting or action/timer settings. Held-last throttle fails. Confirm short/long actions separately; ground tests do not prove the airborne RTL path.
+
+Menus: SETUP > Optional Hardware > Battery Monitor / Airspeed; named BATT_* and ARSPD_* values are also in Full Parameter List. Failsafe controls may be under Mandatory Hardware; use the parameter list for exact actions/timers.
+
+
+## Balance, load and service checks
+
+Balance the whole model, not the empty shell
+
+1.  Fit the actual flight battery, covers, prop, wheels and all wiring. Weigh the complete model and record the result.
+
+2.  Mark the provisional balance line 409.16 mm aft of the FK front tip (CAD Y = 74.16). Support both sides at this line without damaging the wing.
+
+3.  Move the battery to balance. The calculation starts near centre station 153.3 mm (CAD Y about -181.7). Tighten both straps and recheck. Do not add ballast before measuring.
+
+4.  Check left-right balance and neutral surfaces. Have an experienced builder/pilot review the actual CG and stability before flight. The provisional 20%-of-MAC target is not flight-tested.
+
+**Structural checks still matter** Proof-test the real wing roots, carbon bonds, tail, motor support and battery restraint with an experienced builder. Inspect for cracks, peeling, permanent set and movement. The idealised beam model predicts about 106 mm tip deflection at 3 g: it is not strength qualification.
+
+Prove the three service jobs
+
+| Job | Pass |
+| --- | --- |
+| Battery | Release N1/FSU1 tapes and pitot/tubes; lift covers together. Unplug the battery, release straps; slide pack centre to station 130 mm, then lift. |
+| Wing | Lift centre cover; disconnect servo; cut retention tie; slide whole wing out. Refit and retie without damaged wires. |
+| Airspeed board | Front covers and battery out; release board attachment, slide aft to CAD Y -25, then lift. Hoses remain reachable. |
+
+MAC means mean aerodynamic chord: a reference wing chord used to describe CG. Here it is about 169.8 mm. Record measurements in Data/Physical_Checks.csv.
+
+
+## Ground checks and the first launch
+
+| Check off in order | Pass condition |
+| --- | --- |
+| 1  Airframe and controls | Joints inspected; actual load checks complete; four surfaces move correctly, remain retained and never bind at mixed corners. |
+| 2  Propulsion suitability | Resolve the 9-inch prop / 2807 motor mismatch. Secure instrumented test: record loaded voltage, current, thrust, RPM and motor/ESC temperature. Stay within actual component limits. |
+| 3  Prop installation | Correct pusher orientation and rotation; real adapter/shaft fit; supplied screws/nut secure. Check full-circle blade clearance with battery disconnected. |
+| 4  Loaded gear clearance | At intended nose-up rotation, prop and tail clear the ground. Guide check: at least 20 mm prop clearance at 10 degrees nose-up, including flex. Real wheel offsets matter. |
+| 5  Radio / rails / failsafe | Range check per transmitter manual; four loaded servos cause no reset; cut/loss/battery-trigger behaviour recorded. Save parameters. |
+| 6  Slow roll | Smooth level clear area, fixed wheels aligned and swivel locked; low-speed tracking stays straight. Predetermine a stop plan. |
+| 7  Pilot decision | Experienced RC pilot reviews mass, CG, structure, thrust, field, wind, control authority and abort plan before committing to launch. |
+
+**Basic launch method** Use wheels on a suitable smooth runway only after the checks pass. No hand-launch grip, bungee attachment or catapult release was designed. Automatic takeoff cannot replace these tests. Required runway length and flight time remain measurements to establish.
+
+After each early flight: inspect every joint and hinge, review current/voltage/airspeed logs, record consumed capacity and temperatures, and update the next flight plan. Do not extend duration from a spreadsheet alone.
+
+
+## Plain-language terms and reference files
+
+| Term | Meaning |
+| --- | --- |
+| CG | Centre of gravity: the balance point of the complete plane. |
+| Spar / web | Wing beam / its upright strip. |
+| Former / rib | A crosswise piece that holds the body or wing shape. |
+| Fairing | A shaped removable cover; it is not the main load-bearing frame. |
+| Horn / pushrod | Surface lever / the spoke connecting it to the servo. |
+| Ruddervator | One moving V-tail surface. The controller mixes pitch and yaw into it. |
+| ESC / FC | Motor speed controller / flight controller. |
+| BEC / Vx | A regulated low-voltage supply / the FC servo-power rail. |
+| DXF / STL / STEP | Flat cutting file / print mesh / positioned 3D CAD model. |
+| PWM / iBUS | Servo-style pulse signal / the receiver-to-controller digital radio-input link. |
+| Roll / pitch / yaw | Bank left/right / nose up/down / turn the nose left/right. |
+
+Use these when a check needs more detail
+
+Data/Guide_Parts_Checklist.csv - every cut/print item and its file.
+Print/Print_Schedule.csv - individual print settings and finishing.
+Data/Guide_Electronics.json - all 24 wiring groups and 12 setup checks.
+Data/Guide_Performance.json - assumptions, scenarios and source links.
+Data/Physical_Checks.csv - workshop/test record.
+CAD/Reaper_Assembly.step - positioned finished parts.
+Data/Sources.md - original design credit and DIY build references.
+Data/Guide_Sources.md - board, calibration and calculation sources.
+
+This guide documents a prototype build, not a tested production kit. The digital checks cover geometry and files. Real stock fit, bonds, weight, balance, propulsion and flight remain physical checks.

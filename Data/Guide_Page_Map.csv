@@ -4,13 +4,13 @@ page,section,title
 3,CUT / PRINT / BUILD,The whole job at a glance
 4,BEFORE CUTTING,Lay out the stock and owned parts
 5,SHOP HANDOFF,"Cut once, label every piece"
-6,PART PICKER,Wing wood parts / both wings
+6,PART PICKER,Wing wood parts - both wings
 7,PART PICKER,Tail and landing-leg wood parts
-8,PART PICKER,Printed parts / 14 new prints + reuse N1
-9,PART PICKER,Body wood parts / panel 1
-10,PART PICKER,Body wood parts / panel 2
-11,PART PICKER,Body wood parts - panel 3 / plywood REV3
-12,PART PICKER,Match the 35 foam patterns
+8,PART PICKER,Printed parts - 14 new prints + reuse N1
+9,PART PICKER,Body wood parts - group 1 / REV4
+10,PART PICKER,Body wood parts - group 2 / REV4
+11,PART PICKER,Body wood parts - group 3 / REV4
+12,PART PICKER,Match the 39 foam patterns
 13,PART PICKER,Foam shapes / 1 of 2
 14,PART PICKER,Foam shapes / 2 of 2
 15,PRINT SETUP,Print the right parts the right way
@@ -44,3 +44,8 @@ page,section,title
 43,AUDIT / WORKSHOP METHOD,Motor screws and drilling
 44,FOAM / BEFORE THE FULL CUT,Trial a larger body-foam wrap
 45,PITOT / HARDWARE TRIAL,Fit the pitot with tape first
+46,FRAME / BEFORE CROSSPIECES,Join the short body pieces
+47,FOAM CONTROLS / 1 OF 2,Cut and hinge the foam controls
+48,FOAM CONTROLS / 2 OF 2,Spread the horn load into the paper
+49,PRINT BATCHES,Print the small parts together
+50,WING / BEFORE THE RIBS,Build both wing lap joints

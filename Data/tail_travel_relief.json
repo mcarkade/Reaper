@@ -19,19 +19,17 @@
   "chord_edge_relative_hinge_mm": -1.5,
   "bevel_start_normal_coordinate_mm": -3,
   "bevel_angle_from_square_edge_deg": 20,
-  "operation": "Pare fixed trailing-edge underside only. Keep upper tape landing and moving printed controls unchanged. Check actual taped hinge and combined mixed travel before gluing.",
+  "operation": "Pare fixed trailing-edge underside only, preserving upper tape landing. Moving controls are separate 5 mm foam with their own 45-degree leading bevel. Check actual taped hinge and combined mixed travel before gluing.",
   "changes": [
     {
       "id": "TRF",
-      "before_mm3": 238038.65807512504,
-      "after_mm3": 236167.94111596176,
-      "cad_after_mm3": 236167.9320190764
+      "current_volume_mm3": 234516.12217583816,
+      "current_step_sha256": "9ffba8323bc9c60fe01549a3ffbac04435ccf27bf574d3256cfb963b3cc27752"
     },
     {
       "id": "TLF",
-      "before_mm3": 238038.66033967584,
-      "after_mm3": 236167.94373490458,
-      "cad_after_mm3": 236167.93463784768
+      "current_volume_mm3": 234516.12215965323,
+      "current_step_sha256": "ecb5557eca22be99ea20647234a8c8830d80ab1632c388666e4358c4ece2724a"
     }
   ]
 }

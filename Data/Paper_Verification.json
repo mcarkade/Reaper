@@ -1,962 +1,186 @@
 {
-  "source_pdf_sha256": "40a5ef735429b4e0f2245a185cb1e945ba828b6344b8efd46ed1c8f4a5f8eb29",
-  "source_page_map_sha256": "eeaeee3539175034a641bfc8952a07ff1b1095205d9ff678ab9f442b7e18f37f",
-  "replaced": {
-    "FMF": {
-      "new_page": 38,
-      "reference_dxf_sha256": "37cc7d6845f4cca869ca2b12fdce9a94bb17290ae93b7470f5533a31c2ac1405",
-      "polygon_symmetric_difference_mm2": 0.0,
-      "bounds_mm": [
-        0.0,
-        0.0,
-        48.0,
-        47.25756
-      ],
-      "x0_mm": 0.0,
-      "y0_mm": 0.0,
-      "vector_scale_points_per_mm": 2.834645669291339,
-      "bar_length_points": 283.46456692913387
-    },
-    "FMT": {
-      "new_page": 39,
-      "reference_dxf_sha256": "ecef0a3a243567e4c23adcaa4b2eeb7e8c8989afd6be1d5675d1d896fb4f76f4",
-      "polygon_symmetric_difference_mm2": 0.0,
-      "bounds_mm": [
-        0.0,
-        0.0,
-        48.0,
-        70.0
-      ],
-      "x0_mm": 0.0,
-      "y0_mm": 0.0,
-      "vector_scale_points_per_mm": 2.834645669291339,
-      "bar_length_points": 283.46456692913387
-    }
-  },
-  "removed_pattern": "FMGB",
-  "preserved_pages": [
-    {
-      "pattern_id": "FLR",
-      "old_page": 1,
-      "new_page": 1
-    },
-    {
-      "pattern_id": "FLR",
-      "old_page": 2,
-      "new_page": 2
-    },
-    {
-      "pattern_id": "FLR",
-      "old_page": 3,
-      "new_page": 3
-    },
-    {
-      "pattern_id": "FLR",
-      "old_page": 4,
-      "new_page": 4
-    },
-    {
-      "pattern_id": "FLL",
-      "old_page": 5,
-      "new_page": 5
-    },
-    {
-      "pattern_id": "FLL",
-      "old_page": 6,
-      "new_page": 6
-    },
-    {
-      "pattern_id": "FLL",
-      "old_page": 7,
-      "new_page": 7
-    },
-    {
-      "pattern_id": "FLL",
-      "old_page": 8,
-      "new_page": 8
-    },
-    {
-      "pattern_id": "FF1",
-      "old_page": 9,
-      "new_page": 9
-    },
-    {
-      "pattern_id": "FF3",
-      "old_page": 10,
-      "new_page": 10
-    },
-    {
-      "pattern_id": "FK",
-      "old_page": 11,
-      "new_page": 11
-    },
-    {
-      "pattern_id": "FK",
-      "old_page": 12,
-      "new_page": 12
-    },
-    {
-      "pattern_id": "FK",
-      "old_page": 13,
-      "new_page": 13
-    },
-    {
-      "pattern_id": "FK",
-      "old_page": 14,
-      "new_page": 14
-    },
-    {
-      "pattern_id": "FK",
-      "old_page": 15,
-      "new_page": 15
-    },
-    {
-      "pattern_id": "FX0L",
-      "old_page": 16,
-      "new_page": 16
-    },
-    {
-      "pattern_id": "FX0R",
-      "old_page": 17,
-      "new_page": 17
-    },
-    {
-      "pattern_id": "FX1",
-      "old_page": 18,
-      "new_page": 18
-    },
-    {
-      "pattern_id": "FX2",
-      "old_page": 19,
-      "new_page": 19
-    },
-    {
-      "pattern_id": "FX3",
-      "old_page": 20,
-      "new_page": 20
-    },
-    {
-      "pattern_id": "FBT",
-      "old_page": 21,
-      "new_page": 21
-    },
-    {
-      "pattern_id": "FBT",
-      "old_page": 22,
-      "new_page": 22
-    },
-    {
-      "pattern_id": "FBWR",
-      "old_page": 23,
-      "new_page": 23
-    },
-    {
-      "pattern_id": "FBWR",
-      "old_page": 24,
-      "new_page": 24
-    },
-    {
-      "pattern_id": "FBWL",
-      "old_page": 25,
-      "new_page": 25
-    },
-    {
-      "pattern_id": "FBWL",
-      "old_page": 26,
-      "new_page": 26
-    },
-    {
-      "pattern_id": "FBC",
-      "old_page": 27,
-      "new_page": 27
-    },
-    {
-      "pattern_id": "FGPS",
-      "old_page": 28,
-      "new_page": 28
-    },
-    {
-      "pattern_id": "FGPR",
-      "old_page": 29,
-      "new_page": 29
-    },
-    {
-      "pattern_id": "FGPL",
-      "old_page": 30,
-      "new_page": 30
-    },
-    {
-      "pattern_id": "FEQ",
-      "old_page": 31,
-      "new_page": 31
-    },
-    {
-      "pattern_id": "FEC0",
-      "old_page": 32,
-      "new_page": 32
-    },
-    {
-      "pattern_id": "FEC1",
-      "old_page": 33,
-      "new_page": 33
-    },
-    {
-      "pattern_id": "FES0",
-      "old_page": 34,
-      "new_page": 34
-    },
-    {
-      "pattern_id": "FES1",
-      "old_page": 35,
-      "new_page": 35
-    },
-    {
-      "pattern_id": "FTM0",
-      "old_page": 36,
-      "new_page": 36
-    },
-    {
-      "pattern_id": "FTM1",
-      "old_page": 37,
-      "new_page": 37
-    },
-    {
-      "pattern_id": "FMGR",
-      "old_page": 40,
-      "new_page": 40
-    },
-    {
-      "pattern_id": "FMGL",
-      "old_page": 41,
-      "new_page": 41
-    },
-    {
-      "pattern_id": "FNG1",
-      "old_page": 43,
-      "new_page": 42
-    },
-    {
-      "pattern_id": "FNG2",
-      "old_page": 44,
-      "new_page": 43
-    },
-    {
-      "pattern_id": "FNG3",
-      "old_page": 45,
-      "new_page": 44
-    },
-    {
-      "pattern_id": "FNG4",
-      "old_page": 46,
-      "new_page": 45
-    },
-    {
-      "pattern_id": "FF0R",
-      "old_page": 47,
-      "new_page": 46
-    },
-    {
-      "pattern_id": "FF0U",
-      "old_page": 48,
-      "new_page": 47
-    },
-    {
-      "pattern_id": "FF0L",
-      "old_page": 49,
-      "new_page": 48
-    },
-    {
-      "pattern_id": "FF2R",
-      "old_page": 50,
-      "new_page": 49
-    },
-    {
-      "pattern_id": "FF2U",
-      "old_page": 51,
-      "new_page": 50
-    },
-    {
-      "pattern_id": "FF2L",
-      "old_page": 52,
-      "new_page": 51
-    },
-    {
-      "pattern_id": "WRRI",
-      "old_page": 53,
-      "new_page": 52
-    },
-    {
-      "pattern_id": "WRRM_1",
-      "old_page": 54,
-      "new_page": 53
-    },
-    {
-      "pattern_id": "WRRM_2",
-      "old_page": 55,
-      "new_page": 54
-    },
-    {
-      "pattern_id": "WRRO_1",
-      "old_page": 56,
-      "new_page": 55
-    },
-    {
-      "pattern_id": "WRRO_2",
-      "old_page": 57,
-      "new_page": 56
-    },
-    {
-      "pattern_id": "JR1",
-      "old_page": 58,
-      "new_page": 57
-    },
-    {
-      "pattern_id": "JR1",
-      "old_page": 59,
-      "new_page": 58
-    },
-    {
-      "pattern_id": "JR2",
-      "old_page": 60,
-      "new_page": 59
-    },
-    {
-      "pattern_id": "JR2",
-      "old_page": 61,
-      "new_page": 60
-    },
-    {
-      "pattern_id": "JR3",
-      "old_page": 62,
-      "new_page": 61
-    },
-    {
-      "pattern_id": "JR3",
-      "old_page": 63,
-      "new_page": 62
-    },
-    {
-      "pattern_id": "WLRI",
-      "old_page": 64,
-      "new_page": 63
-    },
-    {
-      "pattern_id": "WLRM_1",
-      "old_page": 65,
-      "new_page": 64
-    },
-    {
-      "pattern_id": "WLRM_2",
-      "old_page": 66,
-      "new_page": 65
-    },
-    {
-      "pattern_id": "WLRO_1",
-      "old_page": 67,
-      "new_page": 66
-    },
-    {
-      "pattern_id": "WLRO_2",
-      "old_page": 68,
-      "new_page": 67
-    },
-    {
-      "pattern_id": "JL1",
-      "old_page": 69,
-      "new_page": 68
-    },
-    {
-      "pattern_id": "JL1",
-      "old_page": 70,
-      "new_page": 69
-    },
-    {
-      "pattern_id": "JL2",
-      "old_page": 71,
-      "new_page": 70
-    },
-    {
-      "pattern_id": "JL2",
-      "old_page": 72,
-      "new_page": 71
-    },
-    {
-      "pattern_id": "JL3",
-      "old_page": 73,
-      "new_page": 72
-    },
-    {
-      "pattern_id": "JL3",
-      "old_page": 74,
-      "new_page": 73
-    },
-    {
-      "pattern_id": "JF",
-      "old_page": 75,
-      "new_page": 74
-    },
-    {
-      "pattern_id": "JB",
-      "old_page": 76,
-      "new_page": 75
-    },
-    {
-      "pattern_id": "JLOW",
-      "old_page": 77,
-      "new_page": 76
-    },
-    {
-      "pattern_id": "JTOP",
-      "old_page": 78,
-      "new_page": 77
-    },
-    {
-      "pattern_id": "TROOT",
-      "old_page": 79,
-      "new_page": 78
-    },
-    {
-      "pattern_id": "TRS",
-      "old_page": 80,
-      "new_page": 79
-    },
-    {
-      "pattern_id": "TRS",
-      "old_page": 81,
-      "new_page": 80
-    },
-    {
-      "pattern_id": "TRS",
-      "old_page": 82,
-      "new_page": 81
-    },
-    {
-      "pattern_id": "TRS",
-      "old_page": 83,
-      "new_page": 82
-    },
-    {
-      "pattern_id": "TLS",
-      "old_page": 84,
-      "new_page": 83
-    },
-    {
-      "pattern_id": "TLS",
-      "old_page": 85,
-      "new_page": 84
-    },
-    {
-      "pattern_id": "TLS",
-      "old_page": 86,
-      "new_page": 85
-    },
-    {
-      "pattern_id": "TLS",
-      "old_page": 87,
-      "new_page": 86
-    },
-    {
-      "pattern_id": "MTR",
-      "old_page": 88,
-      "new_page": 87
-    },
-    {
-      "pattern_id": "MTL",
-      "old_page": 89,
-      "new_page": 88
-    },
-    {
-      "pattern_id": "ARP",
-      "old_page": 90,
-      "new_page": 89
-    },
-    {
-      "pattern_id": "ALP",
-      "old_page": 91,
-      "new_page": 90
-    },
-    {
-      "pattern_id": "TRCP",
-      "old_page": 92,
-      "new_page": 91
-    },
-    {
-      "pattern_id": "TLCP",
-      "old_page": 93,
-      "new_page": 92
-    },
-    {
-      "pattern_id": "LCR",
-      "old_page": 94,
-      "new_page": 93
-    },
-    {
-      "pattern_id": "LCR",
-      "old_page": 95,
-      "new_page": 94
-    },
-    {
-      "pattern_id": "LCR",
-      "old_page": 96,
-      "new_page": 95
-    },
-    {
-      "pattern_id": "LCR",
-      "old_page": 97,
-      "new_page": 96
-    },
-    {
-      "pattern_id": "LCR",
-      "old_page": 98,
-      "new_page": 97
-    },
-    {
-      "pattern_id": "LCR",
-      "old_page": 99,
-      "new_page": 98
-    },
-    {
-      "pattern_id": "WBR",
-      "old_page": 100,
-      "new_page": 99
-    },
-    {
-      "pattern_id": "WBR",
-      "old_page": 101,
-      "new_page": 100
-    },
-    {
-      "pattern_id": "WBR",
-      "old_page": 102,
-      "new_page": 101
-    },
-    {
-      "pattern_id": "WBR",
-      "old_page": 103,
-      "new_page": 102
-    },
-    {
-      "pattern_id": "WBR",
-      "old_page": 104,
-      "new_page": 103
-    },
-    {
-      "pattern_id": "LCL",
-      "old_page": 105,
-      "new_page": 104
-    },
-    {
-      "pattern_id": "LCL",
-      "old_page": 106,
-      "new_page": 105
-    },
-    {
-      "pattern_id": "LCL",
-      "old_page": 107,
-      "new_page": 106
-    },
-    {
-      "pattern_id": "LCL",
-      "old_page": 108,
-      "new_page": 107
-    },
-    {
-      "pattern_id": "LCL",
-      "old_page": 109,
-      "new_page": 108
-    },
-    {
-      "pattern_id": "LCL",
-      "old_page": 110,
-      "new_page": 109
-    },
-    {
-      "pattern_id": "WBL",
-      "old_page": 111,
-      "new_page": 110
-    },
-    {
-      "pattern_id": "WBL",
-      "old_page": 112,
-      "new_page": 111
-    },
-    {
-      "pattern_id": "WBL",
-      "old_page": 113,
-      "new_page": 112
-    },
-    {
-      "pattern_id": "WBL",
-      "old_page": 114,
-      "new_page": 113
-    },
-    {
-      "pattern_id": "WBL",
-      "old_page": 115,
-      "new_page": 114
-    },
-    {
-      "pattern_id": "GLEG_L",
-      "old_page": 116,
-      "new_page": 115
-    },
-    {
-      "pattern_id": "GLEG_L",
-      "old_page": 117,
-      "new_page": 116
-    },
-    {
-      "pattern_id": "GLEG_R",
-      "old_page": 118,
-      "new_page": 117
-    },
-    {
-      "pattern_id": "GLEG_R",
-      "old_page": 119,
-      "new_page": 118
-    },
-    {
-      "pattern_id": "GLEG_N",
-      "old_page": 120,
-      "new_page": 119
-    },
-    {
-      "pattern_id": "SKIN_F09",
-      "old_page": 121,
-      "new_page": 120
-    },
-    {
-      "pattern_id": "SKIN_F10",
-      "old_page": 122,
-      "new_page": 121
-    },
-    {
-      "pattern_id": "SKIN_F11",
-      "old_page": 123,
-      "new_page": 122
-    },
-    {
-      "pattern_id": "SKIN_F11",
-      "old_page": 124,
-      "new_page": 123
-    },
-    {
-      "pattern_id": "SKIN_F12",
-      "old_page": 125,
-      "new_page": 124
-    },
-    {
-      "pattern_id": "SKIN_F12",
-      "old_page": 126,
-      "new_page": 125
-    },
-    {
-      "pattern_id": "SKIN_F13",
-      "old_page": 127,
-      "new_page": 126
-    },
-    {
-      "pattern_id": "SKIN_F14",
-      "old_page": 128,
-      "new_page": 127
-    },
-    {
-      "pattern_id": "SKIN_F15",
-      "old_page": 129,
-      "new_page": 128
-    },
-    {
-      "pattern_id": "SKIN_F16",
-      "old_page": 130,
-      "new_page": 129
-    },
-    {
-      "pattern_id": "SKIN_F16",
-      "old_page": 131,
-      "new_page": 130
-    },
-    {
-      "pattern_id": "SKIN_F17",
-      "old_page": 132,
-      "new_page": 131
-    },
-    {
-      "pattern_id": "SKIN_F17",
-      "old_page": 133,
-      "new_page": 132
-    },
-    {
-      "pattern_id": "SKIN_F18",
-      "old_page": 134,
-      "new_page": 133
-    },
-    {
-      "pattern_id": "SKIN_F18",
-      "old_page": 135,
-      "new_page": 134
-    },
-    {
-      "pattern_id": "SKIN_F19",
-      "old_page": 136,
-      "new_page": 135
-    },
-    {
-      "pattern_id": "SKIN_F20",
-      "old_page": 137,
-      "new_page": 136
-    },
-    {
-      "pattern_id": "SKIN_F21",
-      "old_page": 138,
-      "new_page": 137
-    },
-    {
-      "pattern_id": "SKIN_F22",
-      "old_page": 139,
-      "new_page": 138
-    },
-    {
-      "pattern_id": "SKIN_F23",
-      "old_page": 140,
-      "new_page": 139
-    },
-    {
-      "pattern_id": "SKIN_F24",
-      "old_page": 141,
-      "new_page": 140
-    },
-    {
-      "pattern_id": "SKIN_F25",
-      "old_page": 142,
-      "new_page": 141
-    },
-    {
-      "pattern_id": "SKIN_F26",
-      "old_page": 143,
-      "new_page": 142
-    },
-    {
-      "pattern_id": "SKIN_F27",
-      "old_page": 144,
-      "new_page": 143
-    },
-    {
-      "pattern_id": "SKIN_F28",
-      "old_page": 145,
-      "new_page": 144
-    },
-    {
-      "pattern_id": "SKIN_F29",
-      "old_page": 146,
-      "new_page": 145
-    },
-    {
-      "pattern_id": "SKIN_F30",
-      "old_page": 147,
-      "new_page": 146
-    },
-    {
-      "pattern_id": "SKIN_F33",
-      "old_page": 148,
-      "new_page": 147
-    },
-    {
-      "pattern_id": "SKIN_WLIN_F01",
-      "old_page": 149,
-      "new_page": 148
-    },
-    {
-      "pattern_id": "SKIN_WLIN_F01",
-      "old_page": 150,
-      "new_page": 149
-    },
-    {
-      "pattern_id": "SKIN_WLIN_F01",
-      "old_page": 151,
-      "new_page": 150
-    },
-    {
-      "pattern_id": "SKIN_WLIN_F01",
-      "old_page": 152,
-      "new_page": 151
-    },
-    {
-      "pattern_id": "SKIN_WLIN_F01",
-      "old_page": 153,
-      "new_page": 152
-    },
-    {
-      "pattern_id": "SKIN_WLIN_F01",
-      "old_page": 154,
-      "new_page": 153
-    },
-    {
-      "pattern_id": "SKIN_WRIN_F02",
-      "old_page": 155,
-      "new_page": 154
-    },
-    {
-      "pattern_id": "SKIN_WRIN_F02",
-      "old_page": 156,
-      "new_page": 155
-    },
-    {
-      "pattern_id": "SKIN_WRIN_F02",
-      "old_page": 157,
-      "new_page": 156
-    },
-    {
-      "pattern_id": "SKIN_WRIN_F02",
-      "old_page": 158,
-      "new_page": 157
-    },
-    {
-      "pattern_id": "SKIN_WRIN_F02",
-      "old_page": 159,
-      "new_page": 158
-    },
-    {
-      "pattern_id": "SKIN_WRIN_F02",
-      "old_page": 160,
-      "new_page": 159
-    },
-    {
-      "pattern_id": "SKIN_WROUT_F03",
-      "old_page": 161,
-      "new_page": 160
-    },
-    {
-      "pattern_id": "SKIN_WROUT_F03",
-      "old_page": 162,
-      "new_page": 161
-    },
-    {
-      "pattern_id": "SKIN_WROUT_F03",
-      "old_page": 163,
-      "new_page": 162
-    },
-    {
-      "pattern_id": "SKIN_WROUT_F03",
-      "old_page": 164,
-      "new_page": 163
-    },
-    {
-      "pattern_id": "SKIN_WROUT_F03",
-      "old_page": 165,
-      "new_page": 164
-    },
-    {
-      "pattern_id": "SKIN_WROUT_F03",
-      "old_page": 166,
-      "new_page": 165
-    },
-    {
-      "pattern_id": "SKIN_WLOUT_F04",
-      "old_page": 167,
-      "new_page": 166
-    },
-    {
-      "pattern_id": "SKIN_WLOUT_F04",
-      "old_page": 168,
-      "new_page": 167
-    },
-    {
-      "pattern_id": "SKIN_WLOUT_F04",
-      "old_page": 169,
-      "new_page": 168
-    },
-    {
-      "pattern_id": "SKIN_WLOUT_F04",
-      "old_page": 170,
-      "new_page": 169
-    },
-    {
-      "pattern_id": "SKIN_WLOUT_F04",
-      "old_page": 171,
-      "new_page": 170
-    },
-    {
-      "pattern_id": "SKIN_WLOUT_F04",
-      "old_page": 172,
-      "new_page": 171
-    },
-    {
-      "pattern_id": "SKIN_TRF_F05",
-      "old_page": 173,
-      "new_page": 172
-    },
-    {
-      "pattern_id": "SKIN_TRF_F05",
-      "old_page": 174,
-      "new_page": 173
-    },
-    {
-      "pattern_id": "SKIN_TLF_F06",
-      "old_page": 175,
-      "new_page": 174
-    },
-    {
-      "pattern_id": "SKIN_TLF_F06",
-      "old_page": 176,
-      "new_page": 175
-    },
-    {
-      "pattern_id": "SKIN_TRF_F07",
-      "old_page": 177,
-      "new_page": 176
-    },
-    {
-      "pattern_id": "SKIN_TLF_F08",
-      "old_page": 178,
-      "new_page": 177
-    },
-    {
-      "pattern_id": "AR_horn_slot",
-      "old_page": 179,
-      "new_page": 178
-    },
-    {
-      "pattern_id": "AL_horn_slot",
-      "old_page": 180,
-      "new_page": 179
-    }
+  "pdf": "Paper_Patterns.pdf",
+  "page_map": "Data/Paper_Page_Map.csv",
+  "revision": "REV4",
+  "pages": 192,
+  "unique_cut_patterns": 126,
+  "plywood_patterns": 87,
+  "foam_patterns": 39,
+  "balsa_patterns": 0,
+  "all_patterns_covered": true,
+  "all_A4_pages": true,
+  "every_page_100mm_bar_verified": true,
+  "maximum_check_bar_error_mm": 1.9603305375426316e-05,
+  "bevel_reference_patterns": [
+    "AR",
+    "AL",
+    "TRC",
+    "TLC"
   ],
-  "unchanged_page_content_pixel_comparisons": {
-    "count": 177,
-    "dpi": 72,
-    "excluded_bottom_mm": 15,
-    "mismatch_count": 0
+  "obsolete_postprint_horn_slot_pages": false,
+  "source_dxf_sha256": {
+    "FX0L": "6b9d0dc48b0da0ca42117ba4f0d07700c4c3c5654309aeab5bf0f6a362553d90",
+    "FX0R": "e24fdd19dd927b3ee8eb033ef6459a093c056cdc0c32b25376d194a1c9655231",
+    "FX1": "b8e2e4e52531a3d4319d2ae6140e27480a19056bac289a41c7ee40ae76768f66",
+    "FX2": "00f34f7913b91b09be98fe5ddeb9fa7e6b25ba2956002ce92d3fb6c9e591eca4",
+    "FX3": "db22ef662e43adf54943b0609b1319ecbeede15f2469992dcbe7b7ba6ae72049",
+    "FBT": "d3479c591a13f1e797b6ef523fffb6bf1ca7d9d7fff204b95af5db478c188737",
+    "FBWR": "28440dc642b1412bfc324bac7a8ad332e45130acfcfcd196c4fa31e45415c976",
+    "FBWL": "78ef7d4dc33287226289e41a390535611c8ce027a6aa87875fabdcb4eed73853",
+    "FBC": "7d4d7d2e3df5a1ee407576fee917582cd504069a5e7ffaa4e925d7c50f30e0ed",
+    "FMF": "37cc7d6845f4cca869ca2b12fdce9a94bb17290ae93b7470f5533a31c2ac1405",
+    "FMT": "ecef0a3a243567e4c23adcaa4b2eeb7e8c8989afd6be1d5675d1d896fb4f76f4",
+    "FMGR": "5f28afee15221b1d152ee49e3e4edd3213c9936b2ba49d5f19f6fffa01e76787",
+    "FMGL": "868838a713f6e50872e4e4b1e1205030095110f5bc81609194b61c6666d295ee",
+    "FNG1": "74a67d79fa2138f0f861382f53fabacdcf11789a9dec3ff4c7e5104796da8299",
+    "FNG2": "cad060de9b8cf6649046b1520f369991eee63f83fb41e31da52f1fecaa7006f2",
+    "FNG3": "63cc1d5b2c95cafaa8ba65daa39fde6899a580b1a2e4ea736d841f3387fe1216",
+    "FNG4": "f1661b2db2a6d6ae4aef958f711c88c12cb87acb8218a88eb3906c64143e59b6",
+    "WRRI": "a109ee57e72aa6b5a8213291ffc8eada4b4a0cd03f26abfd84f5efda0b5a6615",
+    "WLRI": "bc6c55e92f4f86d521759e7c7627d464962e2c41e283d08a360185c922fdf30d",
+    "JF": "a4b7249f96ed1db2e551308fcc2466b809be63ca5d4c1390ae9076951f5ec972",
+    "JB": "ead2cc159e5816aa03b068727c1aae848d1f62d9c06873bc9c6205a8e1df5958",
+    "JLOW": "d2be24c33e1100e42d46c50a00ec5c4d5e2338ebdaf9fb921ab8871097993899",
+    "JTOP": "3efbdff305d3d2905136cccd7e0376ec53e2f72c50ea6ba454ec7f856138f5fd",
+    "TROOT": "72d1242dd50a7a30c7aa0e02ba100b9658e6e56d71a47871a84353b204b95def",
+    "GLEG_L": "9d0b2f4b70c6ec8b0ce634abd61f2d13f87edf0073d94e0957157516f547625e",
+    "GLEG_R": "f03309cae4290a6fd136202ffd8ee32a5c1854634f1bdb1eb3652c14985ddac7",
+    "GLEG_N": "a4e21694e22f798b06e7237279e2fee36524ea814420321cfe5e28cab292b722",
+    "SKIN_F09": "d6c1873935eae69aae3f29aca28dfca304fa080ec6495bbd2f1f902402b828b9",
+    "SKIN_F10": "9748d4ad4bb60d35f1bd66fa28b021b26167682d56b822608206c93c143ad5c7",
+    "SKIN_F11": "4d4f071ee751446474cdcc9ecb7093f3a4dc3d6869eb5567cfc0e9d0bd378174",
+    "SKIN_F12": "8965d074771fe878d557901e9e3ff87d3cdc007ba617dd3337351752522fcf9a",
+    "SKIN_F13": "a92577819b2ba32f7b5db651600039a661947b52220405e1fad6d14ba3e7c4a7",
+    "SKIN_F14": "7c3570088b23d75df88d9bf6e0e89aff0a962231e9efc1a9b63d554363740ef7",
+    "SKIN_F15": "61bc746e01a059e9c026a6d35398d084d1e78d626152ebd9f2e3d1519f8a75fa",
+    "SKIN_F16": "61dd3ea5dee5560262dc1b14f344b681b7ff93013252be325a6f103135c36728",
+    "SKIN_F17": "fbcc7a59846981a9434957c42b01bd4f822ad064b0d04903956428fb9c39f59a",
+    "SKIN_F18": "1e77a79a6cca5bb83f5aa26d2849edbc40006b94f6f490029e0287d57f876a74",
+    "SKIN_F19": "9a2abe728e5f3cc0efe722cb43ea4d58dd33c2bfe4486deaa881cd6e5426aec7",
+    "SKIN_F20": "f916e5d21d7affcfa11ac48aa2fd2b77d837ced5957f9d2da747759e15b93cde",
+    "SKIN_F21": "742c52a05e75470798d77ba78389fce74a3d8ca0136790e214800ca356f7782a",
+    "SKIN_F22": "7b7f40d84facf97666bed61b6fb9dd707004c27167d87d4b2455ecb991095187",
+    "SKIN_F23": "d7bcb74f6403139d8326062f7cc1271438c309be2042d7ad5989a1752744b3d0",
+    "SKIN_F24": "2f79ee820b47528e50e2c935291fdc9ae3dab673a41f33fed445501391dd9144",
+    "SKIN_F25": "1a4a673d78424fadbbdb71c9bc33a28be2d36ca029a2beb48818fcf9f6bfb9b3",
+    "SKIN_F26": "1b260b5f6f8d42e0f639af9bf161cf66b18ccc3ac327502c1dca2dd6b3cece0f",
+    "SKIN_F27": "8438c4765dfebd4cf92c8659904e2eec7615d29bc3e13a5452126fa313a06120",
+    "SKIN_F28": "42c2b6a0a6b33d0ae00057ad2797f71eb169e1b7fdf38b4b39645e8eb61a3f59",
+    "SKIN_F29": "a0d9427ece4dc6a039b9a97faf3009ec82f8234488d2823f6df4ed7144b5a444",
+    "SKIN_F30": "90738eebb34a075b8202166e734675718c61aca4a50635e6357b9949e2027f15",
+    "SKIN_F33": "eb25f6273bfbe636403630f3bb7683864b4950951c05919aa5942472cb5943ec",
+    "SKIN_WLIN_F01": "96387decb6e62d991ec54a6888d51d49f447e68595fa02b78b52d5e66a96dcb9",
+    "SKIN_WRIN_F02": "58728602ec3b158960c96b8bbd63fe18b8ad4ef2fb0e48a5af23ea93744d9fbe",
+    "SKIN_WROUT_F03": "e23fca90de8b71cf057c44e81373865e7d006507adc0e2c896dc7a0031502426",
+    "SKIN_WLOUT_F04": "1ac990aba93afba00dfa82a38059ff35a3e7ce43033adb71a0c454fa4ef9d4ea",
+    "SKIN_TRF_F05": "720aae839465adf8df92579b48262647e3288e0fd7fb316dd1733113f8e0c30c",
+    "SKIN_TLF_F06": "d9b32a169b115e3ef8dd07e4062ad7a70243ace1b4256373cd120580a5c32152",
+    "SKIN_TRF_F07": "5f303d16b3eb8a0de32a63088c90d2e50a4681b46ec38848e6dba513ecca1207",
+    "SKIN_TLF_F08": "38c93a943260bafb56686dab90f11acce7a444e569ba694a21a4a9245bd902c1",
+    "FK_F": "c4ad3f13c22586a92015962676f9541506cfc5a3cb8a2098fd2f63106a8e31dd",
+    "FK_A": "9abcf6f0bc769e9073c6fdde55ba0940b8893c5c31b2c6b2285bfaf1a778b522",
+    "FK_DL": "137bcbd395d6f7740ddee39ed9a09fb6ba4719de46df2afc7718d32c3fbcc5aa",
+    "FK_DR": "e8830298adf84649312ca807d208254ce265437907cc4bef4dbf00b502b3ef70",
+    "FLL_F": "e3355236b2a7e2b125da60edd1d23eebe9f90005385ab1dde05e80167d152836",
+    "FLL_A": "d6afc312a83ca87e8eca8fbff2ae46c3f183745a52c0474cc8c2a075e58e31ce",
+    "FLL_DT": "ce57b38c1d1375834f05e1049537ef0052e21dc6d930f838b22bf125f01e7b54",
+    "FLL_DB": "48f2a763aef5d742e225c6caa2b97be2033bd309b1724fbe38831dce955cfdfe",
+    "FLR_F": "5c81ee5744e4aa9cf9ef233a7e3e6e533974c831c575386fc76eb5014f241313",
+    "FLR_A": "4acb9106fb9cdb5ac08a337d37872edeb24fbd4617c91cc068af570acfbb0a18",
+    "FLR_DT": "fc093181ad48638adf6e3a7678ffa25ecacc6495c58197b06c57bc6568fc2a9f",
+    "FLR_DB": "dde389d0db3a1bb6911f5039671ee0a75ca33de577bbb6a19ae66f4ca020246f",
+    "AR": "fe4d7ad87e384fdd724631c79d01396a48a38012ea633306086e76f213d8bf50",
+    "AL": "4e0a739a0372738f61f97cb32d599678d96403463f23b4e25f632f12992e4e87",
+    "TRC": "7a3b8202a389c7e53710ba4d164bfa48ba4c311737fb73aca6576c22b1a62e95",
+    "TLC": "b54da87dc3bd34ded12fe537dbf8d41e2141461f95d90ae201a4232911d81201",
+    "FF1": "664160ec1253d7cb978c7ce890af62d76a1b23ce3bf19cf165fbe104d97acd3b",
+    "FF3": "2e5c8fb7e849b61719fc0d4c6a0e818da3e3ac4d6fdc4e1420a2b8b9531038ce",
+    "FGPS": "88bb01080a2c503b51dae34f47868983b58aacbf55bc563a88d40c4f8fecb04e",
+    "FGPR": "0aa203520d1da17b5c4a16fe89c816f69161cfbf156bf8505bdae66cc69d4088",
+    "FGPL": "c38c53cb16d5fb9fae1ed43b4c1b450c1fef5ddc47160f3ff3ab28433b53e3c5",
+    "FEQ": "efa9920bced3aee34632b7cbac5fa824fcf364bda075c98ac24af8feef9857e9",
+    "FEC0": "162fbc919fd8adecfc7fd5e3eea03fb53aae82535c71a638e6bccd133ac0d6f2",
+    "FEC1": "5ad097ed50e70bd14981600e7f1b2a7cb606f7cd762d47b828db4f69c0b290a3",
+    "FES0": "3b08572948aa75e489f8cfb0f811eb0d57f729a441d6e94d7972d9b94c444ab8",
+    "FES1": "c83d0bb7ae22986ebab8595b6524e54474bf705cbabc1313b7ffb0fd588382ad",
+    "FTM0": "4f3b536480e22cbb4486d0b4addada8f512b54e7c28b97597e177217e3b4ba89",
+    "FTM1": "91c7c96672964315eb2da3b7cda5240d1d3326ea3292ce609a53b8dc6b8601a1",
+    "FF0R": "e5982ec0a5abb28dc1cc9719f4fcb2c7fb89bc54cc06191e41d3eb4c21564c07",
+    "FF0U": "dd56fee985c14ddde5fdf6028604f7f052ce9bac132777ffa582e42e43dc20ae",
+    "FF0L": "1783e308d2eaf8fd74b36b25bc1dbba9d47a519a3789d16f99a63ad6616d43ee",
+    "FF2R": "2aa536c30ec54ea9c9a9b1a75f807485a04d517df23a6883eebd282f635d10ac",
+    "FF2U": "11839e42e5bbda06369b928ab51ea7581642e2688fa9f69a5e471d916b80d55c",
+    "FF2L": "202b2fe50cebdb3d8d4111193381b65abfc4ec67919f874e188e430ff0042217",
+    "TRS": "7ff0017bf86d3fa1f0b9e60da87be050f6bd8196b3fc85d3fc6d2591a80ae41e",
+    "TLS": "85a19e4c67cf168086e1c822e1cdbd3ac45a93263358eac6d0df8c1853569e60",
+    "MTR": "6f996ab2363c9c328516c112d6986dc37568ac0961264891f13284a9b04ad2dd",
+    "MTL": "6152b1b436b5fa6fbf248eba84b1a614b8761506b9bcfb7a6111ebcf02ba058f",
+    "LCR_I": "8ed56e828296ae42a544e1a239dd275863730cb968184b3d5655d6ffe5d86de7",
+    "LCR_O": "8a3011f50026aa95d0636bed722b92f687f595fae217824031c5ccd4a62d7f6e",
+    "LCR_DF": "eb82e10ac576802730f0c0e6ed3a8d4c6cc14e766445c9e480f3e221c262068e",
+    "LCR_DA": "06e95cfe4c765b032ed2ef90871cb5a16ea8da560f361f1b337051dd786229e0",
+    "WBR_I": "129fff1e4f8bf43e552ecc8f50193b06cf88dfb044800f1edd567944a7d38fa2",
+    "WBR_O": "a128c53eafb26f32d8c0e318d69262fb742ddbb9e234d8d287efcc1b5b6c4f1b",
+    "WBR_DF": "64278e452270ad0add580b6d5953ae48c4d76fbff304218468229c7570ba30a4",
+    "WBR_DA": "9599ac4cef6ca208557fbb4c4f61f26876f76a2180a8fc652e257cc3941e1378",
+    "LCL_I": "58ad1dd658d2f63948d1d141e244f7ce442112a6de74bb03bb17664da283342a",
+    "LCL_O": "756bb5bc250efcc426b06e8f7213949d81c84ba2deff207be4125129eec068eb",
+    "LCL_DF": "50f87638382f28c55d926a82efca55165424e5cb1144bc4127872c1bf4a39e2e",
+    "LCL_DA": "f13b2d097d4dc4bb434d0cc3317245f92327507a92bfece310e02e7fce0b3875",
+    "WBL_I": "2ef5fea4eb6f04d04a4aabc36cf773b7b3f56b8a528ebcfc32c58de26c807d35",
+    "WBL_O": "fb1acd2126e83d48a2c3fb9660bc3bbf766e7a7c51b04159f253d82cba4c5efc",
+    "WBL_DF": "2fd056fdbfaed396b1a0ad99669060a42caf9b15a1a31fff6224334e114ca876",
+    "WBL_DA": "196764db052ce144498325ae93e89be0ad184eadb30e700c43806f90e1c7ac91",
+    "JR1": "013795a30b5a555a3c24985d9b909a6bd0b9a0e19629c0e24372254b90f617fc",
+    "JR2": "6f3c41aaa35d9763ba074d46a3b58c2dd594c6ea388f1c41a799521c756b3939",
+    "JR3": "598fcf7d5af38fbc907ec419fd611b56cb44f60b37241aa901ac3163b84cbba4",
+    "JL1": "5fc84cd69a3248db380f8bc5f41aca4ede1da9fa80ed51c050a5de9ef5135ded",
+    "JL2": "2913c31da83c59634480cf2eccfae2bd0bc9db3ac8d35980968d13642739bfde",
+    "JL3": "c5dd02ef4df7f4d9323edaefec457abe3b019e02aa293db9eb7f82e76482ae17",
+    "WRRM_1": "ec7cb3e9499edd81001f55f8113092fe060fa86e79c3ed1f819aa9aee35cdb86",
+    "WRRM_2": "37d01604895ca86007f5fc61679e7225d7d3839f015963018ba2527a722908e7",
+    "WRRO_1": "bb71e21bcaf9e5749543a5dc6112ec2c6c296dcc67468ee37624d7a9ce3cf055",
+    "WRRO_2": "14573c2f2306819c5a51499b6bf8371ca391589d2753977aa09c070e5abfb88c",
+    "WLRM_1": "1894ecc1ba6fdd96fea6166d457174771a88be76fe6c5d175f55fa0171f9ded1",
+    "WLRM_2": "8195aa3e8100c010a1fe1fd2049803d2dff70b23779a91c26908ef7332de2937",
+    "WLRO_1": "56b5572d5cc86dfb1c6003c5facb0503827af7416958376763bd7d3850d1433d",
+    "WLRO_2": "f33bd5d0f188f6f39a60820286d48e7077643aec3cf2b8fb68b0917c70f41252"
   },
-  "coverage": {
-    "pages": 179,
-    "cutting_pattern_ids": 105,
-    "post_print_locators": 2,
-    "unique_pattern_ids": 107,
-    "no_FMGB": true
-  },
-  "output_pdf_sha256": "ff94c7ff7ae3c4dbe103138c58d88dc2921b154231d8f83ce05e6f9e1bac3e94",
-  "output_map_sha256": "c3761dafa381a6d46a926dbff82d9da7a6e42950a85587277e256bac0fe8793b",
-  "scale_bars": {
-    "count": 179,
-    "minimum_length_pt": 283.4646224975586,
-    "maximum_length_pt": 283.4646224975586,
-    "expected_100mm_points": 283.46456692913387,
-    "tolerance_pt": 0.01
-  },
+  "pdf_sha256": "a4a9e6f0cddb3327ff5d6f3bec9ccfea4d1d5c6c13a274b5d84ed4cf6646f2dd",
+  "visual_review_completed": true,
+  "physical_print_scale_check": "Measure the 100 mm bar on the actual print before cutting. PDF geometry does not verify printer scaling.",
   "visual_review": {
-    "status": "PASS",
-    "pages_inspected": [
-      38,
-      39,
-      42,
-      178,
-      179
+    "method": "Poppler page rendering; all192 pages reviewed as contact sheets, enlarged motor/control/wing-joint examples, corrected16left-wing tile pages re-reviewed after final update.",
+    "corrected_left_wing_pages": [
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172
     ],
-    "motor_page_renderer": "Poppler110dpi",
-    "other_samples_renderer": "PyMuPDF72dpi",
-    "findings": "Updated profiles, labels, scale bars and footers are legible and unclipped. Foam warning remains outside pattern/bar area; finishing locators preserved.",
-    "remaining_pages": "177 unchanged page-content clips pixel-identical to baseline; prior visual proof inherited for those contents."
+    "enlarged_examples": [
+      13,
+      109,
+      113,
+      141,
+      158,
+      166
+    ],
+    "findings": "No title/legend/footer overlap; bevel lines distinct from cut outlines; tiled edges and100mm bars legible."
   },
-  "footer_numbering_verified_pages": 179,
-  "no_FMGB_in_pdf_text": true
+  "numerical_cleanup": "Ten polygonization rings in FMF/FF2U, each area below1e-8mm2 and span below0.002mm, omitted as CAD edge-sampling artifacts. No real holes removed.",
+  "parts_json_sha256": "15f1eb58f552228a68aeae06e9dfb0e1aef33892220bc72dc342c0366d62c817",
+  "cut_patterns_json_sha256": "1f840275f3bfdeb18f9a0dccfc62692413ea486e785ad97ed0d19a3dd16bfb58",
+  "metadata_refresh": "Final registry names normalized; page headings use IDs/material/thickness, so paper PDF geometry and bytes unchanged."
 }

@@ -1,2180 +1,564 @@
 {
-  "basis": "Actual current STEP material sections at X planes; adaptive area/centroid/inertia of exact planar section faces. Euler-Bernoulli vertical bending; ideal continuous bonds, fully fixed receiver at X50.2mm; no foam stiffness credit, no joint slip, shear deflection, torsion, buckling or nonlinear effects. E values are illustrative assumptions, not measured material or strength limits. Uniform lift over each exposed X53..1000mm half-wing.",
-  "input_sha256": {
-    "CRFULL": "1d096bdd6ffab19461955a5c009e9ece42690b5fd763bbd7b314337533334684",
-    "LCR": "842d0d070311fa6618153d5978f9899ec4dbd811fd6c5737cb6c1b1937799331",
-    "WBR": "5511af7b9e5f5f31e269dc5258ae4b29b03bb3c6cf4ab6bb01919a3cfb2b576c",
-    "JR1": "c234950a0577b05648e9fbbdbe05f62a9a10c2e3d0be6d4a47cd4c5aa9fadcf4",
-    "JR2": "99fe0cc3f21df8672c6c600a657f21b693e1c9281a323eba444c7e9dd2ea1ce0",
-    "JR3": "9e0d68ab89be7691e5f23f4c1a0de47cfb46c92ee24a2ccfca303f6e4248a797"
-  },
-  "mass_scenario_kg": 2,
-  "load_factor_g": 3,
-  "scenarios": [
+  "structural_scenarios": [
     {
-      "name": "lower_moduli",
-      "elastic_modulus_MPa": {
-        "Balsa": 1000,
-        "Plywood": 4000,
-        "Carbon": 70000
+      "name": "lower",
+      "nominal_mass_kg": 2.661309213538943,
+      "load_factor_g": 3,
+      "tip_deflection_mm": 98.80813554683532,
+      "tip_slope_degrees": 9.14501675503083,
+      "max_stress_MPa": {
+        "JR1": 22.039032742075555,
+        "JR2": 22.039032742075555,
+        "JR3": 22.039032742075555,
+        "CRFULL": 174.85768005159062,
+        "LCR_I": 19.456215316663318,
+        "WBR_I": 8.145515700753597,
+        "WBR_DA": 5.128922856088933,
+        "WBR_DF": 6.629452701242173,
+        "WBR_O": 5.512069022361654,
+        "LCR_DF": 5.1151694268762276,
+        "LCR_DA": 5.112510559072026,
+        "LCR_O": 5.693678850016794
       },
-      "tip_deflection_mm_at_3g": 145.60281649097072,
-      "tip_deflection_mm_at_1g": 48.53427216365691,
-      "tip_slope_degrees_at_3g": 13.90643535038542,
-      "stations": [
-        {
-          "x_mm": 50.2,
-          "neutral_z_mm": 17.873189409406596,
-          "EI_Nm2": 33.424207237831766,
-          "moment_Nm": 14.017508999999999,
-          "curvature_per_mm": 0.00041938194375883473,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 131.40726313352215
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 16.562549462464318
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 16.562549462464318
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 16.562549462464318
-            }
-          ]
-        },
-        {
-          "x_mm": 75,
-          "neutral_z_mm": 17.83259408773926,
-          "EI_Nm2": 33.04608812226869,
-          "moment_Nm": 13.29516565469905,
-          "curvature_per_mm": 0.0004023219209943299,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 125.10972645980944
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 15.823472566947
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 15.823472566947
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 15.823472566947
-            }
-          ]
-        },
-        {
-          "x_mm": 100.2,
-          "neutral_z_mm": 17.769397468927043,
-          "EI_Nm2": 37.582613767919064,
-          "moment_Nm": 12.58062638711721,
-          "curvature_per_mm": 0.0003347459137569663,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 103.8050307764899
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 4.8100970858732675
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.13583192362618
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 13.08106353036391
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 12.544956723404443
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 12.54238998157372
-            }
-          ]
-        },
-        {
-          "x_mm": 150,
-          "neutral_z_mm": 17.674551924872716,
-          "EI_Nm2": 37.281471424306595,
-          "moment_Nm": 11.226597148891235,
-          "curvature_per_mm": 0.0003011307418937272,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 92.23097188856163
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 4.1790169629836305
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.6724004051112993
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 11.65321999450523
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 10.691833646910197
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 10.689524657195996
-            }
-          ]
-        },
-        {
-          "x_mm": 200,
-          "neutral_z_mm": 17.6412602108517,
-          "EI_Nm2": 35.03720607550335,
-          "moment_Nm": 9.94466737064414,
-          "curvature_per_mm": 0.0002838316317007098,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 84.61377795089194
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.815962353243511
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.3958966592562656
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 10.94597846918867
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 9.5864158881368
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 9.584239543356984
-            }
-          ]
-        },
-        {
-          "x_mm": 250,
-          "neutral_z_mm": 17.54330246201491,
-          "EI_Nm2": 34.006263226627745,
-          "moment_Nm": 8.7404303062302,
-          "curvature_per_mm": 0.00025702413252468823,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 75.68579739064955
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.327562907335217
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.041620424680534
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 9.811436146880416
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 9.811436146880416
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 8.167729869657705
-            }
-          ]
-        },
-        {
-          "x_mm": 277.8,
-          "neutral_z_mm": 17.460719650410606,
-          "EI_Nm2": 34.061271678163415,
-          "moment_Nm": 8.104481880253433,
-          "curvature_per_mm": 0.0002379383235256361,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 70.0519957291537
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.0079013840432576
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.8174489721715468
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 9.004271091858966
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 9.004271091858966
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 7.271289505230805
-            }
-          ]
-        },
-        {
-          "x_mm": 278.2,
-          "neutral_z_mm": 18.244600475297393,
-          "EI_Nm2": 16.448218069578658,
-          "moment_Nm": 8.095506817951424,
-          "curvature_per_mm": 0.0004921813891149852,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 117.85615792860294
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 6.606156016437934
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 4.143675348891434
-            }
-          ]
-        },
-        {
-          "x_mm": 300,
-          "neutral_z_mm": 18.201668952846337,
-          "EI_Nm2": 15.846466259306714,
-          "moment_Nm": 7.613885955649419,
-          "curvature_per_mm": 0.0004804784758354401,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 114.29812291038355
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 6.344654079520098
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.9407253977702865
-            }
-          ]
-        },
-        {
-          "x_mm": 350,
-          "neutral_z_mm": 18.102616726836384,
-          "EI_Nm2": 14.521710904048783,
-          "moment_Nm": 6.565034318901795,
-          "curvature_per_mm": 0.0004520840803318433,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 105.93126421504685
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 5.744096313869004
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.482230399100297
-            }
-          ]
-        },
-        {
-          "x_mm": 400,
-          "neutral_z_mm": 18.002745506563997,
-          "EI_Nm2": 13.27311552555828,
-          "moment_Nm": 5.593875395987328,
-          "curvature_per_mm": 0.00042144403740146337,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 97.27290911018589
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 5.144121876985239
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.0355541466613527
-            }
-          ]
-        },
-        {
-          "x_mm": 450,
-          "neutral_z_mm": 17.90205079321355,
-          "EI_Nm2": 12.099428824345368,
-          "moment_Nm": 4.700409186906018,
-          "curvature_per_mm": 0.00038848190729865557,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 88.3241711151102
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 4.547277160235215
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.6036254749598244
-            }
-          ]
-        },
-        {
-          "x_mm": 500,
-          "neutral_z_mm": 17.800528054959063,
-          "EI_Nm2": 10.999393373970278,
-          "moment_Nm": 3.884635691657867,
-          "curvature_per_mm": 0.0003531681756969194,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 79.09689502095094
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.956799295147546
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.189829181527207
-            }
-          ]
-        },
-        {
-          "x_mm": 550,
-          "neutral_z_mm": 17.69817272666087,
-          "EI_Nm2": 9.971745564086572,
-          "moment_Nm": 3.1465549102428723,
-          "curvature_per_mm": 0.0003155470514184847,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 69.61873468050837
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.376785803195883
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.7980416023708101
-            }
-          ]
-        },
-        {
-          "x_mm": 600,
-          "neutral_z_mm": 17.594980209558965,
-          "EI_Nm2": 9.015215544829063,
-          "moment_Nm": 2.486166842661035,
-          "curvature_per_mm": 0.00027577453143503016,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 59.940193618319284
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.812397663644552
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.4326432331051304
-            }
-          ]
-        },
-        {
-          "x_mm": 650,
-          "neutral_z_mm": 17.490945870962886,
-          "EI_Nm2": 8.12852716793867,
-          "moment_Nm": 1.9034714889123547,
-          "curvature_per_mm": 0.00023417175702139656,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 50.1442700252456
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.2700945726639437
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.0984870366954125
-            }
-          ]
-        },
-        {
-          "x_mm": 700,
-          "neutral_z_mm": 17.38606504393825,
-          "EI_Nm2": 7.310397929252804,
-          "moment_Nm": 1.398468848996832,
-          "curvature_per_mm": 0.00019129859448564513,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 40.35945711489853
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.7578929981240283
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.8007883593306705
-            }
-          ]
-        },
-        {
-          "x_mm": 750,
-          "neutral_z_mm": 17.280333026989737,
-          "EI_Nm2": 6.559538909714079,
-          "moment_Nm": 0.9711589229144667,
-          "curvature_per_mm": 0.00014805292510366376,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 30.776868327062235
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.285622086318879
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.5448840700012787
-            }
-          ]
-        },
-        {
-          "x_mm": 800,
-          "neutral_z_mm": 17.17374508374059,
-          "EI_Nm2": 5.874654715866598,
-          "moment_Nm": 0.6215417106652588,
-          "curvature_per_mm": 0.0001058005518156776,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 21.67204026029209
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.8651250315014472
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.3357839811819152
-            }
-          ]
-        },
-        {
-          "x_mm": 850,
-          "neutral_z_mm": 17.066296442608504,
-          "EI_Nm2": 5.254443419810894,
-          "moment_Nm": 0.349617212249208,
-          "curvature_per_mm": 6.653743970884563e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 13.431250009280339
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.5103084870155646
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.17740853879588306
-            }
-          ]
-        },
-        {
-          "x_mm": 875,
-          "neutral_z_mm": 17.01224785950979,
-          "EI_Nm2": 4.968181454212482,
-          "moment_Nm": 0.24278973072861668,
-          "curvature_per_mm": 4.8868933827438445e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 9.793013628453958
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.3623849057926639
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.11788398102169592
-            }
-          ]
-        },
-        {
-          "x_mm": 899.8,
-          "neutral_z_mm": 16.958417283555008,
-          "EI_Nm2": 4.699699404832024,
-          "moment_Nm": 0.15600759091869074,
-          "curvature_per_mm": 3.3195227498654616e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 6.604309271740243
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.2377845424719626
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.07170226512858666
-            }
-          ]
-        },
-        {
-          "x_mm": 900.2,
-          "neutral_z_mm": 16.960436217010376,
-          "EI_Nm2": 4.688090265334398,
-          "moment_Nm": 0.15476450749735995,
-          "curvature_per_mm": 3.301227125291298e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 6.560470970790492
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.23643499790899922
-            }
-          ]
-        },
-        {
-          "x_mm": 925,
-          "neutral_z_mm": 16.905116520439943,
-          "EI_Nm2": 4.438919528352429,
-          "moment_Nm": 0.087404303062302,
-          "curvature_per_mm": 1.969044550234129e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 3.886748844595755
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.13602777961151474
-            }
-          ]
-        },
-        {
-          "x_mm": 950,
-          "neutral_z_mm": 16.849682087702995,
-          "EI_Nm2": 4.201106840039892,
-          "moment_Nm": 0.03884635691657867,
-          "curvature_per_mm": 9.246695786534627e-06,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 1.812565430597524
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.06151715312550135
-            }
-          ]
-        },
-        {
-          "x_mm": 975,
-          "neutral_z_mm": 16.794328469489045,
-          "EI_Nm2": 3.977531909934413,
-          "moment_Nm": 0.009711589229144668,
-          "curvature_per_mm": 2.441611896283896e-06,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 0.47525437096361955
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.015620275374883313
-            }
-          ]
-        },
-        {
-          "x_mm": 998.5,
-          "neutral_z_mm": 16.74226909868368,
-          "EI_Nm2": 3.7805941114287087,
-          "moment_Nm": 3.4961721224920795e-05,
-          "curvature_per_mm": 9.247679119858904e-09,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 0.0017881030346535115
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 5.694227476938464e-05
-            }
-          ]
-        }
-      ]
+      "root_stress_MPa": {
+        "JR1": 22.039032742075555,
+        "JR2": 22.039032742075555,
+        "JR3": 22.039032742075555,
+        "CRFULL": 174.85768005159062
+      },
+      "assumed_moduli_MPa": {
+        "Carbon": 70000,
+        "Plywood": 4000
+      },
+      "cap_joint_axial_force_screen_N": 324.16642848218663,
+      "cap_joint_average_edge_shear_MPa": 0.4502311506697036,
+      "assumptions": "Actual current X sections; perfect continuous glue, fixed X50.2, uniform half-wing lift; no joint slip, peel, torsion, shear deformation, buckling or material strength qualification. Values are demands, not permissible strengths; final mass scales linear demand. Edge-lap average shear omits stress concentration and peel."
     },
     {
-      "name": "central_illustrative",
-      "elastic_modulus_MPa": {
-        "Balsa": 2000,
-        "Plywood": 6000,
-        "Carbon": 100000
+      "name": "central",
+      "nominal_mass_kg": 2.661309213538943,
+      "load_factor_g": 3,
+      "tip_deflection_mm": 66.7097212549832,
+      "tip_slope_degrees": 6.1781993677201275,
+      "max_stress_MPa": {
+        "JR1": 22.1562477711497,
+        "JR2": 22.1562477711497,
+        "JR3": 22.1562477711497,
+        "CRFULL": 170.4783747182299,
+        "LCR_I": 19.569884114820532,
+        "WBR_I": 8.140284888918048,
+        "WBR_DA": 5.11678176530025,
+        "WBR_DF": 6.643124465592978,
+        "WBR_O": 5.511074702177931,
+        "LCR_DF": 5.150686825593207,
+        "LCR_DA": 5.147986851363596,
+        "LCR_O": 5.7471823106245825
       },
-      "tip_deflection_mm_at_3g": 83.52530678463239,
-      "tip_deflection_mm_at_1g": 27.841768928210797,
-      "tip_slope_degrees_at_3g": 7.875484956682396,
-      "stations": [
-        {
-          "x_mm": 50.2,
-          "neutral_z_mm": 17.817186950376797,
-          "EI_Nm2": 49.58819314272021,
-          "moment_Nm": 14.017508999999999,
-          "curvature_per_mm": 0.00028267835772229256,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 128.1161721839385
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 16.650637707511407
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 16.650637707511407
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 16.650637707511407
-            }
-          ]
-        },
-        {
-          "x_mm": 75,
-          "neutral_z_mm": 17.777549596004214,
-          "EI_Nm2": 49.03439873625739,
-          "moment_Nm": 13.29516565469905,
-          "curvature_per_mm": 0.0002711395672701139,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 121.94398066714643
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 15.906483398535956
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 15.906483398535956
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 15.906483398535956
-            }
-          ]
-        },
-        {
-          "x_mm": 100.2,
-          "neutral_z_mm": 17.546537377891738,
-          "EI_Nm2": 61.889882372236194,
-          "moment_Nm": 12.58062638711721,
-          "curvature_per_mm": 0.00020327436254364057,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 94.58099703436011
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 5.751256735381753
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.7178626319849104
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 11.643397799939889
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 11.155071736970624
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 11.152733757081945
-            }
-          ]
-        },
-        {
-          "x_mm": 150,
-          "neutral_z_mm": 17.42527148247166,
-          "EI_Nm2": 62.37224108603428,
-          "moment_Nm": 11.226597148891235,
-          "curvature_per_mm": 0.00017999348674044955,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 83.24230360200583
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 4.906071281684028
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.1049853764260495
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 10.1789248656324
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 9.316957337574282
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 9.314887124947234
-            }
-          ]
-        },
-        {
-          "x_mm": 200,
-          "neutral_z_mm": 17.403589731804438,
-          "EI_Nm2": 58.50229854222676,
-          "moment_Nm": 9.94466737064414,
-          "curvature_per_mm": 0.0001699876349895229,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 76.43360597897266
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 4.4899810353335186
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.7890176338674815
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 9.590963873527189
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 8.369594572358416
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 8.367639443010292
-            }
-          ]
-        },
-        {
-          "x_mm": 250,
-          "neutral_z_mm": 17.32072932755361,
-          "EI_Nm2": 56.3782382660821,
-          "moment_Nm": 8.7404303062302,
-          "curvature_per_mm": 0.00015503198707591685,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 68.66803777523373
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.9452313013162343
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.3939200186518046
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 8.670067131884464
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 8.670067131884464
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 7.1828893648170995
-            }
-          ]
-        },
-        {
-          "x_mm": 277.8,
-          "neutral_z_mm": 17.249098506515637,
-          "EI_Nm2": 56.11352536214909,
-          "moment_Nm": 8.104481880253433,
-          "curvature_per_mm": 0.0001444300964508682,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 63.80217916106899
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.590502141745589
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.145277563215053
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 8.015089136277807
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 8.015089136277807
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 6.4371926419538275
-            }
-          ]
-        },
-        {
-          "x_mm": 278.2,
-          "neutral_z_mm": 17.921349885348924,
-          "EI_Nm2": 30.767840175931802,
-          "moment_Nm": 8.095506817951424,
-          "curvature_per_mm": 0.00026311586291598554,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 98.51219367638366
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 6.893081659215558
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 4.260240434070979
-            }
-          ]
-        },
-        {
-          "x_mm": 300,
-          "neutral_z_mm": 17.885967634948457,
-          "EI_Nm2": 29.607503571627895,
-          "moment_Nm": 7.613885955649419,
-          "curvature_per_mm": 0.0002571606868924136,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 95.51060071884508
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 6.62917308986544
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 4.055921707629192
-            }
-          ]
-        },
-        {
-          "x_mm": 350,
-          "neutral_z_mm": 17.804085348260223,
-          "EI_Nm2": 27.051981629036817,
-          "moment_Nm": 6.565034318901795,
-          "curvature_per_mm": 0.00024268219640719688,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 88.48013057658704
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 6.022053278490013
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.5936793894040546
-            }
-          ]
-        },
-        {
-          "x_mm": 400,
-          "neutral_z_mm": 17.721179752045195,
-          "EI_Nm2": 24.64198878352058,
-          "moment_Nm": 5.593875395987328,
-          "curvature_per_mm": 0.00022700584133567386,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 81.24156551860032
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 5.413806555161623
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.1422964652966563
-            }
-          ]
-        },
-        {
-          "x_mm": 450,
-          "neutral_z_mm": 17.637243235028617,
-          "EI_Nm2": 22.375264920425376,
-          "moment_Nm": 4.700409186906018,
-          "curvature_per_mm": 0.0002100716663522149,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 73.79330304083881
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 4.806624874103201
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.704564826193705
-            }
-          ]
-        },
-        {
-          "x_mm": 500,
-          "neutral_z_mm": 17.55226811026557,
-          "EI_Nm2": 20.24953573255836,
-          "moment_Nm": 3.884635691657867,
-          "curvature_per_mm": 0.00019183825955139936,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 66.14090433019783
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 4.203354888653932
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.283745509313012
-            }
-          ]
-        },
-        {
-          "x_mm": 550,
-          "neutral_z_mm": 17.466246614198276,
-          "EI_Nm2": 18.262512542430933,
-          "moment_Nm": 3.1465549102428723,
-          "curvature_per_mm": 0.00017229583842487165,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 58.30085649534319
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.6076832833781936
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.8836230868605373
-            }
-          ]
-        },
-        {
-          "x_mm": 600,
-          "neutral_z_mm": 17.379170905699247,
-          "EI_Nm2": 16.411892124667734,
-          "moment_Nm": 2.486166842661035,
-          "curvature_per_mm": 0.0001514856924342213,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 50.30597990159717
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.024371962893092
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.508546304796086
-            }
-          ]
-        },
-        {
-          "x_mm": 650,
-          "neutral_z_mm": 17.29103306510003,
-          "EI_Nm2": 14.69535652194303,
-          "moment_Nm": 1.9034714889123547,
-          "curvature_per_mm": 0.00012952877230777634,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 42.21314432645555
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.4595520434602
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.163435998631817
-            }
-          ]
-        },
-        {
-          "x_mm": 700,
-          "neutral_z_mm": 17.201825093205382,
-          "EI_Nm2": 13.110572861063028,
-          "moment_Nm": 1.398468848996832,
-          "curvature_per_mm": 0.00010666725732100783,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 34.11417457445217
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.9210821121163721
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.8537274139409787
-            }
-          ]
-        },
-        {
-          "x_mm": 750,
-          "neutral_z_mm": 17.111538910292523,
-          "EI_Nm2": 11.655193165032486,
-          "moment_Nm": 0.9711589229144667,
-          "curvature_per_mm": 8.332413793261743e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 26.15105021293184
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.418966132734612
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.5851919050337399
-            }
-          ]
-        },
-        {
-          "x_mm": 800,
-          "neutral_z_mm": 17.020166355095245,
-          "EI_Nm2": 10.32685416249005,
-          "moment_Nm": 0.6215417106652588,
-          "curvature_per_mm": 6.018693601027771e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 18.53664276096412
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.9658033670144794
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.3635491183088708
-            }
-          ]
-        },
-        {
-          "x_mm": 850,
-          "neutral_z_mm": 16.9276991837726,
-          "EI_Nm2": 9.123177094495688,
-          "moment_Nm": 0.349617212249208,
-          "curvature_per_mm": 3.83218706189693e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 11.58206519711136
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.5771960923572403
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.1937323221683122
-            }
-          ]
-        },
-        {
-          "x_mm": 875,
-          "neutral_z_mm": 16.881052518027598,
-          "EI_Nm2": 8.567339140521339,
-          "moment_Nm": 0.24278973072861668,
-          "curvature_per_mm": 2.8338989124439217e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 8.484576394364352
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.41285656085437056
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.12928544500123856
-            }
-          ]
-        },
-        {
-          "x_mm": 899.8,
-          "neutral_z_mm": 16.834505557505764,
-          "EI_Nm2": 8.045852788333598,
-          "moment_Nm": 0.15600759091869074,
-          "curvature_per_mm": 1.938981423384978e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 5.751223837491933
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.2729815550338119
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.078959417041036
-            }
-          ]
-        },
-        {
-          "x_mm": 900.2,
-          "neutral_z_mm": 16.83738490819033,
-          "EI_Nm2": 8.024900695345009,
-          "moment_Nm": 0.15476450749735995,
-          "curvature_per_mm": 1.9285535531565385e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 5.712426425989742
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.27150108848250687
-            }
-          ]
-        },
-        {
-          "x_mm": 925,
-          "neutral_z_mm": 16.788946373053037,
-          "EI_Nm2": 7.540016075950356,
-          "moment_Nm": 0.087404303062302,
-          "curvature_per_mm": 1.1592057918959466e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 3.4035034107087636
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.15746984902075278
-            }
-          ]
-        },
-        {
-          "x_mm": 950,
-          "neutral_z_mm": 16.740541498446362,
-          "EI_Nm2": 7.0773748334325495,
-          "moment_Nm": 0.03884635691657867,
-          "curvature_per_mm": 5.48880875053753e-06,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 1.596952303160771
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.07183466312683294
-            }
-          ]
-        },
-        {
-          "x_mm": 975,
-          "neutral_z_mm": 16.692238426238944,
-          "EI_Nm2": 6.642437867916703,
-          "moment_Nm": 0.009711589229144668,
-          "curvature_per_mm": 1.4620519487358873e-06,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 0.42147636247042697
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.0184085085617235
-            }
-          ]
-        },
-        {
-          "x_mm": 998.5,
-          "neutral_z_mm": 16.646796825754123,
-          "EI_Nm2": 6.2592754249890366,
-          "moment_Nm": 3.4961721224920795e-05,
-          "curvature_per_mm": 5.585586006543566e-09,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 0.001596200969861849
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 6.771958071935767e-05
-            }
-          ]
-        }
-      ]
+      "root_stress_MPa": {
+        "JR1": 22.1562477711497,
+        "JR2": 22.1562477711497,
+        "JR3": 22.1562477711497,
+        "CRFULL": 170.4783747182299
+      },
+      "assumed_moduli_MPa": {
+        "Carbon": 100000,
+        "Plywood": 6000
+      },
+      "cap_joint_axial_force_screen_N": 325.1013034732289,
+      "cap_joint_average_edge_shear_MPa": 0.45152958815726235,
+      "assumptions": "Actual current X sections; perfect continuous glue, fixed X50.2, uniform half-wing lift; no joint slip, peel, torsion, shear deformation, buckling or material strength qualification. Values are demands, not permissible strengths; final mass scales linear demand. Edge-lap average shear omits stress concentration and peel."
     },
     {
-      "name": "higher_moduli",
-      "elastic_modulus_MPa": {
-        "Balsa": 3000,
-        "Plywood": 10000,
-        "Carbon": 130000
+      "name": "higher",
+      "nominal_mass_kg": 2.661309213538943,
+      "load_factor_g": 3,
+      "tip_deflection_mm": 42.764932296255786,
+      "tip_slope_degrees": 3.973926364560042,
+      "max_stress_MPa": {
+        "JR1": 22.748522188452103,
+        "JR2": 22.748522188452103,
+        "JR3": 22.748522188452103,
+        "CRFULL": 149.6614829882709,
+        "LCR_I": 20.15941924364715,
+        "WBR_I": 8.079986681777198,
+        "WBR_DA": 5.03213130763558,
+        "WBR_DF": 6.692669878095098,
+        "WBR_O": 5.479414256265555,
+        "LCR_DF": 5.340856225806789,
+        "LCR_DA": 5.337923070662302,
+        "LCR_O": 6.01340828687624
       },
-      "tip_deflection_mm_at_3g": 56.14637811383865,
-      "tip_deflection_mm_at_1g": 18.71545937127955,
-      "tip_slope_degrees_at_3g": 5.341546394274252,
-      "stations": [
-        {
-          "x_mm": 50.2,
-          "neutral_z_mm": 17.527697211818015,
-          "EI_Nm2": 78.12156655455024,
-          "moment_Nm": 14.017508999999999,
-          "curvature_per_mm": 0.0001794320008958338,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 112.47207368981651
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 17.095737746461634
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 17.095737746461634
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 17.095737746461634
-            }
-          ]
-        },
-        {
-          "x_mm": 75,
-          "neutral_z_mm": 17.493011813243655,
-          "EI_Nm2": 77.31388652559488,
-          "moment_Nm": 13.29516565469905,
-          "curvature_per_mm": 0.00017196348873623968,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 106.90280981574847
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 16.324514300197155
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 16.324514300197155
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 16.324514300197155
-            }
-          ]
-        },
-        {
-          "x_mm": 100.2,
-          "neutral_z_mm": 17.30589316424039,
-          "EI_Nm2": 94.43078984630127,
-          "moment_Nm": 12.58062638711721,
-          "curvature_per_mm": 0.00013322589388052204,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 84.75263175501706
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 5.557875141039194
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.5588472485404448
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 12.39785935162566
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 11.86444500930405
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 11.861891158303147
-            }
-          ]
-        },
-        {
-          "x_mm": 150,
-          "neutral_z_mm": 17.202322971839028,
-          "EI_Nm2": 94.7748256749366,
-          "moment_Nm": 11.226597148891235,
-          "curvature_per_mm": 0.00011845547664098878,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 74.65057932715185
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 4.763871931105471
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.985903517562133
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 10.900655538335124
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 9.955206749842626
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 9.952936037830337
-            }
-          ]
-        },
-        {
-          "x_mm": 200,
-          "neutral_z_mm": 17.194531211205252,
-          "EI_Nm2": 89.09330605121637,
-          "moment_Nm": 9.94466737064414,
-          "curvature_per_mm": 0.00011162081430592918,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 68.27983677160323
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 4.352451169552923
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.6770682513666304
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 10.263010609560116
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 8.926342445695091
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 8.92420274957421
-            }
-          ]
-        },
-        {
-          "x_mm": 250,
-          "neutral_z_mm": 17.12038023864897,
-          "EI_Nm2": 86.14538761767447,
-          "moment_Nm": 8.7404303062302,
-          "curvature_per_mm": 0.0001014613846190057,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 61.06474044894201
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.811978595912426
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.289084575624117
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 9.25366407265142
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 9.25366407265142
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 7.631513720894585
-            }
-          ]
-        },
-        {
-          "x_mm": 277.8,
-          "neutral_z_mm": 17.052880991882073,
-          "EI_Nm2": 85.96572491463569,
-          "moment_Nm": 8.104481880253433,
-          "curvature_per_mm": 9.42757347570932e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 56.545165306849455
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.460017069711113
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.0449767244705455
-            },
-            {
-              "part": "JR1",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 8.53467007178205
-            },
-            {
-              "part": "JR2",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 8.53467007178205
-            },
-            {
-              "part": "JR3",
-              "material": "Plywood",
-              "max_abs_bending_stress_MPa": 6.818068580489705
-            }
-          ]
-        },
-        {
-          "x_mm": 278.2,
-          "neutral_z_mm": 17.75648086711055,
-          "EI_Nm2": 44.848805860759406,
-          "moment_Nm": 8.095506817951424,
-          "curvature_per_mm": 0.00018050663027874755,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 91.72642068264604
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 7.004060674595953
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 4.294729741392778
-            }
-          ]
-        },
-        {
-          "x_mm": 300,
-          "neutral_z_mm": 17.724881208381603,
-          "EI_Nm2": 43.141049819273874,
-          "moment_Nm": 7.613885955649419,
-          "curvature_per_mm": 0.00017648819367042403,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 88.9089111662317
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 6.739066830268894
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 4.090050992357425
-            }
-          ]
-        },
-        {
-          "x_mm": 350,
-          "neutral_z_mm": 17.651612238538817,
-          "EI_Nm2": 39.37913729137006,
-          "moment_Nm": 6.565034318901795,
-          "curvature_per_mm": 0.00016671351305455143,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 82.32177761331555
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 6.1291271215073335
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.626825254788334
-            }
-          ]
-        },
-        {
-          "x_mm": 400,
-          "neutral_z_mm": 17.577231707085566,
-          "EI_Nm2": 35.83044741951074,
-          "moment_Nm": 5.593875395987328,
-          "curvature_per_mm": 0.00015612072410073498,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 75.55639492741471
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 5.517507387418592
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.174198964525725
-            }
-          ]
-        },
-        {
-          "x_mm": 450,
-          "neutral_z_mm": 17.501730240070465,
-          "EI_Nm2": 32.49176203538548,
-          "moment_Nm": 4.700409186906018,
-          "curvature_per_mm": 0.0001446646439730474,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 68.61104554347662
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 4.906270015267194
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.734912684781669
-            }
-          ]
-        },
-        {
-          "x_mm": 500,
-          "neutral_z_mm": 17.4250983578426,
-          "EI_Nm2": 29.3598407646905,
-          "moment_Nm": 3.884635691657867,
-          "curvature_per_mm": 0.0001323111975569605,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 61.490130769567145
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 4.298114354758766
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.3121772188394307
-            }
-          ]
-        },
-        {
-          "x_mm": 550,
-          "neutral_z_mm": 17.347326473557448,
-          "EI_Nm2": 26.431420712026853,
-          "moment_Nm": 3.1465549102428723,
-          "curvature_per_mm": 0.00011904600000601267,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 54.207479548866964
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.6965654107227186
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.9097334822095264
-            }
-          ]
-        },
-        {
-          "x_mm": 600,
-          "neutral_z_mm": 17.2684048916575,
-          "EI_Nm2": 23.703216144124337,
-          "moment_Nm": 2.486166842661035,
-          "curvature_per_mm": 0.00010488732109365325,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 46.7911597363306
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 3.1062177713738084
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.5319018412552943
-            }
-          ]
-        },
-        {
-          "x_mm": 650,
-          "neutral_z_mm": 17.18832380632683,
-          "EI_Nm2": 21.171918162701115,
-          "moment_Nm": 1.9034714889123547,
-          "curvature_per_mm": 8.990548113234864e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 39.29043651489804
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 2.5330477094746784
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.1836030895167928
-            }
-          ]
-        },
-        {
-          "x_mm": 700,
-          "neutral_z_mm": 17.10707329991934,
-          "EI_Nm2": 18.834194375545163,
-          "moment_Nm": 1.398468848996832,
-          "curvature_per_mm": 7.425158842008356e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 31.78576353684307
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.9848052677595047
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.8703191957778846
-            }
-          ]
-        },
-        {
-          "x_mm": 750,
-          "neutral_z_mm": 17.02464334135998,
-          "EI_Nm2": 16.686688560318952,
-          "moment_Nm": 0.9711589229144667,
-          "curvature_per_mm": 5.8199619379478834e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 24.402974003215313
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.471491377533716
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.5979388169326483
-            }
-          ]
-        },
-        {
-          "x_mm": 800,
-          "neutral_z_mm": 16.9410237845185,
-          "EI_Nm2": 14.726020322863429,
-          "moment_Nm": 0.6215417106652588,
-          "curvature_per_mm": 4.220703876798683e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 17.33309583486779
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 1.0059061600026424
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.3723957146720715
-            }
-          ]
-        },
-        {
-          "x_mm": 850,
-          "neutral_z_mm": 16.856204366555072,
-          "EI_Nm2": 12.94878474997268,
-          "moment_Nm": 0.349617212249208,
-          "curvature_per_mm": 2.700000185345159e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 10.859262906248631
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.6042115880563943
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.19895256734821914
-            }
-          ]
-        },
-        {
-          "x_mm": 875,
-          "neutral_z_mm": 16.813341470188842,
-          "EI_Nm2": 12.12788338587919,
-          "moment_Nm": 0.24278973072861668,
-          "curvature_per_mm": 2.0019134667084866e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 7.967957351595713
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.4334065930042416
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.13292754286777836
-            }
-          ]
-        },
-        {
-          "x_mm": 899.8,
-          "neutral_z_mm": 16.770521249558996,
-          "EI_Nm2": 11.35758699078162,
-          "moment_Nm": 0.15600759091869074,
-          "curvature_per_mm": 1.3735980278673122e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 5.410763343479287
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.2874385199981517
-            },
-            {
-              "part": "WBR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.08126705577322436
-            }
-          ]
-        },
-        {
-          "x_mm": 900.2,
-          "neutral_z_mm": 16.773781176886924,
-          "EI_Nm2": 11.327818525963735,
-          "moment_Nm": 0.15476450749735995,
-          "curvature_per_mm": 1.3662339941501935e-05,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 5.373834257446721
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.2858999817795248
-            }
-          ]
-        },
-        {
-          "x_mm": 925,
-          "neutral_z_mm": 16.728889944190406,
-          "EI_Nm2": 10.610911694588147,
-          "moment_Nm": 0.087404303062302,
-          "curvature_per_mm": 8.23720954221875e-06,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 3.2083582712536614
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.16636084339612414
-            }
-          ]
-        },
-        {
-          "x_mm": 950,
-          "neutral_z_mm": 16.684103256331703,
-          "EI_Nm2": 9.926997337467787,
-          "moment_Nm": 0.03884635691657867,
-          "curvature_per_mm": 3.913203116309864e-06,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 1.5088060524430849
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.07615837593998862
-            }
-          ]
-        },
-        {
-          "x_mm": 975,
-          "neutral_z_mm": 16.639427439347802,
-          "EI_Nm2": 9.284041909899294,
-          "moment_Nm": 0.009711589229144668,
-          "curvature_per_mm": 1.0460518514882503e-06,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 0.39920047443954126
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 0.019590327949192424
-            }
-          ]
-        },
-        {
-          "x_mm": 998.5,
-          "neutral_z_mm": 16.597390393960634,
-          "EI_Nm2": 8.717589303339961,
-          "moment_Nm": 3.4961721224920795e-05,
-          "curvature_per_mm": 4.0104804216374295e-09,
-          "stress_demand": [
-            {
-              "part": "CRFULL",
-              "material": "Carbon",
-              "max_abs_bending_stress_MPa": 0.0015156636659286443
-            },
-            {
-              "part": "LCR",
-              "material": "Balsa",
-              "max_abs_bending_stress_MPa": 7.234009741133319e-05
-            }
-          ]
-        }
-      ]
+      "root_stress_MPa": {
+        "JR1": 22.748522188452103,
+        "JR2": 22.748522188452103,
+        "JR3": 22.748522188452103,
+        "CRFULL": 149.6614829882709
+      },
+      "assumed_moduli_MPa": {
+        "Carbon": 130000,
+        "Plywood": 10000
+      },
+      "cap_joint_axial_force_screen_N": 329.1443868653822,
+      "cap_joint_average_edge_shear_MPa": 0.4571449817574753,
+      "assumptions": "Actual current X sections; perfect continuous glue, fixed X50.2, uniform half-wing lift; no joint slip, peel, torsion, shear deformation, buckling or material strength qualification. Values are demands, not permissible strengths; final mass scales linear demand. Edge-lap average shear omits stress concentration and peel."
     }
   ],
-  "load_scaling": "Reference load only: stress, curvature and linear deflection multiply by (actual_mass_kg/2)*(load_factor_g/3). This is not a 2kg design-mass assumption or a safe load factor.",
-  "inputs_changed_during_check": []
+  "model": {
+    "description": "Actual current X sections; perfect continuous glue, fixed X50.2, uniform half-wing lift; no joint slip, peel, torsion, shear deformation, buckling or material strength qualification.",
+    "geometry_sha256": {
+      "LCR_I": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "57b37b3e73c53da304231fca62a5682fe0dc8499922096563e456d2110a02e6d",
+        "stock_area_times6_error_mm3": 7.275957614183426e-12,
+        "dxf_sha256": "8ed56e828296ae42a544e1a239dd275863730cb968184b3d5655d6ffe5d86de7",
+        "profile_extent_mm": [
+          525.0,
+          20.0
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "LCR_O": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "fed00d8a9d2f1e761183a9cea07233514cb797075dcfe3d78c96c73a583a79e0",
+        "stock_area_times6_error_mm3": 1.7467427824158221e-06,
+        "dxf_sha256": "8a3011f50026aa95d0636bed722b92f687f595fae217824031c5ccd4a62d7f6e",
+        "profile_extent_mm": [
+          374.94429,
+          10.0
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "LCR_DF": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "c0b81f2f2d743120ed1171f1ca9d6fd1d9235c59cc9f9bbbd79b525693ec4bb6",
+        "stock_area_times6_error_mm3": 3.637978807091713e-12,
+        "dxf_sha256": "eb82e10ac576802730f0c0e6ed3a8d4c6cc14e766445c9e480f3e221c262068e",
+        "profile_extent_mm": [
+          120.0,
+          5.0
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "LCR_DA": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "531ef895d45ecb0b456a387e6ef7195c60fcc2b5b33792e0ce9eda52e5e3f0d7",
+        "stock_area_times6_error_mm3": 7.73070496506989e-12,
+        "dxf_sha256": "06e95cfe4c765b032ed2ef90871cb5a16ea8da560f361f1b337051dd786229e0",
+        "profile_extent_mm": [
+          120.0,
+          5.0
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WBR_I": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "3c00fe716afad6f38dad534c333512804d44ae5f91aa185f37cf01b30fdd7fd6",
+        "stock_area_times6_error_mm3": 0.0001215801003127126,
+        "dxf_sha256": "129fff1e4f8bf43e552ecc8f50193b06cf88dfb044800f1edd567944a7d38fa2",
+        "profile_extent_mm": [
+          275.21991,
+          11.3
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WBR_O": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "e2c518d1903b37a0495ed1507ca0bf05877dc59efba6a982b87745455fd8c134",
+        "stock_area_times6_error_mm3": 5.483561471919529e-05,
+        "dxf_sha256": "a128c53eafb26f32d8c0e318d69262fb742ddbb9e234d8d287efcc1b5b6c4f1b",
+        "profile_extent_mm": [
+          433.34626,
+          8.275
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WBR_DF": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "5b2236648b3409d655fab6cec3c205505236f8bdfc4feb9583cb4a2eb744cb00",
+        "stock_area_times6_error_mm3": 9.803023112908704e-05,
+        "dxf_sha256": "64278e452270ad0add580b6d5953ae48c4d76fbff304218468229c7570ba30a4",
+        "profile_extent_mm": [
+          100.07997,
+          8.825
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WBR_DA": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "e1fae37a0312f8a741524ec88964f377ddbfac7f88c89f9560a1bb56a2a5d095",
+        "stock_area_times6_error_mm3": 9.803023112908704e-05,
+        "dxf_sha256": "9599ac4cef6ca208557fbb4c4f61f26876f76a2180a8fc652e257cc3941e1378",
+        "profile_extent_mm": [
+          100.07997,
+          8.825
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "LCL_I": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "a0f3452b4e694f69b285487261c1aee942ee5ea1eb1614828572ec77277fa4da",
+        "stock_area_times6_error_mm3": 7.275957614183426e-12,
+        "dxf_sha256": "58ad1dd658d2f63948d1d141e244f7ce442112a6de74bb03bb17664da283342a",
+        "profile_extent_mm": [
+          525.0,
+          20.0
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "LCL_O": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "d7a8f517e997fdc8c69019e1e3db17b84f4bb0ba4627d81296a4fb86951874f2",
+        "stock_area_times6_error_mm3": 1.7467464203946292e-06,
+        "dxf_sha256": "756bb5bc250efcc426b06e8f7213949d81c84ba2deff207be4125129eec068eb",
+        "profile_extent_mm": [
+          374.94429,
+          10.0
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "LCL_DF": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "75ff3dfec2ab9c37b0eb491aa91715ea23b675845fc526467b1f6b5966cc3eaf",
+        "stock_area_times6_error_mm3": 3.637978807091713e-12,
+        "dxf_sha256": "50f87638382f28c55d926a82efca55165424e5cb1144bc4127872c1bf4a39e2e",
+        "profile_extent_mm": [
+          120.0,
+          5.0
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "LCL_DA": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "cc6df62802f3ae47508607779f92334b6a944fa654eb4e46d37f8b7b38bb06b9",
+        "stock_area_times6_error_mm3": 7.73070496506989e-12,
+        "dxf_sha256": "f13b2d097d4dc4bb434d0cc3317245f92327507a92bfece310e02e7fce0b3875",
+        "profile_extent_mm": [
+          120.0,
+          5.0
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WBL_I": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "c9f457ad6a0de30eadcf6c6c26c0d404b3647656738e60689ee00d1c481ec930",
+        "stock_area_times6_error_mm3": 0.000121580102131702,
+        "dxf_sha256": "2ef5fea4eb6f04d04a4aabc36cf773b7b3f56b8a528ebcfc32c58de26c807d35",
+        "profile_extent_mm": [
+          275.21991,
+          11.3
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WBL_O": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "7563c67e934ab6a3c830588a311c15da6313a5eff87f2f56c2edbf565d90d59a",
+        "stock_area_times6_error_mm3": 5.483561471919529e-05,
+        "dxf_sha256": "fb1acd2126e83d48a2c3fb9660bc3bbf766e7a7c51b04159f253d82cba4c5efc",
+        "profile_extent_mm": [
+          433.34626,
+          8.275
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WBL_DF": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "54ce9516ce0a6b98d323fa113a277fec92ed1f85735d52388087cef3f093bb78",
+        "stock_area_times6_error_mm3": 9.803023112908704e-05,
+        "dxf_sha256": "2fd056fdbfaed396b1a0ad99669060a42caf9b15a1a31fff6224334e114ca876",
+        "profile_extent_mm": [
+          100.07997,
+          8.825
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WBL_DA": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "25e509875702f2163abc75c4434d8dc45af3217a859e8e86932377bc3e384657",
+        "stock_area_times6_error_mm3": 9.803023112908704e-05,
+        "dxf_sha256": "196764db052ce144498325ae93e89be0ad184eadb30e700c43806f90e1c7ac91",
+        "profile_extent_mm": [
+          100.07997,
+          8.825
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "JR1": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "cdba4b509de993e866b4e5cb3bb0cdd9087d90d758d8fd662f0e3f8e235ff32a",
+        "stock_area_times6_error_mm3": 3.637978807091713e-12,
+        "dxf_sha256": "013795a30b5a555a3c24985d9b909a6bd0b9a0e19629c0e24372254b90f617fc",
+        "profile_extent_mm": [
+          277.85,
+          17.0
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "JR2": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "d2244550d13e9b62d1292788e76696361c79291237d359e0188acbb90688341b",
+        "stock_area_times6_error_mm3": 3.637978807091713e-12,
+        "dxf_sha256": "6f3c41aaa35d9763ba074d46a3b58c2dd594c6ea388f1c41a799521c756b3939",
+        "profile_extent_mm": [
+          277.85,
+          17.0
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "JR3": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "5e4a6d0938e4490358cf7ef8ac1ddfd8e5eb576dbbb8ac5801c59605d13db424",
+        "stock_area_times6_error_mm3": 3.637978807091713e-12,
+        "dxf_sha256": "598fcf7d5af38fbc907ec419fd611b56cb44f60b37241aa901ac3163b84cbba4",
+        "profile_extent_mm": [
+          277.85,
+          17.0
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "JL1": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "247e431c8b9ea798793b1f1030f4a86db5845fad7ff7dbf48c82599db1bd3fb5",
+        "stock_area_times6_error_mm3": 1.0913936421275139e-11,
+        "dxf_sha256": "5fc84cd69a3248db380f8bc5f41aca4ede1da9fa80ed51c050a5de9ef5135ded",
+        "profile_extent_mm": [
+          277.85,
+          17.0
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "JL2": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "4d76b7dcd7cff89dbbd10ae266dafa2b25d34db76e600cfdaf3606df5b60415a",
+        "stock_area_times6_error_mm3": 1.0913936421275139e-11,
+        "dxf_sha256": "2913c31da83c59634480cf2eccfae2bd0bc9db3ac8d35980968d13642739bfde",
+        "profile_extent_mm": [
+          277.85,
+          17.0
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "JL3": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "4c6edfaf12934e64e36c017f7eff478c5e91f28f4a44c5dfadfa2c0f08687ed5",
+        "stock_area_times6_error_mm3": 1.0913936421275139e-11,
+        "dxf_sha256": "c5dd02ef4df7f4d9323edaefec457abe3b019e02aa293db9eb7f82e76482ae17",
+        "profile_extent_mm": [
+          277.85,
+          17.0
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WRRM_1": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "560018307070a64ac91a763e1854f4ed1c345ae706edc8841cf26309c10a3778",
+        "stock_area_times6_error_mm3": 4.562798130791634e-05,
+        "dxf_sha256": "ec7cb3e9499edd81001f55f8113092fe060fa86e79c3ed1f819aa9aee35cdb86",
+        "profile_extent_mm": [
+          44.76003,
+          12.72147
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WRRM_2": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "d5a91465cce5af3b5c7657aba6b4b39a01f68b878dd862474675d7794c1ad7f2",
+        "stock_area_times6_error_mm3": 0.03244755434207036,
+        "dxf_sha256": "37d01604895ca86007f5fc61679e7225d7d3839f015963018ba2527a722908e7",
+        "profile_extent_mm": [
+          86.72675,
+          12.51056
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WRRO_1": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "c000be11123681e6326a1ca98c9e4f1f9fe224e7856ff24e0f4dc9c75e389735",
+        "stock_area_times6_error_mm3": 0.049159583810251206,
+        "dxf_sha256": "bb71e21bcaf9e5749543a5dc6112ec2c6c296dcc67468ee37624d7a9ce3cf055",
+        "profile_extent_mm": [
+          46.97662,
+          13.83264
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WRRO_2": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "f8ef6592b6ebb5065267b4eee57e8db468acb3541b428510438ecb9a115186d1",
+        "stock_area_times6_error_mm3": 0.31198733311202886,
+        "dxf_sha256": "14573c2f2306819c5a51499b6bf8371ca391589d2753977aa09c070e5abfb88c",
+        "profile_extent_mm": [
+          61.45573,
+          13.54803
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WLRM_1": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "d23ce172bdff77cab632fe7b8a8766a302054ef050358a2bf5b367a88ceff152",
+        "stock_area_times6_error_mm3": 0.0002502781308066915,
+        "dxf_sha256": "1894ecc1ba6fdd96fea6166d457174771a88be76fe6c5d175f55fa0171f9ded1",
+        "profile_extent_mm": [
+          44.76003,
+          12.72147
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WLRM_2": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "727c8687c4d57c883c042f85e5e42880f5f45f2ba217c5da4610b0cc349ce645",
+        "stock_area_times6_error_mm3": 0.03243970029825505,
+        "dxf_sha256": "8195aa3e8100c010a1fe1fd2049803d2dff70b23779a91c26908ef7332de2937",
+        "profile_extent_mm": [
+          86.72675,
+          12.51056
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WLRO_1": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "25fe4c410345ead212a491ec6ea6b1d577b19880ca13bd1e0c501e73770314bd",
+        "stock_area_times6_error_mm3": 0.049157439320651974,
+        "dxf_sha256": "56b5572d5cc86dfb1c6003c5facb0503827af7416958376763bd7d3850d1433d",
+        "profile_extent_mm": [
+          46.9762,
+          13.83264
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WLRO_2": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "e8ed220be49d399e96f9d5d2a3f360c93b38407d85a2a80baaff1ca3c2e15bc4",
+        "stock_area_times6_error_mm3": 0.31333581341573336,
+        "dxf_sha256": "f33bd5d0f188f6f39a60820286d48e7077643aec3cf2b8fb68b0917c70f41252",
+        "profile_extent_mm": [
+          61.4559,
+          13.54805
+        ],
+        "grain_aligned_fits_panel": true
+      },
+      "WRIN": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "5c35024dc8a1f819d78070156de43a2f2e38a1b3dcf913356aee158d1c7fa442"
+      },
+      "WROUT": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "a9fe2f50b57d54b4fcabbc04d78399921fe046cde8b69646b0cd7e52d4741b10"
+      },
+      "WLIN": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "c41acc0d2a0818adbb5ea048a251eb9bca7a85d9aea3c3915fdddba4c67ade78"
+      },
+      "WLOUT": {
+        "raw_valid": true,
+        "solids": 1,
+        "step_sha256": "e1378e23c868c4477db0c406166c21c0c8cda301564be02ec32d826f3adef00f"
+      }
+    },
+    "section_stations_mm": [
+      50.2,
+      75,
+      99.8,
+      100.2,
+      150,
+      200,
+      248,
+      251,
+      275,
+      278,
+      278.2,
+      324.8,
+      325,
+      350,
+      375,
+      400,
+      425,
+      425.2,
+      448,
+      465,
+      485,
+      490,
+      494,
+      497,
+      500,
+      550,
+      565,
+      600,
+      624,
+      624.4,
+      624.8,
+      625,
+      650,
+      684.8,
+      685,
+      685.2,
+      700,
+      750,
+      775,
+      800,
+      808,
+      825,
+      850,
+      875,
+      900,
+      925,
+      950,
+      975,
+      990,
+      998
+    ],
+    "load": "Uniform lift over X53..1000 on each half, fixed at X50.2, 3g reference",
+    "mass_basis": {
+      "old_affected_g": 111.6701567799162,
+      "new_affected_g": 211.893123941243,
+      "delta_g": 100.2229671613268,
+      "screen_reference_kg": 2.6482958331613267,
+      "note": "Reference prior 2.548072866 kg plus this wing change only; other concurrent all-ply changes excluded, rescale demand to final mass."
+    },
+    "exclusions": [
+      "No material allowables",
+      "No shear deformation",
+      "No joint slip or peel",
+      "No torsion, buckling, fatigue, nonlinear response or hardware flex",
+      "No foam stiffness credit"
+    ],
+    "physical_checks": [
+      "Representative cap edge-lap and web double-face-lap coupons",
+      "Full wing and receiver load test at final mass/loading",
+      "Measured completed mass and CG",
+      "Actual thickness, stock quality, rod and glue fit"
+    ]
+  }
 }

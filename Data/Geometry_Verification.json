@@ -1,158 +1,17 @@
 {
-  "status": "REV3 geometry integration checked; buildability and physical qualification remain open",
-  "parts_manifest_sha256": "e31832e48200debbcacd63187d4e6f35ce229ce8e0c08288f1dd71852f9c4fe8",
-  "current_checks": {
-    "aircraft_identities": 112,
-    "changed_parts": [
-      "FMF",
-      "FMT"
-    ],
-    "removed_parts": [
-      "FMGB"
-    ],
-    "unchanged_individual_STEP_files": 110,
-    "unchanged_new_STL_files": 14,
-    "immutable_N1_step_sha256": "5561885195f69b3b4f08c2269dc335333c0f00d0df109f31eba7cf68786f3d58",
-    "motor_check": "Motor_Revision_Verification.json",
-    "identity_and_mass_checks": "Integration_Checks.json"
-  },
-  "inherited_geometry_evidence": {
-    "baseline_register_sha256": "474f563311f56be3104ad261d9d275e01811fa6059c9824e09c22caf76902d94",
-    "scope": "Unchanged individual shapes and unchanged pairs only. Previous checks do not establish practical buildability or control performance.",
-    "baseline_checked_scopes": {
-      "raw_STEP_parts": 113,
-      "unique_ids_and_destinations": true,
-      "positive_valid_raw_solids_and_adaptive_mass_properties": 113,
-      "immutable_N1_byte_identical": true,
-      "static_pairs": 6328,
-      "reported_static_fitting_or_reference_pairs": 13,
-      "separately_resolved_derived_seam_cases": 2,
-      "declared_positive_face_contacts": 54,
-      "minimum_declared_planar_contact_area_mm2": 7.79381443296131,
-      "stock_extrusion_or_declared_secondary_blanks": 71,
-      "developed_foam_patterns_checked": 35,
-      "sampled_rigid_motion_configurations": 99,
-      "continuous_equipment_and_battery_envelopes": 16,
-      "continuous_nominal_arm_envelopes": 4,
-      "continuous_prop_centre_range_y_mm": [
-        613,
-        617
-      ],
-      "minimum_continuous_prop_to_airframe_clearance_mm": 5.22999999035369,
-      "battery_centre_y_range_mm": [
-        -280,
-        -120
-      ],
-      "battery_centre_z_mm": 12.5,
-      "battery_removal": "Release straps/pitot/tape, lift N1 and FSU1 together, slide battery to centreY-205, lift100mm. Wiring/plugs must be fitted clear.",
-      "control_sampling": "Ailerons +/-15deg, tails +/-20deg at2.5deg increments; disconnected linkage. Sampled configurations are not a mathematical continuous swept-volume proof.",
-      "repaired_joint_and_tray_contacts": [
-        {
-          "parts": [
-            "FF3",
-            "MTR"
-          ],
-          "distance_mm": 0.0,
-          "opposing_planar_contact_area_mm2": 23.416488979076153
-        },
-        {
-          "parts": [
-            "FF3",
-            "MTL"
-          ],
-          "distance_mm": 0.0,
-          "opposing_planar_contact_area_mm2": 23.141293865808723
-        },
-        {
-          "parts": [
-            "FBWR",
-            "FF0R"
-          ],
-          "distance_mm": 0.0,
-          "opposing_planar_contact_area_mm2": 115.87774905835005
-        },
-        {
-          "parts": [
-            "FBWL",
-            "FF0L"
-          ],
-          "distance_mm": 0.0,
-          "opposing_planar_contact_area_mm2": 115.87796353365005
-        },
-        {
-          "parts": [
-            "MTR",
-            "FLR"
-          ],
-          "distance_mm": 0.0,
-          "opposing_planar_contact_area_mm2": 222.00000000208763
-        },
-        {
-          "parts": [
-            "MTL",
-            "FLL"
-          ],
-          "distance_mm": 0.0,
-          "opposing_planar_contact_area_mm2": 221.99999999795128
-        }
-      ],
-      "actual_DXF_to_stock_profile_comparisons": 71,
-      "DXF_to_stock_profile_method": "Actual DXF cutting loops, including holes, reconstructed as constant-thickness profiles and compared with actual stock STEP end faces in cutting coordinates. Existing stock proof establishes extrusion. STEP edge and DXF curve deflection0.0001mm, endpoint snap0.001mm; bidirectional profile containment0.02mm and area-volume agreement max0.5mm3/0.01percent. Finishing pockets explicitly compare to stock blanks.",
-      "maximum_DXF_extruded_vs_STEP_volume_error_mm3": 0.27440721537550417,
-      "tail_spine_DXF_area_mm2": {
-        "TRS": 1560.0,
-        "TLS": 1560.0
-      }
-    },
-    "changed_motor_interfaces": "Rechecked separately for raw validity, nearby intersections, positive bond areas and four head/tool corridors."
-  },
-  "open_findings": [
-    "Foam forming and local beam-pocket construction need a representative material trial and completed method.",
-    "Forward-indexed aileron setup is a numerical candidate; actual retained spoke bends and loaded travel are unverified.",
-    "Pitot installation depends on actual dimensions, tube lengths and removable-cover fit.",
-    "Material strengths, wing torsion/stiffness, propulsion, measured CG/stability and flight remain unqualified."
+  "revision": "REV4",
+  "parts_manifest_sha256": "15f1eb58f552228a68aeae06e9dfb0e1aef33892220bc72dc342c0366d62c817",
+  "aircraft_identities": 133,
+  "evidence": [
+    "Frame_Splice_Checks.json",
+    "Foam_Control_Checks.json",
+    "Plywood_Body_Checks.json",
+    "Plywood_Body_Clearances.json",
+    "Plywood_Wing_Checks.json",
+    "Tail_Kinematics.json",
+    "Tail_CAD_Samples.json",
+    "Wood_Visual_Verification.json"
   ],
-  "limits": "Do not treat a count, absence of CAD collision or valid cut contour as proof of assembly quality, strength or flight readiness.",
-  "raw_assembly_readback": {
-    "Reaper_Assembly.step": {
-      "sha256": "c66b101b5f6dac846a619ab9b7d8b2f228919facebe3796d22e5aa28e289f8e0",
-      "whole_shape_valid": true,
-      "solid_count": 112,
-      "expected_solid_count": 112,
-      "invalid_solid_indices": [],
-      "minimum_adaptive_volume_mm3": 92.119752021642,
-      "maximum_adaptive_volume_mm3": 741542.3539184439,
-      "all_adaptive_volumes_positive": true,
-      "bbox_mm": [
-        -1000.0000222881157,
-        -439.65140506990014,
-        -200.0000000000139,
-        1000.0000230029996,
-        600.65000596187,
-        218.08209110534
-      ],
-      "no_healing_applied": true,
-      "elapsed_seconds": 197.96217036247253
-    },
-    "Reaper_With_Propeller_Reference.step": {
-      "sha256": "2e105158379fc6c0e9171e38ea424b036413f96df03ed9ffe2835c3ae2d031bb",
-      "whole_shape_valid": true,
-      "solid_count": 115,
-      "expected_solid_count": 115,
-      "invalid_solid_indices": [],
-      "minimum_adaptive_volume_mm3": 92.119752021642,
-      "maximum_adaptive_volume_mm3": 741542.3539184439,
-      "all_adaptive_volumes_positive": true,
-      "bbox_mm": [
-        -1000.0000222881157,
-        -439.65140506990014,
-        -200.0000000000139,
-        1000.0000230029996,
-        624.0000001,
-        218.08209110534
-      ],
-      "no_healing_applied": true,
-      "elapsed_seconds": 151.1988661289215
-    }
-  }
+  "unchanged_N1_sha256": "5561885195f69b3b4f08c2269dc335333c0f00d0df109f31eba7cf68786f3d58",
+  "limits": "Raw part and assembly validity, sampled motion, contact and envelope checks. No material/joint strength, physical assembly, loaded-control or flight approval."
 }

@@ -1,0 +1,385 @@
+{
+  "passed": true,
+  "revision": "REV4",
+  "aircraft_parts": 87,
+  "auxiliary_test_pieces": 5,
+  "stock_mm": [
+    609.6,
+    457.2
+  ],
+  "minimum_edge_margin_mm": 10,
+  "minimum_part_gap_mm": 6,
+  "panels": [
+    {
+      "file": "REAPER_REV4_PLY_PANEL_01.dxf",
+      "sha256": "2c430c61472df56d72b847592acd4101da4084fa9364aacdaee4f6245b6ca798",
+      "outer_piece_count": 49,
+      "cut_loop_count": 81,
+      "minimum_gap_mm": 5.999999999999999
+    },
+    {
+      "file": "REAPER_REV4_PLY_PANEL_02.dxf",
+      "sha256": "c376ef920306b95b84c7bb914c8af7fab74f4127be9c060bf8feadcfe33e26f0",
+      "outer_piece_count": 43,
+      "cut_loop_count": 62,
+      "minimum_gap_mm": 5.999999999999999
+    }
+  ],
+  "part_checks": [
+    {
+      "id": "LCL_I",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "LCR_I",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FK_F",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FK_A",
+      "source_to_panel_symmetric_difference_mm2": 1.4872452475204466e-11
+    },
+    {
+      "id": "WBL_O",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "WBR_O",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FLR_F",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FLL_F",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "LCL_O",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "LCR_O",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "TLS",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "TRS",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FBT",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FBWL",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FBWR",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FLL_A",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FLR_A",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "JL1",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "JL2",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "JL3",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "JR1",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "GLEG_L",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "GLEG_R",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "GLEG_N",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "WLRI",
+      "source_to_panel_symmetric_difference_mm2": 1.2441742775303523e-12
+    },
+    {
+      "id": "WRRI",
+      "source_to_panel_symmetric_difference_mm2": 1.2441708075546397e-12
+    },
+    {
+      "id": "FK_DL",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FK_DR",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "LCL_DA",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "LCL_DF",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "LCR_DA",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "LCR_DF",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "WBL_DA",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "WBL_DF",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "WBR_DA",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "WLRM_2",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "WRRM_2",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FX1",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FX2",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "WLRO_2",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FBC",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "WLRM_1",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FX0L",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FX0R",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "JR2",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "JR3",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "WBL_I",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "WBR_I",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "WBR_DF",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "JLOW",
+      "source_to_panel_symmetric_difference_mm2": 1.4210854715202004e-12
+    },
+    {
+      "id": "JTOP",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "JB",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "JF",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FF0U",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FF1",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FF2U",
+      "source_to_panel_symmetric_difference_mm2": 2.6900737027429854e-09
+    },
+    {
+      "id": "FF3",
+      "source_to_panel_symmetric_difference_mm2": 8.93756837427872e-13
+    },
+    {
+      "id": "FEQ",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FES0",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FES1",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FLL_DB",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FLL_DT",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FLR_DB",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FLR_DT",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FTM0",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FTM1",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FX3",
+      "source_to_panel_symmetric_difference_mm2": 8.526512829121202e-14
+    },
+    {
+      "id": "FEC0",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FEC1",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "TROOT",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FMT",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FGPS",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "WRRO_2",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FGPL",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FGPR",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FMF",
+      "source_to_panel_symmetric_difference_mm2": 2.3143826763730504e-09
+    },
+    {
+      "id": "WRRO_1",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "WLRO_1",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FF0L",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FF0R",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FF2L",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FF2R",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "WRRM_1",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "MTL",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "MTR",
+      "source_to_panel_symmetric_difference_mm2": 0.0
+    },
+    {
+      "id": "FMGR",
+      "source_to_panel_symmetric_difference_mm2": 5.623084341905095e-15
+    },
+    {
+      "id": "FMGL",
+      "source_to_panel_symmetric_difference_mm2": 7.872887897165537e-15
+    }
+  ],
+  "all_parts_once": true,
+  "all_cut_loops_closed_valid": true,
+  "units": "mm",
+  "labels_and_stock_noncut": true,
+  "scope": "Independent DXF readback against transformed source polygons; numerical polygonization sliver rings are recorded in VERIFICATION.json. Physical cutting, grain/thickness confirmation and strength qualification remain required.",
+  "maximum_source_to_panel_symmetric_difference_mm2": 2.6900737027429854e-09,
+  "source_comparison_tolerance_mm2": 1e-05
+}

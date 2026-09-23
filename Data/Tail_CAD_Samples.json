@@ -1,0 +1,38 @@
+{
+  "tail_control_motion": [
+    {
+      "group": [
+        "TRC",
+        "HTR",
+        "HTBR"
+      ],
+      "positions": 41,
+      "total_mixed_limit_deg": 20,
+      "nearby_fixed": [
+        "FTF",
+        "TRF"
+      ],
+      "collisions": []
+    },
+    {
+      "group": [
+        "TLC",
+        "HTL",
+        "HTBL"
+      ],
+      "positions": 41,
+      "total_mixed_limit_deg": 20,
+      "nearby_fixed": [
+        "FTF",
+        "TLF"
+      ],
+      "collisions": []
+    }
+  ],
+  "straight_rod_route_sample_count": 82,
+  "straight_route_collisions": [],
+  "limitations": [
+    "Sampling at 1 degree; no mathematical guarantee between samples.",
+    "Only nominal straight 2 mm rod route model; retained end bends and factory arm shape unmodeled."
+  ]
+}

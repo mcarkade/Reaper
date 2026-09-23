@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ARMTR",
+    "raw_valid": true,
+    "sha256": "3b1f8bc1a596ed110d0a073b4f797149a1b745082e1e5d95fed7cc4960d0b861",
+    "collisions": []
+  },
+  {
+    "id": "ARMTL",
+    "raw_valid": true,
+    "sha256": "e1fc65738c9b26878beb9e9bf0d001e5edfa498f93c6ee7fec18daaa279b2b26",
+    "collisions": []
+  }
+]

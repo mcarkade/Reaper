@@ -1,5 +1,5 @@
 {
-  "revision": "prototype_r2_plywood_rev3",
+  "revision": "prototype_rev4_all_plywood",
   "wing": {
     "root_x_mm": 53,
     "tip_x_mm": 1000,
@@ -25,18 +25,28 @@
     "root_step_depth_mm": 17,
     "receiver_gap_mm": 18.3,
     "bearing_insertion_each_mm": 50,
-    "balsa_spar_lap_mm": 177.8,
     "carbon_solid_diameter_mm": 5,
     "carbon_lengths_mm": [
       1000,
       1000
     ],
     "beam_lower_cap_mm": [
-      20,
-      5
+      10,
+      6
     ],
-    "beam_web_thickness_mm": 5,
-    "web_endpoint_x_mm": 900
+    "beam_web_thickness_mm": 6,
+    "web_endpoint_x_mm": 900,
+    "wood_material": "6 mm plywood throughout",
+    "beam_local_pad_width_mm": 20,
+    "cap_joint_abs_x_mm": 625,
+    "cap_side_laps_mm": [
+      120,
+      5,
+      6
+    ],
+    "web_joint_abs_x_mm": 375,
+    "web_face_lap_length_mm": 100,
+    "root_overlap_x_mm": 177.8
   },
   "battery_centre_travel_y_mm": [
     -280,
@@ -52,7 +62,7 @@
     "tail_servo_axis_right_xyz_mm": [
       63.85,
       411.1,
-      11.115
+      12.115
     ],
     "neutral_arm_direction_xyz": [
       0,
@@ -95,7 +105,10 @@
       63.85,
       411.1,
       11.115
-    ]
+    ],
+    "moving_material": "5 mm paper-faced foamboard with printed flanged horns and backers",
+    "aileron_neutral_arm_note": "Electrically centre; index downward arm 15 degrees toward nose, remeasure captive spoke. Delivered shaft envelope is reference hardware.",
+    "tail_neutral_pin_spacing_mm": 88.2502
   },
   "qualification": "Digital model only; actual plywood/balsa/foam thickness and density, laminate adhesive, material strength, servo horns, fit, cycling, mass/CG, motor/prop and flight checks remain physical.",
   "battery_nominal_centre_xyz_mm": [
@@ -245,6 +258,7 @@
     "motor_mount_face_y_mm": 590,
     "nominal_plywood_thickness_mm": 6,
     "source_sheet_sha256": "8cdbd328cb4aa6eb3edbda36a21d219c7e3aef4102c3748a0baf7c442c7757eb",
-    "physical_hardware_fit_required": true
+    "physical_hardware_fit_required": true,
+    "source_sheet_sha256_scope": "Historical REV3 source of unchanged FMF/FMT outlines; use current REV4 panel files for cutting."
   }
 }

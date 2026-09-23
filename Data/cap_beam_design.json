@@ -7,8 +7,8 @@
     -0.003
   ],
   "lower_cap_nominal_mm": [
-    20,
-    5
+    10,
+    6
   ],
   "lower_cap_x_range_mm": [
     100,
@@ -19,5 +19,10 @@
     900
   ],
   "tip_transition": "Rod is seated in shallow lower-cap groove X~900..999; no web where cap/rod touch",
-  "bending_basis": "Use actual transformed sections with E/strength ranges and idealbond explicitlyconditional; foam skins excluded from stiffness credit until qualified"
+  "bending_basis": "Use actual transformed sections with E/strength ranges and idealbond explicitlyconditional; foam skins excluded from stiffness credit until qualified",
+  "local_widened_pads_mm": 20,
+  "web_thickness_mm": 6,
+  "cap_joint_abs_x_mm": 625,
+  "web_joint_abs_x_mm": 375,
+  "assembly_reference": "Wing_Assembly.md"
 }

@@ -1,0 +1,101 @@
+{
+  "groups": [
+    {
+      "ids": [
+        "AR",
+        "HAR",
+        "HABR"
+      ],
+      "continuous_interval_bounds": [
+        495.2147159481597,
+        140.8222687671465,
+        -13.744911184234574,
+        769.8294236964341,
+        210.84658142508093,
+        23.34204296837755
+      ],
+      "between_sample_enlargement_mm": 0.5535134134010098
+    },
+    {
+      "ids": [
+        "AL",
+        "HAL",
+        "HABL"
+      ],
+      "continuous_interval_bounds": [
+        -769.8294236964341,
+        140.8222687671465,
+        -13.744911184234562,
+        -495.21471594806974,
+        210.84658142508104,
+        23.34204296837733
+      ],
+      "between_sample_enlargement_mm": 0.553513413401011
+    },
+    {
+      "ids": [
+        "TRC",
+        "HTR",
+        "HTBR"
+      ],
+      "continuous_interval_bounds": [
+        37.116884150259274,
+        483.9107102958362,
+        9.258693430025989,
+        274.1374297646826,
+        534.1338731403667,
+        190.6531106021577
+      ],
+      "between_sample_enlargement_mm": 1.192165313726107
+    },
+    {
+      "ids": [
+        "TLC",
+        "HTL",
+        "HTBL"
+      ],
+      "continuous_interval_bounds": [
+        -274.13742976463334,
+        483.91071029583645,
+        9.258693430026229,
+        -37.116884150254954,
+        534.1338731403664,
+        190.65311060213153
+      ],
+      "between_sample_enlargement_mm": 1.1921653137258676
+    }
+  ],
+  "pairs": [
+    {
+      "a": "AR",
+      "b": "AL",
+      "conservative_minimum_group_separation_mm": 990.4294318962295
+    },
+    {
+      "a": "AR",
+      "b": "TRC",
+      "conservative_minimum_group_separation_mm": 351.339130957819
+    },
+    {
+      "a": "AR",
+      "b": "TLC",
+      "conservative_minimum_group_separation_mm": 598.2816652207244
+    },
+    {
+      "a": "AL",
+      "b": "TRC",
+      "conservative_minimum_group_separation_mm": 598.2816652206482
+    },
+    {
+      "a": "AL",
+      "b": "TLC",
+      "conservative_minimum_group_separation_mm": 351.33913095779354
+    },
+    {
+      "a": "TRC",
+      "b": "TLC",
+      "conservative_minimum_group_separation_mm": 74.23376830051423
+    }
+  ],
+  "scope": "Combined moving-group clearance only; interval bounds include a half-step rotational displacement bound. Fixed-part checks remain144sampledpositions."
+}

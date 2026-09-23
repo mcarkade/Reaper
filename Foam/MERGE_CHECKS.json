@@ -1,0 +1,62 @@
+[
+  {
+    "tags": [
+      "F19",
+      "F20",
+      "F33",
+      "F21",
+      "F22"
+    ],
+    "registration": [
+      {
+        "a": "F19",
+        "b": "F20",
+        "max_seam_registration_error_mm": 0.0017099984471803833
+      },
+      {
+        "a": "F20",
+        "b": "F33",
+        "max_seam_registration_error_mm": 0.002135197700963253
+      },
+      {
+        "a": "F33",
+        "b": "F21",
+        "max_seam_registration_error_mm": 0.004153773281018775
+      },
+      {
+        "a": "F21",
+        "b": "F22",
+        "max_seam_registration_error_mm": 0.0036463417474040306
+      }
+    ],
+    "outline_fill_area_mm2": -1.8299033399671316e-09
+  },
+  {
+    "tags": [
+      "F25",
+      "F26"
+    ],
+    "registration": [
+      {
+        "a": "F25",
+        "b": "F26",
+        "max_seam_registration_error_mm": 9.130786793321022e-09
+      }
+    ],
+    "outline_fill_area_mm2": 9.96078597381711e-09
+  },
+  {
+    "tags": [
+      "F23",
+      "F24"
+    ],
+    "registration": [
+      {
+        "a": "F23",
+        "b": "F24",
+        "max_seam_registration_error_mm": 0.03723928347489623
+      }
+    ],
+    "outline_fill_area_mm2": 3.057966641659732
+  }
+]

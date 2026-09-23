@@ -1,0 +1,635 @@
+[
+  {
+    "part": "A43",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A43_1.step",
+    "world_bounds_mm": [
+      -47.82220885300007,
+      384.64999741209834,
+      -6.000000100006078,
+      47.82224008401513,
+      390.64999751274,
+      -1.0000260264320104e-07
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      -4.309280119156253e-20,
+      6.000000000000162
+    ],
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          -40.111381423123376,
+          388.5206323455029,
+          -4.56683236729986
+        ],
+        "remaining_material_segments_mm": [
+          5.000012817259625
+        ],
+        "removed_segments_mm": [
+          0.00912959752132092,
+          0.9908575852185697
+        ]
+      },
+      {
+        "world_probe_xyz_mm": [
+          40.409095817261054,
+          388.4316955112801,
+          -4.653503500336849
+        ],
+        "remaining_material_segments_mm": [
+          4.827001057217917
+        ],
+        "removed_segments_mm": [
+          1.1729989427816
+        ]
+      }
+    ],
+    "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
+  },
+  {
+    "part": "A43",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A43_2.step",
+    "world_bounds_mm": [
+      -47.82220285453001,
+      233.65000009999991,
+      -6.000000100006078,
+      47.822240084015036,
+      239.65000010000009,
+      -3.709033080668e-12
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      -1.0000191896982805e-07,
+      6.000000000000081
+    ],
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          -40.11715710478494,
+          237.52279409272583,
+          -4.622707273018163
+        ],
+        "remaining_material_segments_mm": [
+          4.999999899998137
+        ],
+        "removed_segments_mm": [
+          1.0000001000013787
+        ]
+      },
+      {
+        "world_probe_xyz_mm": [
+          40.117191779356006,
+          237.52279148266547,
+          -4.622703902533361
+        ],
+        "remaining_material_segments_mm": [
+          4.9999998999976105
+        ],
+        "removed_segments_mm": [
+          1.0000001000019054
+        ]
+      }
+    ],
+    "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
+  },
+  {
+    "part": "A43",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A43_3.step",
+    "world_bounds_mm": [
+      -47.82220285454,
+      125.00000186264,
+      -6.00000010000602,
+      47.822240084015,
+      131.00000186264083,
+      -5.0
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      4.999999899995152,
+      6.000000000000153
+    ],
+    "uniform_face_rebate_depth_mm": 1,
+    "uniform_remaining_thickness_mm": 5,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          -42.82220556997544,
+          127.81860181187282,
+          -5.50000005000258
+        ],
+        "remaining_material_segments_mm": [
+          4.999999899995736
+        ],
+        "removed_segments_mm": [
+          1.0000001000037804
+        ]
+      },
+      {
+        "world_probe_xyz_mm": [
+          42.822240084206356,
+          127.81860192660865,
+          -5.500000050004712
+        ],
+        "remaining_material_segments_mm": [
+          4.9999998999976265
+        ],
+        "removed_segments_mm": [
+          1.0000001000018903
+        ]
+      }
+    ],
+    "instruction": "Remove1mm from the bottom face locally, leaving5mm stock at the marked mating patch."
+  },
+  {
+    "part": "A43",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A43_4.step",
+    "world_bounds_mm": [
+      -47.82220285454,
+      142.7,
+      -6.000000100006065,
+      47.822240084015,
+      148.7,
+      -5.0
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      4.999999899995153,
+      6.000000000000153
+    ],
+    "uniform_face_rebate_depth_mm": 1,
+    "uniform_remaining_thickness_mm": 5,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          41.98154848756197,
+          145.22102262219863,
+          -5.500000050004688
+        ],
+        "remaining_material_segments_mm": [
+          4.9999998999975865
+        ],
+        "removed_segments_mm": [
+          1.0000001000019294
+        ]
+      },
+      {
+        "world_probe_xyz_mm": [
+          -41.98151702689218,
+          145.22102715278285,
+          -5.500000050002668
+        ],
+        "remaining_material_segments_mm": [
+          4.999999899995778
+        ],
+        "removed_segments_mm": [
+          1.0000001000037386
+        ]
+      }
+    ],
+    "instruction": "Remove1mm from the bottom face locally, leaving5mm stock at the marked mating patch."
+  },
+  {
+    "part": "A05_R",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A05_R_1.step",
+    "world_bounds_mm": [
+      247.35002055943986,
+      79.30475320562492,
+      9.151185889101,
+      253.35002189770708,
+      85.310336778754,
+      22.502146104219552
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      -1.533426683408834e-07,
+      6.000000000000583
+    ],
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          251.60989036855463,
+          83.5429418014157,
+          15.81677148726917
+        ],
+        "remaining_material_segments_mm": [],
+        "removed_segments_mm": []
+      }
+    ],
+    "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
+  },
+  {
+    "part": "A05_R",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A05_R_2.step",
+    "world_bounds_mm": [
+      53.00002171396596,
+      79.30482952363,
+      7.626145747599999,
+      59.00002171396604,
+      85.311603368421,
+      23.945832119128
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      -1.0912745551650005e-07,
+      6.00000000000027
+    ],
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          57.259286961191854,
+          83.5477208423283,
+          15.78104167832452
+        ],
+        "remaining_material_segments_mm": [],
+        "removed_segments_mm": []
+      }
+    ],
+    "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
+  },
+  {
+    "part": "A05_L",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A05_L_1.step",
+    "world_bounds_mm": [
+      -253.3500218977,
+      79.30475320562492,
+      9.151185889101,
+      -247.35002055936124,
+      85.310336778754,
+      22.502146104219552
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      -1.533426683408834e-07,
+      6.000000000000583
+    ],
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          -251.60989036851709,
+          83.54294180143793,
+          15.816771487231042
+        ],
+        "remaining_material_segments_mm": [],
+        "removed_segments_mm": []
+      }
+    ],
+    "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
+  },
+  {
+    "part": "A05_L",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A05_L_2.step",
+    "world_bounds_mm": [
+      -59.000021713960045,
+      79.30482952363,
+      7.626145747599999,
+      -53.00002171395996,
+      85.311603368421,
+      23.945832119128
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      -1.0912745551650005e-07,
+      6.00000000000027
+    ],
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          -57.25928698044944,
+          83.54772084211605,
+          15.781041653330117
+        ],
+        "remaining_material_segments_mm": [],
+        "removed_segments_mm": []
+      }
+    ],
+    "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
+  },
+  {
+    "part": "A53_R",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A53_R_edge_1.step",
+    "world_bounds_mm": [
+      492.9681589756676,
+      129.94963477930955,
+      11.20994300697291,
+      493.00002252288283,
+      166.8590900042738,
+      17.94039252651547
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      -8.697043085703626e-12,
+      0.03185474234976482
+    ],
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          492.9907188229024,
+          153.86499720379925,
+          13.497885865638619
+        ],
+        "remaining_material_segments_mm": [
+          5.9813930595597755
+        ],
+        "removed_segments_mm": [
+          0.01860694043477129
+        ]
+      }
+    ],
+    "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
+  },
+  {
+    "part": "A53_L",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A53_L_edge_1.step",
+    "world_bounds_mm": [
+      -493.00002252287715,
+      129.94963477930955,
+      11.20994300697291,
+      -492.9681589756,
+      166.8590900042738,
+      17.940392526515488
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      -9.760015018400736e-11,
+      0.03185474226978613
+    ],
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          -492.9907188228543,
+          153.8649972021984,
+          13.497885866803987
+        ],
+        "remaining_material_segments_mm": [
+          5.981393059491145
+        ],
+        "removed_segments_mm": [
+          0.018606940443470776
+        ]
+      }
+    ],
+    "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
+  },
+  {
+    "part": "A62_F",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A62_F_1.step",
+    "world_bounds_mm": [
+      -2.999984384471487,
+      -4.999999900000008,
+      -41.70688158806,
+      3.0000156155300743,
+      1.000000100000007,
+      -34.21392353120967
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      -4.702904732312163e-13,
+      6.000000000000274
+    ],
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          0.00018615376239694716,
+          -1.9999999000040896,
+          -37.95603940445361
+        ],
+        "remaining_material_segments_mm": [
+          5.0000000000000355
+        ],
+        "removed_segments_mm": [
+          0.5000059984366731,
+          0.4999940015632909
+        ]
+      }
+    ],
+    "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
+  },
+  {
+    "part": "A07_R_I",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A07_R_I_1.step",
+    "world_bounds_mm": [
+      247.35002083449456,
+      116.70151836619743,
+      9.189169485308998,
+      253.35002189780647,
+      122.71031258554059,
+      19.78760560234908
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      -5.603249064733973e-08,
+      6.000000000009408
+    ],
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          251.47905481800487,
+          118.46088891695709,
+          14.472743037328177
+        ],
+        "remaining_material_segments_mm": [
+          4.99999994395505
+        ],
+        "removed_segments_mm": [
+          1.000000056047825
+        ]
+      }
+    ],
+    "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
+  },
+  {
+    "part": "A07_R_I",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A07_R_I_2.step",
+    "world_bounds_mm": [
+      53.000021281997974,
+      116.70067621362,
+      7.6058635101169045,
+      59.000021713966035,
+      122.71163289398413,
+      20.801601317064
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      -1.0026491281678318e-07,
+      6.000000000012307
+    ],
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          57.24613942741844,
+          118.45352296587971,
+          14.198868397207644
+        ],
+        "remaining_material_segments_mm": [
+          4.999999899739153
+        ],
+        "removed_segments_mm": [
+          1.0000001002637209
+        ]
+      }
+    ],
+    "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
+  },
+  {
+    "part": "A07_R_O",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A07_R_O_1.step",
+    "world_bounds_mm": [
+      493.023311694507,
+      122.68741249433002,
+      11.043499160569041,
+      496.19419242934,
+      122.70878196748716,
+      18.517991885548515
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      -3.396394276933279e-12,
+      0.015185132115135502
+    ],
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          494.1066333442115,
+          122.70061021246377,
+          14.787145734654871
+        ],
+        "remaining_material_segments_mm": [
+          5.989874757833829
+        ],
+        "removed_segments_mm": [
+          0.010125242169060078
+        ]
+      }
+    ],
+    "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
+  },
+  {
+    "part": "A07_L_I",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A07_L_I_1.step",
+    "world_bounds_mm": [
+      -253.3500218978,
+      116.70151836619743,
+      9.189169485308998,
+      -247.35002083441768,
+      122.71031258554059,
+      19.78760560234903
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      -5.603249064733973e-08,
+      6.000000000009408
+    ],
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          -251.47905481799435,
+          118.46088891697784,
+          14.472743037256746
+        ],
+        "remaining_material_segments_mm": [
+          4.999999943955063
+        ],
+        "removed_segments_mm": [
+          1.0000000560478108
+        ]
+      }
+    ],
+    "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
+  },
+  {
+    "part": "A07_L_I",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A07_L_I_2.step",
+    "world_bounds_mm": [
+      -59.00002171396004,
+      116.70067621362,
+      7.6058635101169045,
+      -53.00002128198996,
+      122.71163289398413,
+      20.801601317064
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      -1.0026491281678318e-07,
+      6.000000000012307
+    ],
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          -57.24613941242042,
+          118.4535229488265,
+          14.198868397003784
+        ],
+        "remaining_material_segments_mm": [
+          4.999999899739153
+        ],
+        "removed_segments_mm": [
+          1.0000001002637209
+        ]
+      }
+    ],
+    "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
+  },
+  {
+    "part": "A07_L_O",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A07_L_O_1.step",
+    "world_bounds_mm": [
+      -496.1941924293,
+      122.68741249432992,
+      11.043499160567434,
+      -493.0233116944629,
+      122.70878196748716,
+      18.517991885548515
+    ],
+    "depth_interval_from_named_stock_face_mm": [
+      -3.396394276933279e-12,
+      0.015185132115135502
+    ],
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null,
+    "centreline_probe_samples": [
+      {
+        "world_probe_xyz_mm": [
+          -494.10663334419434,
+          122.70061021246528,
+          14.787145734416153
+        ],
+        "remaining_material_segments_mm": [
+          5.989874757834056
+        ],
+        "removed_segments_mm": [
+          0.010125242168832704
+        ]
+      }
+    ],
+    "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
+  }
+]

@@ -1,0 +1,592 @@
+[
+  {
+    "id": "A06",
+    "mesh_gap_patch": null,
+    "zero_volume_export_debris": [
+      {
+        "faces": 2,
+        "volume_mm3": 5.921189464667501e-16
+      },
+      {
+        "faces": 2,
+        "volume_mm3": -2.9605947323337506e-16
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 1.4802973661668753e-16
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      }
+    ],
+    "watertight": true,
+    "connected_components": 1,
+    "positive_mesh_volume_mm3": 182521.44089414852,
+    "cad_volume_mm3": 182374.86620629832,
+    "cad_mesh_volume_difference_percent": 0.08037000432087717,
+    "vertex_weld_decimals": 5,
+    "removed_degenerate_faces": 30,
+    "bounds_delta_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stl_sha256": "5f0dd11b4d8eac1b982c71e917b2f1bb0ad44a3732c111facd1b1cf28d434e9e",
+    "step_sha256": "98c859693a02055625e45adb6888c30ba19f4608cad386334e023def229347e8"
+  },
+  {
+    "id": "A09",
+    "mesh_gap_patch": null,
+    "zero_volume_export_debris": [],
+    "watertight": true,
+    "connected_components": 1,
+    "positive_mesh_volume_mm3": 2129.0281044462736,
+    "cad_volume_mm3": 2129.132905453087,
+    "cad_mesh_volume_difference_percent": 0.004922238839342428,
+    "vertex_weld_decimals": 7,
+    "removed_degenerate_faces": 0,
+    "bounds_delta_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stl_sha256": "94a7de29b55afcab8c15b07f2c73aed96ae7b5c804d59eabe8b8bde8a5aa52dc",
+    "step_sha256": "d40f6a4503260a037a974a44c867f0198fc4f659eea0e3bdb2a7a3b5f5d625d7"
+  },
+  {
+    "id": "A11",
+    "mesh_gap_patch": null,
+    "zero_volume_export_debris": [],
+    "watertight": true,
+    "connected_components": 1,
+    "positive_mesh_volume_mm3": 132536.50260210165,
+    "cad_volume_mm3": 132611.08688496205,
+    "cad_mesh_volume_difference_percent": 0.05624287125034527,
+    "vertex_weld_decimals": 7,
+    "removed_degenerate_faces": 0,
+    "bounds_delta_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stl_sha256": "31bff91bcf0d3b5612319cc6ef40a4998bacbf248f274dcc16e2e2d9577aa1ee",
+    "step_sha256": "d7495e00f64ad05239a0cc8fa3423e83a85d28d8a0149677ec5fc61c3e3df9e6"
+  },
+  {
+    "id": "A12",
+    "mesh_gap_patch": null,
+    "zero_volume_export_debris": [
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      },
+      {
+        "faces": 2,
+        "volume_mm3": 0.0
+      }
+    ],
+    "watertight": true,
+    "connected_components": 1,
+    "positive_mesh_volume_mm3": 118001.00063677372,
+    "cad_volume_mm3": 118041.44710171456,
+    "cad_mesh_volume_difference_percent": 0.03426462986850771,
+    "vertex_weld_decimals": 5,
+    "removed_degenerate_faces": 58,
+    "bounds_delta_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stl_sha256": "65d50a15d68dced4b3c502c0f18ae69689e4894529533167e8d6126101466d59",
+    "step_sha256": "8b143058134688be1d2660bd3cd462890dd4a8d6636798017d8d8fc135ee9b2a"
+  },
+  {
+    "id": "A21",
+    "mesh_gap_patch": null,
+    "zero_volume_export_debris": [],
+    "watertight": true,
+    "connected_components": 1,
+    "positive_mesh_volume_mm3": 132320.21480388663,
+    "cad_volume_mm3": 132397.32480940464,
+    "cad_mesh_volume_difference_percent": 0.05824136222466685,
+    "vertex_weld_decimals": 7,
+    "removed_degenerate_faces": 0,
+    "bounds_delta_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stl_sha256": "06e28dfe677f0e3cb67f9fc88ff7d9b1b2bd93ff72156e86293e33b199f5781d",
+    "step_sha256": "6ff32656a8f307baabffddc7e549cae8a8674487c14304385602deb51291d277"
+  },
+  {
+    "id": "A23",
+    "mesh_gap_patch": null,
+    "zero_volume_export_debris": [],
+    "watertight": true,
+    "connected_components": 1,
+    "positive_mesh_volume_mm3": 38949.20470291875,
+    "cad_volume_mm3": 38937.217488025046,
+    "cad_mesh_volume_difference_percent": 0.030786008007359953,
+    "vertex_weld_decimals": 7,
+    "removed_degenerate_faces": 0,
+    "bounds_delta_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stl_sha256": "49f3d9873e7ffa9553dd9e9b2baaaefcb932b32be3086f45a89bb4314799abdd",
+    "step_sha256": "6f53aa58e7a460c70252b8429fc6a1c0358c528392a9edc20f67e31957f373b4"
+  },
+  {
+    "id": "A36",
+    "mesh_gap_patch": null,
+    "zero_volume_export_debris": [],
+    "watertight": true,
+    "connected_components": 1,
+    "positive_mesh_volume_mm3": 38949.55617031944,
+    "cad_volume_mm3": 38937.144228051286,
+    "cad_mesh_volume_difference_percent": 0.031876868512643416,
+    "vertex_weld_decimals": 7,
+    "removed_degenerate_faces": 0,
+    "bounds_delta_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stl_sha256": "8969b7d13bf64cba9388d21c5007617996320fa976875f3c6e575097263c1d89",
+    "step_sha256": "c7d462291d86345e73d5e42a7bb03808c069ba4dcc21b64ad8e30b89c3ffdedf"
+  },
+  {
+    "id": "A37",
+    "mesh_gap_patch": null,
+    "zero_volume_export_debris": [],
+    "watertight": true,
+    "connected_components": 1,
+    "positive_mesh_volume_mm3": 21523.020648960086,
+    "cad_volume_mm3": 21526.151173125152,
+    "cad_mesh_volume_difference_percent": 0.014542888507512397,
+    "vertex_weld_decimals": 7,
+    "removed_degenerate_faces": 0,
+    "bounds_delta_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stl_sha256": "5bef6eef4b93b3f1df717b20504c67953e3d43ea61402744161ba15fec048734",
+    "step_sha256": "0d8aff65da83e48bbd57ff4f606f216627acc32cfec1d89dab5fb69edbc4c994"
+  },
+  {
+    "id": "A45",
+    "mesh_gap_patch": {
+      "kind": "OCC shared-vertex tessellation substituted for disconnected STL face export",
+      "old_components": 2,
+      "new_faces": 7490
+    },
+    "zero_volume_export_debris": [],
+    "watertight": true,
+    "connected_components": 1,
+    "positive_mesh_volume_mm3": 35261.42795364685,
+    "cad_volume_mm3": 35280.91709531534,
+    "cad_mesh_volume_difference_percent": 0.05523989531176865,
+    "vertex_weld_decimals": 5,
+    "removed_degenerate_faces": -1488,
+    "bounds_delta_mm": [
+      [
+        0.0,
+        0.0035597473615780473,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stl_sha256": "13445292836cd207f0b7012390238cc521ef50c8d38b9c72e7b8bbc2bd2c07ff",
+    "step_sha256": "3a8807950422ef32ffbfbde685a4b83d8ce23b4f22c5f3afc180db1d7129f0fd"
+  },
+  {
+    "id": "A55",
+    "mesh_gap_patch": {
+      "kind": "OCC shared-vertex tessellation substituted for disconnected STL face export",
+      "old_components": 1,
+      "new_faces": 7496
+    },
+    "zero_volume_export_debris": [],
+    "watertight": true,
+    "connected_components": 1,
+    "positive_mesh_volume_mm3": 35260.7472278046,
+    "cad_volume_mm3": 35280.91709512733,
+    "cad_mesh_volume_difference_percent": 0.05716933964146359,
+    "vertex_weld_decimals": 5,
+    "removed_degenerate_faces": -1028,
+    "bounds_delta_mm": [
+      [
+        0.0,
+        0.0035597473615780473,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stl_sha256": "df614a0f595e56bf77c810014d2e0081ae5be84d0d2015020ca465519ad11abc",
+    "step_sha256": "432684384f91732486f255cb50c443009e48cb98b29e5b869682f04c1a7ad546"
+  },
+  {
+    "id": "HWR",
+    "mesh_gap_patch": null,
+    "zero_volume_export_debris": [],
+    "watertight": true,
+    "connected_components": 1,
+    "positive_mesh_volume_mm3": 808.3888122032212,
+    "cad_volume_mm3": 808.3878861412987,
+    "cad_mesh_volume_difference_percent": 0.00011455663033846692,
+    "vertex_weld_decimals": 7,
+    "removed_degenerate_faces": 0,
+    "bounds_delta_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stl_sha256": "e95b144b6a3d2f31e269d3556d1b9ef219f9094a240618c78529466c1ea5c75f",
+    "step_sha256": "1425e84b5d3f1f26fc5e5cb728cbd2e79e9a85d20b0d65565cb4acf8294dabc7"
+  },
+  {
+    "id": "HWL",
+    "mesh_gap_patch": null,
+    "zero_volume_export_debris": [],
+    "watertight": true,
+    "connected_components": 1,
+    "positive_mesh_volume_mm3": 808.3888247761939,
+    "cad_volume_mm3": 808.3878861315644,
+    "cad_mesh_volume_difference_percent": 0.00011611314885056434,
+    "vertex_weld_decimals": 7,
+    "removed_degenerate_faces": 0,
+    "bounds_delta_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stl_sha256": "7ce6828e50bb9188bb7802181d43da65935f45be82aadad252e6463578689408",
+    "step_sha256": "d893017b6ff67385327fae4a5d0264cbacfdec9f2c6417875a80d5763879c8a0"
+  },
+  {
+    "id": "HTR",
+    "mesh_gap_patch": null,
+    "zero_volume_export_debris": [],
+    "watertight": true,
+    "connected_components": 1,
+    "positive_mesh_volume_mm3": 1974.9704136015198,
+    "cad_volume_mm3": 1974.9695448538039,
+    "cad_mesh_volume_difference_percent": 4.398790443004734e-05,
+    "vertex_weld_decimals": 7,
+    "removed_degenerate_faces": 0,
+    "bounds_delta_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stl_sha256": "6581e8c02d208037f916e33afe880721270d5aa7f90b9202d8cb9681b54985c6",
+    "step_sha256": "4bf45bb7bffe2b4ab7434a123e81c643f5595bd8ee823e69a761c1b47d5b9579"
+  },
+  {
+    "id": "HTL",
+    "mesh_gap_patch": null,
+    "zero_volume_export_debris": [],
+    "watertight": true,
+    "connected_components": 1,
+    "positive_mesh_volume_mm3": 1974.9705586685916,
+    "cad_volume_mm3": 1974.9695437084117,
+    "cad_mesh_volume_difference_percent": 5.139118135296496e-05,
+    "vertex_weld_decimals": 7,
+    "removed_degenerate_faces": 0,
+    "bounds_delta_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stl_sha256": "44bd56fa24e1e4b0b7ff9ac444ac41adb44d082dc4d3ca6866fbf5b982dfa5ad",
+    "step_sha256": "69d7d6f9376d8a432b244363854a49277d3abb7891e84ec3ce94b58aa6dd46aa"
+  },
+  {
+    "id": "HTRB",
+    "mesh_gap_patch": null,
+    "zero_volume_export_debris": [],
+    "watertight": true,
+    "connected_components": 1,
+    "positive_mesh_volume_mm3": 681.1780857957989,
+    "cad_volume_mm3": 681.1780828321592,
+    "cad_mesh_volume_difference_percent": 4.3507560203376293e-07,
+    "vertex_weld_decimals": 7,
+    "removed_degenerate_faces": 0,
+    "bounds_delta_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stl_sha256": "2c63045ba4247a84ae5fc5e65862c27afe1d8545fae3139c6f187046b385eb6f",
+    "step_sha256": "c2ece378e84ad919f72c0f7597f2d3a99bb2b322d1ef77ba2db7285013290d67"
+  },
+  {
+    "id": "HTLB",
+    "mesh_gap_patch": null,
+    "zero_volume_export_debris": [],
+    "watertight": true,
+    "connected_components": 1,
+    "positive_mesh_volume_mm3": 681.178080225598,
+    "cad_volume_mm3": 681.1780828320384,
+    "cad_mesh_volume_difference_percent": 3.8263714602993347e-07,
+    "vertex_weld_decimals": 7,
+    "removed_degenerate_faces": 0,
+    "bounds_delta_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stl_sha256": "fb6dee383c09f7383e8c13d9e109b5846d8d6f809174d9f0a320b8a9690e11f9",
+    "step_sha256": "ae7914b377baaff3e9801b2406efed0f20f08e1dcb61cbe2259699981da4c171"
+  }
+]

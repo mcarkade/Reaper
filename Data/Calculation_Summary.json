@@ -1,0 +1,217 @@
+{
+  "status": "Conditional engineering estimates, not measured flight performance.",
+  "geometry": {
+    "basis": "Final original-style R5 lifting STEP geometry, including local material-fit edits. Exposed panels; chord envelope includes hinge gaps; geometric quarter-chord proxy is not stability qualification.",
+    "sha256": {
+      "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A49.step": "6b8e18cb683404c7208efbe5a6c276710b5ef73ef922830e8dc0504b77a23c3a",
+      "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A38.step": "bc2be647305ef0f1f898e7ede7d296c8e1ba0ede24828798fcbd448da5f332cb",
+      "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A21.step": "6ff32656a8f307baabffddc7e549cae8a8674487c14304385602deb51291d277",
+      "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A36.step": "c7d462291d86345e73d5e42a7bb03808c069ba4dcc21b64ad8e30b89c3ffdedf",
+      "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A57.step": "d1072347bf4379fc84e10a6de8dfdda4e4a8ba1f95469e33d523c88603fd10d3",
+      "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A41.step": "40b74ee33a8762c0e234fb81a64515e3cf2bd777df3363993e036d35c74e1ae0",
+      "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A52.step": "9cefbfc1765a13647726e6d92d1603cf0b827b5e34892a203144dbd840101359",
+      "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A27.step": "9bd52e764cbb7e01c5232a40be46f07e571584ddefcb50b0381285c63d0e19b3",
+      "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A11.step": "d7495e00f64ad05239a0cc8fa3423e83a85d28d8a0149677ec5fc61c3e3df9e6",
+      "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A23.step": "6f53aa58e7a460c70252b8429fc6a1c0358c528392a9edc20f67e31957f373b4",
+      "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A22.step": "502203b5fa06aa9b8760c4cbf3730b9f542b9e3a3d296bf9430ff0c2160c670b",
+      "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A60.step": "147aefc67cd32af09f457bf9b16e7658738b54cca7c0df7f0d9b0ed3d70f5d00"
+    },
+    "wings": {
+      "R": {
+        "span_interval_mm": [
+          53.000021612423595,
+          1000.000022545
+        ],
+        "occupied_projected_material_area_mm2": 151910.26477679997,
+        "planform_envelope_area_mm2": 151900.46888311038,
+        "mac_mm": 169.658855510713,
+        "mac_le_y_mm": 40.19482771435111,
+        "quarter_chord_ac_proxy_y_mm": 82.60954159202936,
+        "hinge_gap_and_cutout_area_mm2": -9.79589368958841,
+        "integration_step_mm": 0.24993401977634638,
+        "parts": [
+          "A49",
+          "A38",
+          "A21",
+          "A36"
+        ]
+      },
+      "L": {
+        "span_interval_mm": [
+          53.00002161017,
+          1000.000022186
+        ],
+        "occupied_projected_material_area_mm2": 151932.42175661403,
+        "planform_envelope_area_mm2": 151944.28202138914,
+        "mac_mm": 169.6793685528627,
+        "mac_le_y_mm": 40.196387652253854,
+        "quarter_chord_ac_proxy_y_mm": 82.61622979046953,
+        "hinge_gap_and_cutout_area_mm2": 11.860264775110409,
+        "integration_step_mm": 0.24993401968219317,
+        "parts": [
+          "A52",
+          "A27",
+          "A11",
+          "A23"
+        ]
+      }
+    },
+    "tails": {
+      "R": {
+        "span_interval_mm": [
+          41.22383494732969,
+          383.22383494733276
+        ],
+        "occupied_projected_material_area_mm2": 35602.48498860301,
+        "planform_envelope_area_mm2": 36926.69111896022,
+        "mac_mm": 110.89020754550602,
+        "mac_le_y_mm": 423.119554215166,
+        "quarter_chord_ac_proxy_y_mm": 450.84210610154247,
+        "hinge_gap_and_cutout_area_mm2": 1324.2061303572045,
+        "integration_step_mm": 0.24981738495252234,
+        "parts": [
+          "A57",
+          "A41"
+        ]
+      },
+      "L": {
+        "span_interval_mm": [
+          41.223834947324384,
+          383.22383494730377
+        ],
+        "occupied_projected_material_area_mm2": 35602.533090971076,
+        "planform_envelope_area_mm2": 36926.11026390142,
+        "mac_mm": 110.88864206642641,
+        "mac_le_y_mm": 423.11953346572074,
+        "quarter_chord_ac_proxy_y_mm": 450.84169398232734,
+        "hinge_gap_and_cutout_area_mm2": 1323.5771729303451,
+        "integration_step_mm": 0.24999999999998493,
+        "parts": [
+          "A22",
+          "A60"
+        ]
+      }
+    },
+    "wing_area_mm2": 303844.75090449955,
+    "mean_aerodynamic_chord_mm": 169.66911351073514,
+    "mac_leading_edge_y_mm": 40.195607795770734,
+    "wing_quarter_chord_y_mm": 82.61288617345451,
+    "span_tip_to_tip_mm": 2000.000044731,
+    "aspect_ratio_tip_span_exposed_area": 13.164618335569761,
+    "tail_actual_plane_area_mm2": 73852.80138286164,
+    "tail_quarter_chord_y_mm": 450.8419000435556,
+    "tail_cant_deg": 35,
+    "tail_pitch_effective_area_mm2": 49555.97354841506,
+    "tail_yaw_effective_area_mm2": 24296.827834446573,
+    "tail_pitch_volume_at_wing_quarter": 0.35396432137146683,
+    "inputs_changed_during_measurement": []
+  },
+  "mass": {
+    "estimated_g": 2513.708033479278,
+    "low_g": 2114.8617973174873,
+    "high_g": 3073.0253503603335
+  },
+  "cg_xyz_mm": {
+    "x": -0.004773450969013144,
+    "y": 60.30756396849697,
+    "z": 11.863969443170772
+  },
+  "wing_loading_g_dm2": 82.73001346892951,
+  "provisional_20percent_MAC_y_mm": 74.12943049791777,
+  "required_battery_centre_y_mm": -192.14035755335271,
+  "source_box_clear_battery_centres_y_mm": [
+    -320,
+    -200
+  ],
+  "battery_target_within_source_checked_interval": false,
+  "required_battery_extreme_mass_bounds_y_mm": [
+    -337.6033151329547,
+    -65.34122557152024
+  ],
+  "nominal_mass_stall_range_km_h": [
+    37.82254223665951,
+    48.88414772366165
+  ],
+  "endurance": [
+    {
+      "measured_average_current_A": 10,
+      "minutes_at70pct": 21.839999999999996,
+      "minutes_at80pct": 24.96
+    },
+    {
+      "measured_average_current_A": 15,
+      "minutes_at70pct": 14.559999999999999,
+      "minutes_at80pct": 16.64
+    },
+    {
+      "measured_average_current_A": 20,
+      "minutes_at70pct": 10.919999999999998,
+      "minutes_at80pct": 12.48
+    },
+    {
+      "measured_average_current_A": 25,
+      "minutes_at70pct": 8.735999999999999,
+      "minutes_at80pct": 9.984000000000002
+    },
+    {
+      "measured_average_current_A": 30,
+      "minutes_at70pct": 7.279999999999999,
+      "minutes_at80pct": 8.32
+    }
+  ],
+  "runway_conditional": [
+    {
+      "assumed_net_acceleration_m_s2": 1,
+      "still_air_target_m_s": 17.652608900211153,
+      "ideal_distance_m": 155.807300491907,
+      "time_s": 17.652608900211153
+    },
+    {
+      "assumed_net_acceleration_m_s2": 2,
+      "still_air_target_m_s": 17.652608900211153,
+      "ideal_distance_m": 77.9036502459535,
+      "time_s": 8.826304450105576
+    },
+    {
+      "assumed_net_acceleration_m_s2": 3,
+      "still_air_target_m_s": 17.652608900211153,
+      "ideal_distance_m": 51.935766830635664,
+      "time_s": 5.884202966737051
+    },
+    {
+      "assumed_net_acceleration_m_s2": 4,
+      "still_air_target_m_s": 17.652608900211153,
+      "ideal_distance_m": 38.95182512297675,
+      "time_s": 4.413152225052788
+    }
+  ],
+  "wing_load_demands": [
+    {
+      "load_factor": 1,
+      "halfwing_lift_N": 12.325527443259782,
+      "uniform_exposed_halfwing_root_moment_Nm": 5.836137244383506
+    },
+    {
+      "load_factor": 2,
+      "halfwing_lift_N": 24.651054886519564,
+      "uniform_exposed_halfwing_root_moment_Nm": 11.672274488767012
+    },
+    {
+      "load_factor": 3,
+      "halfwing_lift_N": 36.97658232977935,
+      "uniform_exposed_halfwing_root_moment_Nm": 17.50841173315052
+    }
+  ],
+  "rod_second_moment_mm4": {
+    "solid5": 30.679615757712824,
+    "tube8_6": 137.44467859455344,
+    "tube10_8": 289.8119222936584
+  },
+  "limits": [
+    "CG target20%MAC is a conservative starting investigation, not a validated stability limit. Tail volume, downwash and incidence matter.",
+    "Gear mass, glue, board density, filament slicing and most equipment masses are unmeasured.",
+    "The original carbon tubes have greater bending stiffness than5mm solid rods; hole fit does not qualify strength.",
+    "Runway table assumes net acceleration after ALL drag/rolling effects. Real thrust versus airspeed, prop pitch clearance, steering and wind are unmeasured. Do not use table as a minimum runway.",
+    "No hand-launch/catapult qualification. First flight requires measured balance/propulsion, structural proof and experienced RC pilot acceptance."
+  ]
+}

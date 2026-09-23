@@ -1,6 +1,0 @@
-sheet,material,thickness_mm,stock_width_mm,stock_height_mm,part_count,net_area_mm2,net_utilization_percent,auxiliary_test_count,auxiliary_test_area_mm2
-REAPER_REV4_PLY_PANEL_01.dxf,Plywood6mm,6,609.6,457.2,44,128221.48428313767,46.00548567737492,5,6825.311717494206
-REAPER_REV4_PLY_PANEL_02.dxf,Plywood6mm,6,609.6,457.2,43,58549.17137036932,21.007267853441363,0,0
-Foam5mm_1000x600mm_Sheet01.dxf,Foam5mm,5,1000,600,13,384734.27349716576,64.1223789161943,0,0
-Foam5mm_1000x600mm_Sheet02.dxf,Foam5mm,5,1000,600,18,399840.12251022155,66.64002041837026,0,0
-Foam5mm_1000x600mm_Sheet03.dxf,Foam5mm,5,1000,600,8,84913.73261344418,14.152288768907365,0,0

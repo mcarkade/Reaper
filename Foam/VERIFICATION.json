@@ -1,0 +1,90 @@
+{
+  "status": "CANDIDATE_PENDING_GEOMETRY_FREEZE",
+  "blank_mm": [
+    600.0,
+    457.2
+  ],
+  "margin_mm": 5.0,
+  "gap_mm": 4.0,
+  "panels": 5,
+  "full_1000x600_sheets": 3,
+  "patterns": 13,
+  "blanks": 15,
+  "checks": [
+    {
+      "file": "REAPER_R5_FOAM_PANEL_01.dxf",
+      "stock_mm": [
+        600.0,
+        457.2
+      ],
+      "sha256": "972d957cbddd2738dabe01fa852bf22ca4a8cba01292a86a8bfdc2554f3849fe",
+      "ids": [
+        "FW02",
+        "FW09",
+        "FW13_2",
+        "FW13_1"
+      ],
+      "readback_closed_and_exact": true
+    },
+    {
+      "file": "REAPER_R5_FOAM_PANEL_02.dxf",
+      "stock_mm": [
+        600.0,
+        457.2
+      ],
+      "sha256": "d8a4ecffee40ff2fa32e0581a51c9f8ff22325e7119d82cc608c0a4389ccd68f",
+      "ids": [
+        "FW03",
+        "FW07"
+      ],
+      "readback_closed_and_exact": true
+    },
+    {
+      "file": "REAPER_R5_FOAM_PANEL_03.dxf",
+      "stock_mm": [
+        600.0,
+        457.2
+      ],
+      "sha256": "48374cb2810ce94d4ec32f055e60c6c9028359ea3f409a7b6b0c3e3bb9e1763e",
+      "ids": [
+        "FW01",
+        "FW12_2",
+        "FW12_1"
+      ],
+      "readback_closed_and_exact": true
+    },
+    {
+      "file": "REAPER_R5_FOAM_PANEL_04.dxf",
+      "stock_mm": [
+        600.0,
+        457.2
+      ],
+      "sha256": "e9d93045739f723abf841d68c90a77ede3b0ec69bc2d77cefb02c327fa9ef621",
+      "ids": [
+        "FW06",
+        "FW05",
+        "FW08",
+        "FW10"
+      ],
+      "readback_closed_and_exact": true
+    },
+    {
+      "file": "REAPER_R5_FOAM_PANEL_05.dxf",
+      "stock_mm": [
+        600.0,
+        457.2
+      ],
+      "sha256": "95f378192b4d14443f59f0628af9b3377789ee2087c7bf911a2a9229e6c45687",
+      "ids": [
+        "FW04",
+        "FW11"
+      ],
+      "readback_closed_and_exact": true
+    }
+  ],
+  "limits": [
+    "Whole original outer-paper wraps; inner foam relief and bevels are manual.",
+    "No laser settings are assumed. Confirm foam composition and shop approval; sample before production.",
+    "Packing is a deterministic search, not proof of minimum."
+  ]
+}

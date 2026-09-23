@@ -1,0 +1,16 @@
+id,pattern,quantity,panel,source_dxf,rotation_deg,translation_x_mm,translation_y_mm
+FW02,FW02,1,REAPER_R5_FOAM_PANEL_01.dxf,FW02_right_inner_wing.dxf,90,465.62433,0.0
+FW09,FW09,1,REAPER_R5_FOAM_PANEL_01.dxf,FW09_front_upper_cover.dxf,90,599.62454,0.0
+FW13_2,FW13,1,REAPER_R5_FOAM_PANEL_01.dxf,FW13_left_moving_tail.dxf,0,459.62433,160.80823
+FW13_1,FW13,1,REAPER_R5_FOAM_PANEL_01.dxf,FW13_left_moving_tail.dxf,0,508.62433,160.80823
+FW03,FW03,1,REAPER_R5_FOAM_PANEL_02.dxf,FW03_right_outer_wing.dxf,90,524.67685,0.0
+FW07,FW07,1,REAPER_R5_FOAM_PANEL_02.dxf,FW07_lower_body_wrap.dxf,90,578.65,246.07398
+FW01,FW01,1,REAPER_R5_FOAM_PANEL_03.dxf,FW01_left_inner_wing.dxf,90,465.62468,0.0
+FW12_2,FW12,1,REAPER_R5_FOAM_PANEL_03.dxf,FW12_right_moving_tail.dxf,0,459.62468,0.0
+FW12_1,FW12,1,REAPER_R5_FOAM_PANEL_03.dxf,FW12_right_moving_tail.dxf,0,508.62468,0.0
+FW06,FW06,1,REAPER_R5_FOAM_PANEL_04.dxf,FW06_left_fixed_tail.dxf,0,5.0,5.0
+FW05,FW05,1,REAPER_R5_FOAM_PANEL_04.dxf,FW05_right_fixed_tail.dxf,0,238.49473,5.0
+FW08,FW08,1,REAPER_R5_FOAM_PANEL_04.dxf,FW08_aft_lower_body.dxf,0,573.1383000000001,0.0
+FW10,FW10,1,REAPER_R5_FOAM_PANEL_04.dxf,FW10_rear_upper_cover.dxf,90,599.3318,156.32046
+FW04,FW04,1,REAPER_R5_FOAM_PANEL_05.dxf,FW04_left_outer_wing.dxf,90,524.67566,0.0
+FW11,FW11,1,REAPER_R5_FOAM_PANEL_05.dxf,FW11_tail_underside.dxf,90,229.0955,246.07398

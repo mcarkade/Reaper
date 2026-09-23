@@ -1,328 +1,158 @@
 {
-  "register_sha256": "474f563311f56be3104ad261d9d275e01811fa6059c9824e09c22caf76902d94",
-  "digital_checks_passed": true,
-  "status": "Digitally checked build prototype with explicitly listed manual fitting and physical qualification still required; not flight approval.",
-  "blocking_findings": [],
-  "checked_scopes": {
-    "raw_STEP_parts": 113,
-    "unique_ids_and_destinations": true,
-    "positive_valid_raw_solids_and_adaptive_mass_properties": 113,
-    "immutable_N1_byte_identical": true,
-    "static_pairs": 6328,
-    "reported_static_fitting_or_reference_pairs": 13,
-    "separately_resolved_derived_seam_cases": 2,
-    "declared_positive_face_contacts": 54,
-    "minimum_declared_planar_contact_area_mm2": 7.79381443296131,
-    "stock_extrusion_or_declared_secondary_blanks": 71,
-    "developed_foam_patterns_checked": 35,
-    "sampled_rigid_motion_configurations": 99,
-    "continuous_equipment_and_battery_envelopes": 16,
-    "continuous_nominal_arm_envelopes": 4,
-    "continuous_prop_centre_range_y_mm": [
-      613,
-      617
+  "status": "REV3 geometry integration checked; buildability and physical qualification remain open",
+  "parts_manifest_sha256": "e31832e48200debbcacd63187d4e6f35ce229ce8e0c08288f1dd71852f9c4fe8",
+  "current_checks": {
+    "aircraft_identities": 112,
+    "changed_parts": [
+      "FMF",
+      "FMT"
     ],
-    "minimum_continuous_prop_to_airframe_clearance_mm": 5.22999999035369,
-    "battery_centre_y_range_mm": [
-      -280,
-      -120
+    "removed_parts": [
+      "FMGB"
     ],
-    "battery_centre_z_mm": 12.5,
-    "battery_removal": "Release straps/pitot/tape, lift N1 and FSU1 together, slide battery to centreY-205, lift100mm. Wiring/plugs must be fitted clear.",
-    "control_sampling": "Ailerons +/-15deg, tails +/-20deg at2.5deg increments; disconnected linkage. Sampled configurations are not a mathematical continuous swept-volume proof.",
-    "repaired_joint_and_tray_contacts": [
-      {
-        "parts": [
-          "FF3",
-          "MTR"
-        ],
-        "distance_mm": 0.0,
-        "opposing_planar_contact_area_mm2": 23.416488979076153
-      },
-      {
-        "parts": [
-          "FF3",
-          "MTL"
-        ],
-        "distance_mm": 0.0,
-        "opposing_planar_contact_area_mm2": 23.141293865808723
-      },
-      {
-        "parts": [
-          "FBWR",
-          "FF0R"
-        ],
-        "distance_mm": 0.0,
-        "opposing_planar_contact_area_mm2": 115.87774905835005
-      },
-      {
-        "parts": [
-          "FBWL",
-          "FF0L"
-        ],
-        "distance_mm": 0.0,
-        "opposing_planar_contact_area_mm2": 115.87796353365005
-      },
-      {
-        "parts": [
-          "MTR",
-          "FLR"
-        ],
-        "distance_mm": 0.0,
-        "opposing_planar_contact_area_mm2": 222.00000000208763
-      },
-      {
-        "parts": [
-          "MTL",
-          "FLL"
-        ],
-        "distance_mm": 0.0,
-        "opposing_planar_contact_area_mm2": 221.99999999795128
+    "unchanged_individual_STEP_files": 110,
+    "unchanged_new_STL_files": 14,
+    "immutable_N1_step_sha256": "5561885195f69b3b4f08c2269dc335333c0f00d0df109f31eba7cf68786f3d58",
+    "motor_check": "Motor_Revision_Verification.json",
+    "identity_and_mass_checks": "Integration_Checks.json"
+  },
+  "inherited_geometry_evidence": {
+    "baseline_register_sha256": "474f563311f56be3104ad261d9d275e01811fa6059c9824e09c22caf76902d94",
+    "scope": "Unchanged individual shapes and unchanged pairs only. Previous checks do not establish practical buildability or control performance.",
+    "baseline_checked_scopes": {
+      "raw_STEP_parts": 113,
+      "unique_ids_and_destinations": true,
+      "positive_valid_raw_solids_and_adaptive_mass_properties": 113,
+      "immutable_N1_byte_identical": true,
+      "static_pairs": 6328,
+      "reported_static_fitting_or_reference_pairs": 13,
+      "separately_resolved_derived_seam_cases": 2,
+      "declared_positive_face_contacts": 54,
+      "minimum_declared_planar_contact_area_mm2": 7.79381443296131,
+      "stock_extrusion_or_declared_secondary_blanks": 71,
+      "developed_foam_patterns_checked": 35,
+      "sampled_rigid_motion_configurations": 99,
+      "continuous_equipment_and_battery_envelopes": 16,
+      "continuous_nominal_arm_envelopes": 4,
+      "continuous_prop_centre_range_y_mm": [
+        613,
+        617
+      ],
+      "minimum_continuous_prop_to_airframe_clearance_mm": 5.22999999035369,
+      "battery_centre_y_range_mm": [
+        -280,
+        -120
+      ],
+      "battery_centre_z_mm": 12.5,
+      "battery_removal": "Release straps/pitot/tape, lift N1 and FSU1 together, slide battery to centreY-205, lift100mm. Wiring/plugs must be fitted clear.",
+      "control_sampling": "Ailerons +/-15deg, tails +/-20deg at2.5deg increments; disconnected linkage. Sampled configurations are not a mathematical continuous swept-volume proof.",
+      "repaired_joint_and_tray_contacts": [
+        {
+          "parts": [
+            "FF3",
+            "MTR"
+          ],
+          "distance_mm": 0.0,
+          "opposing_planar_contact_area_mm2": 23.416488979076153
+        },
+        {
+          "parts": [
+            "FF3",
+            "MTL"
+          ],
+          "distance_mm": 0.0,
+          "opposing_planar_contact_area_mm2": 23.141293865808723
+        },
+        {
+          "parts": [
+            "FBWR",
+            "FF0R"
+          ],
+          "distance_mm": 0.0,
+          "opposing_planar_contact_area_mm2": 115.87774905835005
+        },
+        {
+          "parts": [
+            "FBWL",
+            "FF0L"
+          ],
+          "distance_mm": 0.0,
+          "opposing_planar_contact_area_mm2": 115.87796353365005
+        },
+        {
+          "parts": [
+            "MTR",
+            "FLR"
+          ],
+          "distance_mm": 0.0,
+          "opposing_planar_contact_area_mm2": 222.00000000208763
+        },
+        {
+          "parts": [
+            "MTL",
+            "FLL"
+          ],
+          "distance_mm": 0.0,
+          "opposing_planar_contact_area_mm2": 221.99999999795128
+        }
+      ],
+      "actual_DXF_to_stock_profile_comparisons": 71,
+      "DXF_to_stock_profile_method": "Actual DXF cutting loops, including holes, reconstructed as constant-thickness profiles and compared with actual stock STEP end faces in cutting coordinates. Existing stock proof establishes extrusion. STEP edge and DXF curve deflection0.0001mm, endpoint snap0.001mm; bidirectional profile containment0.02mm and area-volume agreement max0.5mm3/0.01percent. Finishing pockets explicitly compare to stock blanks.",
+      "maximum_DXF_extruded_vs_STEP_volume_error_mm3": 0.27440721537550417,
+      "tail_spine_DXF_area_mm2": {
+        "TRS": 1560.0,
+        "TLS": 1560.0
       }
-    ],
-    "actual_DXF_to_stock_profile_comparisons": 71,
-    "DXF_to_stock_profile_method": "Actual DXF cutting loops, including holes, reconstructed as constant-thickness profiles and compared with actual stock STEP end faces in cutting coordinates. Existing stock proof establishes extrusion. STEP edge and DXF curve deflection0.0001mm, endpoint snap0.001mm; bidirectional profile containment0.02mm and area-volume agreement max0.5mm3/0.01percent. Finishing pockets explicitly compare to stock blanks.",
-    "maximum_DXF_extruded_vs_STEP_volume_error_mm3": 0.27440721537550417,
-    "tail_spine_DXF_area_mm2": {
-      "TRS": 1560.0,
-      "TLS": 1560.0
-    }
+    },
+    "changed_motor_interfaces": "Rechecked separately for raw validity, nearby intersections, positive bond areas and four head/tool corridors."
   },
-  "geometry_metrics": {
-    "wing_area_mm2": 304340.05346495344,
-    "mean_aerodynamic_chord_mm": 169.80860913337483,
-    "mac_leading_edge_y_mm": 40.1985446667963,
-    "wing_quarter_chord_y_mm": 82.65069695014,
-    "tail_pitch_effective_area_mm2": 48255.03128936925,
-    "tail_yaw_effective_area_mm2": 23658.988078161474,
-    "tail_quarter_chord_y_mm": 450.11866476254136
-  },
-  "structural_screen": {
-    "claim": "Elastic demand only; no strength qualification. Ideal bonds/fixed receiver, no foam stiffness, joint slip, shear, torsion or buckling credit.",
-    "reference_mass_kg": 2,
-    "reference_load_factor": 3,
-    "central_E_MPa": {
-      "Balsa": 2000,
-      "Plywood": 6000,
-      "Carbon": 100000
-    },
-    "central_tip_deflection_mm_at_reference": 83.52530678463239,
-    "scaling": "Multiply stresses/linear deflection by(actual_mass_kg/2)*(load_factor/3). Large-deflection results require physical verification.",
-    "beam_bond_interfaces_checked": 12
-  },
-  "accepted_fitting_and_reference_contacts": [
-    {
-      "parts": [
-        "FSU1",
-        "FF0U"
-      ],
-      "maximum_audited_overlap_mm3": 0.5,
-      "required_fitting_or_reference_interpretation": "Light foam inner-face fitting against constant-thickness former; do not alter wood."
-    },
-    {
-      "parts": [
-        "FSU1",
-        "FF1"
-      ],
-      "maximum_audited_overlap_mm3": 0.5,
-      "required_fitting_or_reference_interpretation": "Same former/foam fit; independently probed derived common volume0.4144mm3; invalid common is not treated as zero."
-    },
-    {
-      "parts": [
-        "FSU2",
-        "FSL2"
-      ],
-      "maximum_audited_overlap_mm3": 75.4,
-      "required_fitting_or_reference_interpretation": "Dress right foam mating edge by at most0.21mm; preserve surrounding skin."
-    },
-    {
-      "parts": [
-        "FTF",
-        "FSL3"
-      ],
-      "maximum_audited_overlap_mm3": 7.8,
-      "required_fitting_or_reference_interpretation": "Dress right foam mating edge by at most0.11mm; independently converged invalid common volume7.7452mm3 is not treated as zero."
-    },
-    {
-      "parts": [
-        "FSU2",
-        "MTR"
-      ],
-      "maximum_audited_overlap_mm3": 42.5,
-      "required_fitting_or_reference_interpretation": "Transfer installed tray edge to foam cover: approximately7mm-wide by2mm-deep aft-edge notch, through local5mm edge; preserve wood tray."
-    },
-    {
-      "parts": [
-        "ETR",
-        "MTR"
-      ],
-      "maximum_audited_overlap_mm3": 0.5,
-      "required_fitting_or_reference_interpretation": "Light servo seat dressing: nominal vertical conflict0.022mm, fit allowance up to0.03mm; measure actual servo and stock."
-    },
-    {
-      "parts": [
-        "HAR",
-        "PAR"
-      ],
-      "maximum_audited_overlap_mm3": 3.4,
-      "required_fitting_or_reference_interpretation": "Straight spoke is a neutral reference route, not the final captive Z-bend. Form actual retained ends to the horn pin and verify full motion."
-    },
-    {
-      "parts": [
-        "HTR",
-        "PTR"
-      ],
-      "maximum_audited_overlap_mm3": 12.4,
-      "required_fitting_or_reference_interpretation": "Straight spoke is a neutral reference route, not the final captive Z-bend. Tail needs declared axial play/articulation and physical loaded cycling."
-    },
-    {
-      "parts": [
-        "FSU2",
-        "MTL"
-      ],
-      "maximum_audited_overlap_mm3": 42.5,
-      "required_fitting_or_reference_interpretation": "Transfer installed tray edge to foam cover: approximately7mm-wide by2mm-deep aft-edge notch, through local5mm edge; preserve wood tray."
-    },
-    {
-      "parts": [
-        "ETL",
-        "MTL"
-      ],
-      "maximum_audited_overlap_mm3": 0.5,
-      "required_fitting_or_reference_interpretation": "Light servo seat dressing: nominal vertical conflict0.022mm, fit allowance up to0.03mm; measure actual servo and stock."
-    },
-    {
-      "parts": [
-        "HAL",
-        "PAL"
-      ],
-      "maximum_audited_overlap_mm3": 3.4,
-      "required_fitting_or_reference_interpretation": "Straight spoke is a neutral reference route, not the final captive Z-bend. Form actual retained ends to the horn pin and verify full motion."
-    },
-    {
-      "parts": [
-        "HTL",
-        "PTL"
-      ],
-      "maximum_audited_overlap_mm3": 12.4,
-      "required_fitting_or_reference_interpretation": "Straight spoke is a neutral reference route, not the final captive Z-bend. Tail needs declared axial play/articulation and physical loaded cycling."
-    },
-    {
-      "parts": [
-        "FSL2",
-        "MTR"
-      ],
-      "maximum_audited_overlap_mm3": 1.7,
-      "required_fitting_or_reference_interpretation": "Right foam edge dressing up to0.21mm around fixed tray."
-    },
-    {
-      "parts": [
-        "FSL3",
-        "MTR"
-      ],
-      "maximum_audited_overlap_mm3": 18.8,
-      "required_fitting_or_reference_interpretation": "Right foam edge dressing up to0.21mm around fixed tray."
-    },
-    {
-      "parts": [
-        "FSL0",
-        "N1"
-      ],
-      "maximum_audited_overlap_mm3": 1.6,
-      "required_fitting_or_reference_interpretation": "Preserve printed N1; dress foam mating edge only, nominal depth below0.01mm."
-    },
-    {
-      "parts": [
-        "FCF",
-        "WRIN"
-      ],
-      "maximum_audited_overlap_mm3": 4.4,
-      "required_fitting_or_reference_interpretation": "For centre fairing lift, dress local inner wing foam edge by up to0.2mm at witness marks; nominal+5mm lift brush penetrates0.179mm spanwise. No wood or fairing modification."
-    },
-    {
-      "parts": [
-        "FCF",
-        "WLIN"
-      ],
-      "maximum_audited_overlap_mm3": 4.4,
-      "required_fitting_or_reference_interpretation": "For centre fairing lift, dress local inner wing foam edge by up to0.2mm at witness marks; nominal+5mm lift brush penetrates0.179mm spanwise. No wood or fairing modification."
-    }
+  "open_findings": [
+    "Foam forming and local beam-pocket construction need a representative material trial and completed method.",
+    "Forward-indexed aileron setup is a numerical candidate; actual retained spoke bends and loaded travel are unverified.",
+    "Pitot installation depends on actual dimensions, tube lengths and removable-cover fit.",
+    "Material strengths, wing torsion/stiffness, propulsion, measured CG/stability and flight remain unqualified."
   ],
-  "accepted_tolerances": {
-    "intersection_reporting_mm3": 0.05,
-    "bounding_box_overlap_resolution_mm": 0.001,
-    "planar_contact_plane_alignment_mm": 0.02,
-    "register_bbox_and_centroid_mm": 0.02,
-    "stock_extrusion_symmetric_difference": "max0.1mm3 or0.001percent volume",
-    "rib_periphery_glue_clearance_mm": 0.4,
-    "note": "Numerical/reporting tolerances are not manufacturing capability or strength claims."
-  },
-  "remaining_physical_manual_items": [
-    "Actual stock thickness, kerf, glue compatibility, carbon preparation and continuous bond quality; coupon and representative load tests.",
-    "Foam forming, seams, explicitly listed edge notches/dressing and original-pattern secondary pockets; retain outer paper where specified.",
-    "Actual factory servo arms, spline seating, horn slot finishing, spoke gauge/Z-bends, captive retention and tail axial play; full loaded control cycling.",
-    "Measured all-up mass/CG and ballast/battery setting before flight; nominal mass or elastic analysis is not strength approval.",
-    "Motor screws, actual prop hub/seat/nut engagement, prop hand/direction, powered current/thrust/temperature and clearance under flex.",
-    "Three nominal plywood leg blanks only: owner-fitted spreaders/ties and owned wheel assemblies, actual offsets/straight alignment/swivel lock, loaded ground clearance and impact test. No graceful-failure or crash-safety claim.",
-    "Equipment boxes omit flexible wiring/plugs/straps/antennas; fit and secure actual hardware, cooling and cable service loops. Pitot must be disconnected before joint cover lift.",
-    "Root team separately verifies print slicing, publication packaging and guide layout; this geometry audit does not replace those checks."
-  ],
-  "internal_audit_provenance": [
-    {
-      "internal_record": "audit_geometry.json",
-      "sha256": "d7bb76148eb90466d98225e5a6385f1c65bbc8578979f0bb189f653f0e74b06c"
+  "limits": "Do not treat a count, absence of CAD collision or valid cut contour as proof of assembly quality, strength or flight readiness.",
+  "raw_assembly_readback": {
+    "Reaper_Assembly.step": {
+      "sha256": "c66b101b5f6dac846a619ab9b7d8b2f228919facebe3796d22e5aa28e289f8e0",
+      "whole_shape_valid": true,
+      "solid_count": 112,
+      "expected_solid_count": 112,
+      "invalid_solid_indices": [],
+      "minimum_adaptive_volume_mm3": 92.119752021642,
+      "maximum_adaptive_volume_mm3": 741542.3539184439,
+      "all_adaptive_volumes_positive": true,
+      "bbox_mm": [
+        -1000.0000222881157,
+        -439.65140506990014,
+        -200.0000000000139,
+        1000.0000230029996,
+        600.65000596187,
+        218.08209110534
+      ],
+      "no_healing_applied": true,
+      "elapsed_seconds": 197.96217036247253
     },
-    {
-      "internal_record": "audit_stock.json",
-      "sha256": "946a7bd9d584b750d39864360302869eaa69dd44dd6d95c9771f8a2c5e1ffa04"
-    },
-    {
-      "internal_record": "equipment_audit.json",
-      "sha256": "1def9918bbfb51b9b0e1eae21e492687fe578ebc873a0345ade3f63f04019319"
-    },
-    {
-      "internal_record": "arm_clearance_audit.json",
-      "sha256": "0687a59c9707f2e79dae430bc5d25517507f1b044cc6e2ce96df5b62313b145a"
-    },
-    {
-      "internal_record": "propulsion_audit.json",
-      "sha256": "35b0d06aab869ed52b1450cf611e1f4088ad61fe812676c6b5e2df6adbf08483"
-    },
-    {
-      "internal_record": "skin_pattern_audit.json",
-      "sha256": "2cd8ca94e733e5eefd7bae3a87715a36fee127ec277be0a678bd5c5b69cf2f0d"
-    },
-    {
-      "internal_record": "geometry_metrics.json",
-      "sha256": "715b1be667c45cfac1cedc1b376f82af877a81aaf72cd3a21b02dfce22378a63"
-    },
-    {
-      "internal_record": "actual_beam_screen.json",
-      "sha256": "a2c1b070042abf849b0c237436075f47d6deccb0bf44a2011521ec261967f420"
-    },
-    {
-      "internal_record": "beam_contact_audit.json",
-      "sha256": "2acc01e0f0b5e9857e88fea4af861bc3d1a24f714efc2bed1ba38c5edb26129a"
-    },
-    {
-      "internal_record": "linkage_kinematics.json",
-      "sha256": "b25ad44d4c83dacf60286c12df2dac65592e6d939476104296ce0074bcb16b22"
-    },
-    {
-      "internal_record": "fairing_seam_boolean_probe.json",
-      "sha256": "8fe636e72bc5e077132634030ec19486cc44ba56482a6065c6f5f6201d426c50"
-    },
-    {
-      "internal_record": "body_overlap_probes.json",
-      "sha256": "c45f90099bcf1c6def02fe1ed54b4bb6fe1b31c7ec610e80bb135b294ceaa431"
-    },
-    {
-      "internal_record": "repair_contact_audit.json",
-      "sha256": "e84c3c1c10a0f62594d5356e92f2c629c1d08758a7ed07fb1cca00e35028fe71"
-    },
-    {
-      "internal_record": "cam_profile_audit.json",
-      "sha256": "0a92f852e9d6de0b00d090951bff02280d330235aabb1cea080adb70fd04557d"
+    "Reaper_With_Propeller_Reference.step": {
+      "sha256": "2e105158379fc6c0e9171e38ea424b036413f96df03ed9ffe2835c3ae2d031bb",
+      "whole_shape_valid": true,
+      "solid_count": 115,
+      "expected_solid_count": 115,
+      "invalid_solid_indices": [],
+      "minimum_adaptive_volume_mm3": 92.119752021642,
+      "maximum_adaptive_volume_mm3": 741542.3539184439,
+      "all_adaptive_volumes_positive": true,
+      "bbox_mm": [
+        -1000.0000222881157,
+        -439.65140506990014,
+        -200.0000000000139,
+        1000.0000230029996,
+        624.0000001,
+        218.08209110534
+      ],
+      "no_healing_applied": true,
+      "elapsed_seconds": 151.1988661289215
     }
-  ]
+  }
 }

@@ -1,9 +1,9 @@
-# Keep CAD, templates and verification bytes unchanged across Windows/Linux.
+# Keep exact released bytes, including hashed verification inputs, on every OS.
 * -text -diff
-*.md text diff eol=lf
-*.json text diff eol=lf
-*.csv text diff eol=lf
-*.tsv text diff eol=lf
-*.txt text diff eol=lf
-.gitignore text diff eol=lf
-.gitattributes text diff eol=lf
+*.md -text diff whitespace=cr-at-eol
+*.json -text diff whitespace=cr-at-eol
+*.csv -text diff whitespace=cr-at-eol
+*.tsv -text diff whitespace=cr-at-eol
+*.txt -text diff whitespace=cr-at-eol
+.gitignore -text diff
+.gitattributes -text diff

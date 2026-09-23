@@ -31,11 +31,10 @@ FES0,Simple ESC support strip,0.43199999999999994,0.26999999999999996,0.594,0.0,
 FES1,Simple ESC support strip,0.43199999999999994,0.26999999999999996,0.594,0.0,378.0,2.4999999999999996,Finished CAD volume times assumed balsa density; weigh actual part
 FTM0,Simple radio tie strip,0.35999999999999993,0.22499999999999998,0.49499999999999994,-8.084397349092697e-16,152.5,2.5,Finished CAD volume times assumed balsa density; weigh actual part
 FTM1,Simple radio tie strip,0.35999999999999993,0.22499999999999998,0.49499999999999994,-8.084397349092697e-16,192.5,2.5,Finished CAD volume times assumed balsa density; weigh actual part
-FMF,Motor load firewall,6.710689298794913,5.033016974096185,8.388361623493642,-0.02383961345279278,587.0000000000002,-0.3373640544965308,Finished CAD volume times assumed plywood density; weigh actual part
-FMT,Rear motor cross tie,1.6113154639182512,1.2084865979386885,2.0141443298978143,-6.7207989429111676e-12,577.9303482587067,-3.0000000000000004,Finished CAD volume times assumed plywood density; weigh actual part
+FMF,Motor load firewall REV3 rotated mount pattern,6.709370883318278,5.032028162488708,8.386713604147848,-0.023844255418138113,586.9999999999997,-0.3374302698696303,REV3 delivered STEP adaptive volume times assumed plywood density; weigh actual part
+FMT,Combined motor tie and gusset base REV3,7.849542857149377,5.887157142862033,9.811928571436722,-2.84406647669376e-11,544.6345293473559,-3.0,REV3 delivered STEP adaptive volume times assumed plywood density; weigh actual part
 FMGR,Motor triangular load gusset,1.1848925952825087,0.8886694464618815,1.481115744103136,21.0,571.6929115230997,5.94554886774572,Finished CAD volume times assumed plywood density; weigh actual part
 FMGL,Motor triangular load gusset,1.1848922650504907,0.8886691987878682,1.4811153313131136,-21.0,571.69290834323,5.945545881122222,Finished CAD volume times assumed plywood density; weigh actual part
-FMGB,Motor gusset base,5.6747319587647125,4.256048969073534,7.093414948455891,-9.98727503579503e-12,552.9202661826981,-3.0000000000000004,Finished CAD volume times assumed plywood density; weigh actual part
 FNG1,Formed lower nose gore 1,1.4692405649186995,1.2429775179212197,1.7630886779024393,-36.29114681932465,-375.2466508871441,-13.290343857429738,"Developed blank area times 500 g/m2, range423–600; conservative before inner-paper/core removal; weigh board"
 FNG2,Formed lower nose gore 2,1.5777098113132253,1.3347425003709885,1.8932517735758703,-14.890725931683882,-375.30610194752734,-31.750020462535247,"Developed blank area times 500 g/m2, range423–600; conservative before inner-paper/core removal; weigh board"
 FNG3,Formed lower nose gore 3,1.5772638133393497,1.33436518608509,1.8927165760072198,14.890725931685543,-375.3061019475191,-31.75002046253617,"Developed blank area times 500 g/m2, range423–600; conservative before inner-paper/core removal; weigh board"
@@ -80,8 +79,8 @@ AL,Hollow smooth aileron L,34.20126011508635,30.781134103577713,39.3314491323493
 AHL,One-piece fixed aileron rail and tape landing L,43.16930792854952,38.85237713569457,49.64470411783195,-628.0620424342775,132.88926555522028,14.73653012114103,"PrusaSlicer object extrusion only; supports/brim excluded; before any manual finishing, not measured mass"
 TRC,Hollow original-outline ruddervator R,26.614371544673116,23.952934390205805,30.60652727637408,138.2786802350127,512.3382584615289,88.13940247928869,"PrusaSlicer object extrusion only; supports/brim excluded; before any manual finishing, not measured mass"
 TLC,Hollow original-outline ruddervator L,26.63358235494522,23.970224119450698,30.628619708187,-138.6084118368011,512.3344308259057,88.44853890197533,"PrusaSlicer object extrusion only; supports/brim excluded; before any manual finishing, not measured mass"
-ETR,MG90S tail installation reference R,13.4,12,15,42.861176274235156,406.39746481816576,11.162260510016216,MG90S nominal maker mass; verify actual servo and supplied arm
-ETL,MG90S tail installation reference L,13.4,12,15,-42.86117627423464,406.3974648181667,11.16226051001624,MG90S nominal maker mass; verify actual servo and supplied arm
+ETR,MG90S tail installation reference R,13.4,12.0,15.0,42.861176274235156,406.39746481816576,11.162260510016216,MG90S nominal maker mass; verify actual servo and supplied arm
+ETL,MG90S tail installation reference L,13.4,12.0,15.0,-42.86117627423464,406.3974648181667,11.16226051001624,MG90S nominal maker mass; verify actual servo and supplied arm
 TROOT,V-tail load crosshead,3.319200000000225,2.489400000000169,4.149000000000282,6.190301745933271e-13,447.0000000000001,9.148951554592447,Finished CAD volume times assumed plywood density; weigh actual part
 TRS,Balsa tail internal spine R,1.2479999999994178,0.7799999999996361,1.7159999999991993,154.999999999991,452.50000000000006,99.83216839000002,Finished CAD volume times assumed balsa density; weigh actual part
 TLS,Balsa tail internal spine L,1.2479999999994178,0.7799999999996361,1.7159999999991993,-155.0000000000091,452.50000000000006,99.83216838999999,Finished CAD volume times assumed balsa density; weigh actual part
@@ -103,28 +102,28 @@ WBR,Balsa5 continuous spar web R,3.1620925859754454,1.9763078662346534,4.3478773
 CLFULL,Full owned1000mm carbon upper spar cap L,31.415926535895778,29.45243112740229,33.37942194438926,-499.74823476520663,99.98992939061502,18.50075529570403,Finished CAD volume times assumed carbon density; weigh actual part
 LCL,Balsa5 lower spar cap L,14.378570516301282,8.986606572688302,19.770534459914263,-548.9770322203345,101.95908128881764,9.488775422428574,Finished CAD volume times assumed balsa density; weigh actual part
 WBL,Balsa5 continuous spar web L,3.162092585975545,1.9763078662347155,4.347877305716374,-381.06516017013314,95.2453871884083,13.802867984689877,Finished CAD volume times assumed balsa density; weigh actual part
-EAR,MG90S aileron on aft-inboard tie tray R,13.4,12,15,468.01151613691275,127.55518094107812,12.322234885020043,MG90S nominal maker mass; verify actual servo and supplied arm
+EAR,MG90S aileron on aft-inboard tie tray R,13.4,12.0,15.0,468.01151613691275,127.55518094107812,12.322234885020043,MG90S nominal maker mass; verify actual servo and supplied arm
 MAR,Thin printed aileron tie cradle R,2.8513724042439526,2.5662351638195573,3.279078264880545,468.0196560196561,123.32309582309583,5.400000000000001,"PrusaSlicer object extrusion only; supports/brim excluded; before any manual finishing, not measured mass"
 PAR,Owned spoke aileron neutral route R,0.7231400533699003,0.713928078167736,0.7369580161731468,499.2500000000002,141.87999999999968,-1.8350000000003512,Finished CAD volume times assumed steel density; weigh actual part
-EAL,MG90S aileron on aft-inboard tie tray L,13.4,12,15,-468.01151613687244,127.5551809410771,12.32223488501969,MG90S nominal maker mass; verify actual servo and supplied arm
+EAL,MG90S aileron on aft-inboard tie tray L,13.4,12.0,15.0,-468.01151613687244,127.5551809410771,12.32223488501969,MG90S nominal maker mass; verify actual servo and supplied arm
 MAL,Thin printed aileron tie cradle L,2.851663918634579,2.566497526771121,3.2794135064297656,-468.0196560196561,123.32309582309583,5.400000000000001,"PrusaSlicer object extrusion only; supports/brim excluded; before any manual finishing, not measured mass"
 PAL,Owned spoke aileron neutral route L,0.7231400533699002,0.7139280781677358,0.7369580161731467,-499.25000000000017,141.87999999999965,-1.8350000000003504,Finished CAD volume times assumed steel density; weigh actual part
 GLEG_L,L plain main wood leg,11.174399999991381,8.380799999993537,13.967999999989228,-111.0000000000223,135.0,-102.99999999999827,Finished CAD volume times assumed plywood density; weigh actual part
 GLEG_R,R plain main wood leg,11.174399999991383,8.380799999993538,13.967999999989232,110.99999999997772,135.0,-103.00000000000173,Finished CAD volume times assumed plywood density; weigh actual part
 GLEG_N,Plain nose wood leg,10.367999999999997,7.775999999999998,12.959999999999997,6.0,-290.0,-110.0,Finished CAD volume times assumed plywood density; weigh actual part
-BATTERY,GenX 4S 5200 mAh pack,512,501.76,522.24,0,-154,12.5,"Owner-reported specification, not a new weighing"
-MOTOR,Emax ECO II 2807 1300KV,47.6,43,54,-3.503181145570115e-16,600.0000001,0.0,Manufacturer nominal excluding leads; centre is the nominated installation target
-ESC,ReadytoSky 40A ESC,40,30,55,0,365,15,Explicit allowance; actual model dimensions and mass unmeasured; centre is the nominated installation target
-FC,Matek F405-WING V2,25,22,30,0,270,13.5,Previous manufacturer nominal; weigh installed board; centre is the nominated installation target
-RX,Flysky FS-iA10B,19.3,14,24,0,315,14.35,FlySky manufacturer nominal; centre is the nominated installation target
-GPS,M9N-5883 GPS/compass,14.5,12,18,0,-300,59,Previous manufacturer nominal; weigh installed module; centre is the nominated installation target
-ASPD,ASPD-4525 board,3.5,3,4.5,16,-60,-20,Matek board-only nominal; pitot and tubing additional; centre is the nominated installation target
-PITOT,"Pitot, tubes and fittings",11.5,7,20,-36,-300,10,Explicit allowance and approximate distributed centre; actual route and mass to measure
-SIK,Airborne SiK radio,12,9,20,0,180,16,Explicit allowance; exact variant unverified; centre is the nominated installation target
-PROP,9045 three-blade propeller and adapter/nut,22,17,30,0,613.5000001,0,Propeller family nominal16.7g plus adapter allowance; weigh owned variant
-WHEEL1,Owned complete wheel/axle assembly,30,10,70,-180,135,-200,Explicit unmeasured assembly allowance located at leg end; actual mass and axle offset must replace this estimate
-WHEEL2,Owned complete wheel/axle assembly,30,10,70,180,135,-200,Explicit unmeasured assembly allowance located at leg end; actual mass and axle offset must replace this estimate
-WHEEL3,Owned complete wheel/axle assembly,30,10,70,6,-290,-200,Explicit unmeasured assembly allowance located at leg end; actual mass and axle offset must replace this estimate
-GLUE,"Adhesive, tape and local reinforcement",100,65,160,0,140,0,Explicit installation allowance; replace by weighing
-WIRE,"Wiring, connectors and servo extensions",70,45,110,0,100,10,Explicit installation allowance; replace by weighing
-FIXINGS,"Straps, ties, load-spreading offcuts and motor/servo screws; supplied wheel hardware already counted",30,20,50,0,50,-25,Explicit installation allowance; replace by weighing
+BATTERY,GenX 4S 5200 mAh pack,512.0,501.76,522.24,0.0,-154.0,12.5,"Owner-reported specification, not a new weighing"
+MOTOR,Emax ECO II 2807 1300KV,47.6,43.0,54.0,-3.503181145570115e-16,600.0000001,0.0,Manufacturer nominal excluding leads; centre is the nominated installation target
+ESC,ReadytoSky 40A ESC,40.0,30.0,55.0,0.0,365.0,15.0,Explicit allowance; actual model dimensions and mass unmeasured; centre is the nominated installation target
+FC,Matek F405-WING V2,25.0,22.0,30.0,0.0,270.0,13.5,Previous manufacturer nominal; weigh installed board; centre is the nominated installation target
+RX,Flysky FS-iA10B,19.3,14.0,24.0,0.0,315.0,14.35,FlySky manufacturer nominal; centre is the nominated installation target
+GPS,M9N-5883 GPS/compass,14.5,12.0,18.0,0.0,-300.0,59.0,Previous manufacturer nominal; weigh installed module; centre is the nominated installation target
+ASPD,ASPD-4525 board,3.5,3.0,4.5,16.0,-60.0,-20.0,Matek board-only nominal; pitot and tubing additional; centre is the nominated installation target
+PITOT,"Pitot, tubes and fittings",11.5,7.0,20.0,-36.0,-300.0,10.0,Explicit allowance and approximate distributed centre; actual route and mass to measure
+SIK,Airborne SiK radio,12.0,9.0,20.0,0.0,180.0,16.0,Explicit allowance; exact variant unverified; centre is the nominated installation target
+PROP,9045 three-blade propeller and adapter/nut,22.0,17.0,30.0,0.0,613.5000001,0.0,Propeller family nominal16.7g plus adapter allowance; weigh owned variant
+WHEEL1,Owned complete wheel/axle assembly,30.0,10.0,70.0,-180.0,135.0,-200.0,Explicit unmeasured assembly allowance located at leg end; actual mass and axle offset must replace this estimate
+WHEEL2,Owned complete wheel/axle assembly,30.0,10.0,70.0,180.0,135.0,-200.0,Explicit unmeasured assembly allowance located at leg end; actual mass and axle offset must replace this estimate
+WHEEL3,Owned complete wheel/axle assembly,30.0,10.0,70.0,6.0,-290.0,-200.0,Explicit unmeasured assembly allowance located at leg end; actual mass and axle offset must replace this estimate
+GLUE,"Adhesive, tape and local reinforcement",100.0,65.0,160.0,0.0,140.0,0.0,Explicit installation allowance; replace by weighing
+WIRE,"Wiring, connectors and servo extensions",70.0,45.0,110.0,0.0,100.0,10.0,Explicit installation allowance; replace by weighing
+FIXINGS,"Straps, ties, load-spreading offcuts and motor/servo screws; supplied wheel hardware already counted",30.0,20.0,50.0,0.0,50.0,-25.0,Explicit installation allowance; replace by weighing

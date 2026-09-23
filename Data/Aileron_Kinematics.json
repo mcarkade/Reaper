@@ -1,0 +1,957 @@
+{
+  "basis": {
+    "hinge_a": [
+      496,
+      148,
+      20.38728
+    ],
+    "hinge_b": [
+      770,
+      148,
+      18.9981
+    ],
+    "horn_pin": [
+      509.5,
+      151.5,
+      -6
+    ],
+    "servo_axis": [
+      489,
+      132.26,
+      12.33
+    ],
+    "arm_radius_mm": 10,
+    "physical_angle_convention": "X-axis rotation from downward arm: negative moves arm pin forward (-Y).",
+    "torque_definition": "Ideal hinge torque/servo torque = abs(d servo angle / d surface angle), ignores friction/compliance."
+  },
+  "neutral_sweep": [
+    {
+      "neutral_deg": 0,
+      "pin_to_pin_length_mm": 29.32262778128864,
+      "reachable": true,
+      "servo_at_minus15": -36.51940553531706,
+      "servo_at_zero": -1.90833280887811e-14,
+      "servo_at_plus15": 47.91242772152988,
+      "absolute_servo_minmax_deg": [
+        -36.51940553531706,
+        47.91242772152988
+      ],
+      "command_relative_to_indexed_neutral_minmax_deg": [
+        -36.51940553531706,
+        47.91242772152988
+      ],
+      "max_absolute_deg": 47.91242772152988,
+      "max_command_deg": 47.91242772152988,
+      "hinge_torque_per_servo_torque_minmax": [
+        2.4123114961795977,
+        6.93353253631912
+      ],
+      "servo_torque_per_hinge_torque_minmax": [
+        0.14422662542676706,
+        0.41454016265466137
+      ],
+      "positive_geometric_limit_deg": 15.77,
+      "length_error_cases": [
+        {
+          "error_mm": -0.5,
+          "reachable": false,
+          "fail_surface": 13.25,
+          "positive_geometric_limit_deg": 13.13
+        },
+        {
+          "error_mm": 0,
+          "reachable": true,
+          "servo_at_minus15": -36.51940553531706,
+          "servo_at_zero": -1.90833280887811e-14,
+          "servo_at_plus15": 47.91242772152988,
+          "absolute_servo_minmax_deg": [
+            -36.51940553531706,
+            47.91242772152988
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -36.51940553531706,
+            47.91242772152988
+          ],
+          "max_absolute_deg": 47.91242772152988,
+          "max_command_deg": 47.91242772152988,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.4123114961795977,
+            6.93353253631912
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.14422662542676706,
+            0.41454016265466137
+          ],
+          "positive_geometric_limit_deg": 15.77
+        },
+        {
+          "error_mm": 0.5,
+          "reachable": true,
+          "servo_at_minus15": -40.544293354691725,
+          "servo_at_zero": -4.256636659387567,
+          "servo_at_plus15": 37.20451460035694,
+          "absolute_servo_minmax_deg": [
+            -40.544293354691725,
+            37.20451460035694
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -40.544293354691725,
+            37.20451460035694
+          ],
+          "max_absolute_deg": 40.544293354691725,
+          "max_command_deg": 40.544293354691725,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.3913511058060166,
+            3.764144318445517
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.2656646279739272,
+            0.41817364149165587
+          ],
+          "positive_geometric_limit_deg": 18.42
+        }
+      ]
+    },
+    {
+      "neutral_deg": -5,
+      "pin_to_pin_length_mm": 29.91235620088904,
+      "reachable": true,
+      "servo_at_minus15": -41.264799768589526,
+      "servo_at_zero": -4.999999999999969,
+      "servo_at_plus15": 35.810022675228716,
+      "absolute_servo_minmax_deg": [
+        -41.264799768589526,
+        35.810022675228716
+      ],
+      "command_relative_to_indexed_neutral_minmax_deg": [
+        -36.264799768589526,
+        40.810022675228716
+      ],
+      "max_absolute_deg": 41.264799768589526,
+      "max_command_deg": 40.810022675228716,
+      "hinge_torque_per_servo_torque_minmax": [
+        2.3875079349622297,
+        3.5878071550250468
+      ],
+      "servo_torque_per_hinge_torque_minmax": [
+        0.2787217809628954,
+        0.41884677548341637
+      ],
+      "positive_geometric_limit_deg": 18.9,
+      "length_error_cases": [
+        {
+          "error_mm": -0.5,
+          "reachable": true,
+          "servo_at_minus15": -37.24346131871818,
+          "servo_at_zero": -0.7796894871480997,
+          "servo_at_plus15": 45.310636394760564,
+          "absolute_servo_minmax_deg": [
+            -37.24346131871818,
+            45.310636394760564
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -32.24346131871818,
+            50.310636394760564
+          ],
+          "max_absolute_deg": 45.310636394760564,
+          "max_command_deg": 50.310636394760564,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.408606307186645,
+            5.637770389228081
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.17737508464528284,
+            0.4151778549347248
+          ],
+          "positive_geometric_limit_deg": 16.24
+        },
+        {
+          "error_mm": 0,
+          "reachable": true,
+          "servo_at_minus15": -41.264799768589526,
+          "servo_at_zero": -4.999999999999969,
+          "servo_at_plus15": 35.810022675228716,
+          "absolute_servo_minmax_deg": [
+            -41.264799768589526,
+            35.810022675228716
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -36.264799768589526,
+            40.810022675228716
+          ],
+          "max_absolute_deg": 41.264799768589526,
+          "max_command_deg": 40.810022675228716,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.3875079349622297,
+            3.5878071550250468
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.2787217809628954,
+            0.41884677548341637
+          ],
+          "positive_geometric_limit_deg": 18.9
+        },
+        {
+          "error_mm": 0.5,
+          "reachable": true,
+          "servo_at_minus15": -45.27847173243177,
+          "servo_at_zero": -9.050477149565584,
+          "servo_at_plus15": 29.15877334910222,
+          "absolute_servo_minmax_deg": [
+            -45.27847173243177,
+            29.15877334910222
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -40.27847173243177,
+            34.15877334910222
+          ],
+          "max_absolute_deg": 45.27847173243177,
+          "max_command_deg": 40.27847173243177,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.3656539994165726,
+            3.0008069405838
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.3332436973787632,
+            0.4227160862267365
+          ],
+          "positive_geometric_limit_deg": 21.56
+        }
+      ]
+    },
+    {
+      "neutral_deg": -10,
+      "pin_to_pin_length_mm": 30.532045403345645,
+      "reachable": true,
+      "servo_at_minus15": -46.240316595792386,
+      "servo_at_zero": -10.000000000000027,
+      "servo_at_plus15": 27.758438507499353,
+      "absolute_servo_minmax_deg": [
+        -46.240316595792386,
+        27.758438507499353
+      ],
+      "command_relative_to_indexed_neutral_minmax_deg": [
+        -36.240316595792386,
+        37.75843850749935
+      ],
+      "max_absolute_deg": 46.240316595792386,
+      "max_command_deg": 37.75843850749935,
+      "hinge_torque_per_servo_torque_minmax": [
+        2.3602869879839616,
+        2.9138294478290305
+      ],
+      "servo_torque_per_hinge_torque_minmax": [
+        0.34319098557571964,
+        0.4236772922491725
+      ],
+      "positive_geometric_limit_deg": 22.2,
+      "length_error_cases": [
+        {
+          "error_mm": -0.5,
+          "reachable": true,
+          "servo_at_minus15": -42.225528251132175,
+          "servo_at_zero": -5.983180745968454,
+          "servo_at_plus15": 34.06711354135916,
+          "absolute_servo_minmax_deg": [
+            -42.225528251132175,
+            34.06711354135916
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -32.225528251132175,
+            44.06711354135916
+          ],
+          "max_absolute_deg": 42.225528251132175,
+          "max_command_deg": 44.06711354135916,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.382347877052382,
+            3.398787974077777
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.29422253098072076,
+            0.4197539786831109
+          ],
+          "positive_geometric_limit_deg": 19.53
+        },
+        {
+          "error_mm": 0,
+          "reachable": true,
+          "servo_at_minus15": -46.240316595792386,
+          "servo_at_zero": -10.000000000000027,
+          "servo_at_plus15": 27.758438507499353,
+          "absolute_servo_minmax_deg": [
+            -46.240316595792386,
+            27.758438507499353
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -36.240316595792386,
+            37.75843850749935
+          ],
+          "max_absolute_deg": 46.240316595792386,
+          "max_command_deg": 37.75843850749935,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.3602869879839616,
+            2.9138294478290305
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.34319098557571964,
+            0.4236772922491725
+          ],
+          "positive_geometric_limit_deg": 22.2
+        },
+        {
+          "error_mm": 0.5,
+          "reachable": true,
+          "servo_at_minus15": -50.271742686760206,
+          "servo_at_zero": -13.899534943746795,
+          "servo_at_plus15": 22.40578913780283,
+          "absolute_servo_minmax_deg": [
+            -50.271742686760206,
+            22.40578913780283
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -40.271742686760206,
+            32.40578913780283
+          ],
+          "max_absolute_deg": 50.271742686760206,
+          "max_command_deg": 40.271742686760206,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.337413179530401,
+            2.654278763676743
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.3767501792520038,
+            0.4278233770380748
+          ],
+          "positive_geometric_limit_deg": 24.9
+        }
+      ]
+    },
+    {
+      "neutral_deg": -15,
+      "pin_to_pin_length_mm": 31.17533737809229,
+      "reachable": true,
+      "servo_at_minus15": -51.43285330227921,
+      "servo_at_zero": -15.000000000000046,
+      "servo_at_plus15": 20.985935416366146,
+      "absolute_servo_minmax_deg": [
+        -51.43285330227921,
+        20.985935416366146
+      ],
+      "command_relative_to_indexed_neutral_minmax_deg": [
+        -36.43285330227921,
+        35.98593541636615
+      ],
+      "max_absolute_deg": 51.43285330227921,
+      "max_command_deg": 36.43285330227921,
+      "hinge_torque_per_servo_torque_minmax": [
+        2.330696051951797,
+        2.6005551553893724
+      ],
+      "servo_torque_per_hinge_torque_minmax": [
+        0.38453327856846525,
+        0.4290563753101006
+      ],
+      "positive_geometric_limit_deg": 25.68,
+      "length_error_cases": [
+        {
+          "error_mm": -0.5,
+          "reachable": true,
+          "servo_at_minus15": -47.39311565132386,
+          "servo_at_zero": -11.12802620013643,
+          "servo_at_plus15": 26.150221455177125,
+          "absolute_servo_minmax_deg": [
+            -47.39311565132386,
+            26.150221455177125
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -32.39311565132386,
+            41.150221455177125
+          ],
+          "max_absolute_deg": 47.39311565132386,
+          "max_command_deg": 41.150221455177125,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.353822578633036,
+            2.8248477746650735
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.3540013762754223,
+            0.4248408563489701
+          ],
+          "positive_geometric_limit_deg": 22.97
+        },
+        {
+          "error_mm": 0,
+          "reachable": true,
+          "servo_at_minus15": -51.43285330227921,
+          "servo_at_zero": -15.000000000000046,
+          "servo_at_plus15": 20.985935416366146,
+          "absolute_servo_minmax_deg": [
+            -51.43285330227921,
+            20.985935416366146
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -36.43285330227921,
+            35.98593541636615
+          ],
+          "max_absolute_deg": 51.43285330227921,
+          "max_command_deg": 36.43285330227921,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.330696051951797,
+            2.6005551553893724
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.38453327856846525,
+            0.4290563753101006
+          ],
+          "positive_geometric_limit_deg": 25.68
+        },
+        {
+          "error_mm": 0.5,
+          "reachable": true,
+          "servo_at_minus15": -55.514127022911126,
+          "servo_at_zero": -18.7933816831348,
+          "servo_at_plus15": 16.316412615611746,
+          "absolute_servo_minmax_deg": [
+            -55.514127022911126,
+            16.316412615611746
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -40.514127022911126,
+            31.316412615611746
+          ],
+          "max_absolute_deg": 55.514127022911126,
+          "max_command_deg": 40.514127022911126,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.306680817505402,
+            2.645213693291737
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.3780412911576862,
+            0.43352335200041525
+          ],
+          "positive_geometric_limit_deg": 28.42
+        }
+      ]
+    },
+    {
+      "neutral_deg": -20,
+      "pin_to_pin_length_mm": 31.83605717377081,
+      "reachable": true,
+      "servo_at_minus15": -56.83812552740439,
+      "servo_at_zero": -20.00000000000003,
+      "servo_at_plus15": 14.892065674699168,
+      "absolute_servo_minmax_deg": [
+        -56.83812552740439,
+        14.892065674699168
+      ],
+      "command_relative_to_indexed_neutral_minmax_deg": [
+        -36.83812552740439,
+        34.89206567469917
+      ],
+      "max_absolute_deg": 56.83812552740439,
+      "max_command_deg": 36.83812552740439,
+      "hinge_torque_per_servo_torque_minmax": [
+        2.298776546180825,
+        2.6635775965324626
+      ],
+      "servo_torque_per_hinge_torque_minmax": [
+        0.37543490428130744,
+        0.43501400850004085
+      ],
+      "positive_geometric_limit_deg": 29.31,
+      "length_error_cases": [
+        {
+          "error_mm": -0.5,
+          "reachable": true,
+          "servo_at_minus15": -52.7392580346099,
+          "servo_at_zero": -16.22669762350776,
+          "servo_at_plus15": 19.44053844470071,
+          "absolute_servo_minmax_deg": [
+            -52.7392580346099,
+            19.44053844470071
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -32.7392580346099,
+            39.44053844470071
+          ],
+          "max_absolute_deg": 52.7392580346099,
+          "max_command_deg": 39.44053844470071,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.323079120642113,
+            2.609710225627282
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.38318430536081277,
+            0.4304631689529343
+          ],
+          "positive_geometric_limit_deg": 26.56
+        },
+        {
+          "error_mm": 0,
+          "reachable": true,
+          "servo_at_minus15": -56.83812552740439,
+          "servo_at_zero": -20.00000000000003,
+          "servo_at_plus15": 14.892065674699168,
+          "absolute_servo_minmax_deg": [
+            -56.83812552740439,
+            14.892065674699168
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -36.83812552740439,
+            34.89206567469917
+          ],
+          "max_absolute_deg": 56.83812552740439,
+          "max_command_deg": 36.83812552740439,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.298776546180825,
+            2.6635775965324626
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.37543490428130744,
+            0.43501400850004085
+          ],
+          "positive_geometric_limit_deg": 29.31
+        },
+        {
+          "error_mm": 0.5,
+          "reachable": true,
+          "servo_at_minus15": -61.00570849084429,
+          "servo_at_zero": -23.72482148853319,
+          "servo_at_plus15": 10.643170703339392,
+          "absolute_servo_minmax_deg": [
+            -61.00570849084429,
+            10.643170703339392
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -41.00570849084429,
+            30.643170703339393
+          ],
+          "max_absolute_deg": 61.00570849084429,
+          "max_command_deg": 41.00570849084429,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.2735080702354082,
+            2.7276634068833516
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.36661414948650406,
+            0.4398488895165681
+          ],
+          "positive_geometric_limit_deg": 32.11
+        }
+      ]
+    },
+    {
+      "neutral_deg": -25,
+      "pin_to_pin_length_mm": 32.50826929244598,
+      "reachable": true,
+      "servo_at_minus15": -62.46111261844914,
+      "servo_at_zero": -25.000000000000085,
+      "servo_at_plus15": 9.233275537313567,
+      "absolute_servo_minmax_deg": [
+        -62.46111261844914,
+        9.233275537313567
+      ],
+      "command_relative_to_indexed_neutral_minmax_deg": [
+        -37.46111261844914,
+        34.23327553731357
+      ],
+      "max_absolute_deg": 62.46111261844914,
+      "max_command_deg": 37.46111261844914,
+      "hinge_torque_per_servo_torque_minmax": [
+        2.2645652856532195,
+        2.7523922835896997
+      ],
+      "servo_torque_per_hinge_torque_minmax": [
+        0.3633203035636291,
+        0.44158585594124194
+      ],
+      "positive_geometric_limit_deg": 33.08,
+      "length_error_cases": [
+        {
+          "error_mm": -0.5,
+          "reachable": true,
+          "servo_at_minus15": -58.26467685761446,
+          "servo_at_zero": -21.287383152259878,
+          "servo_at_plus15": 13.399733666371223,
+          "absolute_servo_minmax_deg": [
+            -58.26467685761446,
+            13.399733666371223
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -33.26467685761446,
+            38.39973366637122
+          ],
+          "max_absolute_deg": 58.26467685761446,
+          "max_command_deg": 38.39973366637122,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.2901719617616223,
+            2.68442302196803
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.3725195290818473,
+            0.4366484336970008
+          ],
+          "positive_geometric_limit_deg": 30.27
+        },
+        {
+          "error_mm": 0,
+          "reachable": true,
+          "servo_at_minus15": -62.46111261844914,
+          "servo_at_zero": -25.000000000000085,
+          "servo_at_plus15": 9.233275537313567,
+          "absolute_servo_minmax_deg": [
+            -62.46111261844914,
+            9.233275537313567
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -37.46111261844914,
+            34.23327553731357
+          ],
+          "max_absolute_deg": 62.46111261844914,
+          "max_command_deg": 37.46111261844914,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.2645652856532195,
+            2.7523922835896997
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.3633203035636291,
+            0.44158585594124194
+          ],
+          "positive_geometric_limit_deg": 33.08
+        },
+        {
+          "error_mm": 0.5,
+          "reachable": true,
+          "servo_at_minus15": -66.7579805813067,
+          "servo_at_zero": -28.68896880898043,
+          "servo_at_plus15": 5.262718663133807,
+          "absolute_servo_minmax_deg": [
+            -66.7579805813067,
+            5.262718663133807
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -41.7579805813067,
+            30.262718663133807
+          ],
+          "max_absolute_deg": 66.7579805813067,
+          "max_command_deg": 41.7579805813067,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.2379185699925586,
+            2.833045661176925
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.3529770147031702,
+            0.4468437830619213
+          ],
+          "positive_geometric_limit_deg": 35.96
+        }
+      ]
+    },
+    {
+      "neutral_deg": -30,
+      "pin_to_pin_length_mm": 33.18631626096252,
+      "reachable": true,
+      "servo_at_minus15": -68.31750217005941,
+      "servo_at_zero": -30.00000000000003,
+      "servo_at_plus15": 3.8863573767975046,
+      "absolute_servo_minmax_deg": [
+        -68.31750217005941,
+        3.8863573767975046
+      ],
+      "command_relative_to_indexed_neutral_minmax_deg": [
+        -38.31750217005941,
+        33.886357376797505
+      ],
+      "max_absolute_deg": 68.31750217005941,
+      "max_command_deg": 38.31750217005941,
+      "hinge_torque_per_servo_torque_minmax": [
+        2.2281467169957825,
+        2.8653265811797723
+      ],
+      "servo_torque_per_hinge_torque_minmax": [
+        0.3490003570860879,
+        0.448803479758417
+      ],
+      "positive_geometric_limit_deg": 36.99,
+      "length_error_cases": [
+        {
+          "error_mm": -0.5,
+          "reachable": true,
+          "servo_at_minus15": -63.97833060142228,
+          "servo_at_zero": -26.31545841928991,
+          "servo_at_plus15": 7.799824568363788,
+          "absolute_servo_minmax_deg": [
+            -63.97833060142228,
+            7.799824568363788
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -33.97833060142228,
+            37.79982456836379
+          ],
+          "max_absolute_deg": 63.97833060142228,
+          "max_command_deg": 37.79982456836379,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.2551982211189703,
+            2.7795345301093732
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.35977246879557584,
+            0.4434200021246142
+          ],
+          "positive_geometric_limit_deg": 34.1
+        },
+        {
+          "error_mm": 0,
+          "reachable": true,
+          "servo_at_minus15": -68.31750217005941,
+          "servo_at_zero": -30.00000000000003,
+          "servo_at_plus15": 3.8863573767975046,
+          "absolute_servo_minmax_deg": [
+            -68.31750217005941,
+            3.8863573767975046
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -38.31750217005941,
+            33.886357376797505
+          ],
+          "max_absolute_deg": 68.31750217005941,
+          "max_command_deg": 38.31750217005941,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.2281467169957825,
+            2.8653265811797723
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.3490003570860879,
+            0.448803479758417
+          ],
+          "positive_geometric_limit_deg": 36.99
+        },
+        {
+          "error_mm": 0.5,
+          "reachable": true,
+          "servo_at_minus15": -72.79669603833518,
+          "servo_at_zero": -33.68266977398235,
+          "servo_at_plus15": 0.10572228567336159,
+          "absolute_servo_minmax_deg": [
+            -72.79669603833518,
+            0.10572228567336159
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -42.796696038335185,
+            30.105722285673362
+          ],
+          "max_absolute_deg": 72.79669603833518,
+          "max_command_deg": 42.796696038335185,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.19991914000453,
+            2.967885904311629
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.33694017635490603,
+            0.45456216177015524
+          ],
+          "positive_geometric_limit_deg": 39.96
+        }
+      ]
+    },
+    {
+      "neutral_deg": -35,
+      "pin_to_pin_length_mm": 33.864842732124686,
+      "reachable": true,
+      "servo_at_minus15": -74.4367328122273,
+      "servo_at_zero": -34.99999999999995,
+      "servo_at_plus15": -1.2184207802150369,
+      "absolute_servo_minmax_deg": [
+        -74.4367328122273,
+        -1.2184207802150369
+      ],
+      "command_relative_to_indexed_neutral_minmax_deg": [
+        -39.436732812227305,
+        33.781579219784966
+      ],
+      "max_absolute_deg": 74.4367328122273,
+      "max_command_deg": 39.436732812227305,
+      "hinge_torque_per_servo_torque_minmax": [
+        2.1899541725852734,
+        3.0094010268797433
+      ],
+      "servo_torque_per_hinge_torque_minmax": [
+        0.33229203787334266,
+        0.45663055990778345
+      ],
+      "positive_geometric_limit_deg": 41.04,
+      "length_error_cases": [
+        {
+          "error_mm": -0.5,
+          "reachable": true,
+          "servo_at_minus15": -69.89898761380684,
+          "servo_at_zero": -31.314331338393437,
+          "servo_at_plus15": 2.5230998558220548,
+          "absolute_servo_minmax_deg": [
+            -69.89898761380684,
+            2.5230998558220548
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -34.89898761380684,
+            37.52309985582205
+          ],
+          "max_absolute_deg": 69.89898761380684,
+          "max_command_deg": 37.52309985582205,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.218205425768782,
+            2.899815848067533
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.34484948437895124,
+            0.45081487421455635
+          ],
+          "positive_geometric_limit_deg": 38.04
+        },
+        {
+          "error_mm": 0,
+          "reachable": true,
+          "servo_at_minus15": -74.4367328122273,
+          "servo_at_zero": -34.99999999999995,
+          "servo_at_plus15": -1.2184207802150369,
+          "absolute_servo_minmax_deg": [
+            -74.4367328122273,
+            -1.2184207802150369
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -39.436732812227305,
+            33.781579219784966
+          ],
+          "max_absolute_deg": 74.4367328122273,
+          "max_command_deg": 39.436732812227305,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.1899541725852734,
+            3.0094010268797433
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.33229203787334266,
+            0.45663055990778345
+          ],
+          "positive_geometric_limit_deg": 41.04
+        },
+        {
+          "error_mm": 0.5,
+          "reachable": true,
+          "servo_at_minus15": -79.16740827534946,
+          "servo_at_zero": -38.704147300085594,
+          "servo_at_plus15": -4.869357727133505,
+          "absolute_servo_minmax_deg": [
+            -79.16740827534946,
+            -4.869357727133505
+          ],
+          "command_relative_to_indexed_neutral_minmax_deg": [
+            -44.16740827534946,
+            30.130642272866496
+          ],
+          "max_absolute_deg": 79.16740827534946,
+          "max_command_deg": 44.16740827534946,
+          "hinge_torque_per_servo_torque_minmax": [
+            2.1684675916167073,
+            3.1426626932571367
+          ],
+          "servo_torque_per_hinge_torque_minmax": [
+            0.3182015054130974,
+            0.46115515116112343
+          ],
+          "positive_geometric_limit_deg": 44.12
+        }
+      ]
+    }
+  ],
+  "minus20_compound_corner_perturbation": {
+    "cases": 1536,
+    "failures": 0,
+    "first_failures": [],
+    "worst": {
+      "max_absolute_deg": 77.11611155028731,
+      "max_command_deg": 62.757009789273184,
+      "minimum_mechanical_advantage": 2.0836463999879262,
+      "maximum_mechanical_advantage": 5.129756650696038,
+      "max_absolute_deg_case": {
+        "horn_shift": [
+          -0.5,
+          -0.5,
+          0.5
+        ],
+        "servo_axis_shift": [
+          0.5,
+          0.5,
+          -0.5
+        ],
+        "hinge_axis_translation": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "rod_length_error": 0.5,
+        "reachable": true,
+        "servo_at_minus15": -77.11611155028731,
+        "servo_at_zero": -35.80761298379695,
+        "servo_at_plus15": -0.9353238302288372,
+        "absolute_servo_minmax_deg": [
+          -77.11611155028731,
+          -0.9353238302288372
+        ],
+        "command_relative_to_indexed_neutral_minmax_deg": [
+          -57.116111550287314,
+          19.06467616977116
+        ],
+        "max_absolute_deg": 77.11611155028731,
+        "max_command_deg": 57.116111550287314,
+        "hinge_torque_per_servo_torque_minmax": [
+          2.2608881062060604,
+          3.205445049260902
+        ],
+        "servo_torque_per_hinge_torque_minmax": [
+          0.3119691601734292,
+          0.44230406505082415
+        ]
+      },
+      "max_command_deg_case": {
+        "horn_shift": [
+          0.5,
+          0.5,
+          -0.5
+        ],
+        "servo_axis_shift": [
+          -0.5,
+          -0.5,
+          0.5
+        ],
+        "hinge_axis_translation": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "rod_length_error": -0.5,
+        "reachable": true,
+        "servo_at_minus15": -40.6002697825918,
+        "servo_at_zero": -3.1720875678263054,
+        "servo_at_plus15": 42.757009789273184,
+        "absolute_servo_minmax_deg": [
+          -40.6002697825918,
+          42.757009789273184
+        ],
+        "command_relative_to_indexed_neutral_minmax_deg": [
+          -20.600269782591802,
+          62.757009789273184
+        ],
+        "max_absolute_deg": 42.757009789273184,
+        "max_command_deg": 62.757009789273184,
+        "hinge_torque_per_servo_torque_minmax": [
+          2.4691945371522195,
+          5.129756650696038
+        ],
+        "servo_torque_per_hinge_torque_minmax": [
+          0.19494102120113507,
+          0.4049903662727699
+        ]
+      }
+    },
+    "notes": "Each coordinate may differ by0.5mm simultaneously: hornpin,servoaxis,translatedwholehingeaxis,plusrodlength±0.5mm. Hingeaxisdirection not tilted. Sampled surfaces at0.5deg."
+  }
+}

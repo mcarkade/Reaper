@@ -1,5 +1,5 @@
 {
-  "revision": "prototype_r2",
+  "revision": "prototype_r2_plywood_rev3",
   "wing": {
     "root_x_mm": 53,
     "tip_x_mm": 1000,
@@ -212,5 +212,39 @@
       60,
       120
     ]
+  },
+  "motor_mount_revision": {
+    "changed_parts": [
+      "FMF",
+      "FMT"
+    ],
+    "removed_parts": [
+      "FMGB"
+    ],
+    "hole_circle_diameter_mm": 19,
+    "hole_diameter_mm": 3.2,
+    "pattern_rotation_degrees": 45,
+    "hole_centres_xz_mm": [
+      [
+        -6.717514421272201,
+        -6.717514421272201
+      ],
+      [
+        -6.717514421272201,
+        6.717514421272201
+      ],
+      [
+        6.717514421272201,
+        -6.717514421272201
+      ],
+      [
+        6.717514421272201,
+        6.717514421272201
+      ]
+    ],
+    "motor_mount_face_y_mm": 590,
+    "nominal_plywood_thickness_mm": 6,
+    "source_sheet_sha256": "8cdbd328cb4aa6eb3edbda36a21d219c7e3aef4102c3748a0baf7c442c7757eb",
+    "physical_hardware_fit_required": true
   }
 }

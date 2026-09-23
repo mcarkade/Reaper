@@ -1,0 +1,231 @@
+{
+  "parts": {
+    "FMF": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 11181.093099099284,
+      "bbox": [
+        -24.0000001,
+        583.9999999,
+        -23.72041687318751,
+        24.0000001,
+        590.0000001,
+        23.537142986218
+      ],
+      "dxf_reextrusion_valid": true,
+      "dxf_reextrusion_solids": 1,
+      "step_dxf_symmetric_volume_mm3": 11181.182527050662,
+      "sha256": {
+        "step": "aee748f901ac076fd79bb9183d5786eba43364d954cedb9a05b2b7c6b26c0849",
+        "dxf": "37cc7d6845f4cca869ca2b12fdce9a94bb17290ae93b7470f5533a31c2ac1405"
+      },
+      "planar_profile_check": {
+        "outer_and_hole_projected_hausdorff_mm": 9.99998873015263e-06,
+        "projected_symmetric_area_mm2": 0.00012132584999949414,
+        "step_projected_area_mm2": 1863.7142359281936,
+        "dxf_projected_area_mm2": 1863.7142285769148,
+        "step_holes": 4,
+        "dxf_holes": 4
+      },
+      "step_dxf_symmetric_volume_status": "Unreliable raw near-coincident Boolean: common returned empty despite equivalent bounds and planar profiles. Do not use the raw symmetric volume as mismatch proof."
+    },
+    "FMT": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 13082.57142858228,
+      "bbox": [
+        -24.000000000000725,
+        514.0,
+        -6.0,
+        24.000000000001,
+        584.0000000000066,
+        0.0
+      ],
+      "dxf_reextrusion_valid": true,
+      "dxf_reextrusion_solids": 1,
+      "step_dxf_symmetric_volume_mm3": 0.0,
+      "sha256": {
+        "step": "b31affe23d09047425b4ca126164a6052002a13f89860ff479bb490799017251",
+        "dxf": "ecef0a3a243567e4c23adcaa4b2eeb7e8c8989afd6be1d5675d1d896fb4f76f4"
+      }
+    }
+  },
+  "nearby_ids": [
+    "FTF",
+    "FSL3",
+    "FLR",
+    "FLL",
+    "FK",
+    "FMGR",
+    "FMGL"
+  ],
+  "collisions": [],
+  "contacts": [
+    {
+      "a": "FMF",
+      "b": "FMT",
+      "opposing_face_area_mm2": 132.000000000012
+    },
+    {
+      "a": "FMF",
+      "b": "FLR",
+      "opposing_face_area_mm2": 36.0
+    },
+    {
+      "a": "FMF",
+      "b": "FLL",
+      "opposing_face_area_mm2": 36.0
+    },
+    {
+      "a": "FMF",
+      "b": "FK",
+      "opposing_face_area_mm2": 106.09006148650984
+    },
+    {
+      "a": "FMF",
+      "b": "FMGR",
+      "opposing_face_area_mm2": 81.12209082899652
+    },
+    {
+      "a": "FMF",
+      "b": "FMGL",
+      "opposing_face_area_mm2": 81.11379327313333
+    },
+    {
+      "a": "FMT",
+      "b": "FMF",
+      "opposing_face_area_mm2": 132.000000000012
+    },
+    {
+      "a": "FMT",
+      "b": "FLR",
+      "opposing_face_area_mm2": 334.5142076245996
+    },
+    {
+      "a": "FMT",
+      "b": "FLL",
+      "opposing_face_area_mm2": 334.514207621259
+    },
+    {
+      "a": "FMT",
+      "b": "FK",
+      "opposing_face_area_mm2": 420.0
+    },
+    {
+      "a": "FMT",
+      "b": "FMGR",
+      "opposing_face_area_mm2": 73.0974548966972
+    },
+    {
+      "a": "FMT",
+      "b": "FMGL",
+      "opposing_face_area_mm2": 73.09745489888904
+    }
+  ],
+  "access": [
+    {
+      "center_xz": [
+        -6.717514421272201,
+        -6.717514421272201
+      ],
+      "kind": "head",
+      "diameter_mm": 6,
+      "length_mm": 3.5,
+      "intersections_mm3": {},
+      "minimum_obstacle_clearance_mm": 0.5727897985633262,
+      "nearest_id": "FMT"
+    },
+    {
+      "center_xz": [
+        -6.717514421272201,
+        -6.717514421272201
+      ],
+      "kind": "driver",
+      "diameter_mm": 6,
+      "length_mm": 60,
+      "intersections_mm3": {},
+      "minimum_obstacle_clearance_mm": 0.5,
+      "nearest_id": "FMT"
+    },
+    {
+      "center_xz": [
+        -6.717514421272201,
+        6.717514421272201
+      ],
+      "kind": "head",
+      "diameter_mm": 6,
+      "length_mm": 3.5,
+      "intersections_mm3": {},
+      "minimum_obstacle_clearance_mm": 4.574628703770541,
+      "nearest_id": "FMT"
+    },
+    {
+      "center_xz": [
+        -6.717514421272201,
+        6.717514421272201
+      ],
+      "kind": "driver",
+      "diameter_mm": 6,
+      "length_mm": 60,
+      "intersections_mm3": {},
+      "minimum_obstacle_clearance_mm": 3.7509883327420237,
+      "nearest_id": "FMT"
+    },
+    {
+      "center_xz": [
+        6.717514421272201,
+        -6.717514421272201
+      ],
+      "kind": "head",
+      "diameter_mm": 6,
+      "length_mm": 3.5,
+      "intersections_mm3": {},
+      "minimum_obstacle_clearance_mm": 0.572789798565286,
+      "nearest_id": "FMT"
+    },
+    {
+      "center_xz": [
+        6.717514421272201,
+        -6.717514421272201
+      ],
+      "kind": "driver",
+      "diameter_mm": 6,
+      "length_mm": 60,
+      "intersections_mm3": {},
+      "minimum_obstacle_clearance_mm": 0.5,
+      "nearest_id": "FMT"
+    },
+    {
+      "center_xz": [
+        6.717514421272201,
+        6.717514421272201
+      ],
+      "kind": "head",
+      "diameter_mm": 6,
+      "length_mm": 3.5,
+      "intersections_mm3": {},
+      "minimum_obstacle_clearance_mm": 4.574628703771465,
+      "nearest_id": "FMT"
+    },
+    {
+      "center_xz": [
+        6.717514421272201,
+        6.717514421272201
+      ],
+      "kind": "driver",
+      "diameter_mm": 6,
+      "length_mm": 60,
+      "intersections_mm3": {},
+      "minimum_obstacle_clearance_mm": 3.7509883327420237,
+      "nearest_id": "FMT"
+    }
+  ],
+  "scope": "Raw imported STEP, direct DXF extrusion, exact BRep intersections; no geometry healing. Full register bbox screening then importing all nearby shapes.",
+  "ligaments": {
+    "FMT_centre_prong_mm": 6.435028842544,
+    "FMT_side_prong_at_y583_9_mm": 7.7933157334,
+    "FMT_front_bridge_mm": 9.5,
+    "FMF_min_hole_to_outer_edge_mm": 13.14217185071
+  },
+  "verdict": "PASS geometric nominal6mm profile/collision/access checks with FMF planar-profile comparison replacing unreliable near-coincident volume Boolean. No strength or actual-motor qualification."
+}

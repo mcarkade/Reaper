@@ -109,8 +109,8 @@
     {
       "id": "PITOT",
       "label": "Pitot and two hoses",
-      "landmark": "Left-forward tray tab; front and side openings exposed",
-      "access": "Label/disconnect hoses and release probe before paired cover lift.",
+      "landmark": "External tape-on trial at left side of N1; keep all pressure holes ahead of nose; see guide page 45",
+      "access": "Leave service slack; label and disconnect hoses as needed before lifting N1/FSU1 together.",
       "centre_xyz_mm": null
     },
     {

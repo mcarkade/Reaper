@@ -11,7 +11,7 @@ Onboard: one FC, battery, ESC, motor, receiver, GPS/compass, airspeed board, pit
 | Battery | Lower nose tray; nonslip pad and two straps. Lift N1 + FSU1 together. Unplug, release straps, slide to Y-205, then lift. |
 | M9N GPS/compass | Shelf above forward battery; antenna face up. Paired N1 + FSU1 removal. |
 | Airspeed board | Under rear edge of battery tray; insulated pad. Paired covers off, battery out; slide board to Y-25, then lift. |
-| Pitot and two hoses | Left-forward tray tab; front and side openings exposed. Label/disconnect hoses and release probe before paired cover lift. |
+| Pitot and two hoses | External tape-on trial on the left side of N1; keep all pressure holes ahead of the nose. See guide page 45. Leave service slack; label/disconnect hoses as needed before lifting N1/FSU1 together. |
 | SiK air radio | Two strips under centre wing fairing; antenna clear of carbon. Remove FCF; reach from above. |
 | F405-WING V2 | Front of aft electronics deck, behind wing; long side across body. Remove FSU2. Keep USB/SD/plugs reachable. Read arrow before setting orientation. |
 | FS-iA10B | Same deck, behind FC; active antenna ends clear of carbon/power wires. Remove FSU2; leave connector bend space. |

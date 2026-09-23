@@ -9,7 +9,7 @@ page,section,title
 8,PART PICKER,Printed parts / 14 new prints + reuse N1
 9,PART PICKER,Body wood parts / panel 1
 10,PART PICKER,Body wood parts / panel 2
-11,PART PICKER,Body wood parts / panel 3
+11,PART PICKER,Body wood parts - panel 3 / plywood REV3
 12,PART PICKER,Match the 35 foam patterns
 13,PART PICKER,Foam shapes / 1 of 2
 14,PART PICKER,Foam shapes / 2 of 2
@@ -41,3 +41,6 @@ page,section,title
 40,BEFORE FLIGHT,"Balance, load and service checks"
 41,BEFORE FLIGHT,Ground checks and the first launch
 42,QUICK REFERENCE,Plain-language terms and reference files
+43,AUDIT / WORKSHOP METHOD,Motor screws and drilling
+44,FOAM / BEFORE THE FULL CUT,Trial a larger body-foam wrap
+45,PITOT / HARDWARE TRIAL,Fit the pitot with tape first

@@ -1,0 +1,465 @@
+{
+  "description": "Display-only natural wood shades keyed to actual part ID; identical ID uses identical RGB in every view. Colors do not indicate different required wood species.",
+  "wood_rgb": {
+    "FK": [
+      196,
+      176,
+      139
+    ],
+    "FLL": [
+      145,
+      108,
+      68
+    ],
+    "FLR": [
+      145,
+      113,
+      80
+    ],
+    "JL1": [
+      188,
+      142,
+      86
+    ],
+    "JL2": [
+      233,
+      207,
+      157
+    ],
+    "JL3": [
+      145,
+      102,
+      60
+    ],
+    "JR1": [
+      185,
+      139,
+      83
+    ],
+    "JR2": [
+      230,
+      204,
+      154
+    ],
+    "JR3": [
+      142,
+      99,
+      57
+    ],
+    "FBT": [
+      247,
+      215,
+      156
+    ],
+    "JB": [
+      235,
+      211,
+      167
+    ],
+    "JF": [
+      247,
+      208,
+      136
+    ],
+    "JLOW": [
+      171,
+      153,
+      121
+    ],
+    "WLRI": [
+      209,
+      176,
+      115
+    ],
+    "WRRI": [
+      209,
+      171,
+      132
+    ],
+    "FEQ": [
+      247,
+      212,
+      176
+    ],
+    "FF0U": [
+      184,
+      143,
+      101
+    ],
+    "JTOP": [
+      145,
+      118,
+      68
+    ],
+    "LCL": [
+      209,
+      170,
+      98
+    ],
+    "LCR": [
+      247,
+      203,
+      156
+    ],
+    "FEC0": [
+      184,
+      149,
+      86
+    ],
+    "FF2U": [
+      235,
+      192,
+      148
+    ],
+    "FX2": [
+      158,
+      133,
+      87
+    ],
+    "WBL": [
+      145,
+      119,
+      92
+    ],
+    "WBR": [
+      171,
+      147,
+      121
+    ],
+    "FBWL": [
+      222,
+      180,
+      104
+    ],
+    "FBWR": [
+      235,
+      174,
+      110
+    ],
+    "FES1": [
+      235,
+      204,
+      148
+    ],
+    "FF0L": [
+      235,
+      197,
+      129
+    ],
+    "FF0R": [
+      158,
+      129,
+      100
+    ],
+    "FF2L": [
+      184,
+      158,
+      130
+    ],
+    "FF2R": [
+      222,
+      182,
+      140
+    ],
+    "FF3": [
+      171,
+      149,
+      108
+    ],
+    "FTM0": [
+      235,
+      201,
+      167
+    ],
+    "FX3": [
+      247,
+      183,
+      116
+    ],
+    "FF1": [
+      247,
+      201,
+      116
+    ],
+    "FMF": [
+      171,
+      140,
+      108
+    ],
+    "FMT": [
+      222,
+      199,
+      158
+    ],
+    "FEC1": [
+      196,
+      145,
+      92
+    ],
+    "FES0": [
+      235,
+      191,
+      110
+    ],
+    "FTM1": [
+      158,
+      142,
+      112
+    ],
+    "FX0L": [
+      184,
+      165,
+      130
+    ],
+    "FX0R": [
+      196,
+      161,
+      124
+    ],
+    "TROOT": [
+      184,
+      136,
+      86
+    ],
+    "WLRM_1": [
+      196,
+      153,
+      108
+    ],
+    "WLRM_2": [
+      209,
+      179,
+      148
+    ],
+    "WRRM_1": [
+      196,
+      168,
+      139
+    ],
+    "WRRM_2": [
+      196,
+      171,
+      124
+    ],
+    "FBC": [
+      158,
+      117,
+      74
+    ],
+    "FX1": [
+      171,
+      139,
+      80
+    ],
+    "GLEG_L": [
+      158,
+      136,
+      112
+    ],
+    "GLEG_R": [
+      158,
+      138,
+      100
+    ],
+    "MTL": [
+      222,
+      164,
+      104
+    ],
+    "MTR": [
+      209,
+      163,
+      115
+    ],
+    "WLRO_2": [
+      222,
+      190,
+      158
+    ],
+    "WRRO_2": [
+      222,
+      173,
+      122
+    ],
+    "FGPL": [
+      145,
+      122,
+      80
+    ],
+    "FGPR": [
+      145,
+      126,
+      92
+    ],
+    "FMGL": [
+      196,
+      165,
+      108
+    ],
+    "FMGR": [
+      196,
+      160,
+      92
+    ],
+    "WLRO_1": [
+      184,
+      150,
+      116
+    ],
+    "WRRO_1": [
+      158,
+      123,
+      87
+    ],
+    "FGPS": [
+      222,
+      193,
+      140
+    ],
+    "GLEG_N": [
+      145,
+      125,
+      103
+    ],
+    "TLS": [
+      235,
+      183,
+      129
+    ],
+    "TRS": [
+      222,
+      187,
+      122
+    ],
+    "ALP": [
+      158,
+      129,
+      74
+    ],
+    "ARP": [
+      171,
+      126,
+      80
+    ],
+    "TLCP": [
+      209,
+      182,
+      132
+    ],
+    "TRCP": [
+      184,
+      160,
+      116
+    ]
+  },
+  "material_of_id": {
+    "FLR": "Plywood",
+    "FLL": "Plywood",
+    "FF1": "Balsa",
+    "FF3": "Balsa",
+    "FK": "Plywood",
+    "FX0L": "Plywood",
+    "FX0R": "Plywood",
+    "FX1": "Plywood",
+    "FX2": "Plywood",
+    "FX3": "Plywood",
+    "FBT": "Plywood",
+    "FBWR": "Plywood",
+    "FBWL": "Plywood",
+    "FBC": "Plywood",
+    "FGPS": "Balsa",
+    "FGPR": "Balsa",
+    "FGPL": "Balsa",
+    "FEQ": "Balsa",
+    "FEC0": "Balsa",
+    "FEC1": "Balsa",
+    "FES0": "Balsa",
+    "FES1": "Balsa",
+    "FTM0": "Balsa",
+    "FTM1": "Balsa",
+    "FMF": "Plywood",
+    "FMT": "Plywood",
+    "FMGR": "Plywood",
+    "FMGL": "Plywood",
+    "FF0R": "Balsa",
+    "FF0U": "Balsa",
+    "FF0L": "Balsa",
+    "FF2R": "Balsa",
+    "FF2U": "Balsa",
+    "FF2L": "Balsa",
+    "WRRI": "Plywood",
+    "WRRM_1": "Balsa",
+    "WRRM_2": "Balsa",
+    "WRRO_1": "Balsa",
+    "WRRO_2": "Balsa",
+    "JR1": "Plywood",
+    "JR2": "Plywood",
+    "JR3": "Plywood",
+    "WLRI": "Plywood",
+    "WLRM_1": "Balsa",
+    "WLRM_2": "Balsa",
+    "WLRO_1": "Balsa",
+    "WLRO_2": "Balsa",
+    "JL1": "Plywood",
+    "JL2": "Plywood",
+    "JL3": "Plywood",
+    "JF": "Plywood",
+    "JB": "Plywood",
+    "JLOW": "Plywood",
+    "JTOP": "Plywood",
+    "TROOT": "Plywood",
+    "TRS": "Balsa",
+    "TLS": "Balsa",
+    "MTR": "Balsa",
+    "MTL": "Balsa",
+    "ARP": "Balsa",
+    "ALP": "Balsa",
+    "TRCP": "Balsa",
+    "TLCP": "Balsa",
+    "LCR": "Balsa",
+    "WBR": "Balsa",
+    "LCL": "Balsa",
+    "WBL": "Balsa",
+    "GLEG_L": "Plywood",
+    "GLEG_R": "Plywood",
+    "GLEG_N": "Plywood"
+  },
+  "unchanged_nonwood_material_rgb": {
+    "Plywood": [
+      181,
+      130,
+      67
+    ],
+    "Balsa": [
+      227,
+      195,
+      139
+    ],
+    "Foam": [
+      182,
+      215,
+      225
+    ],
+    "PLA": [
+      30,
+      105,
+      135
+    ],
+    "Carbon": [
+      38,
+      45,
+      51
+    ],
+    "Equipment": [
+      92,
+      104,
+      115
+    ],
+    "Steel": [
+      121,
+      128,
+      134
+    ]
+  },
+  "source_parts_sha256": "e31832e48200debbcacd63187d4e6f35ce229ce8e0c08288f1dd71852f9c4fe8"
+}

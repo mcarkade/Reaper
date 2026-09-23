@@ -1,0 +1,67 @@
+{
+  "status": "PASS: integrated identities and numerical consistency; no flight qualification",
+  "changed_STEP_ids": [
+    "FMF",
+    "FMT"
+  ],
+  "removed_STEP_ids": [
+    "FMGB"
+  ],
+  "unchanged_STEP_count": 110,
+  "unchanged_new_STL_count": 14,
+  "unchanged_manufacturing_file_count": 47,
+  "cut_pattern_counts": {
+    "Plywood": 32,
+    "Balsa": 38,
+    "Foam": 35
+  },
+  "aircraft_cut_map_rows": 105,
+  "auxiliary_test_rows": 5,
+  "exact_published_plywood_sha256": "8cdbd328cb4aa6eb3edbda36a21d219c7e3aef4102c3748a0baf7c442c7757eb",
+  "paper": {
+    "sha256": "ff94c7ff7ae3c4dbe103138c58d88dc2921b154231d8f83ce05e6f9e1bac3e94",
+    "pages": 179,
+    "visual_proof_sha256": "8265fdeb7cec09bcbf87c068269c2132fd4c478ea62bf506bb3ebb41964789ab",
+    "coverage_pattern_ids": 107
+  },
+  "mass_g": {
+    "mass_g": 2548.0728669202394,
+    "low_g": 2122.3668713596344,
+    "high_g": 3154.4782766830153
+  },
+  "cg_xyz_mm": {
+    "x": -0.10419824494872944,
+    "y": 79.79023888989293,
+    "z": 7.049363378876435
+  },
+  "required_battery_y_mm": -182.0187107516249,
+  "performance_sha256": "645654cab7d16e78e95cc6f2fad4b80402b2532e2ece4a6d8bd48eda854e1cea",
+  "performance_inputs": {
+    "Parts.json": "e31832e48200debbcacd63187d4e6f35ce229ce8e0c08288f1dd71852f9c4fe8",
+    "Calculations.json": "dfd6c0b30d11caf0b510be7871c17281ad862c7104f13837d6b94b90f77b2ebc",
+    "Mass_and_Balance.csv": "d1a038f8d103015589dec8c55f08ea61827a7fd98d1b5c2c51285e6a2f32a3b0",
+    "Stall_Scenarios.csv": "a83ddad06b50a59b5a45112aade590b4c24937cd2619e2912c27278252b9476b",
+    "Power_Scenarios.csv": "53edefd23e6b5b1d700e5c6cdbe204694c5d18b4fd8980b7fda793336dc49760"
+  },
+  "performance_case_definitions_sha256": "aad75a0b6a3e78fe63b18c2d90b1c9be464736fc15981df48a7fd62fa07d7915",
+  "assembly_checks": {
+    "Reaper_Assembly.step": {
+      "sha256": "c66b101b5f6dac846a619ab9b7d8b2f228919facebe3796d22e5aa28e289f8e0",
+      "aircraft_identities": 112,
+      "reference_identities": 0,
+      "material_color_entities": 6
+    },
+    "Reaper_With_Propeller_Reference.step": {
+      "sha256": "2e105158379fc6c0e9171e38ea424b036413f96df03ed9ffe2835c3ae2d031bb",
+      "aircraft_identities": 112,
+      "reference_identities": 3,
+      "material_color_entities": 9
+    }
+  },
+  "limits": [
+    "Checks verify identity and arithmetic, not new physical qualification.",
+    "Only FMF/FMT are geometrically revised; unchanged files inherit original geometry evidence and limitations.",
+    "Foam forming, control tolerance, pitot installation, strengths, propulsion and flight preparation remain gates.",
+    "Guide PDF was not opened or modified during concurrent root authoring."
+  ]
+}

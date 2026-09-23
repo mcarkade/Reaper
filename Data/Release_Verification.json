@@ -1,26 +1,117 @@
 {
-  "register_sha256": "474f563311f56be3104ad261d9d275e01811fa6059c9824e09c22caf76902d94",
-  "pdf_review": {
-    "Build_Guide": {
-      "pages": 42,
-      "text_within_page": true,
-      "rendered_all_pages": true,
-      "source_sha256": "078532f6634b00d995cfc10c2f67efdf3311ac6f148562e6eb05f0427cbfb701",
-      "actual_size_bar_checked": false,
-      "visual_review": "PASS",
-      "visual_scope": "All 42 rendered pages reviewed: galleries and assembly pages 6-31 independently reviewed; cover, calculations, wiring, calibration, navigation and final changed pages inspected at readable size. No remaining clipping or label/part identity defects found."
+  "status": "Integrated REV3 documentation and CAD release; physical and buildability limits remain explicit",
+  "parts_manifest_sha256": "e31832e48200debbcacd63187d4e6f35ce229ce8e0c08288f1dd71852f9c4fe8",
+  "geometry_evidence_sha256": "3d44b6176a6fc5dcd33b5c8a5cff8bf2ae713685e042add606b40398cd30e630",
+  "guide": {
+    "pdf_sha256": "2487d50c50b2d7867fd5bb5bb44b15aa0bd80e16f73de53e1cd6625e2aaca20a",
+    "pages": 45,
+    "parts_manifest_sha256": "e31832e48200debbcacd63187d4e6f35ce229ce8e0c08288f1dd71852f9c4fe8",
+    "checklist_rows": 119,
+    "counts": {
+      "Plywood": 32,
+      "Balsa": 38,
+      "Foam": 35,
+      "PLA+": 14
     },
-    "Paper_Patterns": {
-      "pages": 180,
-      "text_within_page": true,
-      "rendered_all_pages": true,
-      "source_sha256": "40a5ef735429b4e0f2245a185cb1e945ba828b6344b8efd46ed1c8f4a5f8eb29",
-      "actual_size_bar_checked": true,
+    "gallery_identities": 85,
+    "foam_patterns_shown": 35,
+    "assembly_steps": 11,
+    "wiring_groups": 24,
+    "setup_steps": 12,
+    "bookmarks": 45,
+    "text_bounds_issues": 0,
+    "visual_review": {
+      "pdf_sha256": "2487d50c50b2d7867fd5bb5bb44b15aa0bd80e16f73de53e1cd6625e2aaca20a",
+      "pages": 45,
       "visual_review": "PASS",
-      "visual_scope": "All-page contact sheets and readable guide manufacturing, grain, clearance, calculation and finishing-locator pages inspected. Corrected tail-spine template tiles inspected after final regeneration; scale and bounds checked on every page."
-    }
+      "all_pages_contact_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "readable_size_pages_reviewed": [
+        11,
+        17,
+        20,
+        23,
+        43,
+        44,
+        45
+      ],
+      "findings": [],
+      "checked": [
+        "Wood shades remain consistent by part ID across gallery, body base, motor support and laminate detail.",
+        "Revised FMF/FMT shapes and FMGB omission agree with current REV3 text.",
+        "Motor page43 labels clearance gauges and retains actual motor seating/thread/shaft fit checks.",
+        "Foam trial page44 separates reference geometry and provisional forming method from manufacturing approval.",
+        "Pitot trial page45 preserves N1 and labels CAD silhouette plus conceptual hardware/hose routing.",
+        "No clipping, overprinting, missing images, cut-off labels or footer collision seen.",
+        "Page44/45 trial text remains legible; no contradictory current values found within the reviewed content."
+      ],
+      "limitations": [
+        "Contact sheets verify all-page layout but are not a fresh word-by-word technical audit of unchanged text.",
+        "Visual review does not qualify foam forming, pitot mounting, structural or flight performance."
+      ],
+      "render_manifest_sha256": "8807fa9b7693c41d59198c109b9936bd7bd6145a058ae7ff284ffd7dc9b3a7c9",
+      "read_only_public_artifacts": true,
+      "lead_review": "Inspected original 43-page layout, corrected motor/control pages, natural wood samples and final Poppler-rendered pages 43-45. Final complete contacts independently reviewed."
+    },
+    "limits": "File, identity and documentation checks. No physical construction, fitted spoke bends, material-strength or flight qualification."
   },
-  "slicer": {
+  "paper": {
+    "pdf_sha256": "ff94c7ff7ae3c4dbe103138c58d88dc2921b154231d8f83ce05e6f9e1bac3e94",
+    "pages": 179,
+    "proof_file": "Paper_Verification.json"
+  },
+  "plywood": {
+    "dxf_sha256": "8cdbd328cb4aa6eb3edbda36a21d219c7e3aef4102c3748a0baf7c442c7757eb",
+    "aircraft_pieces": 32,
+    "test_pieces": 5,
+    "revision": "REV3"
+  },
+  "unchanged_print_evidence": {
     "FCF": {
       "stl_sha256": "491c4942cd8e9d650e89130a9fa61ba580af2c9cc7b481a1970ab61af80db955",
       "nominal_installed_g": 102.84304738770635,
@@ -137,20 +228,6 @@
       "limits": "400mm reference machine; not actual printer fit or a measured part. Private G-code must not be used to print."
     }
   },
-  "scope": "Exact delivered meshes sliced on a reference machine; rendered PDFs visually reviewed. Actual printer fit, fabrication and flight remain unverified.",
-  "print_review": {
-    "scope": "FCF/FTF fairings, four moving controls, two rails. No installed geometry edits. Toolpath/mesh evidence only; no physical print claim.",
-    "method": "All Bridge-infill moves in exact final G-code checked. Uncovered intervals use0.45mm-wide preceding0.4mm object extrusion/current perimeters and support paths within0.8mm. This is a toolpath proxy, not physical sag prediction. Exact STEP/inputSTL/processedSTL/G-code hashes and settings verified. Support access:101 sampled zero-radius rays per fairing; all FTF samples have cardinal exit;98 FCF samples have cardinal exit and remaining3 have51\u201375/256 unblocked oblique directions. Finite tool access and break strength remain untested.",
-    "findings": [
-      "Original upright FTF60.15mm cavity roof rejected; selected front-end-down removes that span.",
-      "Selected FCF everywhere supports include bridges; FTF buildplate-only supports. Final maximum uncovered intervalsFCF10.18mm/FTF14.18mm. Qualify a representative15mm bridge and support breakout with actual printer/material.",
-      "Exact final AR/AL maximum uncovered interval3.63mm; TRC8.20mm/TLC6.47mm. Legacy horn-pocket roof resolved. Local edge paths still require actual printer qualification.",
-      "AR/AL require3.2x17mm post-print horn slot. No control internal supports; fit end plugs after horns.",
-      "Aligned rails have zero Bridge-infill moves and no Overhang-perimeter mass, with~110mm2 first-layer object footprint.",
-      "All eight meshes watertight with positive volume; physical thin-wall adhesion/strength untested.",
-      "No sampled support point fully enclosed after cardinal/oblique visibility checks. Break supports out through open fairing side; inspect window corners and mating lips. Ray visibility does not establish finite tool clearance.",
-      "TRC/TLC retain slicer Low bed adhesion warnings at263mm height despite8mm brim. This is an explicit actual-printer adhesion gate; no floating-anchor or long-bridge warnings remain. Other six reviewed parts have no slicer warnings."
-    ],
-    "machine_limit": "Reference slicer machine400 mm is not actual printer. Object envelopes in each row exclude additional brim/support footprint; verify real usable volume and tall-part adhesion before printing."
-  }
+  "print_evidence_scope": "Inherited only for exact unchanged STLs. Slicer settings/reference machine are not measured print fit or hardware qualification.",
+  "open_work": "Buildability_Audit.md records unresolved construction, control and flight questions."
 }

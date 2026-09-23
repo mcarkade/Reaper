@@ -1,15 +1,14 @@
 {
   "status": "Digital estimates; no fabrication, structural or flight qualification",
-  "register_sha256": "474f563311f56be3104ad261d9d275e01811fa6059c9824e09c22caf76902d94",
   "mass": {
-    "mass_g": 2547.51068990125,
-    "low_g": 2121.945238595392,
-    "high_g": 3153.7755554092782
+    "mass_g": 2548.0728669202394,
+    "low_g": 2122.3668713596344,
+    "high_g": 3154.4782766830153
   },
   "cg_xyz_mm": {
-    "x": -0.1042212392170768,
-    "y": 79.72719714512965,
-    "z": 7.051582594636129
+    "x": -0.10419824494872944,
+    "y": 79.79023888989293,
+    "z": 7.049363378876435
   },
   "material_density_g_mm3": {
     "Plywood": [
@@ -43,30 +42,30 @@
   "mac_le_y_mm": 40.1985446667963,
   "wing_ac_y_mm": 82.65069695014,
   "aspect_ratio": 13.143193389708152,
-  "wing_loading_g_dm2": 83.70606040504657,
+  "wing_loading_g_dm2": 83.72453240741987,
   "provisional_20percent_mac_y_mm": 74.16026649347127,
-  "required_battery_centre_y_mm": -181.69885809577863,
+  "required_battery_centre_y_mm": -182.01871075162492,
   "battery_nominal_centre_y_mm": -154,
   "battery_centre_travel_y_mm": [
     -280,
     -120
   ],
   "cg_y_across_battery_travel_mm": [
-    54.40365277071892,
-    86.56053451600239
+    54.47228160636625,
+    86.6220686330668
   ],
   "battery_target_reachable": true,
   "required_battery_y_material_mass_extremes_mm": [
-    -348.9805927600422,
-    -27.940819238722298
+    -349.3885680863768,
+    -28.17600501507991
   ],
   "target_note": "20% MAC is an analysis starting point, not a validated flight CG; measured balance and trim review required",
   "tail_pitch_area_m2": 0.048255031289369255,
   "tail_yaw_area_m2": 0.023658988078161473,
   "tail_arm_m": 0.3674679678124014,
   "horizontal_tail_volume": 0.343117818319371,
-  "gear_nose_static_fraction": 0.13005365377616554,
-  "gear_each_main_static_fraction": 0.43497317311191724,
+  "gear_nose_static_fraction": 0.12990532025907545,
+  "gear_each_main_static_fraction": 0.4350473398704623,
   "gear_load_basis": "Uses nominal leg-end longitudinal stations; actual wheel contact offsets and attachment details are unknown",
   "gear_clearance_status": "No verified ground plane: measure complete wheel assemblies and loaded clearance on the actual build",
   "structural_scenarios": [
@@ -77,14 +76,14 @@
         "Plywood": 4000,
         "Carbon": 70000
       },
-      "nominal_mass_kg": 2.54751068990125,
+      "nominal_mass_kg": 2.5480728669202395,
       "load_factor": 3,
-      "tip_deflection_mm": 185.46236574523894,
+      "tip_deflection_mm": 185.50329302390463,
       "root_stress_MPa": {
-        "CRFULL": 167.38070378165705,
-        "JR1": 21.096635903823024,
-        "JR2": 21.096635903823024,
-        "JR3": 21.096635903823024
+        "CRFULL": 167.41764085338804,
+        "JR1": 21.101291446164865,
+        "JR2": 21.101291446164865,
+        "JR3": 21.101291446164865
       }
     },
     {
@@ -94,14 +93,14 @@
         "Plywood": 6000,
         "Carbon": 100000
       },
-      "nominal_mass_kg": 2.54751068990125,
+      "nominal_mass_kg": 2.5480728669202395,
       "load_factor": 3,
-      "tip_deflection_mm": 106.39080595556621,
+      "tip_deflection_mm": 106.41428395955539,
       "root_stress_MPa": {
-        "CRFULL": 163.18865909390624,
-        "JR1": 21.208838776779075,
-        "JR2": 21.208838776779075,
-        "JR3": 21.208838776779075
+        "CRFULL": 163.22467107778758,
+        "JR1": 21.213519079714416,
+        "JR2": 21.213519079714416,
+        "JR3": 21.213519079714416
       }
     },
     {
@@ -111,14 +110,14 @@
         "Plywood": 10000,
         "Carbon": 130000
       },
-      "nominal_mass_kg": 2.54751068990125,
+      "nominal_mass_kg": 2.5480728669202395,
       "load_factor": 3,
-      "tip_deflection_mm": 71.51674922212077,
+      "tip_deflection_mm": 71.53253132385831,
       "root_stress_MPa": {
-        "CRFULL": 143.26190502008433,
-        "JR1": 21.775787330429658,
-        "JR2": 21.775787330429658,
-        "JR3": 21.775787330429658
+        "CRFULL": 143.29351962763758,
+        "JR1": 21.780592745871523,
+        "JR2": 21.780592745871523,
+        "JR3": 21.780592745871523
       }
     }
   ],
@@ -128,5 +127,9 @@
   "sources": [
     "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/lift-equation/",
     "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/induced-drag-coefficient/"
-  ]
+  ],
+  "baseline_register_sha256": "474f563311f56be3104ad261d9d275e01811fa6059c9824e09c22caf76902d94",
+  "parts_manifest_sha256": "e31832e48200debbcacd63187d4e6f35ce229ce8e0c08288f1dd71852f9c4fe8",
+  "revision": "plywood_rev3_2026-09-23",
+  "integration_note": "REV3 changes only FMF/FMT and removes FMGB; lifting geometry and wing-beam section inputs unchanged. Existing material/propulsion/control/flight limitations remain."
 }

@@ -1,18 +1,19 @@
 {
-  "basis_register_sha256": "474f563311f56be3104ad261d9d275e01811fa6059c9824e09c22caf76902d94",
   "status": "Guide performance scenarios, not measured flight performance or flight approval",
   "input_sha256": {
-    "Calculations.json": "4ceacac6856d918a1ef5283154e640ef6d5e667d33dc7b63d13a2e6315ce9afb",
-    "Stall_Scenarios.csv": "d1364e96c4d4d8e18446d24ca5269a8d3ce92c6adb3463df43ca5ea62896be40",
-    "Power_Scenarios.csv": "9e64460b6d81fe5f31a0a905b62a48bd5f8257159d2c0e7ec6db4415ed50461d"
+    "Parts.json": "e31832e48200debbcacd63187d4e6f35ce229ce8e0c08288f1dd71852f9c4fe8",
+    "Calculations.json": "dfd6c0b30d11caf0b510be7871c17281ad862c7104f13837d6b94b90f77b2ebc",
+    "Mass_and_Balance.csv": "d1a038f8d103015589dec8c55f08ea61827a7fd98d1b5c2c51285e6a2f32a3b0",
+    "Stall_Scenarios.csv": "a83ddad06b50a59b5a45112aade590b4c24937cd2619e2912c27278252b9476b",
+    "Power_Scenarios.csv": "53edefd23e6b5b1d700e5c6cdbe204694c5d18b4fd8980b7fda793336dc49760"
   },
   "measured_performance_available": false,
   "weight": {
     "label": "CALCULATED ESTIMATE",
-    "nominal_kg": 2.54751068990125,
+    "nominal_kg": 2.5480728669202395,
     "material_and_build_sensitivity_kg": [
-      2.1219452385953916,
-      3.153775555409278
+      2.122366871359634,
+      3.1544782766830153
     ],
     "sensitivity_is_not_confidence_interval": true,
     "front_line": "2.55 kg estimated ready-to-fly mass; weigh the finished aircraft with its flight battery."
@@ -21,7 +22,7 @@
     "label": "CAD-DERIVED",
     "area_m2": 0.30434005346495346,
     "span_m": 2,
-    "wing_loading_g_dm2": 83.70606040504657
+    "wing_loading_g_dm2": 83.72453240741987
   },
   "battery": {
     "label": "OWNER-REPORTED/RATED",
@@ -49,86 +50,86 @@
     "assumptions": "Level, unaccelerated flight; CLmax0.8\u20131.2 and density1.10\u20131.225kg/m3 are assumptions, not tested airfoil performance. Values are true airspeeds, not GPS groundspeed. Gusts, turns, build deviations and contamination are outside this range.",
     "cases": [
       {
-        "mass_kg": 2.54751068990125,
+        "mass_kg": 2.5480728669202395,
         "assumed_CLmax": 0.8,
         "assumed_density_kg_m3": 1.225,
-        "stall_true_airspeed_m_s": 12.943172790783231,
-        "stall_true_airspeed_km_h": 46.595422046819635,
-        "illustrative_1p3Vs_m_s": 16.826124628018203,
-        "illustrative_1p3Vs_km_h": 60.57404866086553
+        "stall_true_airspeed_m_s": 12.944600842280309,
+        "stall_true_airspeed_km_h": 46.600563032209116,
+        "illustrative_1p3Vs_m_s": 16.827981094964404,
+        "illustrative_1p3Vs_km_h": 60.58073194187185
       },
       {
-        "mass_kg": 2.54751068990125,
+        "mass_kg": 2.5480728669202395,
         "assumed_CLmax": 1.0,
         "assumed_density_kg_m3": 1.225,
-        "stall_true_airspeed_m_s": 11.576725681886789,
-        "stall_true_airspeed_km_h": 41.67621245479244,
-        "illustrative_1p3Vs_m_s": 15.049743386452825,
-        "illustrative_1p3Vs_km_h": 54.17907619123017
+        "stall_true_airspeed_m_s": 11.578002969975921,
+        "stall_true_airspeed_km_h": 41.680810691913315,
+        "illustrative_1p3Vs_m_s": 15.051403860968698,
+        "illustrative_1p3Vs_km_h": 54.185053899487315
       },
       {
-        "mass_kg": 2.54751068990125,
+        "mass_kg": 2.5480728669202395,
         "assumed_CLmax": 1.2,
         "assumed_density_kg_m3": 1.225,
-        "stall_true_airspeed_m_s": 10.568056330031283,
-        "stall_true_airspeed_km_h": 38.04500278811262,
-        "illustrative_1p3Vs_m_s": 13.738473229040668,
-        "illustrative_1p3Vs_km_h": 49.45850362454641
+        "stall_true_airspeed_m_s": 10.569222329196034,
+        "stall_true_airspeed_km_h": 38.04920038510572,
+        "illustrative_1p3Vs_m_s": 13.739989027954845,
+        "illustrative_1p3Vs_km_h": 49.46396050063744
       },
       {
-        "mass_kg": 2.54751068990125,
+        "mass_kg": 2.5480728669202395,
         "assumed_CLmax": 0.8,
         "assumed_density_kg_m3": 1.1,
-        "stall_true_airspeed_m_s": 13.65879700937982,
-        "stall_true_airspeed_km_h": 49.17166923376735,
-        "illustrative_1p3Vs_m_s": 17.756436112193764,
-        "illustrative_1p3Vs_km_h": 63.92317000389755
+        "stall_true_airspeed_m_s": 13.660304017424355,
+        "stall_true_airspeed_km_h": 49.17709446272768,
+        "illustrative_1p3Vs_m_s": 17.75839522265166,
+        "illustrative_1p3Vs_km_h": 63.93022280154598
       },
       {
-        "mass_kg": 2.54751068990125,
+        "mass_kg": 2.5480728669202395,
         "assumed_CLmax": 1.0,
         "assumed_density_kg_m3": 1.1,
-        "stall_true_airspeed_m_s": 12.216799441537646,
-        "stall_true_airspeed_km_h": 43.98047798953552,
-        "illustrative_1p3Vs_m_s": 15.88183927399894,
-        "illustrative_1p3Vs_km_h": 57.17462138639618
+        "stall_true_airspeed_m_s": 12.218147350509733,
+        "stall_true_airspeed_km_h": 43.98533046183504,
+        "illustrative_1p3Vs_m_s": 15.883591555662655,
+        "illustrative_1p3Vs_km_h": 57.18092960038556
       },
       {
-        "mass_kg": 2.54751068990125,
+        "mass_kg": 2.5480728669202395,
         "assumed_CLmax": 1.2,
         "assumed_density_kg_m3": 1.1,
-        "stall_true_airspeed_m_s": 11.152361057744473,
-        "stall_true_airspeed_km_h": 40.14849980788011,
-        "illustrative_1p3Vs_m_s": 14.498069375067816,
-        "illustrative_1p3Vs_km_h": 52.193049750244136
+        "stall_true_airspeed_m_s": 11.153591524660268,
+        "stall_true_airspeed_km_h": 40.15292948877696,
+        "illustrative_1p3Vs_m_s": 14.499668982058349,
+        "illustrative_1p3Vs_km_h": 52.19880833541006
       }
     ],
     "nominal_mass_range_m_s": [
-      10.568056330031283,
-      13.65879700937982
+      10.569222329196034,
+      13.660304017424355
     ],
     "nominal_mass_range_km_h": [
-      38.04500278811262,
-      49.17166923376735
+      38.04920038510572,
+      49.17709446272768
     ],
-    "front_line": "Estimated stall 10.6\u201313.7 m/s (38\u201349 km/h), assuming the stated lift and air-density range.",
+    "front_line": "Estimated stall 10.6-13.7 m/s (38-49 km/h), assuming the stated lift and air-density range.",
     "gravity_m_s2": 9.80665,
     "full_mass_sensitivity_range_m_s": [
-      9.645043659165228,
-      15.197418904115162
+      9.646001851759607,
+      15.199111947032563
     ],
-    "full_mass_sensitivity_note": "Includes2.12\u20133.15kg material/build sensitivity as well as CLmax/density assumptions; not a guaranteed envelope."
+    "full_mass_sensitivity_note": "Includes 2.12-3.15 kg material/build sensitivity as well as CLmax/density assumptions; not a guaranteed envelope."
   },
   "speed_reference": {
     "label": "ILLUSTRATIVE CALCULATION, NOT A PILOT COMMAND",
     "factor_of_Vs": 1.3,
     "range_m_s": [
-      13.738473229040668,
-      17.756436112193764
+      13.739989027954845,
+      17.75839522265166
     ],
     "range_km_h": [
-      49.45850362454641,
-      63.92317000389755
+      49.46396050063744,
+      63.93022280154598
     ],
     "note": "1.3Vs is retained as an explicit analysis margin from the existing scenario sheet, not asserted as a validated rotate/liftoff/approach speed or a manufacturer instruction. No1.2Vs liftoff rule has been adopted."
   },
@@ -181,7 +182,7 @@
         "chosen_example_target_km_h": 64.8,
         "acceleration_only_distance_m": 162.0,
         "acceleration_time_s": 18.0,
-        "equivalent_mean_net_force_N": 2.54751068990125,
+        "equivalent_mean_net_force_N": 2.5480728669202395,
         "arbitrary_2x_distance_illustration_m": 324.0
       },
       {
@@ -190,7 +191,7 @@
         "chosen_example_target_km_h": 64.8,
         "acceleration_only_distance_m": 81.0,
         "acceleration_time_s": 9.0,
-        "equivalent_mean_net_force_N": 5.0950213798025,
+        "equivalent_mean_net_force_N": 5.096145733840479,
         "arbitrary_2x_distance_illustration_m": 162.0
       },
       {
@@ -199,7 +200,7 @@
         "chosen_example_target_km_h": 64.8,
         "acceleration_only_distance_m": 54.0,
         "acceleration_time_s": 6.0,
-        "equivalent_mean_net_force_N": 7.6425320697037495,
+        "equivalent_mean_net_force_N": 7.644218600760718,
         "arbitrary_2x_distance_illustration_m": 108.0
       }
     ],
@@ -274,5 +275,29 @@
       "url": "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/part2_enr_section_5.3.html",
       "supports": "Takeoff performance depends on runway condition/slope, weight, wind, elevation and temperature. No full-scale rule of thumb is adopted for this model."
     }
-  ]
+  ],
+  "revision": "plywood_rev3_2026-09-23",
+  "basis_parts_manifest_sha256": "e31832e48200debbcacd63187d4e6f35ce229ce8e0c08288f1dd71852f9c4fe8",
+  "scenario_definition_source_sha256": "aad75a0b6a3e78fe63b18c2d90b1c9be464736fc15981df48a7fd62fa07d7915",
+  "balance": {
+    "label": "CALCULATED ESTIMATE; NOT VALIDATED FLIGHT CG",
+    "cg_xyz_mm": {
+      "x": -0.10419824494872944,
+      "y": 79.79023888989293,
+      "z": 7.049363378876435
+    },
+    "cg_percent_MAC": 23.315481132054764,
+    "provisional_target_y_mm": 74.16026649347127,
+    "required_battery_centre_y_mm": -182.0187107516249,
+    "battery_centre_travel_y_mm": [
+      -280,
+      -120
+    ],
+    "required_battery_y_material_mass_extremes_mm": [
+      -349.3885680863768,
+      -28.17600501507991
+    ],
+    "note": "20% MAC is an analysis starting point, not a validated flight CG; measured balance and trim review required"
+  },
+  "integration_note": "Current REV3 calculated mass and CG; unchanged wing/propulsion assumptions. No physical performance result was added."
 }

@@ -1,0 +1,170 @@
+[
+  {
+    "index": 0,
+    "surface": -15,
+    "trim_horn_end_mm": 2,
+    "intersection_mm3": 0.8652061395822095,
+    "closest_distance_mm": 0.0
+  },
+  {
+    "index": 0,
+    "surface": -15,
+    "trim_horn_end_mm": 3,
+    "intersection_mm3": 0.0,
+    "closest_distance_mm": 0.004805221356692306
+  },
+  {
+    "index": 0,
+    "surface": -15,
+    "trim_horn_end_mm": 4,
+    "intersection_mm3": 0.0,
+    "closest_distance_mm": 0.9770790166393772
+  },
+  {
+    "index": 0,
+    "surface": -15,
+    "trim_horn_end_mm": 5,
+    "intersection_mm3": 0.0,
+    "closest_distance_mm": 1.954163797781286
+  },
+  {
+    "index": 0,
+    "surface": 0,
+    "trim_horn_end_mm": 2,
+    "intersection_mm3": 0.9022996204776323,
+    "closest_distance_mm": 0.0
+  },
+  {
+    "index": 0,
+    "surface": 0,
+    "trim_horn_end_mm": 3,
+    "intersection_mm3": 0.0014250815076147926,
+    "closest_distance_mm": 0.0
+  },
+  {
+    "index": 0,
+    "surface": 0,
+    "trim_horn_end_mm": 4,
+    "intersection_mm3": 0.0,
+    "closest_distance_mm": 0.8267377354447539
+  },
+  {
+    "index": 0,
+    "surface": 0,
+    "trim_horn_end_mm": 5,
+    "intersection_mm3": 0.0,
+    "closest_distance_mm": 1.7683788960909537
+  },
+  {
+    "index": 0,
+    "surface": 15,
+    "trim_horn_end_mm": 2,
+    "intersection_mm3": 0.9346076994420804,
+    "closest_distance_mm": 4.440892098500626e-15
+  },
+  {
+    "index": 0,
+    "surface": 15,
+    "trim_horn_end_mm": 3,
+    "intersection_mm3": 0.008642622661862751,
+    "closest_distance_mm": 2.6645352591003757e-15
+  },
+  {
+    "index": 0,
+    "surface": 15,
+    "trim_horn_end_mm": 4,
+    "intersection_mm3": 0.0,
+    "closest_distance_mm": 0.5837399671305121
+  },
+  {
+    "index": 0,
+    "surface": 15,
+    "trim_horn_end_mm": 5,
+    "intersection_mm3": 0.0,
+    "closest_distance_mm": 1.3711232228601964
+  },
+  {
+    "index": -15,
+    "surface": -15,
+    "trim_horn_end_mm": 2,
+    "intersection_mm3": 1.0908703642639543,
+    "closest_distance_mm": 0.0
+  },
+  {
+    "index": -15,
+    "surface": -15,
+    "trim_horn_end_mm": 3,
+    "intersection_mm3": 0.0013671691881745344,
+    "closest_distance_mm": 0.0
+  },
+  {
+    "index": -15,
+    "surface": -15,
+    "trim_horn_end_mm": 4,
+    "intersection_mm3": 0.0,
+    "closest_distance_mm": 0.8765225666238988
+  },
+  {
+    "index": -15,
+    "surface": -15,
+    "trim_horn_end_mm": 5,
+    "intersection_mm3": 0.0,
+    "closest_distance_mm": 1.8496259687539744
+  },
+  {
+    "index": -15,
+    "surface": 0,
+    "trim_horn_end_mm": 2,
+    "intersection_mm3": 1.1381279620448463,
+    "closest_distance_mm": 0.0
+  },
+  {
+    "index": -15,
+    "surface": 0,
+    "trim_horn_end_mm": 3,
+    "intersection_mm3": 0.008021145656159264,
+    "closest_distance_mm": 0.0
+  },
+  {
+    "index": -15,
+    "surface": 0,
+    "trim_horn_end_mm": 4,
+    "intersection_mm3": 0.0,
+    "closest_distance_mm": 0.7613018401761211
+  },
+  {
+    "index": -15,
+    "surface": 0,
+    "trim_horn_end_mm": 5,
+    "intersection_mm3": 0.0,
+    "closest_distance_mm": 1.7125116831085645
+  },
+  {
+    "index": -15,
+    "surface": 15,
+    "trim_horn_end_mm": 2,
+    "intersection_mm3": 1.2331227800780158,
+    "closest_distance_mm": 0.0
+  },
+  {
+    "index": -15,
+    "surface": 15,
+    "trim_horn_end_mm": 3,
+    "intersection_mm3": 0.040256852159805845,
+    "closest_distance_mm": 0.0
+  },
+  {
+    "index": -15,
+    "surface": 15,
+    "trim_horn_end_mm": 4,
+    "intersection_mm3": 0.0,
+    "closest_distance_mm": 0.5330582446840411
+  },
+  {
+    "index": -15,
+    "surface": 15,
+    "trim_horn_end_mm": 5,
+    "intersection_mm3": 0.0,
+    "closest_distance_mm": 1.417639994655458
+  }
+]

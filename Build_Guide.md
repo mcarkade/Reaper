@@ -3,6 +3,8 @@
 
 ## Build the Reaper
 
+**BUILD STATUS - plywood REV3 issued** Use the corrected REV3 plywood sheet, test layer first. Motor screw access is corrected. Foam forming, control linkage and pitot installation still need the work identified in Buildability_Audit.md. Do not treat the complete kit as beginner-ready or flight-proven.
+
 ![Finished shape with the owned 9045 three-blade propeller shown as a reference. Fit your three wheel assemblies to the plain legs; their dimensions are not modelled.](Illustrations/Assembly.png)
 
 Finished shape with the owned 9045 three-blade propeller shown as a reference. Fit your three wheel assemblies to the plain legs; their dimensions are not modelled.
@@ -55,7 +57,7 @@ Distance = speed squared / (2 x net acceleration). Acceleration is unmeasured. T
 
 | Order | Do this | Files in this package |
 | --- | --- | --- |
-| 1  CUT WOOD | 33 plywood + 38 balsa pieces. Count 71. | Cutting/ sheet DXFs; Cutting/Part_to_Sheet.csv |
+| 1  CUT WOOD | 32 plywood + 38 balsa pieces. Count 70, plus five plywood test pieces. | Cutting/ sheet DXFs; Workshop_Plywood_REV3/ shop instructions |
 | 2  CUT FOAM | 35 flat patterns. Knife or CNC knife; form and trim inner pockets by hand. | Cutting/ foam sheet DXFs; individual files in Reference_Profiles/ |
 | 3  PRINT | 14 new PLA+ parts. Reuse the existing N1 nose. | Print/ individual STLs; Print/Print_Schedule.csv |
 | 4  DRY-FIT + GLUE | Body -> wing beams -> ribs/skins -> tail/controls -> covers/legs. | Illustrated steps in this guide; CAD/Reaper_Assembly.step |
@@ -70,6 +72,8 @@ Parts and cutting: pages 4-15.
 Assembly and intermediate pictures: pages 16-31.
 Electronics placement, wiring and setup: pages 32-39.
 Balance and launch checks: pages 40-41. Terms: page 42.
+Motor screws: page 43. Body-wrap trial: page 44. Pitot trial: page 45.
+Read Buildability_Audit.md before using these reference files.
 
 CAD = the positioned 3D model. DXF = a flat cutting file. STL = a print mesh. R and L mean aircraft right and left when looking forward from the tail. All files use millimetres at 100% scale.
 
@@ -78,7 +82,7 @@ CAD = the positioned 3D model. DXF = a flat cutting file. STL = a print mesh. R 
 
 | Have ready | Use |
 | --- | --- |
-| 6 mm plywood, 8 x 4 ft | One 2438.4 x 1219.2 mm layout; 33 parts. Measure actual thickness first. |
+| 6 mm plywood, 8 x 4 ft | One 2438.4 x 1219.2 mm layout; 32 parts + 5 test pieces. Measure actual thickness first. |
 | Ten 1000 x 100 x 5 mm balsa planks | Two nested planks; 38 parts. Keep the layout grain direction. |
 | Ten 1000 x 600 mm FliteBoard sheets | Three nested sheets; 35 flat patterns. Measure thickness and sheet mass. |
 | Two solid 5 x 1000 mm carbon rods | Use one full rod in each wing. Do not make short centre joiners. |
@@ -94,23 +98,25 @@ Tools: ruler/caliper, square, knife, sanding block, drill/reamer, scale, solderi
 
 ## Cut once, label every piece
 
+**Plywood: use the REV3 sheet only** Cut TEST_CUT_FIRST and check stock/kerf/lamination fit before CUT_AIRCRAFT. The 32 aircraft pieces replace the old 33-piece set. Foam still has no complete score/forming/pocket plan; do not mass-cut it from the reference outlines.
+
 1.  Give the shop Cutting/Sheet_Register.csv, Part_to_Sheet.csv and the matching DXFs. Keep every part ID on its cut piece.
 
 2.  Measure plywood, balsa and foam. Test the cutting width (kerf) and slot fit on an offcut before the complete sheet.
 
-3.  CUT means through-cut. SCORE needs a separate controlled pass. MARK labels pieces. Never cut STOCK_REFERENCE_DO_NOT_CUT.
+3.  Plywood layers: TEST_CUT_FIRST, then CUT_AIRCRAFT. Disable LABEL_DO_NOT_CUT and STOCK_DO_NOT_CUT for through-cutting. The separate balsa/foam files use CUT and MARK; their stock outline is not cut.
 
 4.  If the laser bed is smaller, re-nest whole individual profiles from Reference_Profiles/. Keep scale at 100%. Do not split a structural part just to fit the bed.
 
 5.  Use knife/CNC-knife for the paper-faced foam unless the shop has established a suitable process. Protect the outer paper; internal pockets are hand-fit later.
 
-6.  Count 33 plywood + 38 balsa + 35 foam patterns. Tick the checklist. Add one tiny hand-shaped FNT foam offcut (13 x 7 mm) during nose fitting.
+6.  Count 32 plywood + 38 balsa aircraft pieces; keep the five plywood test pieces separately. The 35 foam patterns remain reference geometry under audit. Add the small FNT offcut only after the nose-forming method is settled.
 
 **Grain and finishing matter** Keep balsa grain along the long stock direction shown. Keep root-tongue plywood face grain along the wing span. Some laser-cut blanks still need grooves or sanding: use CAD/Stock_Blanks for the starting shape and CAD/Parts for the finished shape.
 
 Optional paper cutting
 
-Paper_Patterns.pdf is a tiled, actual-size template set. Find the needed part in Data/Paper_Page_Map.csv. Print only those pages at Actual Size / 100%; measure the scale bar before cutting. Do not print all 180 pages by default.
+Paper_Patterns.pdf is a tiled, actual-size template set. Find the needed part in Data/Paper_Page_Map.csv. Print only needed pages at Actual Size / 100%; measure the scale bar. Plywood motor templates now match REV3. Foam templates remain reference-only pending forming corrections.
 
 
 ## Wing wood parts / both wings
@@ -119,7 +125,7 @@ Paper_Patterns.pdf is a tiled, actual-size template set. Find the needed part in
 
 Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.
 
-Match IDs to Data/Guide_Parts_Checklist.csv. Wood pictures marked as blanks still need the finishing operation. N1 is reused, not part of the 14 new prints.
+Wood shades identify parts consistently across pictures; they do not mean different wood species. Match IDs to Data/Guide_Parts_Checklist.csv. Blanks still need finishing. Reuse N1; it is not one of the 14 new prints.
 
 
 ## Tail and landing-leg wood parts
@@ -128,7 +134,7 @@ Match IDs to Data/Guide_Parts_Checklist.csv. Wood pictures marked as blanks stil
 
 Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.
 
-Match IDs to Data/Guide_Parts_Checklist.csv. Wood pictures marked as blanks still need the finishing operation. N1 is reused, not part of the 14 new prints.
+Wood shades identify parts consistently across pictures; they do not mean different wood species. Match IDs to Data/Guide_Parts_Checklist.csv. Blanks still need finishing. Reuse N1; it is not one of the 14 new prints.
 
 
 ## Printed parts / 14 new prints + reuse N1
@@ -137,7 +143,7 @@ Match IDs to Data/Guide_Parts_Checklist.csv. Wood pictures marked as blanks stil
 
 Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.
 
-Match IDs to Data/Guide_Parts_Checklist.csv. Wood pictures marked as blanks still need the finishing operation. N1 is reused, not part of the 14 new prints.
+Wood shades identify parts consistently across pictures; they do not mean different wood species. Match IDs to Data/Guide_Parts_Checklist.csv. Blanks still need finishing. Reuse N1; it is not one of the 14 new prints.
 
 
 ## Body wood parts / panel 1
@@ -146,7 +152,7 @@ Match IDs to Data/Guide_Parts_Checklist.csv. Wood pictures marked as blanks stil
 
 Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.
 
-Match IDs to Data/Guide_Parts_Checklist.csv. Wood pictures marked as blanks still need the finishing operation. N1 is reused, not part of the 14 new prints.
+Wood shades identify parts consistently across pictures; they do not mean different wood species. Match IDs to Data/Guide_Parts_Checklist.csv. Blanks still need finishing. Reuse N1; it is not one of the 14 new prints.
 
 
 ## Body wood parts / panel 2
@@ -155,19 +161,21 @@ Match IDs to Data/Guide_Parts_Checklist.csv. Wood pictures marked as blanks stil
 
 Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.
 
-Match IDs to Data/Guide_Parts_Checklist.csv. Wood pictures marked as blanks still need the finishing operation. N1 is reused, not part of the 14 new prints.
+Wood shades identify parts consistently across pictures; they do not mean different wood species. Match IDs to Data/Guide_Parts_Checklist.csv. Blanks still need finishing. Reuse N1; it is not one of the 14 new prints.
 
 
-## Body wood parts / panel 3
+## Body wood parts - panel 3 / plywood REV3
 
 ![Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.](Illustrations/Build_Steps/parts_body_03.png)
 
 Each listed ID is one piece. Paired groups may show one representative; use each named file and pick every ID listed. Images are not cutting templates.
 
-Match IDs to Data/Guide_Parts_Checklist.csv. Wood pictures marked as blanks still need the finishing operation. N1 is reused, not part of the 14 new prints.
+Wood shades identify parts consistently across pictures; they do not mean different wood species. Match IDs to Data/Guide_Parts_Checklist.csv. Blanks still need finishing. Reuse N1; it is not one of the 14 new prints.
 
 
 ## Match the 35 foam patterns
+
+These 35 reference profiles have no score lines. Page 44 gives a simpler lower-body wrap trial with crease marks; prove the forming and inner pockets before the full foam cut.
 
 | Assembled skin | Flat patterns to pick | Count |
 | --- | --- | --- |
@@ -245,7 +253,7 @@ Measure stations aft from the FRONT TIP of FK. Keep rails level on supports; the
 | FX1 front / receiver JF front / JB front | 335 / 402.55 / 426.85 mm |
 | FX2 and FF2 front / FX3 and FF3 front | 568.65 / 719.65 mm |
 | TROOT front / motor plate FMF front | 779 / 919 mm |
-| Provisional balance line / pack centre | 409.16 / about 153.3 mm |
+| Provisional balance line / pack centre | 409.16 / about 153.0 mm |
 | Pack centre for removal | 130 mm; slide toward this mark, then lift |
 
 These are longitudinal marks, not glue-face heights. Use the side view and positioned CAD for height and orientation. CAD coordinates: X across wings, Y aft, Z up. Station = CAD Y + 335 mm.
@@ -290,7 +298,7 @@ Pick: FF0L + FF0R + FF0U + FF1 + FF2L + FF2R + FF2U + FF3 + FBT + FBWL + FBWR + 
 
 **Check before moving on** The real battery slides without catching. Two straps fit through slot rows about 80 mm apart within the battery length.
 
-Battery travel is an adjustment range, not permission to leave the battery loose. Tighten both straps for every test.
+Keep the shelf and its supports. Wrap straps through its slots. Hot glue can locate the nonslip pad; it is not the battery restraint. Do not tighten hard zip ties around the LiPo.
 
 
 ## 3. Add the equipment shelves
@@ -316,19 +324,19 @@ Install electronics later. This step checks the empty shelves and the real equip
 
 ## 4. Fit the wing socket and motor support
 
-![These are the existing wood parts; use the motor’s supplied hardware.](Illustrations/Build_Steps/04_motor_mount.png)
+![Fit the combined base and two gussets. Use the motor’s supplied screws after checking their fit.](Illustrations/Build_Steps/04_motor_mount.png)
 
-These are the existing wood parts; use the motor’s supplied hardware.
+Fit the combined base and two gussets. Use the motor’s supplied screws after checking their fit.
 
-Pick: JF + JB + JLOW + JTOP + FMF + FMT + FMGL + FMGR + FMGB (9 IDs, one each)
+Pick: JF + JB + JLOW + JTOP + FMF + FMT + FMGL + FMGR (8 IDs, one each)
 
 1.  Dry-fit lower plate JLOW and side walls JF/JB. Try a measured three-layer tongue sample BEFORE bonding upper plate JTOP.
 
 2.  Adjust the sliding fit, then close the socket. Keep the sample/tongue and sliding space free of glue. Nominal tongue width is 18 mm; socket gap is 18.3 mm.
 
-3.  Fit rear cross strip FMT, base FMGB and triangular braces FMGL/FMGR. Add upright motor plate FMF.
+3.  Fit the REV3 combined base FMT to the keel and rails. Add FMGL/FMGR braces and upright FMF. There is no separate FMGB in this revision; keep both 7 mm screwdriver openings clear.
 
-4.  Dry-fit the motor using its supplied screws. The four holes are on a 19 mm circle. Remove the motor again while gluing.
+4.  Test the motor and supplied screws on TEST_MOTOR first. Then dry-fit the actual mount: four holes on a 19 mm circle, rotated 45 degrees from the old pattern. See the drilling procedure on page 43. Remove the motor while gluing.
 
 **Check before moving on** Socket and motor plate meet their supports without gaps. The motor screws engage correctly and cannot touch the windings.
 
@@ -407,6 +415,8 @@ Ribs are the crosswise wing-profile pieces. Their small perimeter clearance must
 
 ## 7. Form and fit the wing skins
 
+**AUDIT HOLD** Current pockets can leave only about 0.5 mm skin. The pattern set also lacks complete fold/seam/pocket instructions. Prove a representative section and revise the interface if it cannot be made reliably.
+
 ![Right wing: inner patternF02 and outer patternF03. Left usesF01 andF04.](Illustrations/Build_Steps/17_wing_skin.png)
 
 Right wing: inner patternF02 and outer patternF03. Left usesF01 andF04.
@@ -466,6 +476,8 @@ Bevel the fixed foam underside only. Preserve the upper tape landing. Test the h
 
 ## 9. Fit hinges, horns, servos and spokes
 
+**AUDIT HOLD** Do not copy the vertical aileron-arm position in the reference CAD. Trial the arm about 15 degrees forward, then fit the spoke at neutral. This improves calculated travel margin; prove the real retained bends and full movement before use.
+
 ![Right underside close-up; foam and ribs hidden. Use the supplied servo arm.](Illustrations/Build_Steps/10_wing_control.png)
 
 Right underside close-up; foam and ribs hidden. Use the supplied servo arm.
@@ -478,13 +490,13 @@ Four MG90S servos, four factory arms and four bicycle spokes. Keep the fifth ser
 
 2.  Sand ARP/ALP/TRCP/TLCP blanks to the finished section. Keep upper-edge hinge gaps: 0.7 mm ailerons, 1.5 mm tails. Fit continuous tape on both faces; add plugs after horns cure and pass a pull-check.
 
-3.  Centre servos electrically; fit factory arms with their supplied centre screws. Tie servos to their supports. Measure each spoke between the actual arm/horn holes before bending.
+3.  Centre servos electrically. For the aileron trial, index the downward arms about 15 degrees toward the nose; secure their centre screws. Tie servos to supports. Remeasure each spoke at neutral before bending.
 
 4.  Fit captive spoke ends. The tail spoke end needs 3 mm usable axial movement through the servo-arm hole while retained. Never loosen the arm on its shaft. Check every combined stick corner.
 
 **Check before moving on** Start at no more than +/-15 degrees on ailerons and +/-20 degrees TOTAL on each mixed tail. No rubbing, rod escape, tape peeling or servo buzzing.
 
-AHR/AHL and MAR/MAL were dry-fitted earlier. The modeled servo-arm hole is 10 mm from the shaft; ailerons need about -36.5/+48 degrees of servo rotation. Set endpoints from real surface travel, not a default +/-45-degree servo setting.
+The arm hole is 10 mm from its shaft. The forward-indexed trial needs about -36.4/+36.0 degrees from its new neutral for +/-15 degrees surface travel. Fit real bends and set endpoints by measured surface angle. CAD still shows the original arm position.
 
 
 ## Detail: tail linkage
@@ -501,7 +513,7 @@ Keep the spoke ends captive
 
 Use the four owned spokes and factory servo arms. Do not assume the spoke thread is M2. Measure and bend to the actual centred linkage.
 
-Nominal pin-centre references: aileron spokes about 29.3 mm; tail spokes about 88.4 mm, before bend allowances. The captive tail spoke end needs 3 mm usable sliding movement through the arm hole. Keep the arm firmly screwed to its shaft. Prove full travel with the actual linkage.
+Trial aileron setup: electrically centre the servo, then index its downward arm about 15 degrees toward the nose. Measure each rod anew; nominal pin-centre length is 31.2 mm before bends. Tail reference: 88.4 mm with 3 mm retained sliding movement at the spoke end. Keep arms screwed firmly to their shafts. Prove actual bends and full travel.
 
 
 ## 10. Close the body and prove access
@@ -562,13 +574,15 @@ Placement map, not a PCB pin layout. Nose to the left; motor at the rear.
 | --- | --- |
 | GenX 4S 5200 mAh | FBT shelf, nonslip pad, two straps. Lift N1 + FSU1 together. |
 | M9N-5883 GPS / compass | FGPS shelf above forward battery; antenna face up. |
-| ASPD-4525 / pitot | Board under tray rear; pitot on left-forward FBT tab. Label both hoses. |
+| ASPD-4525 / pitot | Board under tray rear; external tape-on probe trial on page 45. Label both hoses. |
 | SiK 433 air radio | FTM0/FTM1 under FCF; antenna clear of carbon and power wiring. |
 | Matek F405-WING V2 / FS-iA10B | FEQ deck: FC forward, receiver behind it. Remove FSU2. |
 | ReadytoSky 40 A / Emax ECO II 2807 1300KV | ESC across FES0/FES1 with airflow; motor behind FMF. |
 | Four MG90S servos | MAR/MAL wing plates; MTR/MTL tail trays. Keep arms and root plugs accessible. |
 
 Use simple pads and ties. Protect solder joints and restrain leads. FC long side runs across the body: read its actual arrow/top face before setting orientation. Keep USB, SD card and plugs reachable. Test cooling with covers fitted.
+
+For the pitot trial, keep N1 intact. Trial tape retention on its outside and route hoses through a foam-cover seam. The real probe, taper, hoses and cover clearance decide the fit; see page 45.
 
 
 ## Wire power and the four servos
@@ -756,7 +770,7 @@ Balance the whole model, not the empty shell
 
 2.  Mark the provisional balance line 409.16 mm aft of the FK front tip (CAD Y = 74.16). Support both sides at this line without damaging the wing.
 
-3.  Move the battery to balance. The calculation starts near centre station 153.3 mm (CAD Y about -181.7). Tighten both straps and recheck. Do not add ballast before measuring.
+3.  Move the battery to balance. The revised calculation starts near centre station 153.0 mm (CAD Y about -182.0). Tighten both straps and recheck. Do not add ballast before measuring.
 
 4.  Check left-right balance and neutral surfaces. Have an experienced builder/pilot review the actual CG and stability before flight. The provisional 20%-of-MAC target is not flight-tested.
 
@@ -818,3 +832,60 @@ Data/Sources.md - original design credit and DIY build references.
 Data/Guide_Sources.md - board, calibration and calculation sources.
 
 This guide documents a prototype build, not a tested production kit. The digital checks cover geometry and files. Real stock fit, bonds, weight, balance, propulsion and flight remain physical checks.
+
+
+## Motor screws and drilling
+
+**Use the corrected REV3 parts** FMT now combines the old base and crosspiece; omit old FMGB. Four 6 mm head/tool gauges clear the corrected mount. Check the actual motor and screws on TEST_MOTOR before assembly. The screws pass through wood and thread into metal.
+
+![Blue cylinders show the checked 6 mm-diameter, 60 mm-long driver paths. They are clearance gauges, not extra parts or the actual supplied tools.](Illustrations/Build_Steps/19_motor_access_check.png)
+
+Blue cylinders show the checked 6 mm-diameter, 60 mm-long driver paths. They are clearance gauges, not extra parts or the actual supplied tools.
+
+1.  Tools: caliper, matching hex driver, drill and a nominal 3.2 mm bit for M3 clearance holes, clamps and scrap backing wood. If accurate holes are laser-cut, drilling those four holes again is unnecessary.
+
+2.  For a manually made corrected plate, transfer the actual motor hole pattern, clamp the loose plate on scrap, and drill square through it. Screws must pass freely through wood and engage the motor metal threads. Do not use wood screws.
+
+3.  Measure the actual plywood and screw length under the head. Through 6 mm wood, an 8 mm screw projects 2 mm and a 10 mm screw 4 mm. Check actual thread engagement and winding/bottoming clearance before choosing; neither length is automatically approved.
+
+4.  Check the central shaft/retainer against the wood. Any required clearance hole or recess needs a measured drawing. Do not arbitrarily enlarge the centre hole or countersink for the wrong head type.
+
+5.  Fit the motor with the propeller removed. Tighten the four screws evenly according to the motor instructions. Confirm full seating, free bell rotation, reachable heads and no trapped wires. Reinspect after a secured motor test.
+
+The existing dimensioned EMAX drawing shows a 19 mm hole circle. Verify it on the real motor; store text saying 19 x 19 is ambiguous. The M5 nut secures the propeller, not the motor to the wood.
+
+
+## Trial a larger body-foam wrap
+
+![One or two broader wraps can replace ten narrow lower-body strips. This preserves the intended exterior and all wood. First prove the forming method on actual stock.](Illustrations/Build_Steps/20_body_wrap_trial.png)
+
+One or two broader wraps can replace ten narrow lower-body strips. This preserves the intended exterior and all wood. First prove the forming method on actual stock.
+
+1.  Start with paper, then a 40 mm-long foam coupon. Nominal outside width is 157.4 mm. Mark LEFT and the four crease positions shown. Leave a little extra at both rims for fitting; do not cut the crease lines through.
+
+2.  Peel the inside paper only. Gently roll the broad curved bands over a smooth former; keep the narrow bottom band flat. Form the small marked changes in angle from the inside, preserving continuous outside paper.
+
+3.  Compare both ends with Data/Foam_Forming_Trial/outer_section_reference_1to1.svg. Print at 100% and check its 100 mm bar. Trial any needed inner relief gradually; reject tears, buckling or a shape forced against the frame.
+
+4.  After a sound coupon, trial one 573.7 mm-long wrap or two lengths of 205.0 and 368.7 mm. Mark actual wood contacts inside, pare only needed pockets and dry-fit covers before gluing. Keep N1/FSU1 removable.
+
+**What this resolves** The diagram supplies panel order, width and crease positions. It does not establish knife depth, adhesive performance or a successful full-length build. Do this trial before cutting the existing reference foam set. Keep F14/F18 as part of the broad sheet, not discarded area.
+
+Data/Foam_Forming_Trial/method.md lists the remaining body-piece mating order and detailed trial steps. The released reference-pattern count remains 35; the trial wrap is an alternative, not extra skin.
+
+
+## Fit the pitot with tape first
+
+![CAD shell outline with a proposed external probe and hose route. Hardware is offset for clarity. Fit the real parts; this picture is not a drilling template.](Illustrations/Build_Steps/21_pitot_trial.png)
+
+CAD shell outline with a proposed external probe and hose route. Hardware is offset for clarity. Fit the real parts; this picture is not a drilling template.
+
+1.  Battery out. Hold the probe outside the left side of N1, pointing straight forward. Keep its front opening clear and every side hole at least 10 mm ahead of the nose for this trial.
+
+2.  Use a thin nonslip pad and two tape bands behind the holes. Both bands must support the straight tube on the curved nose without rocking or tilting it. Do not drill or sand N1.
+
+3.  Label total/static hoses. Tape them loosely along the outside to the foam-cover side seam beside the tray rear. If needed, fit a small rounded relief in foam only. Route around the open FBT rear edge to the board underneath.
+
+4.  Leave smooth bends and slack to lift N1/FSU1 and disconnect labelled hoses. Refit covers and battery, check straps and removal, then check probe grip, hose kinks/leaks, sensor zero and gentle-airflow response.
+
+**Fit decides the final position** Unknown probe dimensions prevent a universal mount drawing. If two stable bands and forward alignment cannot coexist, revise placement before cutting. Do not bury pressure holes or squeeze hoses to make it fit. Data/Pitot_Installation.md records the method and internal-route alternative.

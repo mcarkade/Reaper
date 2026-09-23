@@ -1,0 +1,962 @@
+{
+  "source_pdf_sha256": "40a5ef735429b4e0f2245a185cb1e945ba828b6344b8efd46ed1c8f4a5f8eb29",
+  "source_page_map_sha256": "eeaeee3539175034a641bfc8952a07ff1b1095205d9ff678ab9f442b7e18f37f",
+  "replaced": {
+    "FMF": {
+      "new_page": 38,
+      "reference_dxf_sha256": "37cc7d6845f4cca869ca2b12fdce9a94bb17290ae93b7470f5533a31c2ac1405",
+      "polygon_symmetric_difference_mm2": 0.0,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        48.0,
+        47.25756
+      ],
+      "x0_mm": 0.0,
+      "y0_mm": 0.0,
+      "vector_scale_points_per_mm": 2.834645669291339,
+      "bar_length_points": 283.46456692913387
+    },
+    "FMT": {
+      "new_page": 39,
+      "reference_dxf_sha256": "ecef0a3a243567e4c23adcaa4b2eeb7e8c8989afd6be1d5675d1d896fb4f76f4",
+      "polygon_symmetric_difference_mm2": 0.0,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        48.0,
+        70.0
+      ],
+      "x0_mm": 0.0,
+      "y0_mm": 0.0,
+      "vector_scale_points_per_mm": 2.834645669291339,
+      "bar_length_points": 283.46456692913387
+    }
+  },
+  "removed_pattern": "FMGB",
+  "preserved_pages": [
+    {
+      "pattern_id": "FLR",
+      "old_page": 1,
+      "new_page": 1
+    },
+    {
+      "pattern_id": "FLR",
+      "old_page": 2,
+      "new_page": 2
+    },
+    {
+      "pattern_id": "FLR",
+      "old_page": 3,
+      "new_page": 3
+    },
+    {
+      "pattern_id": "FLR",
+      "old_page": 4,
+      "new_page": 4
+    },
+    {
+      "pattern_id": "FLL",
+      "old_page": 5,
+      "new_page": 5
+    },
+    {
+      "pattern_id": "FLL",
+      "old_page": 6,
+      "new_page": 6
+    },
+    {
+      "pattern_id": "FLL",
+      "old_page": 7,
+      "new_page": 7
+    },
+    {
+      "pattern_id": "FLL",
+      "old_page": 8,
+      "new_page": 8
+    },
+    {
+      "pattern_id": "FF1",
+      "old_page": 9,
+      "new_page": 9
+    },
+    {
+      "pattern_id": "FF3",
+      "old_page": 10,
+      "new_page": 10
+    },
+    {
+      "pattern_id": "FK",
+      "old_page": 11,
+      "new_page": 11
+    },
+    {
+      "pattern_id": "FK",
+      "old_page": 12,
+      "new_page": 12
+    },
+    {
+      "pattern_id": "FK",
+      "old_page": 13,
+      "new_page": 13
+    },
+    {
+      "pattern_id": "FK",
+      "old_page": 14,
+      "new_page": 14
+    },
+    {
+      "pattern_id": "FK",
+      "old_page": 15,
+      "new_page": 15
+    },
+    {
+      "pattern_id": "FX0L",
+      "old_page": 16,
+      "new_page": 16
+    },
+    {
+      "pattern_id": "FX0R",
+      "old_page": 17,
+      "new_page": 17
+    },
+    {
+      "pattern_id": "FX1",
+      "old_page": 18,
+      "new_page": 18
+    },
+    {
+      "pattern_id": "FX2",
+      "old_page": 19,
+      "new_page": 19
+    },
+    {
+      "pattern_id": "FX3",
+      "old_page": 20,
+      "new_page": 20
+    },
+    {
+      "pattern_id": "FBT",
+      "old_page": 21,
+      "new_page": 21
+    },
+    {
+      "pattern_id": "FBT",
+      "old_page": 22,
+      "new_page": 22
+    },
+    {
+      "pattern_id": "FBWR",
+      "old_page": 23,
+      "new_page": 23
+    },
+    {
+      "pattern_id": "FBWR",
+      "old_page": 24,
+      "new_page": 24
+    },
+    {
+      "pattern_id": "FBWL",
+      "old_page": 25,
+      "new_page": 25
+    },
+    {
+      "pattern_id": "FBWL",
+      "old_page": 26,
+      "new_page": 26
+    },
+    {
+      "pattern_id": "FBC",
+      "old_page": 27,
+      "new_page": 27
+    },
+    {
+      "pattern_id": "FGPS",
+      "old_page": 28,
+      "new_page": 28
+    },
+    {
+      "pattern_id": "FGPR",
+      "old_page": 29,
+      "new_page": 29
+    },
+    {
+      "pattern_id": "FGPL",
+      "old_page": 30,
+      "new_page": 30
+    },
+    {
+      "pattern_id": "FEQ",
+      "old_page": 31,
+      "new_page": 31
+    },
+    {
+      "pattern_id": "FEC0",
+      "old_page": 32,
+      "new_page": 32
+    },
+    {
+      "pattern_id": "FEC1",
+      "old_page": 33,
+      "new_page": 33
+    },
+    {
+      "pattern_id": "FES0",
+      "old_page": 34,
+      "new_page": 34
+    },
+    {
+      "pattern_id": "FES1",
+      "old_page": 35,
+      "new_page": 35
+    },
+    {
+      "pattern_id": "FTM0",
+      "old_page": 36,
+      "new_page": 36
+    },
+    {
+      "pattern_id": "FTM1",
+      "old_page": 37,
+      "new_page": 37
+    },
+    {
+      "pattern_id": "FMGR",
+      "old_page": 40,
+      "new_page": 40
+    },
+    {
+      "pattern_id": "FMGL",
+      "old_page": 41,
+      "new_page": 41
+    },
+    {
+      "pattern_id": "FNG1",
+      "old_page": 43,
+      "new_page": 42
+    },
+    {
+      "pattern_id": "FNG2",
+      "old_page": 44,
+      "new_page": 43
+    },
+    {
+      "pattern_id": "FNG3",
+      "old_page": 45,
+      "new_page": 44
+    },
+    {
+      "pattern_id": "FNG4",
+      "old_page": 46,
+      "new_page": 45
+    },
+    {
+      "pattern_id": "FF0R",
+      "old_page": 47,
+      "new_page": 46
+    },
+    {
+      "pattern_id": "FF0U",
+      "old_page": 48,
+      "new_page": 47
+    },
+    {
+      "pattern_id": "FF0L",
+      "old_page": 49,
+      "new_page": 48
+    },
+    {
+      "pattern_id": "FF2R",
+      "old_page": 50,
+      "new_page": 49
+    },
+    {
+      "pattern_id": "FF2U",
+      "old_page": 51,
+      "new_page": 50
+    },
+    {
+      "pattern_id": "FF2L",
+      "old_page": 52,
+      "new_page": 51
+    },
+    {
+      "pattern_id": "WRRI",
+      "old_page": 53,
+      "new_page": 52
+    },
+    {
+      "pattern_id": "WRRM_1",
+      "old_page": 54,
+      "new_page": 53
+    },
+    {
+      "pattern_id": "WRRM_2",
+      "old_page": 55,
+      "new_page": 54
+    },
+    {
+      "pattern_id": "WRRO_1",
+      "old_page": 56,
+      "new_page": 55
+    },
+    {
+      "pattern_id": "WRRO_2",
+      "old_page": 57,
+      "new_page": 56
+    },
+    {
+      "pattern_id": "JR1",
+      "old_page": 58,
+      "new_page": 57
+    },
+    {
+      "pattern_id": "JR1",
+      "old_page": 59,
+      "new_page": 58
+    },
+    {
+      "pattern_id": "JR2",
+      "old_page": 60,
+      "new_page": 59
+    },
+    {
+      "pattern_id": "JR2",
+      "old_page": 61,
+      "new_page": 60
+    },
+    {
+      "pattern_id": "JR3",
+      "old_page": 62,
+      "new_page": 61
+    },
+    {
+      "pattern_id": "JR3",
+      "old_page": 63,
+      "new_page": 62
+    },
+    {
+      "pattern_id": "WLRI",
+      "old_page": 64,
+      "new_page": 63
+    },
+    {
+      "pattern_id": "WLRM_1",
+      "old_page": 65,
+      "new_page": 64
+    },
+    {
+      "pattern_id": "WLRM_2",
+      "old_page": 66,
+      "new_page": 65
+    },
+    {
+      "pattern_id": "WLRO_1",
+      "old_page": 67,
+      "new_page": 66
+    },
+    {
+      "pattern_id": "WLRO_2",
+      "old_page": 68,
+      "new_page": 67
+    },
+    {
+      "pattern_id": "JL1",
+      "old_page": 69,
+      "new_page": 68
+    },
+    {
+      "pattern_id": "JL1",
+      "old_page": 70,
+      "new_page": 69
+    },
+    {
+      "pattern_id": "JL2",
+      "old_page": 71,
+      "new_page": 70
+    },
+    {
+      "pattern_id": "JL2",
+      "old_page": 72,
+      "new_page": 71
+    },
+    {
+      "pattern_id": "JL3",
+      "old_page": 73,
+      "new_page": 72
+    },
+    {
+      "pattern_id": "JL3",
+      "old_page": 74,
+      "new_page": 73
+    },
+    {
+      "pattern_id": "JF",
+      "old_page": 75,
+      "new_page": 74
+    },
+    {
+      "pattern_id": "JB",
+      "old_page": 76,
+      "new_page": 75
+    },
+    {
+      "pattern_id": "JLOW",
+      "old_page": 77,
+      "new_page": 76
+    },
+    {
+      "pattern_id": "JTOP",
+      "old_page": 78,
+      "new_page": 77
+    },
+    {
+      "pattern_id": "TROOT",
+      "old_page": 79,
+      "new_page": 78
+    },
+    {
+      "pattern_id": "TRS",
+      "old_page": 80,
+      "new_page": 79
+    },
+    {
+      "pattern_id": "TRS",
+      "old_page": 81,
+      "new_page": 80
+    },
+    {
+      "pattern_id": "TRS",
+      "old_page": 82,
+      "new_page": 81
+    },
+    {
+      "pattern_id": "TRS",
+      "old_page": 83,
+      "new_page": 82
+    },
+    {
+      "pattern_id": "TLS",
+      "old_page": 84,
+      "new_page": 83
+    },
+    {
+      "pattern_id": "TLS",
+      "old_page": 85,
+      "new_page": 84
+    },
+    {
+      "pattern_id": "TLS",
+      "old_page": 86,
+      "new_page": 85
+    },
+    {
+      "pattern_id": "TLS",
+      "old_page": 87,
+      "new_page": 86
+    },
+    {
+      "pattern_id": "MTR",
+      "old_page": 88,
+      "new_page": 87
+    },
+    {
+      "pattern_id": "MTL",
+      "old_page": 89,
+      "new_page": 88
+    },
+    {
+      "pattern_id": "ARP",
+      "old_page": 90,
+      "new_page": 89
+    },
+    {
+      "pattern_id": "ALP",
+      "old_page": 91,
+      "new_page": 90
+    },
+    {
+      "pattern_id": "TRCP",
+      "old_page": 92,
+      "new_page": 91
+    },
+    {
+      "pattern_id": "TLCP",
+      "old_page": 93,
+      "new_page": 92
+    },
+    {
+      "pattern_id": "LCR",
+      "old_page": 94,
+      "new_page": 93
+    },
+    {
+      "pattern_id": "LCR",
+      "old_page": 95,
+      "new_page": 94
+    },
+    {
+      "pattern_id": "LCR",
+      "old_page": 96,
+      "new_page": 95
+    },
+    {
+      "pattern_id": "LCR",
+      "old_page": 97,
+      "new_page": 96
+    },
+    {
+      "pattern_id": "LCR",
+      "old_page": 98,
+      "new_page": 97
+    },
+    {
+      "pattern_id": "LCR",
+      "old_page": 99,
+      "new_page": 98
+    },
+    {
+      "pattern_id": "WBR",
+      "old_page": 100,
+      "new_page": 99
+    },
+    {
+      "pattern_id": "WBR",
+      "old_page": 101,
+      "new_page": 100
+    },
+    {
+      "pattern_id": "WBR",
+      "old_page": 102,
+      "new_page": 101
+    },
+    {
+      "pattern_id": "WBR",
+      "old_page": 103,
+      "new_page": 102
+    },
+    {
+      "pattern_id": "WBR",
+      "old_page": 104,
+      "new_page": 103
+    },
+    {
+      "pattern_id": "LCL",
+      "old_page": 105,
+      "new_page": 104
+    },
+    {
+      "pattern_id": "LCL",
+      "old_page": 106,
+      "new_page": 105
+    },
+    {
+      "pattern_id": "LCL",
+      "old_page": 107,
+      "new_page": 106
+    },
+    {
+      "pattern_id": "LCL",
+      "old_page": 108,
+      "new_page": 107
+    },
+    {
+      "pattern_id": "LCL",
+      "old_page": 109,
+      "new_page": 108
+    },
+    {
+      "pattern_id": "LCL",
+      "old_page": 110,
+      "new_page": 109
+    },
+    {
+      "pattern_id": "WBL",
+      "old_page": 111,
+      "new_page": 110
+    },
+    {
+      "pattern_id": "WBL",
+      "old_page": 112,
+      "new_page": 111
+    },
+    {
+      "pattern_id": "WBL",
+      "old_page": 113,
+      "new_page": 112
+    },
+    {
+      "pattern_id": "WBL",
+      "old_page": 114,
+      "new_page": 113
+    },
+    {
+      "pattern_id": "WBL",
+      "old_page": 115,
+      "new_page": 114
+    },
+    {
+      "pattern_id": "GLEG_L",
+      "old_page": 116,
+      "new_page": 115
+    },
+    {
+      "pattern_id": "GLEG_L",
+      "old_page": 117,
+      "new_page": 116
+    },
+    {
+      "pattern_id": "GLEG_R",
+      "old_page": 118,
+      "new_page": 117
+    },
+    {
+      "pattern_id": "GLEG_R",
+      "old_page": 119,
+      "new_page": 118
+    },
+    {
+      "pattern_id": "GLEG_N",
+      "old_page": 120,
+      "new_page": 119
+    },
+    {
+      "pattern_id": "SKIN_F09",
+      "old_page": 121,
+      "new_page": 120
+    },
+    {
+      "pattern_id": "SKIN_F10",
+      "old_page": 122,
+      "new_page": 121
+    },
+    {
+      "pattern_id": "SKIN_F11",
+      "old_page": 123,
+      "new_page": 122
+    },
+    {
+      "pattern_id": "SKIN_F11",
+      "old_page": 124,
+      "new_page": 123
+    },
+    {
+      "pattern_id": "SKIN_F12",
+      "old_page": 125,
+      "new_page": 124
+    },
+    {
+      "pattern_id": "SKIN_F12",
+      "old_page": 126,
+      "new_page": 125
+    },
+    {
+      "pattern_id": "SKIN_F13",
+      "old_page": 127,
+      "new_page": 126
+    },
+    {
+      "pattern_id": "SKIN_F14",
+      "old_page": 128,
+      "new_page": 127
+    },
+    {
+      "pattern_id": "SKIN_F15",
+      "old_page": 129,
+      "new_page": 128
+    },
+    {
+      "pattern_id": "SKIN_F16",
+      "old_page": 130,
+      "new_page": 129
+    },
+    {
+      "pattern_id": "SKIN_F16",
+      "old_page": 131,
+      "new_page": 130
+    },
+    {
+      "pattern_id": "SKIN_F17",
+      "old_page": 132,
+      "new_page": 131
+    },
+    {
+      "pattern_id": "SKIN_F17",
+      "old_page": 133,
+      "new_page": 132
+    },
+    {
+      "pattern_id": "SKIN_F18",
+      "old_page": 134,
+      "new_page": 133
+    },
+    {
+      "pattern_id": "SKIN_F18",
+      "old_page": 135,
+      "new_page": 134
+    },
+    {
+      "pattern_id": "SKIN_F19",
+      "old_page": 136,
+      "new_page": 135
+    },
+    {
+      "pattern_id": "SKIN_F20",
+      "old_page": 137,
+      "new_page": 136
+    },
+    {
+      "pattern_id": "SKIN_F21",
+      "old_page": 138,
+      "new_page": 137
+    },
+    {
+      "pattern_id": "SKIN_F22",
+      "old_page": 139,
+      "new_page": 138
+    },
+    {
+      "pattern_id": "SKIN_F23",
+      "old_page": 140,
+      "new_page": 139
+    },
+    {
+      "pattern_id": "SKIN_F24",
+      "old_page": 141,
+      "new_page": 140
+    },
+    {
+      "pattern_id": "SKIN_F25",
+      "old_page": 142,
+      "new_page": 141
+    },
+    {
+      "pattern_id": "SKIN_F26",
+      "old_page": 143,
+      "new_page": 142
+    },
+    {
+      "pattern_id": "SKIN_F27",
+      "old_page": 144,
+      "new_page": 143
+    },
+    {
+      "pattern_id": "SKIN_F28",
+      "old_page": 145,
+      "new_page": 144
+    },
+    {
+      "pattern_id": "SKIN_F29",
+      "old_page": 146,
+      "new_page": 145
+    },
+    {
+      "pattern_id": "SKIN_F30",
+      "old_page": 147,
+      "new_page": 146
+    },
+    {
+      "pattern_id": "SKIN_F33",
+      "old_page": 148,
+      "new_page": 147
+    },
+    {
+      "pattern_id": "SKIN_WLIN_F01",
+      "old_page": 149,
+      "new_page": 148
+    },
+    {
+      "pattern_id": "SKIN_WLIN_F01",
+      "old_page": 150,
+      "new_page": 149
+    },
+    {
+      "pattern_id": "SKIN_WLIN_F01",
+      "old_page": 151,
+      "new_page": 150
+    },
+    {
+      "pattern_id": "SKIN_WLIN_F01",
+      "old_page": 152,
+      "new_page": 151
+    },
+    {
+      "pattern_id": "SKIN_WLIN_F01",
+      "old_page": 153,
+      "new_page": 152
+    },
+    {
+      "pattern_id": "SKIN_WLIN_F01",
+      "old_page": 154,
+      "new_page": 153
+    },
+    {
+      "pattern_id": "SKIN_WRIN_F02",
+      "old_page": 155,
+      "new_page": 154
+    },
+    {
+      "pattern_id": "SKIN_WRIN_F02",
+      "old_page": 156,
+      "new_page": 155
+    },
+    {
+      "pattern_id": "SKIN_WRIN_F02",
+      "old_page": 157,
+      "new_page": 156
+    },
+    {
+      "pattern_id": "SKIN_WRIN_F02",
+      "old_page": 158,
+      "new_page": 157
+    },
+    {
+      "pattern_id": "SKIN_WRIN_F02",
+      "old_page": 159,
+      "new_page": 158
+    },
+    {
+      "pattern_id": "SKIN_WRIN_F02",
+      "old_page": 160,
+      "new_page": 159
+    },
+    {
+      "pattern_id": "SKIN_WROUT_F03",
+      "old_page": 161,
+      "new_page": 160
+    },
+    {
+      "pattern_id": "SKIN_WROUT_F03",
+      "old_page": 162,
+      "new_page": 161
+    },
+    {
+      "pattern_id": "SKIN_WROUT_F03",
+      "old_page": 163,
+      "new_page": 162
+    },
+    {
+      "pattern_id": "SKIN_WROUT_F03",
+      "old_page": 164,
+      "new_page": 163
+    },
+    {
+      "pattern_id": "SKIN_WROUT_F03",
+      "old_page": 165,
+      "new_page": 164
+    },
+    {
+      "pattern_id": "SKIN_WROUT_F03",
+      "old_page": 166,
+      "new_page": 165
+    },
+    {
+      "pattern_id": "SKIN_WLOUT_F04",
+      "old_page": 167,
+      "new_page": 166
+    },
+    {
+      "pattern_id": "SKIN_WLOUT_F04",
+      "old_page": 168,
+      "new_page": 167
+    },
+    {
+      "pattern_id": "SKIN_WLOUT_F04",
+      "old_page": 169,
+      "new_page": 168
+    },
+    {
+      "pattern_id": "SKIN_WLOUT_F04",
+      "old_page": 170,
+      "new_page": 169
+    },
+    {
+      "pattern_id": "SKIN_WLOUT_F04",
+      "old_page": 171,
+      "new_page": 170
+    },
+    {
+      "pattern_id": "SKIN_WLOUT_F04",
+      "old_page": 172,
+      "new_page": 171
+    },
+    {
+      "pattern_id": "SKIN_TRF_F05",
+      "old_page": 173,
+      "new_page": 172
+    },
+    {
+      "pattern_id": "SKIN_TRF_F05",
+      "old_page": 174,
+      "new_page": 173
+    },
+    {
+      "pattern_id": "SKIN_TLF_F06",
+      "old_page": 175,
+      "new_page": 174
+    },
+    {
+      "pattern_id": "SKIN_TLF_F06",
+      "old_page": 176,
+      "new_page": 175
+    },
+    {
+      "pattern_id": "SKIN_TRF_F07",
+      "old_page": 177,
+      "new_page": 176
+    },
+    {
+      "pattern_id": "SKIN_TLF_F08",
+      "old_page": 178,
+      "new_page": 177
+    },
+    {
+      "pattern_id": "AR_horn_slot",
+      "old_page": 179,
+      "new_page": 178
+    },
+    {
+      "pattern_id": "AL_horn_slot",
+      "old_page": 180,
+      "new_page": 179
+    }
+  ],
+  "unchanged_page_content_pixel_comparisons": {
+    "count": 177,
+    "dpi": 72,
+    "excluded_bottom_mm": 15,
+    "mismatch_count": 0
+  },
+  "coverage": {
+    "pages": 179,
+    "cutting_pattern_ids": 105,
+    "post_print_locators": 2,
+    "unique_pattern_ids": 107,
+    "no_FMGB": true
+  },
+  "output_pdf_sha256": "ff94c7ff7ae3c4dbe103138c58d88dc2921b154231d8f83ce05e6f9e1bac3e94",
+  "output_map_sha256": "c3761dafa381a6d46a926dbff82d9da7a6e42950a85587277e256bac0fe8793b",
+  "scale_bars": {
+    "count": 179,
+    "minimum_length_pt": 283.4646224975586,
+    "maximum_length_pt": 283.4646224975586,
+    "expected_100mm_points": 283.46456692913387,
+    "tolerance_pt": 0.01
+  },
+  "visual_review": {
+    "status": "PASS",
+    "pages_inspected": [
+      38,
+      39,
+      42,
+      178,
+      179
+    ],
+    "motor_page_renderer": "Poppler110dpi",
+    "other_samples_renderer": "PyMuPDF72dpi",
+    "findings": "Updated profiles, labels, scale bars and footers are legible and unclipped. Foam warning remains outside pattern/bar area; finishing locators preserved.",
+    "remaining_pages": "177 unchanged page-content clips pixel-identical to baseline; prior visual proof inherited for those contents."
+  },
+  "footer_numbering_verified_pages": 179,
+  "no_FMGB_in_pdf_text": true
+}

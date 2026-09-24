@@ -107,30 +107,30 @@
     "inputs_changed_during_measurement": []
   },
   "mass": {
-    "estimated_g": 2513.708033479278,
-    "low_g": 2114.8617973174873,
-    "high_g": 3073.0253503603335
+    "estimated_g": 2513.708033502572,
+    "low_g": 2114.861797334957,
+    "high_g": 3073.025350389451
   },
   "cg_xyz_mm": {
-    "x": -0.004773450969013144,
-    "y": 60.30756396849697,
-    "z": 11.863969443170772
+    "x": -0.004773451418752064,
+    "y": 60.30756397331596,
+    "z": 11.863969443578975
   },
-  "wing_loading_g_dm2": 82.73001346892951,
+  "wing_loading_g_dm2": 82.73001346969616,
   "provisional_20percent_MAC_y_mm": 74.12943049791777,
-  "required_battery_centre_y_mm": -192.14035755335271,
+  "required_battery_centre_y_mm": -192.1403575763831,
   "source_box_clear_battery_centres_y_mm": [
     -320,
     -200
   ],
   "battery_target_within_source_checked_interval": false,
   "required_battery_extreme_mass_bounds_y_mm": [
-    -337.6033151329547,
-    -65.34122557152024
+    -337.60331516233026,
+    -65.34122558845435
   ],
   "nominal_mass_stall_range_km_h": [
-    37.82254223665951,
-    48.88414772366165
+    37.82254223683475,
+    48.884147723888134
   ],
   "endurance": [
     {
@@ -162,44 +162,44 @@
   "runway_conditional": [
     {
       "assumed_net_acceleration_m_s2": 1,
-      "still_air_target_m_s": 17.652608900211153,
-      "ideal_distance_m": 155.807300491907,
-      "time_s": 17.652608900211153
+      "still_air_target_m_s": 17.65260890029294,
+      "ideal_distance_m": 155.80730049335077,
+      "time_s": 17.65260890029294
     },
     {
       "assumed_net_acceleration_m_s2": 2,
-      "still_air_target_m_s": 17.652608900211153,
-      "ideal_distance_m": 77.9036502459535,
-      "time_s": 8.826304450105576
+      "still_air_target_m_s": 17.65260890029294,
+      "ideal_distance_m": 77.90365024667538,
+      "time_s": 8.82630445014647
     },
     {
       "assumed_net_acceleration_m_s2": 3,
-      "still_air_target_m_s": 17.652608900211153,
-      "ideal_distance_m": 51.935766830635664,
-      "time_s": 5.884202966737051
+      "still_air_target_m_s": 17.65260890029294,
+      "ideal_distance_m": 51.93576683111692,
+      "time_s": 5.884202966764313
     },
     {
       "assumed_net_acceleration_m_s2": 4,
-      "still_air_target_m_s": 17.652608900211153,
-      "ideal_distance_m": 38.95182512297675,
-      "time_s": 4.413152225052788
+      "still_air_target_m_s": 17.65260890029294,
+      "ideal_distance_m": 38.95182512333769,
+      "time_s": 4.413152225073235
     }
   ],
   "wing_load_demands": [
     {
       "load_factor": 1,
-      "halfwing_lift_N": 12.325527443259782,
-      "uniform_exposed_halfwing_root_moment_Nm": 5.836137244383506
+      "halfwing_lift_N": 12.325527443373998,
+      "uniform_exposed_halfwing_root_moment_Nm": 5.836137244437587
     },
     {
       "load_factor": 2,
-      "halfwing_lift_N": 24.651054886519564,
-      "uniform_exposed_halfwing_root_moment_Nm": 11.672274488767012
+      "halfwing_lift_N": 24.651054886747996,
+      "uniform_exposed_halfwing_root_moment_Nm": 11.672274488875175
     },
     {
       "load_factor": 3,
-      "halfwing_lift_N": 36.97658232977935,
-      "uniform_exposed_halfwing_root_moment_Nm": 17.50841173315052
+      "halfwing_lift_N": 36.97658233012199,
+      "uniform_exposed_halfwing_root_moment_Nm": 17.508411733312762
     }
   ],
   "rod_second_moment_mm4": {

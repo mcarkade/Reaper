@@ -1,0 +1,59 @@
+{
+  "revision": "R5B",
+  "source_motor_pattern": "EMAX 19 x 19 mm square, M3 screws",
+  "wood_thickness_mm": 6,
+  "hole_diameter_mm": 3.2,
+  "flat_centres_mm": [
+    [
+      14.272765,
+      10.5
+    ],
+    [
+      14.272765,
+      29.5
+    ],
+    [
+      33.272765,
+      10.5
+    ],
+    [
+      33.272765,
+      29.5
+    ]
+  ],
+  "world_centres_xz_mm": [
+    [
+      -9.5,
+      -12.0
+    ],
+    [
+      -9.5,
+      7.0
+    ],
+    [
+      9.5,
+      -12.0
+    ],
+    [
+      9.5,
+      7.0
+    ]
+  ],
+  "adjacent_spacing_mm": 19,
+  "diagonal_spacing_mm": 26.870057685088806,
+  "step_sha256": "e311f9143c2807d5a4104e81cd9b799970717ba406cbd776fa46c296b3aa2488",
+  "dxf_sha256": "d02bbd20484e8ba9cb89f8382b57d4b6f307e18e56decdc1ee6a46f518c61f18",
+  "part_volume_mm3": 7293.565706047028,
+  "bbox_mm": [
+    -23.77274943839,
+    576.65000000928,
+    -22.341382587770024,
+    23.772780561601,
+    582.65000000928,
+    17.499997412227003
+  ],
+  "limits": [
+    "Actual motor base thread depth and safe screw penetration remain physical measurements.",
+    "Supplied M3x8 and M3x10 screws yield nominal 2 and 4 mm protrusion past 6 mm stock before washers/head seating; neither is automatically approved."
+  ]
+}

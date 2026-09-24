@@ -1,0 +1,16 @@
+id,name,file,walls,infill_percent,infill_pattern,supports,layer_mm,nozzle_mm,brim_mm,orientation
+A06,Centre fairing,Print/Individual/A06_2W_10GYR_SUP_L0p2_B8.stl,2,10,gyroid,build plate only,0.2,0.4,8,Front / low-Y end down; installed STEP rotated +90 degrees about X.
+A11,Left printed aileron,Print/Individual/A11_2W_10GYR_SUP_L0p2_B8.stl,2,10,gyroid,build plate only,0.2,0.4,8,"Span axis upright, one end down; installed STEP rotated +90 degrees about Y. Confirm actual printer height before using this orientation."
+A12,Tail carrier,Print/Individual/A12_2W_15GYR_SUP_L0p2_B8.stl,2,15,gyroid,build plate only,0.2,0.4,8,Front / low-Y end down; installed STEP rotated +90 degrees about X.
+A21,Right printed aileron,Print/Individual/A21_2W_10GYR_SUP_L0p2_B8.stl,2,10,gyroid,build plate only,0.2,0.4,8,"Span axis upright, one end down; installed STEP rotated +90 degrees about Y. Confirm actual printer height before using this orientation."
+A23,Left fixed aileron hinge rail,Print/Individual/A23_3W_15GYR_NOSUP_L0p2_B8.stl,3,15,gyroid,off,0.2,0.4,8,"Span axis upright, one end down; installed STEP rotated +90 degrees about Y. Confirm actual printer height before using this orientation."
+A36,Right fixed aileron hinge rail,Print/Individual/A36_3W_15GYR_NOSUP_L0p2_B8.stl,3,15,gyroid,off,0.2,0.4,8,"Span axis upright, one end down; installed STEP rotated +90 degrees about Y. Confirm actual printer height before using this orientation."
+A45,Right wing root,Print/Individual/A45_4W_35GYR_NOSUP_L0p2_B8.stl,4,35,gyroid,off,0.2,0.4,8,Front / low-Y end down; installed STEP rotated +90 degrees about X.
+A55,Left wing root,Print/Individual/A55_4W_35GYR_NOSUP_L0p2_B8.stl,4,35,gyroid,off,0.2,0.4,8,Front / low-Y end down; installed STEP rotated +90 degrees about X.
+HWR,Right aileron horn,Print/Individual/HWR_3W_100RECT_NOSUP_L0p2_B5.stl,3,100,rectilinear,off,0.2,0.4,5,Horn side face toward bed; tail horn needs accessible supports beneath flange.
+HWL,Left aileron horn,Print/Individual/HWL_3W_100RECT_NOSUP_L0p2_B5.stl,3,100,rectilinear,off,0.2,0.4,5,Horn side face toward bed; tail horn needs accessible supports beneath flange.
+HTR,Right tail horn with base,Print/Individual/HTR_3W_100RECT_SUP_L0p2_B5.stl,3,100,rectilinear,build plate only,0.2,0.4,5,Horn side face toward bed; tail horn needs accessible supports beneath flange.
+HTL,Left tail horn with base,Print/Individual/HTL_3W_100RECT_SUP_L0p2_B5.stl,3,100,rectilinear,build plate only,0.2,0.4,5,Horn side face toward bed; tail horn needs accessible supports beneath flange.
+HTRB,Right tail horn backing plate,Print/Individual/HTRB_3W_100RECT_NOSUP_L0p2_B5.stl,3,100,rectilinear,off,0.2,0.4,5,Broad backing plate face flat on bed.
+HTLB,Left tail horn backing plate,Print/Individual/HTLB_3W_100RECT_NOSUP_L0p2_B5.stl,3,100,rectilinear,off,0.2,0.4,5,Broad backing plate face flat on bed.
+FIT_COUPON,Fit coupon,Print/FIT_COUPON_3W_100RECT_NOSUP_L0p2_B5.stl,3,100,rectilinear,off,0.2,0.4,5,As supplied; flat face on bed

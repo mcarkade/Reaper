@@ -1,19 +1,19 @@
 {
-  "status": "Candidate until final fit checks",
+  "status": "Digital geometry checked; stock/kerf fit remains physical",
   "stock_mm": [
     609.6,
     457.2
   ],
   "grain": "X /609.6 mm edge",
-  "margin_mm": 10.0,
-  "gap_mm": 6.0,
+  "margin_mm": 20.0,
+  "gap_mm": 5.0,
   "aircraft_pieces": 37,
-  "test_pieces": 2,
+  "test_pieces": 0,
   "panel_count": 2,
   "checks": [
     {
-      "file": "REAPER_R5_PLY_PANEL_01.dxf",
-      "sha256": "267fb578ffd456ac89fb974a2363ea2d9e71944d3208a9e25797061b1ec6afb5",
+      "file": "REAPER_R5C_PLY_PANEL_01.dxf",
+      "sha256": "f627d0e40850046679026d2a2d30b79ad065e3dec6354d542074731f7803ee2e",
       "closed_exact_readback": true,
       "ids": [
         "A13",
@@ -32,38 +32,36 @@
         "A24_R",
         "A62_DL",
         "A62_DR",
-        "A18",
         "A44_L",
         "A44_R",
         "A07_L_D1",
-        "A07_L_D2",
-        "A07_R_D1",
-        "A07_R_D2",
-        "A48",
-        "A47",
-        "A10_L",
-        "A26",
-        "TEST_TONGUE"
+        "A04"
       ]
     },
     {
-      "file": "REAPER_R5_PLY_PANEL_02.dxf",
-      "sha256": "7d100b1afa3f02dd96dcd0f9e2736206abb9f2f5f54553cf6a058756cce980b5",
+      "file": "REAPER_R5C_PLY_PANEL_02.dxf",
+      "sha256": "ed7ac2f9fc70470178a49b5dd35b32acbaff6f16350850d6d7b4d5e106ab18c6",
       "closed_exact_readback": true,
       "ids": [
-        "TEST_SLOTS",
-        "A04",
+        "A18",
+        "A07_L_D2",
+        "A07_R_D1",
+        "A07_R_D2",
         "A54",
         "A16",
         "A34",
         "A25",
+        "A48",
         "A53_L",
         "A53_R",
+        "A47",
+        "A10_L",
         "A10_R",
+        "A26",
         "A01_L",
         "A01_R"
       ]
     }
   ],
-  "register_sha256": "73a63e86a7f21dfb3542fd5cc8dd53bedaf3bee19ff2abadbcaf67429cd22bb6"
+  "register_sha256": "e47e81d3dd9c87c86b670942f352ba187e4be085ee5ad8b8e1a5f38dd05e61d4"
 }

@@ -1,10 +1,10 @@
 {
   "status": "FROZEN_GEOMETRY_CANDIDATE_WITH_EXPLICIT_SECONDARY_FITTING",
   "records": "records.json",
-  "records_sha256": "73a63e86a7f21dfb3542fd5cc8dd53bedaf3bee19ff2abadbcaf67429cd22bb6",
+  "records_sha256": "e47e81d3dd9c87c86b670942f352ba187e4be085ee5ad8b8e1a5f38dd05e61d4",
   "wood_aircraft_piece_count": 37,
   "nominal_stock_mm": 6,
-  "source_style": "Original source wood arrangement; A40/A62 duplicate unified; only three overlength members split with paired laps.",
+  "source_style": "Original source wood arrangement; A40/A62 duplicate unified; only three overlength members split with paired laps. R5B motor hole correction: 19 x 19 mm square, not 19 mm pitch circle.",
   "source_profile_record": "Manufacturing/Engineering/_work/plates/assembly_profiles.json",
   "source_profile_record_sha256": "ccc38bd37e360fc8bcf6a1f1574bd80e16993d39159d3b9debc97af420544090",
   "candidate_files_sha256": {
@@ -50,8 +50,8 @@
     "A24_R.step": "e2e5c0bd544fc64b73b6b8470a0fac74334019ff72e1a60eac6c85d94eb52d4c",
     "A25.dxf": "2aa03cbfa5c299eeef235e5cebc20dbfa3c3523e74ee426041d159fe81432682",
     "A25.step": "e8bc63696cb716497298bb22bb463850c378fcffcc30c42f3159e1f31f80b735",
-    "A26.dxf": "0f78112145ab5b4d088093e0f1de6aa41a211ef8af07d02c4e30349cd1e9dc57",
-    "A26.step": "549d7b801d2e54d34a5aa5ce66e942dfd2b9274659ceda1d5e9a6a6ec34463cf",
+    "A26.dxf": "d02bbd20484e8ba9cb89f8382b57d4b6f307e18e56decdc1ee6a46f518c61f18",
+    "A26.step": "e311f9143c2807d5a4104e81cd9b799970717ba406cbd776fa46c296b3aa2488",
     "A34.dxf": "3f4eb25e8c6a4d13188f7a32abce4d5b983fbd0328032f8617d8fd926cc9ae49",
     "A34.step": "76bd177237d5cd9f8f7029e2e75b6b8445b6ae8dab0adbca3420dfc6b8239978",
     "A35_L.dxf": "4df8010181ee787b38257f0d5c011c3ee15eb3db7ba6e6d4f9bf4c9bfab34b44",

@@ -36,19 +36,21 @@ A07_L_I,Rear wing spar - left inboard section,6 mm plywood,1,laser panel; local 
 A07_L_O,Rear wing spar - left outboard section,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
 A07_L_D1,Rear wing spar - left first face lap,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
 A07_L_D2,Rear wing spar - left second face lap,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-FW01,left_inner_wing,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5C_FOAM_PANEL_03.dxf
-FW02,right_inner_wing,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5C_FOAM_PANEL_01.dxf
-FW03,right_outer_wing,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5C_FOAM_PANEL_02.dxf
-FW04,left_outer_wing,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5C_FOAM_PANEL_05.dxf
-FW05,right_fixed_tail,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5C_FOAM_PANEL_04.dxf
-FW06,left_fixed_tail,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5C_FOAM_PANEL_04.dxf
-FW07,lower_body_wrap,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5C_FOAM_PANEL_02.dxf
-FW08,aft_lower_body,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5C_FOAM_PANEL_04.dxf
-FW09,front_upper_cover,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5C_FOAM_PANEL_05.dxf
-FW10,rear_upper_cover,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5C_FOAM_PANEL_04.dxf
-FW11,tail_underside,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5C_FOAM_PANEL_05.dxf
-FW12,right_moving_tail,5 mm foamboard,2,laser panel; hand form/trim,Foam/REAPER_R5C_FOAM_PANEL_01.dxf
-FW13,left_moving_tail,5 mm foamboard,2,laser panel; hand form/trim,Foam/REAPER_R5C_FOAM_PANEL_01.dxf
+FW01_ROOT,left_inner_wing root,5 mm foamboard,1,laser panel; join matching ROOT/TIP straight edges with foam-safe glue and outer-paper tape,Foam/REAPER_R5E_FOAM_400x600_PANEL_02.dxf
+FW01_TIP,left_inner_wing tip,5 mm foamboard,1,laser panel; join matching ROOT/TIP straight edges with foam-safe glue and outer-paper tape,Foam/REAPER_R5E_FOAM_400x600_PANEL_06.dxf
+FW02_ROOT,right_inner_wing root,5 mm foamboard,1,laser panel; join matching ROOT/TIP straight edges with foam-safe glue and outer-paper tape,Foam/REAPER_R5E_FOAM_400x600_PANEL_03.dxf
+FW02_TIP,right_inner_wing tip,5 mm foamboard,1,laser panel; join matching ROOT/TIP straight edges with foam-safe glue and outer-paper tape,Foam/REAPER_R5E_FOAM_400x600_PANEL_06.dxf
+FW03,right_outer_wing,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5E_FOAM_400x600_PANEL_05.dxf
+FW04,left_outer_wing,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5E_FOAM_400x600_PANEL_04.dxf
+FW05,right_fixed_tail,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5E_FOAM_400x600_PANEL_01.dxf
+FW06,left_fixed_tail,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5E_FOAM_400x600_PANEL_01.dxf
+FW07,lower_body_wrap,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5E_FOAM_400x600_PANEL_02.dxf
+FW08,aft_lower_body,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5E_FOAM_400x600_PANEL_01.dxf
+FW09,front_upper_cover,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5E_FOAM_400x600_PANEL_02.dxf
+FW10,rear_upper_cover,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5E_FOAM_400x600_PANEL_01.dxf
+FW11,tail_underside,5 mm foamboard,1,laser panel; hand form/trim,Foam/REAPER_R5E_FOAM_400x600_PANEL_03.dxf
+FW12,right_moving_tail,5 mm foamboard,2,laser panel; hand form/trim,Foam/REAPER_R5E_FOAM_400x600_PANEL_03.dxf
+FW13,left_moving_tail,5 mm foamboard,2,laser panel; hand form/trim,Foam/REAPER_R5E_FOAM_400x600_PANEL_03.dxf
 A06,Centre fairing,PLA+,1,print,Print/Individual/A06_2W_10GYR_SUP_L0p2_B8.stl
 A11,Left printed aileron,PLA+,1,print,Print/Individual/A11_2W_10GYR_SUP_L0p2_B8.stl
 A12,Tail carrier,PLA+,1,reuse after dry fit if already printed; otherwise print,Print/Individual/A12_2W_15GYR_SUP_L0p2_B8.stl

@@ -1,11 +1,7 @@
-# Reaper R5D prototype handoff
+# Reaper R5E prototype handoff
 
-Read [Build_Guide.pdf](Build_Guide.pdf). Its A3 wiring foldout is also supplied as the zoomable [Complete_Wiring.svg](Illustrations/Complete_Wiring.svg). R5D changes the guide and wiring presentation; the R5C plywood, foam and print geometry is unchanged. The diagram is a connection map: match keyed connectors and labels on the real boards before power. No generated electronics photo is included because it did not accurately depict this equipment.
+The [build guide](Build_Guide.pdf) and six foam DXFs now fit the 600 x 400 mm cutter bed. Wood and printed-part geometry are unchanged from R5D. Use the [cutter handoff](SHOP_README.md), [foam maps](Foam/Maps), [part register](Data/Parts.csv), and [complete wiring SVG](Illustrations/Complete_Wiring.svg).
 
-- `Plywood/REAPER_R5C_PLY_PANEL_01-02.dxf`: two cut-only panels, 37 installed pieces; separate coupon first.
-- `Foam/REAPER_R5C_FOAM_PANEL_01-05.dxf`: five cut-only jobs from three foam sheets; 13 patterns, 15 blanks.
-- `Print/Individual/`: 14 individual PLA+ prints; N1 nose is already printed. Settings are in filenames and `Print/README.md`.
-- `CAD/Reaper_R5_Assembly.step`, `CAD/Parts/`, `Data/Parts.csv`: part placement and IDs.
-- `Data/Calculation_Summary.json`, `Data/Physical_Checks.csv`: estimates and physical acceptance record.
+There are 37 installed wood pieces on two already-cut plywood jobs, 17 physical foam blanks on six foam jobs from three 1000 x 600 mm sheets, and 14 new individual PLA+ print files. FW01 and FW02 are split once each because the intact developed skins exceed the 400 mm bed; join ROOT to TIP at the straight edge with foam-safe glue and outer-paper tape before forming. All other foam contours are unchanged. The N1 nose is already printed. Bought landing gear is fitted after measuring it.
 
-This follows the [original Onshape model](https://cad.onshape.com/documents/da0c1a9f98b6358f736153b1/w/040544fbf77b8cf6608e2eb9/e/28c526eeb45b3f50fa69269f) and [Michael Rechtin's video](https://www.youtube.com/watch?v=X-Q08HQq7fM), adapted to owned materials. Bought landing gear is attached after its dimensions are known. Digital checks do not prove strength, fit, power, CG or flight readiness; perform the guide's physical checks on the aircraft.
+Digital cut, mesh, guide and package checks do not prove physical fit, bond strength, servo power, propulsion, balance or flight readiness. Follow the guide and record measurements in `Data/Physical_Checks.csv`. [Original model](https://cad.onshape.com/documents/da0c1a9f98b6358f736153b1/w/040544fbf77b8cf6608e2eb9/e/28c526eeb45b3f50fa69269f) and [build video](https://www.youtube.com/watch?v=X-Q08HQq7fM).

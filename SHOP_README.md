@@ -1,7 +1,5 @@
-# Cutter handoff, R5D guide with R5C geometry
+# R5E cutter handoff
 
-Cut only the two plywood and five foam production DXFs named R5C. Their geometry is unchanged in R5D. The A26 motor plate has four 3.2 mm holes on a 19 x 19 mm square.
+Wood has already been cut. Its two R5C plywood DXFs are unchanged. For foam, use only the six `REAPER_R5E_FOAM_400x600_PANEL_01-06.dxf` files. Each fits a 600 x 400 mm cutter bed with at least 5 mm edge and part clearance. The six jobs fit three 1000 x 600 mm source sheets, two 600 x 400 mm blanks per sheet.
 
-Wood: two 609.6 x 457.2 mm panels, nominal 6 mm, grain along the long edge. Foam: five 600 x 457.2 mm bed loads from three 1000 x 600 mm sheets. Open at 100% in millimetres. Production DXFs contain only closed CUT outlines, with no text or stock border. See PNG maps for part IDs. Cut the separate plywood fit coupon first; set kerf from the real fit. Keep foam paper facing, then form and trim by hand.
-
-The panels contain 37 installed wooden pieces and 13 foam patterns for 15 blanks. FW12 and FW13 each use two layers. The coupon is not an aircraft part.
+Open each DXF at 100% in millimetres. It contains closed CUT outlines only, with no names, fold lines or stock box. Identify the 17 cut blanks using the PNG maps. FW01 and FW02 each have ROOT and TIP pieces; keep those pairs together. FW12 and FW13 are each cut twice. Sample-cut the actual foam first, check its core and paper with the shop, and do fold/bevel/trim work by hand after cutting.

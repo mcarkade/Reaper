@@ -2,63 +2,22 @@
   "status": "DIGITAL_GEOMETRY_CHECKED_PHYSICAL_SAMPLE_PENDING",
   "blank_mm": [
     600.0,
-    457.2
+    400.0
   ],
   "margin_mm": 5.0,
   "gap_mm": 5.0,
-  "panels": 5,
+  "panels": 6,
   "full_1000x600_sheets": 3,
   "patterns": 13,
-  "blanks": 15,
+  "blanks": 17,
   "checks": [
     {
-      "file": "REAPER_R5C_FOAM_PANEL_01.dxf",
+      "file": "REAPER_R5E_FOAM_400x600_PANEL_01.dxf",
       "stock_mm": [
         600.0,
-        457.2
+        400.0
       ],
-      "sha256": "2c9bbfaca4af507336a248e1a422480b480e4b5a42607062e5676be58bec0d3f",
-      "ids": [
-        "FW02",
-        "FW13_1",
-        "FW12_2"
-      ],
-      "readback_closed_and_exact": true
-    },
-    {
-      "file": "REAPER_R5C_FOAM_PANEL_02.dxf",
-      "stock_mm": [
-        600.0,
-        457.2
-      ],
-      "sha256": "d59025a0a9fa9c277eb03ccf5900a0e8caa3e72d2df3cfbf5ebbcc0821b8b71f",
-      "ids": [
-        "FW03",
-        "FW07"
-      ],
-      "readback_closed_and_exact": true
-    },
-    {
-      "file": "REAPER_R5C_FOAM_PANEL_03.dxf",
-      "stock_mm": [
-        600.0,
-        457.2
-      ],
-      "sha256": "bf91bd562cb30b3a61be31a0f6eae46dcb798d32c4e527a1648261b06b4ba8f2",
-      "ids": [
-        "FW01",
-        "FW13_2",
-        "FW12_1"
-      ],
-      "readback_closed_and_exact": true
-    },
-    {
-      "file": "REAPER_R5C_FOAM_PANEL_04.dxf",
-      "stock_mm": [
-        600.0,
-        457.2
-      ],
-      "sha256": "fcd69a59f3d13ee528885058f0950ff9e04050998f796757524401bcd267d72c",
+      "sha256": "3f9b888c59c0fc479610cb597efafa9956e9612d427bfafed348e3a303f42d3c",
       "ids": [
         "FW06",
         "FW05",
@@ -68,23 +27,82 @@
       "readback_closed_and_exact": true
     },
     {
-      "file": "REAPER_R5C_FOAM_PANEL_05.dxf",
+      "file": "REAPER_R5E_FOAM_400x600_PANEL_02.dxf",
       "stock_mm": [
         600.0,
-        457.2
+        400.0
       ],
-      "sha256": "d840697db5f43614fbe427c47177290c3245e0ef60e50419dd66e198761dfc61",
+      "sha256": "07be02d937d47eb7034b1e3bc3732e32fd22a5e490ebc5c8ccc72b30fe92d6ef",
       "ids": [
-        "FW04",
-        "FW11",
+        "FW01_ROOT",
+        "FW07",
         "FW09"
+      ],
+      "readback_closed_and_exact": true
+    },
+    {
+      "file": "REAPER_R5E_FOAM_400x600_PANEL_03.dxf",
+      "stock_mm": [
+        600.0,
+        400.0
+      ],
+      "sha256": "a5c38f6e1c017c83f38e04d20f643f05eb52cadbbdf01aeacd62a9013cf22ef7",
+      "ids": [
+        "FW02_ROOT",
+        "FW11",
+        "FW12_1",
+        "FW13_2",
+        "FW13_1",
+        "FW12_2"
+      ],
+      "readback_closed_and_exact": true
+    },
+    {
+      "file": "REAPER_R5E_FOAM_400x600_PANEL_04.dxf",
+      "stock_mm": [
+        600.0,
+        400.0
+      ],
+      "sha256": "9d440d04941e5f8d3e46976401909b773b26fffd1ad2d207895e576996441706",
+      "ids": [
+        "FW04"
+      ],
+      "readback_closed_and_exact": true
+    },
+    {
+      "file": "REAPER_R5E_FOAM_400x600_PANEL_05.dxf",
+      "stock_mm": [
+        600.0,
+        400.0
+      ],
+      "sha256": "477879d4095fc58c1c110c7566f76e86b8bb402b78d7c52a46eb5af0ad6160df",
+      "ids": [
+        "FW03"
+      ],
+      "readback_closed_and_exact": true
+    },
+    {
+      "file": "REAPER_R5E_FOAM_400x600_PANEL_06.dxf",
+      "stock_mm": [
+        600.0,
+        400.0
+      ],
+      "sha256": "1cb8a4712aa2313a017996601ee5df339b4ed6ca10f34b850b506fc1db5bef7a",
+      "ids": [
+        "FW01_TIP",
+        "FW02_TIP"
       ],
       "readback_closed_and_exact": true
     }
   ],
+  "split": {
+    "FW01": "ROOT + TIP at 215 mm from source root edge",
+    "FW02": "ROOT + TIP at 215 mm from source root edge"
+  },
   "limits": [
-    "Whole original outer-paper wraps; inner foam relief and bevels are manual.",
+    "FW01 and FW02 are split once only because the whole skins cannot fit the 400 mm bed; join each ROOT/TIP pair edge-to-edge with foam-compatible glue and tape over the outer paper before fitting.",
+    "All other foam shapes are unchanged. Inner foam relief and bevels remain manual.",
     "No laser settings are assumed. Confirm foam composition and shop approval; sample before production.",
-    "Foam uses owner-approved 5 mm edge clearance and 5 mm part spacing."
+    "Foam uses 5 mm edge clearance and 5 mm part spacing."
   ]
 }

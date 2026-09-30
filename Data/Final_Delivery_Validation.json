@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "pdf": {
+    "sha256": "f7bc8e63d038cf50a2b94aed3f5a0825bea336a5f2663da2b271dbdb83b3bbf2",
+    "pages": 62,
+    "bookmarks": 62,
+    "checked_internal_links": 123
+  },
+  "prints": {
+    "A44_L_PLAplus_4W_100RECT_NOSUP_L0p2_B5.stl": {
+      "sha256": "d2b8aeb8b5b782e57c73ce595d306cc2cb8d8610692d516fc680dd564af09785",
+      "size_bytes": 107284,
+      "watertight": true,
+      "consistent_winding": true,
+      "bodies": 1,
+      "extents_mm": [
+        14.63277816772461,
+        117.02558898925697,
+        6.000001430511475
+      ]
+    },
+    "A44_R_PLAplus_4W_100RECT_NOSUP_L0p2_B5.stl": {
+      "sha256": "9c247c288cc8e9c8b7fb14a42ed924c847e967d308fa81e522087f9f9f48f1ae",
+      "size_bytes": 107284,
+      "watertight": true,
+      "consistent_winding": true,
+      "bodies": 1,
+      "extents_mm": [
+        14.632778167724151,
+        117.02558898925697,
+        6.000001430511475
+      ]
+    },
+    "A26_ASA_6W_100RECT_NOSUP_L0p2_B8.stl": {
+      "sha256": "de518d8bfab4cdda13e78cbc917af52b13b9fbf9daef6cfe702c4523260dbf01",
+      "size_bytes": 166084,
+      "watertight": true,
+      "consistent_winding": true,
+      "bodies": 1,
+      "extents_mm": [
+        47.545440673820266,
+        39.84138107299805,
+        6.0
+      ]
+    },
+    "A11_2W_10GYR_SUP_L0p2_B8.stl": {
+      "sha256": "31bff91bcf0d3b5612319cc6ef40a4998bacbf248f274dcc16e2e2d9577aa1ee",
+      "size_bytes": 2614984,
+      "watertight": true,
+      "consistent_winding": true,
+      "bodies": 1,
+      "extents_mm": [
+        14.575581218492516,
+        74.08417191207991,
+        270.88863423024304
+      ]
+    },
+    "A21_2W_10GYR_SUP_L0p2_B8.stl": {
+      "sha256": "06e28dfe677f0e3cb67f9fc88ff7d9b1b2bd93ff72156e86293e33b199f5781d",
+      "size_bytes": 2617484,
+      "watertight": true,
+      "consistent_winding": true,
+      "bodies": 1,
+      "extents_mm": [
+        14.572870581980169,
+        74.06045735286898,
+        270.2039793921791
+      ]
+    }
+  },
+  "current_wood_pieces": 34,
+  "bundle": {
+    "readback": "PASS",
+    "stl_count": 5,
+    "pdf_count": 1,
+    "dxf_count": 0
+  },
+  "dirty_primary_preserved": true,
+  "physical_boundary": "No hardware fit, print, assembly, load, propulsion, firmware or flight tests performed by this task."
+}

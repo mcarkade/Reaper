@@ -1,0 +1,349 @@
+{
+  "revision": "R5F",
+  "boundary": "Digital geometry and reference slicing only; physical fit, joint strength and propulsion not tested.",
+  "parts": {
+    "A44_L": {
+      "source": "C:/Abhinav/Study/BITS/Dump/Club projects/DART/Reaper/Manufacturing/Engineering/_work/r5c_release_worktree/CAD/Parts/A44_L.step",
+      "source_sha256": "369057d224b136e80ab277a58388f79c943157305bb44c0d52782d7a6f26e8d6",
+      "installed_geometry": "Unchanged source STEP; only rigid rotation/translation for printing",
+      "print_step_sha256": "ff520040770fb849b67ea047c209b1f68d14acd0b111988453cd36cb149dcc97",
+      "stl": "A44_L_PLAplus_4W_100RECT_NOSUP_L0p2_B5.stl",
+      "stl_sha256": "d2b8aeb8b5b782e57c73ce595d306cc2cb8d8610692d516fc680dd564af09785",
+      "source_properties": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 3724.891348841193,
+        "bounds_mm": [
+          -493.00002302387117,
+          49.83350227795516,
+          6.148511063889,
+          -487.0000215566,
+          166.85909000477,
+          20.78128930885546
+        ],
+        "centroid_mm": [
+          -490.000022147664,
+          88.33662619973877,
+          14.889303127902378
+        ]
+      },
+      "print_properties": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 3724.8913488407297,
+        "bounds_mm": [
+          -1.0005587897529343e-07,
+          -1.0005506679903423e-07,
+          -0.000310168604499494,
+          14.632778345021904,
+          117.02558782686589,
+          6.000311868004472
+        ],
+        "centroid_mm": [
+          8.74079206401339,
+          38.50312392178376,
+          3.000000591062658
+        ]
+      },
+      "mesh": {
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 3724.907061624226,
+        "extents_mm": [
+          14.63277816772461,
+          117.02558898925697,
+          6.000001430511475
+        ]
+      },
+      "material": "PLA+",
+      "walls": 4,
+      "infill_percent": 100,
+      "infill_pattern": "rectilinear",
+      "layer_mm": 0.2,
+      "nozzle_mm": 0.4,
+      "brim_mm": 5,
+      "supports": false,
+      "reason": "Solid stiff 6 mm rib, existing owned PLA+ material; flat broad face keeps spar/rod-seat loads in the strong printed plane. Printed replacement needs dry fit and wing proof loading; no structural rating inferred."
+    },
+    "A44_R": {
+      "source": "C:/Abhinav/Study/BITS/Dump/Club projects/DART/Reaper/Manufacturing/Engineering/_work/r5c_release_worktree/CAD/Parts/A44_R.step",
+      "source_sha256": "ff322730f641e59e24d5dcda9ef23965bbc658b9addbee7edaa8e583171ac720",
+      "installed_geometry": "Unchanged source STEP; only rigid rotation/translation for printing",
+      "print_step_sha256": "23bd83e1ea3b3c0d0ab98939db6d3ced6eaef88a8087b61b81a73fa8c5c2eb22",
+      "stl": "A44_R_PLAplus_4W_100RECT_NOSUP_L0p2_B5.stl",
+      "stl_sha256": "9c247c288cc8e9c8b7fb14a42ed924c847e967d308fa81e522087f9f9f48f1ae",
+      "source_properties": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 3724.8913488381663,
+        "bounds_mm": [
+          487.00002155668,
+          49.83350227795516,
+          6.148511063889,
+          493.00002302388117,
+          166.85909000477,
+          20.78128930885546
+        ],
+        "centroid_mm": [
+          490.00002214770626,
+          88.3366261997388,
+          14.88930312790236
+        ]
+      },
+      "print_properties": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 3724.8913488378034,
+        "bounds_mm": [
+          -1.0000866684501943e-07,
+          -1.000082867046558e-07,
+          -0.00031016861444367453,
+          14.632778344975115,
+          117.02558782681912,
+          6.000311867994468
+        ],
+        "centroid_mm": [
+          5.891986180952653,
+          38.50312392178373,
+          3.0000005910272476
+        ]
+      },
+      "mesh": {
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 3724.9071014353144,
+        "extents_mm": [
+          14.632778167724151,
+          117.02558898925697,
+          6.000001430511475
+        ]
+      },
+      "material": "PLA+",
+      "walls": 4,
+      "infill_percent": 100,
+      "infill_pattern": "rectilinear",
+      "layer_mm": 0.2,
+      "nozzle_mm": 0.4,
+      "brim_mm": 5,
+      "supports": false,
+      "reason": "Solid stiff 6 mm rib, existing owned PLA+ material; flat broad face keeps spar/rod-seat loads in the strong printed plane. Printed replacement needs dry fit and wing proof loading; no structural rating inferred."
+    },
+    "A26": {
+      "source_sha256": "e311f9143c2807d5a4104e81cd9b799970717ba406cbd776fa46c296b3aa2488",
+      "step_sha256": "46472e9e3455245049f48672a338ef7d4f5c64a16f21b70cfff837aaa4ee7726",
+      "source_properties": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 7293.565706047028,
+        "bounds_mm": [
+          -23.77274943839,
+          576.65000000928,
+          -22.341382587770024,
+          23.772780561601,
+          582.65000000928,
+          17.499997412227003
+        ],
+        "centroid_mm": [
+          0.015061330834308894,
+          579.6500000092602,
+          -1.7819351723875079
+        ]
+      },
+      "final_properties": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 7225.333922327952,
+        "bounds_mm": [
+          -23.77265902860786,
+          576.65000000927,
+          -22.341382587770024,
+          23.772780151930274,
+          582.65000000928,
+          17.499997412227003
+        ],
+        "centroid_mm": [
+          -0.0045740798616286105,
+          579.6500000092598,
+          -1.7448237126896424
+        ]
+      },
+      "motor": "EMAX ECO II 2807 1300 KV",
+      "bolt_circle_mm": 19,
+      "adjacent_spacing_mm": 13.435028842544401,
+      "hole_diameter_mm": 3.2,
+      "centres_world_xz_mm": [
+        [
+          -6.717498859671201,
+          -9.217517009045201
+        ],
+        [
+          -6.717498859671201,
+          4.2175118334992
+        ],
+        [
+          6.7175299828732005,
+          -9.217517009045201
+        ],
+        [
+          6.7175299828732005,
+          4.2175118334992
+        ]
+      ],
+      "world_aft_face_y_mm": 582.65000000928,
+      "keel_slot_nominal_mm": 6,
+      "flank_slots": {
+        "source_depth_mm": 5,
+        "final_depth_mm": 6,
+        "removed_mm3": 68.23178371983067,
+        "source_nominal_frame_thickness_mm": 6
+      },
+      "frame_fit": "Flank receiving slots changed from source 5 mm to actual CAD frame nominal 6 mm. Keel slot retained at nominal 6 mm. Actual plywood thickness/kerf and dry-fit contact still required. Do not force plate or remove whole rear frame.",
+      "manufacturer_drawing": "https://cdn.shopify.com/s/files/1/0469/7358/3518/files/ECOII-2807Motor_specifications_200926_-01.jpg?v=1602844068",
+      "limits": [
+        "Confirm actual motor label and template against holes before manufacture.",
+        "Measure safe threaded engagement and actual washer/plate stack; M3x8/M3x10 not approved automatically.",
+        "Confirm enclosed ASA-capable printer, spool and manufacturer temperature profile; ownedprinter unknown.",
+        "Manufacturer93C heat-resistance statement is not an allowable service temperature or aircraft loadrating. Measure actual mount temperature/creep at intended propulsion loads.",
+        "Actual metalM3washers spread head pressure; measure OD/stack/driveraccess and avoid unsupported washer across shaftrelief. No torque value invented.",
+        "Qualify ASA-to-plywood epoxy coupon; do not use woodglue on plastic. The original butt/slot loadpath requires physical bond/loadproof.",
+        "If clamp relaxation, warping, delamination, woodbond failure or thermal distortion occurs, stop; no flight approval."
+      ],
+      "material": "ASA",
+      "stl": "A26_ASA_6W_100RECT_NOSUP_L0p2_B8.stl",
+      "stl_sha256": "de518d8bfab4cdda13e78cbc917af52b13b9fbf9daef6cfe702c4523260dbf01",
+      "print_step_sha256": "841f0b49e0204461a4cdb5a472596dbd909b76287b7f6e3bfe1c20fe1cb81e93",
+      "mesh": {
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 7225.413904571815,
+        "extents_mm": [
+          47.545440673820266,
+          39.84138107299805,
+          6.0
+        ]
+      },
+      "walls": 6,
+      "infill_percent": 100,
+      "infill_pattern": "rectilinear",
+      "supports": false,
+      "layer_mm": 0.2,
+      "nozzle_mm": 0.4,
+      "brim_mm": 8,
+      "orientation": "Front (forward/low-Y) broad face on bed, motor/aft face upward; installed geometry rotated +90deg aboutX then translated. Screw axis printsZ; full6mm thickness is solid. No supports inside keyhole or flank slots.",
+      "material_source": "https://prusament.com/materials/prusament-asa/",
+      "design_status": "Printable prototype requiring physical motor/wood joint, clamp, vibration, thermal and thrust/torque qualification. No load or safe operating temperature established.",
+      "manufacturing": "3D print ASA; old wood A26 superseded and excluded current production panels. No laser-cut replacement requested.",
+      "design_reason": "ASA chosen for higher heat resistance and outdoor toughness vs ownedPLA+. Solid100% infill avoids sparse-infill clamp crush and distributes thrust/torque around screws and frame seats;6walls protects apertures. Broad-face orientation gives continuous in-plane torque paths and flat metal-base seating. Thrust normalplate, layer separation, screw preload creep and plastic/wood adhesive remain unproven. No extra reinforcement/metalbacking dimensions invented; qualify actual washer/head contact and screwdriver access with hardware.",
+      "mesh_processing": {
+        "raw": {
+          "watertight": false,
+          "winding": true,
+          "faces": 3324,
+          "volume": 7225.413871765592
+        },
+        "method": "Merge coincident exportedvertices at1e-5mm; remove degeneratefacets; fixwinding; drop onlyzero-volume exportdebris; exportfinalbinarySTL andfreshreadback.",
+        "zero_volume_export_debris": [],
+        "volume_difference_vs_STEP_mm3": 0.07998224386847141
+      },
+      "material_datasheet": {
+        "url": "https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/bc8551ef-tds_prusament-asa_2024_en.pdf",
+        "density_g_cm3": 1.07,
+        "heat_deflection_temperature_C": {
+          "0.45MPa": 93,
+          "1.80MPa": 86
+        },
+        "interlayer_adhesion_MPa": "11 \u00b1 1",
+        "boundary": "Typical Prusament specimen values, depend on printing; not load rating or allowable temperature for this part or unknown workshop spool."
+      }
+    },
+    "A62_A": {
+      "source_sha256": "c8eb4341a6130628acbc5013270dfc9528d3eb55557291bb9009467b33948114",
+      "step_sha256": "78809cb45a54b41976058f0c3e705f2bc6217aa49de01f721e2e0c5780b9e627",
+      "source_properties": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 23342.159634462783,
+        "bounds_mm": [
+          -2.999984384467,
+          99.99999999999974,
+          -41.713923531643964,
+          3.0000156155532007,
+          595.66528328722,
+          -4.999977343468555
+        ],
+        "centroid_mm": [
+          1.5615549175299015e-05,
+          485.1037739945021,
+          -28.62571990409334
+        ]
+      },
+      "final_properties": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 22389.970723742917,
+        "bounds_mm": [
+          -2.999984384467,
+          99.99999999999974,
+          -41.713923531643964,
+          3.000015615553213,
+          582.6500000092802,
+          -6.000000100005555
+        ],
+        "centroid_mm": [
+          1.5615549038583446e-05,
+          480.369578337278,
+          -29.379894916660188
+        ]
+      },
+      "before_motor_envelope_overlap_mm3": 823.1357956487105,
+      "after_motor_envelope_overlap_mm3": 0,
+      "secondary_operation": "Trim only the existing rear keel projection flush to motor mounting face Y582.650mm; leave forward firewall slot joint and surrounding keel unchanged.",
+      "source_aft_projection_mm": 13.015283277939943,
+      "limits": [
+        "\u00d833.9 x34 envelope from manufacturer; actual cable/shaft/base details still dry-fit.",
+        "Do not infer motor attachment or strength from zero mesh intersection."
+      ]
+    },
+    "A11": {
+      "stl": "A11_2W_10GYR_SUP_L0p2_B8.stl",
+      "source_sha256": "31bff91bcf0d3b5612319cc6ef40a4998bacbf248f274dcc16e2e2d9577aa1ee",
+      "delivery_sha256": "31bff91bcf0d3b5612319cc6ef40a4998bacbf248f274dcc16e2e2d9577aa1ee",
+      "unchanged": true,
+      "mesh": {
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_mm3": 132536.50260210165,
+        "extents_mm": [
+          14.575581218492516,
+          74.08417191207991,
+          270.88863423024304
+        ]
+      },
+      "limits": [
+        "Upright supplied orientation needs about271mm printable height plus top clearance; unchanged source print settings retained."
+      ]
+    },
+    "A21": {
+      "stl": "A21_2W_10GYR_SUP_L0p2_B8.stl",
+      "source_sha256": "06e28dfe677f0e3cb67f9fc88ff7d9b1b2bd93ff72156e86293e33b199f5781d",
+      "delivery_sha256": "06e28dfe677f0e3cb67f9fc88ff7d9b1b2bd93ff72156e86293e33b199f5781d",
+      "unchanged": true,
+      "mesh": {
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_mm3": 132320.21480388663,
+        "extents_mm": [
+          14.572870581980169,
+          74.06045735286898,
+          270.2039793921791
+        ]
+      },
+      "limits": [
+        "Upright supplied orientation needs about271mm printable height plus top clearance; unchanged source print settings retained."
+      ]
+    }
+  }
+}

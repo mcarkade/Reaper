@@ -1,0 +1,115 @@
+{
+  "A44_L": {
+    "source_sha256": "369057d224b136e80ab277a58388f79c943157305bb44c0d52782d7a6f26e8d6",
+    "final_sha256": "ff520040770fb849b67ea047c209b1f68d14acd0b111988453cd36cb149dcc97",
+    "exact_rigid_transform_source_minus_final_mm3": 0.0,
+    "exact_rigid_transform_final_minus_source_mm3": 0.0,
+    "final_valid": true,
+    "final_solids": 1
+  },
+  "A44_R": {
+    "source_sha256": "ff322730f641e59e24d5dcda9ef23965bbc658b9addbee7edaa8e583171ac720",
+    "final_sha256": "23bd83e1ea3b3c0d0ab98939db6d3ced6eaef88a8087b61b81a73fa8c5c2eb22",
+    "exact_rigid_transform_source_minus_final_mm3": 0.0,
+    "exact_rigid_transform_final_minus_source_mm3": 0.0,
+    "final_valid": true,
+    "final_solids": 1
+  },
+  "A26": {
+    "final_sha256": "46472e9e3455245049f48672a338ef7d4f5c64a16f21b70cfff837aaa4ee7726",
+    "dxf_sha256": "76be5d4b9beb6b76ca85d9fd041c3da8360106dfaacaacae2cd549469dd7a23e",
+    "dxf_units": 4,
+    "entity_types": [
+      "LWPOLYLINE",
+      "CIRCLE",
+      "CIRCLE",
+      "CIRCLE",
+      "CIRCLE"
+    ],
+    "layers": [
+      "CUT"
+    ],
+    "outer_valid": true,
+    "circle_radii_mm": [
+      1.6,
+      1.6,
+      1.6,
+      1.6
+    ],
+    "world_hole_centres_xz_mm": [
+      [
+        -6.717498859671203,
+        -9.217517009045203
+      ],
+      [
+        -6.717498859671203,
+        4.2175118334992
+      ],
+      [
+        6.717529982873202,
+        -9.217517009045203
+      ],
+      [
+        6.717529982873202,
+        4.2175118334992
+      ]
+    ],
+    "pair_distances_mm": [
+      13.435028842544403,
+      13.435028842544403,
+      13.435028842544405,
+      13.435028842544405,
+      19.0,
+      19.0
+    ],
+    "dxf_area_times6_mm3": 7225.333922327655,
+    "final_volume_mm3": 7225.333922327952,
+    "area_volume_error_mm3": -2.964952727779746e-10,
+    "dxf_extrusion_valid": true,
+    "dxf_minus_final_mm3": 0.0,
+    "final_minus_dxf_mm3": 0.0,
+    "source_A43_overlap_mm3": 2.8379131334517538e-05,
+    "final_A43_overlap_mm3": 2.837777921434731e-05,
+    "new_hole_material_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "old_hole_material_restored_mm3": [
+      42.411500823462106,
+      42.411500823462106,
+      42.411500823462106,
+      42.411500823462106
+    ],
+    "shaft_radius5p5_mm_source_material_mm3": 0.0,
+    "shaft_radius5p5_mm_final_material_mm3": 0.0,
+    "central_lower_slot_source_material_mm3": 0.0,
+    "central_lower_slot_final_material_mm3": 0.0,
+    "flank_slot_material_checks": [
+      {
+        "x_mm": -21,
+        "old_five_mm_slot_interference_material_mm3": 3.599999999999997,
+        "final_six_mm_slot_void_material_mm3": 0.0,
+        "final_retained_material_below_slot_mm3": 3.599999999999997
+      },
+      {
+        "x_mm": 20,
+        "old_five_mm_slot_interference_material_mm3": 3.599999999999997,
+        "final_six_mm_slot_void_material_mm3": 0.0,
+        "final_retained_material_below_slot_mm3": 3.599999999999997
+      }
+    ]
+  },
+  "A62_A": {
+    "final_sha256": "78809cb45a54b41976058f0c3e705f2bc6217aa49de01f721e2e0c5780b9e627",
+    "removed_mm3": 952.1889106061253,
+    "removed_ymin_mm": 582.6500000055997,
+    "motor_face_y_mm": 582.65000000928,
+    "forward_source_minus_final_mm3": 0.0,
+    "forward_final_minus_source_mm3": 0.0,
+    "final_outside_source_mm3": 0.0,
+    "final_valid": true,
+    "final_solids": 1
+  }
+}

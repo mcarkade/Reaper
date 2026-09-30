@@ -588,5 +588,47 @@
     ],
     "stl_sha256": "fb6dee383c09f7383e8c13d9e109b5846d8d6f809174d9f0a320b8a9690e11f9",
     "step_sha256": "ae7914b377baaff3e9801b2406efed0f20f08e1dcb61cbe2259699981da4c171"
+  },
+  {
+    "id": "A44_L",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "volume_mm3": 3724.907061624226,
+    "extents_mm": [
+      14.63277816772461,
+      117.02558898925697,
+      6.000001430511475
+    ],
+    "stl_sha256": "d2b8aeb8b5b782e57c73ce595d306cc2cb8d8610692d516fc680dd564af09785",
+    "geometry_changes": "Rigid orientation only fromfinalinstalledSTEP; mesh untouched after CAD export."
+  },
+  {
+    "id": "A44_R",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "volume_mm3": 3724.9071014353144,
+    "extents_mm": [
+      14.632778167724151,
+      117.02558898925697,
+      6.000001430511475
+    ],
+    "stl_sha256": "9c247c288cc8e9c8b7fb14a42ed924c847e967d308fa81e522087f9f9f48f1ae",
+    "geometry_changes": "Rigid orientation only fromfinalinstalledSTEP; mesh untouched after CAD export."
+  },
+  {
+    "id": "A26",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "volume_mm3": 7225.413904571815,
+    "extents_mm": [
+      47.545440673820266,
+      39.84138107299805,
+      6.0
+    ],
+    "stl_sha256": "de518d8bfab4cdda13e78cbc917af52b13b9fbf9daef6cfe702c4523260dbf01",
+    "geometry_changes": "Rigid orientation only fromfinalinstalledSTEP; mesh untouched after CAD export."
   }
 ]

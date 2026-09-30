@@ -1,10 +1,10 @@
 {
-  "status": "FROZEN_GEOMETRY_CANDIDATE_WITH_EXPLICIT_SECONDARY_FITTING",
-  "records": "records.json",
-  "records_sha256": "e47e81d3dd9c87c86b670942f352ba187e4be085ee5ad8b8e1a5f38dd05e61d4",
-  "wood_aircraft_piece_count": 37,
+  "status": "R5F_NOMINAL_GEOMETRY_WITH_PHYSICAL_FIT_GATES",
+  "records": "Data/Parts.csv",
+  "records_sha256": "c749cf440e24c5269a8b0ed9f232dc68e494d3dc01f03875fed2f5772ce527a1",
+  "wood_aircraft_piece_count": 34,
   "nominal_stock_mm": 6,
-  "source_style": "Original source wood arrangement; A40/A62 duplicate unified; only three overlength members split with paired laps. R5B motor hole correction: 19 x 19 mm square, not 19 mm pitch circle.",
+  "source_style": "R5F retains original-style source arrangement; A44_L/R now printed unchanged geometry, A26 printedASA replaceswood. A26 \u00d819PCD and6mm flank slots, A62 aft projection trimmed flush to motor face. Source current STEP is authoritative; physical slot fit pending.",
   "source_profile_record": "Manufacturing/Engineering/_work/plates/assembly_profiles.json",
   "source_profile_record_sha256": "ccc38bd37e360fc8bcf6a1f1574bd80e16993d39159d3b9debc97af420544090",
   "candidate_files_sha256": {
@@ -50,8 +50,6 @@
     "A24_R.step": "e2e5c0bd544fc64b73b6b8470a0fac74334019ff72e1a60eac6c85d94eb52d4c",
     "A25.dxf": "2aa03cbfa5c299eeef235e5cebc20dbfa3c3523e74ee426041d159fe81432682",
     "A25.step": "e8bc63696cb716497298bb22bb463850c378fcffcc30c42f3159e1f31f80b735",
-    "A26.dxf": "d02bbd20484e8ba9cb89f8382b57d4b6f307e18e56decdc1ee6a46f518c61f18",
-    "A26.step": "e311f9143c2807d5a4104e81cd9b799970717ba406cbd776fa46c296b3aa2488",
     "A34.dxf": "3f4eb25e8c6a4d13188f7a32abce4d5b983fbd0328032f8617d8fd926cc9ae49",
     "A34.step": "76bd177237d5cd9f8f7029e2e75b6b8445b6ae8dab0adbca3420dfc6b8239978",
     "A35_L.dxf": "4df8010181ee787b38257f0d5c011c3ee15eb3db7ba6e6d4f9bf4c9bfab34b44",
@@ -60,10 +58,6 @@
     "A35_R.step": "f11ed0c20d3a86dbb2966df86e952db7e7ef6c97b3eee3f986691f5b6f832d13",
     "A43.dxf": "448ecda85e1b7c9c5fb62ea085816afef5ce3a632b77eeba925b8a25e1ab25ba",
     "A43.step": "75bc83af615545e17827d830c3b4e198ec8c03d189a396e469c5e17ae034ab54",
-    "A44_L.dxf": "41420543a00a9cf702fc56012372a91c0f1d5215a990d37d358c002f3ae52178",
-    "A44_L.step": "369057d224b136e80ab277a58388f79c943157305bb44c0d52782d7a6f26e8d6",
-    "A44_R.dxf": "551555244c17011bb135478ac90d943086d512d224f64ff939dfaeb12e80dcce",
-    "A44_R.step": "ff322730f641e59e24d5dcda9ef23965bbc658b9addbee7edaa8e583171ac720",
     "A47.dxf": "59743c75c5937341c31506ab42f1b0d11559daed77669a5d687fc5d3752d4500",
     "A47.step": "bfb58dbec88bc331b00f8fe776b4028d9a707f7643184684c07fd8b72dbe1cf2",
     "A48.dxf": "70f270953d9cd30a162856c6ac8378a6290491bf42ee5a2d7aa0071592de45d0",
@@ -75,7 +69,7 @@
     "A54.dxf": "6c75b1084e7938a9879f4f283157f3485f041164a44f8c93460d330727dea7d0",
     "A54.step": "d45481fecc5aad27a5e60f7d8d64d2e75f48829cb3e5c82532b6d6b53cc0e1c7",
     "A62_A.dxf": "d5b0150ea114b75d13065675cf77eeab242d492372d89ef578b3a501d842a368",
-    "A62_A.step": "c8eb4341a6130628acbc5013270dfc9528d3eb55557291bb9009467b33948114",
+    "A62_A.step": "78809cb45a54b41976058f0c3e705f2bc6217aa49de01f721e2e0c5780b9e627",
     "A62_DL.dxf": "c8f225bf102b07456b342869340a1ef5513fe6239434a3544e4fc62854ffc835",
     "A62_DL.step": "0c7b0cd91e036a9ad9eb5e2f3f6b1e86cf04d09d38d7ac651eba29ad0ca02aba",
     "A62_DR.dxf": "becab2bc367f3c9baa25860397c42b4bef1a337b30733a741f254669629ccb98",
@@ -138,5 +132,6 @@
     "Secondary local mating reliefs must be completed before assembly.",
     "Actual supplied motor screw head, length and safe engagement must be checked."
   ],
-  "private_fit_tool": "candidate/Tools/A43_original_cap_6mm_fit_tool.step is a conservative foam-clearance tool, not an installed part or cutting profile."
+  "private_fit_tool": "candidate/Tools/A43_original_cap_6mm_fit_tool.step is a conservative foam-clearance tool, not an installed part or cutting profile.",
+  "manufacturing_migration": "Plywood/R5F_MIGRATION.json"
 }

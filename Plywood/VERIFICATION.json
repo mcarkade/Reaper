@@ -1,19 +1,28 @@
 {
-  "status": "Digital geometry checked; stock/kerf fit remains physical",
+  "revision": "R5F",
+  "status": "Readback geometry checked; already cut wood retained. Do not recut complete panels.",
   "stock_mm": [
     609.6,
     457.2
   ],
-  "grain": "X /609.6 mm edge",
-  "margin_mm": 20.0,
-  "gap_mm": 5.0,
-  "aircraft_pieces": 37,
-  "test_pieces": 0,
+  "grain": "X /609.6mm edge",
+  "aircraft_pieces_on_panels": 34,
+  "separate_replacement_pieces": 0,
+  "printed_replacements": [
+    "A26",
+    "A44_L",
+    "A44_R"
+  ],
   "panel_count": 2,
+  "removed_ids": [
+    "A26",
+    "A44_L",
+    "A44_R"
+  ],
   "checks": [
     {
       "file": "REAPER_R5C_PLY_PANEL_01.dxf",
-      "sha256": "f627d0e40850046679026d2a2d30b79ad065e3dec6354d542074731f7803ee2e",
+      "sha256": "407b4bec5bab8c7c07606ef7de2928a75ab2c223090e6eaa27d284376c5a76cc",
       "closed_exact_readback": true,
       "ids": [
         "A13",
@@ -32,15 +41,15 @@
         "A24_R",
         "A62_DL",
         "A62_DR",
-        "A44_L",
-        "A44_R",
         "A07_L_D1",
         "A04"
-      ]
+      ],
+      "remaining_contours": 45,
+      "remaining_geometry_coordinates_unchanged": true
     },
     {
       "file": "REAPER_R5C_PLY_PANEL_02.dxf",
-      "sha256": "ed7ac2f9fc70470178a49b5dd35b32acbaff6f16350850d6d7b4d5e106ab18c6",
+      "sha256": "7fc411409d652345f43e89c655354167edbfb1c685f65d3458198cc20c5b9e94",
       "closed_exact_readback": true,
       "ids": [
         "A18",
@@ -57,11 +66,11 @@
         "A47",
         "A10_L",
         "A10_R",
-        "A26",
         "A01_L",
         "A01_R"
-      ]
+      ],
+      "remaining_contours": 31,
+      "remaining_geometry_coordinates_unchanged": true
     }
-  ],
-  "register_sha256": "e47e81d3dd9c87c86b670942f352ba187e4be085ee5ad8b8e1a5f38dd05e61d4"
+  ]
 }

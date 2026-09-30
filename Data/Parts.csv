@@ -4,7 +4,7 @@ A13,Front horizontal fuselage frame,6 mm plywood,1,laser panel; local fitting if
 A16,Body former at Y233.65mm,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
 A18,Tail-carrier bulkhead,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
 A25,Forward main-gear crossmember,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A26,Motor firewall,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
+A26,Printed motor firewall,ASA,1,print6mm solidASA prototype; hardware/thermal/loadproof required,Print/Individual/A26_ASA_6W_100RECT_NOSUP_L0p2_B8.stl
 A34,Front body former at Y-130mm,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
 A43,Aft horizontal fuselage frame,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
 A47,Main-gear crossplate,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
@@ -20,12 +20,12 @@ A24_R,Middle wing rib at span250mm - right,6 mm plywood,1,laser panel; local fit
 A24_L,Middle wing rib at span250mm - left,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
 A35_R,Inner wing rib at span53mm - right,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
 A35_L,Inner wing rib at span53mm - left,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A44_R,Outer wing rib at span490mm - right,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A44_L,Outer wing rib at span490mm - left,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
+A44_R,Outer wing rib at span490mm - right,PLA+,1,print; replaces superseded plywood rib,Print/Individual/A44_R_PLAplus_4W_100RECT_NOSUP_L0p2_B5.stl
+A44_L,Outer wing rib at span490mm - left,PLA+,1,print; replaces superseded plywood rib,Print/Individual/A44_L_PLAplus_4W_100RECT_NOSUP_L0p2_B5.stl
 A53_R,Inner aileron endplate - right,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
 A53_L,Inner aileron endplate - left,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
 A62_F,Lower fuselage keel - front half,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A62_A,Lower fuselage keel - aft half,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
+A62_A,Lower fuselage keel - aft half,6 mm plywood,1,retain already cut blank; trim rear projection flush to A26 aft mounting face,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
 A62_DL,Keel joint - left side lap,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
 A62_DR,Keel joint - right side lap,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
 A07_R_I,Rear wing spar - right inboard section,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf

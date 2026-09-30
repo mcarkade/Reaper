@@ -1,0 +1,464 @@
+[
+  {
+    "id": "A04",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A04.step",
+    "sha256": "48a5ac5676b742ebc8e02396b0f8f1aa99172726e2da4f9501f1f3f724c89dbd",
+    "mesh": "A04_48a5ac5676b7.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A13",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A13.step",
+    "sha256": "aa8ae72e870ad4ce1e99ef4188141b1486b48c750eb2bc6b9fcabdf9a8daff0d",
+    "mesh": "A13_aa8ae72e870a.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A16",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A16.step",
+    "sha256": "aae2001d5498a4cef49b26a641d13e119ef66f481eaaabeeb23f4d2cc6c77f89",
+    "mesh": "A16_aae2001d5498.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A18",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A18.step",
+    "sha256": "59933c19781f06e4de03d74214fdea400c54a560edfbd19fa2ae18c11cad1a15",
+    "mesh": "A18_59933c19781f.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A25",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A25.step",
+    "sha256": "e8bc63696cb716497298bb22bb463850c378fcffcc30c42f3159e1f31f80b735",
+    "mesh": "A25_e8bc63696cb7.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A26",
+    "source": "C:\\Users\\Abhinav\\Documents\\Codex\\2026-10-01\\task\\cad\\release\\A26.step",
+    "sha256": "46472e9e3455245049f48672a338ef7d4f5c64a16f21b70cfff837aaa4ee7726",
+    "mesh": "A26_46472e9e3455.stl",
+    "material": "ASA"
+  },
+  {
+    "id": "A34",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A34.step",
+    "sha256": "76bd177237d5cd9f8f7029e2e75b6b8445b6ae8dab0adbca3420dfc6b8239978",
+    "mesh": "A34_76bd177237d5.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A43",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A43.step",
+    "sha256": "75bc83af615545e17827d830c3b4e198ec8c03d189a396e469c5e17ae034ab54",
+    "mesh": "A43_75bc83af6155.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A47",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A47.step",
+    "sha256": "bfb58dbec88bc331b00f8fe776b4028d9a707f7643184684c07fd8b72dbe1cf2",
+    "mesh": "A47_bfb58dbec88b.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A48",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A48.step",
+    "sha256": "7716f112bdb75ef7ce78f1a38a97efe9e7d8d8cd9712a1dd68117fde85bb3cc2",
+    "mesh": "A48_7716f112bdb7.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A54",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A54.step",
+    "sha256": "d45481fecc5aad27a5e60f7d8d64d2e75f48829cb3e5c82532b6d6b53cc0e1c7",
+    "mesh": "A54_d45481fecc5a.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A01_R",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A01_R.step",
+    "sha256": "37f05d94c14c9ebc8b20edc6c160fa819e2c09d5903735d2e1bc4ff074df054f",
+    "mesh": "A01_R_37f05d94c14c.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A01_L",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A01_L.step",
+    "sha256": "f49685ced989f6f1a83a5734cf85156b03033be220d5c39d397cd2d08dce5225",
+    "mesh": "A01_L_f49685ced989.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A05_R",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A05_R.step",
+    "sha256": "a9a080d23005d570ba33fcbdb3b9a1d0faa9118bd381a4edc555fdea42979b32",
+    "mesh": "A05_R_a9a080d23005.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A05_L",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A05_L.step",
+    "sha256": "c2ce23843968dfe52d95f49e3e74fd21fd65d72f2657bff6be118de9f96ac033",
+    "mesh": "A05_L_c2ce23843968.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A10_R",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A10_R.step",
+    "sha256": "9d6fee1d5f4c3af389686c6e1e552b3e8e7645dc94cf326de78a94a0ce80e3dc",
+    "mesh": "A10_R_9d6fee1d5f4c.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A10_L",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A10_L.step",
+    "sha256": "d0be20ccfbbecafd41e5a9f277686b4e85a4f5c50aece13415a9743dec07c320",
+    "mesh": "A10_L_d0be20ccfbbe.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A24_R",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A24_R.step",
+    "sha256": "e2e5c0bd544fc64b73b6b8470a0fac74334019ff72e1a60eac6c85d94eb52d4c",
+    "mesh": "A24_R_e2e5c0bd544f.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A24_L",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A24_L.step",
+    "sha256": "7394c62e3dc7f0b934e8025463b727ff43b0c7b742f3b63dc4e9c3ec43b25170",
+    "mesh": "A24_L_7394c62e3dc7.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A35_R",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A35_R.step",
+    "sha256": "f11ed0c20d3a86dbb2966df86e952db7e7ef6c97b3eee3f986691f5b6f832d13",
+    "mesh": "A35_R_f11ed0c20d3a.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A35_L",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A35_L.step",
+    "sha256": "bcdc89e5c43c32b9cd24eb4826051967418c05d9bf6a39a29bdadce0b3450f63",
+    "mesh": "A35_L_bcdc89e5c43c.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A44_R",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A44_R.step",
+    "sha256": "ff322730f641e59e24d5dcda9ef23965bbc658b9addbee7edaa8e583171ac720",
+    "mesh": "A44_R_ff322730f641.stl",
+    "material": "PLA+"
+  },
+  {
+    "id": "A44_L",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A44_L.step",
+    "sha256": "369057d224b136e80ab277a58388f79c943157305bb44c0d52782d7a6f26e8d6",
+    "mesh": "A44_L_369057d224b1.stl",
+    "material": "PLA+"
+  },
+  {
+    "id": "A53_R",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A53_R.step",
+    "sha256": "9a2600f9ca671480d3f4d62f3ceb91e49cc91d0d9656a6721971f4aa0b97bb64",
+    "mesh": "A53_R_9a2600f9ca67.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A53_L",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A53_L.step",
+    "sha256": "5908a5b98d95c2089e54ae97351d04dd5f7af717afe5b8c4df1f32374e613a5c",
+    "mesh": "A53_L_5908a5b98d95.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A62_F",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A62_F.step",
+    "sha256": "dc90d9efcce5ec465bc152921cb4a46aadc1b0178f202fb0b0ba3310dc8e3adb",
+    "mesh": "A62_F_dc90d9efcce5.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A62_A",
+    "source": "C:\\Users\\Abhinav\\Documents\\Codex\\2026-10-01\\task\\cad\\release\\A62_A.step",
+    "sha256": "78809cb45a54b41976058f0c3e705f2bc6217aa49de01f721e2e0c5780b9e627",
+    "mesh": "A62_A_78809cb45a54.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A62_DL",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A62_DL.step",
+    "sha256": "0c7b0cd91e036a9ad9eb5e2f3f6b1e86cf04d09d38d7ac651eba29ad0ca02aba",
+    "mesh": "A62_DL_0c7b0cd91e03.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A62_DR",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A62_DR.step",
+    "sha256": "b0cb6ad261e98f80385d6ae136a5eae2b3e989d9971400ab18267aa6b57e745f",
+    "mesh": "A62_DR_b0cb6ad261e9.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A07_R_I",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A07_R_I.step",
+    "sha256": "07e92e64325acba78e190c38b4999ca8ebc5893cdce62c4db65a92cb5e1b79b0",
+    "mesh": "A07_R_I_07e92e64325a.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A07_R_O",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A07_R_O.step",
+    "sha256": "9064520549e402acf9092e1c0d28295fb09d85244d6a1327ff911f6dbef93258",
+    "mesh": "A07_R_O_9064520549e4.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A07_R_D1",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A07_R_D1.step",
+    "sha256": "2032fda8054b780603b0336848c053fadc77576fae3e4e819b498997f559ae26",
+    "mesh": "A07_R_D1_2032fda8054b.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A07_R_D2",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A07_R_D2.step",
+    "sha256": "eea55e9966742a62f0956d02df13bac365811761565c98e91d2c71e32793e0e7",
+    "mesh": "A07_R_D2_eea55e996674.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A07_L_I",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A07_L_I.step",
+    "sha256": "eb1e3090df77ad8c5c902bca4c44c958ef64613461d19344650ef77f4815db87",
+    "mesh": "A07_L_I_eb1e3090df77.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A07_L_O",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A07_L_O.step",
+    "sha256": "0f61758f0b5328ac7e07a9ba5517d4f787bb86ffcb434782ff054fed538928ff",
+    "mesh": "A07_L_O_0f61758f0b53.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A07_L_D1",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A07_L_D1.step",
+    "sha256": "f72ddaf14e81092108443c7ec9f923c9adb42776fa82e259fdb2fd708702c041",
+    "mesh": "A07_L_D1_f72ddaf14e81.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A07_L_D2",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\wood\\candidate\\A07_L_D2.step",
+    "sha256": "885f548d6ca182ad72e92f11843af64c097118ef2da2f27e420202926b29d0ec",
+    "mesh": "A07_L_D2_885f548d6ca1.stl",
+    "material": "Plywood"
+  },
+  {
+    "id": "A06",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A06.step",
+    "sha256": "98c859693a02055625e45adb6888c30ba19f4608cad386334e023def229347e8",
+    "mesh": "A06_98c859693a02.stl",
+    "material": "PLA+"
+  },
+  {
+    "id": "A08",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A08.step",
+    "sha256": "1eb4cd05013ea652017d32ebdc0a9b9e7561837c9cbdbaca32d87a6213b603ac",
+    "mesh": "A08_1eb4cd05013e.stl",
+    "material": "Foam"
+  },
+  {
+    "id": "A11",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A11.step",
+    "sha256": "d7495e00f64ad05239a0cc8fa3423e83a85d28d8a0149677ec5fc61c3e3df9e6",
+    "mesh": "A11_d7495e00f64a.stl",
+    "material": "PLA+"
+  },
+  {
+    "id": "A12",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A12.step",
+    "sha256": "8b143058134688be1d2660bd3cd462890dd4a8d6636798017d8d8fc135ee9b2a",
+    "mesh": "A12_8b1430581346.stl",
+    "material": "PLA+"
+  },
+  {
+    "id": "A15",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A15.step",
+    "sha256": "c87d7886ad56722699e04fa9dd56a25b8c69e9dbd766bef17b9942baeb5408ef",
+    "mesh": "A15_c87d7886ad56.stl",
+    "material": "Foam"
+  },
+  {
+    "id": "A17",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A17.step",
+    "sha256": "cbeaf53dbd7a3bc66730993db0475f7a13bcaa045b6bbe5af16f3708564c3e8f",
+    "mesh": "A17_cbeaf53dbd7a.stl",
+    "material": "Foam"
+  },
+  {
+    "id": "A20",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A20.step",
+    "sha256": "0f9ac9749f422d65c53639251c405008df9f0ac453505e6d1aebfee876439dc6",
+    "mesh": "A20_0f9ac9749f42.stl",
+    "material": "Foam"
+  },
+  {
+    "id": "A21",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A21.step",
+    "sha256": "6ff32656a8f307baabffddc7e549cae8a8674487c14304385602deb51291d277",
+    "mesh": "A21_6ff32656a8f3.stl",
+    "material": "PLA+"
+  },
+  {
+    "id": "A22",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A22.step",
+    "sha256": "502203b5fa06aa9b8760c4cbf3730b9f542b9e3a3d296bf9430ff0c2160c670b",
+    "mesh": "A22_502203b5fa06.stl",
+    "material": "Foam"
+  },
+  {
+    "id": "A23",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A23.step",
+    "sha256": "6f53aa58e7a460c70252b8429fc6a1c0358c528392a9edc20f67e31957f373b4",
+    "mesh": "A23_6f53aa58e7a4.stl",
+    "material": "PLA+"
+  },
+  {
+    "id": "A27",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A27.step",
+    "sha256": "9bd52e764cbb7e01c5232a40be46f07e571584ddefcb50b0381285c63d0e19b3",
+    "mesh": "A27_9bd52e764cbb.stl",
+    "material": "Foam"
+  },
+  {
+    "id": "A36",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A36.step",
+    "sha256": "c7d462291d86345e73d5e42a7bb03808c069ba4dcc21b64ad8e30b89c3ffdedf",
+    "mesh": "A36_c7d462291d86.stl",
+    "material": "PLA+"
+  },
+  {
+    "id": "A38",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A38.step",
+    "sha256": "bc2be647305ef0f1f898e7ede7d296c8e1ba0ede24828798fcbd448da5f332cb",
+    "mesh": "A38_bc2be647305e.stl",
+    "material": "Foam"
+  },
+  {
+    "id": "A41",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A41.step",
+    "sha256": "40b74ee33a8762c0e234fb81a64515e3cf2bd777df3363993e036d35c74e1ae0",
+    "mesh": "A41_40b74ee33a87.stl",
+    "material": "Foam"
+  },
+  {
+    "id": "A42",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A42.step",
+    "sha256": "fbccb61f0bf9adfd9e7d233b6ac7937d93bb5f6b75c0dc003cc74e5d0426f641",
+    "mesh": "A42_fbccb61f0bf9.stl",
+    "material": "Foam"
+  },
+  {
+    "id": "A45",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A45.step",
+    "sha256": "3a8807950422ef32ffbfbde685a4b83d8ce23b4f22c5f3afc180db1d7129f0fd",
+    "mesh": "A45_3a8807950422.stl",
+    "material": "PLA+"
+  },
+  {
+    "id": "A49",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A49.step",
+    "sha256": "6b8e18cb683404c7208efbe5a6c276710b5ef73ef922830e8dc0504b77a23c3a",
+    "mesh": "A49_6b8e18cb6834.stl",
+    "material": "Foam"
+  },
+  {
+    "id": "A52",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A52.step",
+    "sha256": "9cefbfc1765a13647726e6d92d1603cf0b827b5e34892a203144dbd840101359",
+    "mesh": "A52_9cefbfc1765a.stl",
+    "material": "Foam"
+  },
+  {
+    "id": "A55",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A55.step",
+    "sha256": "432684384f91732486f255cb50c443009e48cb98b29e5b869682f04c1a7ad546",
+    "mesh": "A55_432684384f91.stl",
+    "material": "PLA+"
+  },
+  {
+    "id": "A56",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A56.step",
+    "sha256": "b6638697343b01a5c874a65b84d0e19007209edf6eaa361ea75851497600dc6e",
+    "mesh": "A56_b6638697343b.stl",
+    "material": "Foam"
+  },
+  {
+    "id": "A57",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A57.step",
+    "sha256": "d1072347bf4379fc84e10a6de8dfdda4e4a8ba1f95469e33d523c88603fd10d3",
+    "mesh": "A57_d1072347bf43.stl",
+    "material": "Foam"
+  },
+  {
+    "id": "A59",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A59.step",
+    "sha256": "5561885195f69b3b4f08c2269dc335333c0f00d0df109f31eba7cf68786f3d58",
+    "mesh": "A59_5561885195f6.stl",
+    "material": "PLA+"
+  },
+  {
+    "id": "A60",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\A60.step",
+    "sha256": "147aefc67cd32af09f457bf9b16e7658738b54cca7c0df7f0d9b0ed3d70f5d00",
+    "mesh": "A60_147aefc67cd3.stl",
+    "material": "Foam"
+  },
+  {
+    "id": "HWR",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\HWR.step",
+    "sha256": "1425e84b5d3f1f26fc5e5cb728cbd2e79e9a85d20b0d65565cb4acf8294dabc7",
+    "mesh": "HWR_1425e84b5d3f.stl",
+    "material": "PLA+"
+  },
+  {
+    "id": "HWL",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\HWL.step",
+    "sha256": "d893017b6ff67385327fae4a5d0264cbacfdec9f2c6417875a80d5763879c8a0",
+    "mesh": "HWL_d893017b6ff6.stl",
+    "material": "PLA+"
+  },
+  {
+    "id": "HTR",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\HTR.step",
+    "sha256": "4bf45bb7bffe2b4ab7434a123e81c643f5595bd8ee823e69a761c1b47d5b9579",
+    "mesh": "HTR_4bf45bb7bffe.stl",
+    "material": "PLA+"
+  },
+  {
+    "id": "HTL",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\HTL.step",
+    "sha256": "69d7d6f9376d8a432b244363854a49277d3abb7891e84ec3ce94b58aa6dd46aa",
+    "mesh": "HTL_69d7d6f9376d.stl",
+    "material": "PLA+"
+  },
+  {
+    "id": "HTRB",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\HTRB.step",
+    "sha256": "c2ece378e84ad919f72c0f7597f2d3a99bb2b322d1ef77ba2db7285013290d67",
+    "mesh": "HTRB_c2ece378e84a.stl",
+    "material": "PLA+"
+  },
+  {
+    "id": "HTLB",
+    "source": "C:\\Abhinav\\Study\\BITS\\Dump\\Club projects\\DART\\Reaper\\Manufacturing\\Engineering\\_work\\original_r5\\prints_foam\\candidate\\HTLB.step",
+    "sha256": "ae7914b377baaff3e9801b2406efed0f20f08e1dcb61cbe2259699981da4c171",
+    "mesh": "HTLB_ae7914b377ba.stl",
+    "material": "PLA+"
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "source_sha256": "e311f9143c2807d5a4104e81cd9b799970717ba406cbd776fa46c296b3aa2488",
+  "step_sha256": "46472e9e3455245049f48672a338ef7d4f5c64a16f21b70cfff837aaa4ee7726",
+  "source_properties": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 7293.565706047028,
+    "bounds_mm": [
+      -23.77274943839,
+      576.65000000928,
+      -22.341382587770024,
+      23.772780561601,
+      582.65000000928,
+      17.499997412227003
+    ],
+    "centroid_mm": [
+      0.015061330834308894,
+      579.6500000092602,
+      -1.7819351723875079
+    ]
+  },
+  "final_properties": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 7225.333922327952,
+    "bounds_mm": [
+      -23.77265902860786,
+      576.65000000927,
+      -22.341382587770024,
+      23.772780151930274,
+      582.65000000928,
+      17.499997412227003
+    ],
+    "centroid_mm": [
+      -0.0045740798616286105,
+      579.6500000092598,
+      -1.7448237126896424
+    ]
+  },
+  "motor": "EMAX ECO II 2807 1300 KV",
+  "bolt_circle_mm": 19,
+  "adjacent_spacing_mm": 13.435028842544401,
+  "hole_diameter_mm": 3.2,
+  "centres_world_xz_mm": [
+    [
+      -6.717498859671201,
+      -9.217517009045201
+    ],
+    [
+      -6.717498859671201,
+      4.2175118334992
+    ],
+    [
+      6.7175299828732005,
+      -9.217517009045201
+    ],
+    [
+      6.7175299828732005,
+      4.2175118334992
+    ]
+  ],
+  "world_aft_face_y_mm": 582.65000000928,
+  "keel_slot_nominal_mm": 6,
+  "flank_slots": {
+    "source_depth_mm": 5,
+    "final_depth_mm": 6,
+    "removed_mm3": 68.23178371983067,
+    "source_nominal_frame_thickness_mm": 6
+  },
+  "frame_fit": "Flank receiving slots changed from source 5 mm to actual CAD frame nominal 6 mm. Keel slot retained at nominal 6 mm. Actual plywood thickness/kerf and dry-fit contact still required. Do not force plate or remove whole rear frame.",
+  "manufacturer_drawing": "https://cdn.shopify.com/s/files/1/0469/7358/3518/files/ECOII-2807Motor_specifications_200926_-01.jpg?v=1602844068",
+  "limits": [
+    "Confirm actual motor label and template against holes before manufacture.",
+    "Measure safe threaded engagement and actual washer/plate stack; M3x8/M3x10 not approved automatically.",
+    "Confirm enclosed ASA-capable printer, spool and manufacturer temperature profile; ownedprinter unknown.",
+    "Manufacturer93C heat-resistance statement is not an allowable service temperature or aircraft loadrating. Measure actual mount temperature/creep at intended propulsion loads.",
+    "Actual metalM3washers spread head pressure; measure OD/stack/driveraccess and avoid unsupported washer across shaftrelief. No torque value invented.",
+    "Qualify ASA-to-plywood epoxy coupon; do not use woodglue on plastic. The original butt/slot loadpath requires physical bond/loadproof.",
+    "If clamp relaxation, warping, delamination, woodbond failure or thermal distortion occurs, stop; no flight approval."
+  ],
+  "material": "ASA",
+  "stl": "A26_ASA_6W_100RECT_NOSUP_L0p2_B8.stl",
+  "stl_sha256": "de518d8bfab4cdda13e78cbc917af52b13b9fbf9daef6cfe702c4523260dbf01",
+  "print_step_sha256": "841f0b49e0204461a4cdb5a472596dbd909b76287b7f6e3bfe1c20fe1cb81e93",
+  "mesh": {
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "volume_mm3": 7225.413904571815,
+    "extents_mm": [
+      47.545440673820266,
+      39.84138107299805,
+      6.0
+    ]
+  },
+  "walls": 6,
+  "infill_percent": 100,
+  "infill_pattern": "rectilinear",
+  "supports": false,
+  "layer_mm": 0.2,
+  "nozzle_mm": 0.4,
+  "brim_mm": 8,
+  "orientation": "Front (forward/low-Y) broad face on bed, motor/aft face upward; installed geometry rotated +90deg aboutX then translated. Screw axis printsZ; full6mm thickness is solid. No supports inside keyhole or flank slots.",
+  "material_source": "https://prusament.com/materials/prusament-asa/",
+  "design_status": "Printable prototype requiring physical motor/wood joint, clamp, vibration, thermal and thrust/torque qualification. No load or safe operating temperature established.",
+  "manufacturing": "3D print ASA; old wood A26 superseded and excluded current production panels. No laser-cut replacement requested.",
+  "design_reason": "ASA chosen for higher heat resistance and outdoor toughness vs ownedPLA+. Solid100% infill avoids sparse-infill clamp crush and distributes thrust/torque around screws and frame seats;6walls protects apertures. Broad-face orientation gives continuous in-plane torque paths and flat metal-base seating. Thrust normalplate, layer separation, screw preload creep and plastic/wood adhesive remain unproven. No extra reinforcement/metalbacking dimensions invented; qualify actual washer/head contact and screwdriver access with hardware.",
+  "mesh_processing": {
+    "raw": {
+      "watertight": false,
+      "winding": true,
+      "faces": 3324,
+      "volume": 7225.413871765592
+    },
+    "method": "Merge coincident exportedvertices at1e-5mm; remove degeneratefacets; fixwinding; drop onlyzero-volume exportdebris; exportfinalbinarySTL andfreshreadback.",
+    "zero_volume_export_debris": [],
+    "volume_difference_vs_STEP_mm3": 0.07998224386847141
+  },
+  "material_datasheet": {
+    "url": "https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/bc8551ef-tds_prusament-asa_2024_en.pdf",
+    "density_g_cm3": 1.07,
+    "heat_deflection_temperature_C": {
+      "0.45MPa": 93,
+      "1.80MPa": 86
+    },
+    "interlayer_adhesion_MPa": "11 \u00b1 1",
+    "boundary": "Typical Prusament specimen values, depend on printing; not load rating or allowable temperature for this part or unknown workshop spool."
+  }
+}

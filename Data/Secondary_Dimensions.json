@@ -631,5 +631,19 @@
       }
     ],
     "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
+  },
+  {
+    "part": "A62_A",
+    "removal_step": "Secondary_Removal/A62_A_AFT_TRIM.step",
+    "world_bounds_mm": [
+      -2.99998438444832,
+      582.6500000055997,
+      -22.012138087511417,
+      3.000015615553213,
+      595.66528328722,
+      -4.999977343468555
+    ],
+    "instruction": "Trim only the existing rear keel projection flush to motor mounting face Y582.650mm; leave forward firewall slot joint and surrounding keel unchanged.",
+    "removed_volume_mm3": 952.1889106060949
   }
 ]

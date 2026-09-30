@@ -1,0 +1,20 @@
+{
+  "removed_contours": [
+    {
+      "id": "A44_L",
+      "panel": "REAPER_R5C_PLY_PANEL_01.dxf",
+      "contours": 4
+    },
+    {
+      "id": "A44_R",
+      "panel": "REAPER_R5C_PLY_PANEL_01.dxf",
+      "contours": 4
+    },
+    {
+      "id": "A26",
+      "panel": "REAPER_R5C_PLY_PANEL_02.dxf",
+      "contours": 5
+    }
+  ],
+  "already_cut_instructions": "Keep already cut wood; A44 wood ribs and wooden A26 superseded by printed parts. Print A26 inASA after printer/material/hardware checks; trim rear keel projection flush to A26 aft face. Do not redrill old square holes or recut entire panels."
+}

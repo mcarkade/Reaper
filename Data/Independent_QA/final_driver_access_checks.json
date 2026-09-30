@@ -1,0 +1,119 @@
+{
+  "basis": "Fresh exact final-source solids, nominal 6mm cylinder,60mm forward approach; target A26 excluded. Real driver/head/lead path and ability to insert driver remain physical checks.",
+  "wood_count": 34,
+  "A12_checked": true,
+  "drivers": [
+    {
+      "driver": 1,
+      "diameter_mm": 6,
+      "start_y_mm": 522.65000000928,
+      "end_y_mm": 582.65000000928,
+      "centre_xz_mm": [
+        -6.717498859671201,
+        -9.217517009045201
+      ],
+      "collisions": [],
+      "nearest": [
+        {
+          "id": "A43",
+          "gap_mm": 0.21751690903997112,
+          "overlap_mm3": 0.0
+        },
+        {
+          "id": "A62_A",
+          "gap_mm": 0.7175144752224392,
+          "overlap_mm3": 0.0
+        },
+        {
+          "id": "A12_printed_tail_carrier",
+          "gap_mm": 14.064888558230232,
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "driver": 2,
+      "diameter_mm": 6,
+      "start_y_mm": 522.65000000928,
+      "end_y_mm": 582.65000000928,
+      "centre_xz_mm": [
+        -6.717498859671201,
+        4.2175118334992
+      ],
+      "collisions": [],
+      "nearest": [
+        {
+          "id": "A43",
+          "gap_mm": 1.2175119335045856,
+          "overlap_mm3": 0.0
+        },
+        {
+          "id": "A62_A",
+          "gap_mm": 7.8727854749741,
+          "overlap_mm3": 0.0
+        },
+        {
+          "id": "A12_printed_tail_carrier",
+          "gap_mm": 11.526432255125618,
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "driver": 3,
+      "diameter_mm": 6,
+      "start_y_mm": 522.65000000928,
+      "end_y_mm": 582.65000000928,
+      "centre_xz_mm": [
+        6.7175299828732005,
+        -9.217517009045201
+      ],
+      "collisions": [],
+      "nearest": [
+        {
+          "id": "A43",
+          "gap_mm": 0.2175169090391762,
+          "overlap_mm3": 0.0
+        },
+        {
+          "id": "A62_A",
+          "gap_mm": 0.7175143673212587,
+          "overlap_mm3": 0.0
+        },
+        {
+          "id": "A12_printed_tail_carrier",
+          "gap_mm": 14.06490624131242,
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "driver": 4,
+      "diameter_mm": 6,
+      "start_y_mm": 522.65000000928,
+      "end_y_mm": 582.65000000928,
+      "centre_xz_mm": [
+        6.7175299828732005,
+        4.2175118334992
+      ],
+      "collisions": [],
+      "nearest": [
+        {
+          "id": "A43",
+          "gap_mm": 1.2175119335047668,
+          "overlap_mm3": 0.0
+        },
+        {
+          "id": "A62_A",
+          "gap_mm": 7.872785438082008,
+          "overlap_mm3": 0.0
+        },
+        {
+          "id": "A12_printed_tail_carrier",
+          "gap_mm": 11.526453028280674,
+          "overlap_mm3": 0.0
+        }
+      ]
+    }
+  ]
+}

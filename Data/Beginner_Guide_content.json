@@ -1,0 +1,1466 @@
+[
+  {
+    "title": "Reaper: build one stage at a time",
+    "paragraphs": [
+      "DARTS founding project - registration pending. This separate follow-along guide takes your existing cut parts and prints through assembly, wiring and bench checks. Landing gear is a later stage after midsems.",
+      "Reuse the foamboard, plywood and sound prints you already have. Read the next step before bonding; if that stage is already built, perform its check and continue. A44_L and A44_R are now printed outer ribs; A26 is a printed replacement motor firewall. A11 and A21 are the unchanged ailerons that were missed in printing.",
+      "Keep the propeller off throughout assembly, wiring and configuration. Physical fit, cured joints, control operation and propulsion must be proved on your aircraft. Passing the drawings or bench checks does not make it flight ready."
+    ],
+    "check": "",
+    "image": "overview",
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Start",
+    "step": null,
+    "caption": "Intended upright V-tail aircraft from actual assembly CAD. Landing gear and propeller are deliberately absent at this build stage."
+  },
+  {
+    "title": "Contents",
+    "paragraphs": [],
+    "check": "",
+    "image": null,
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Start",
+    "step": null,
+    "caption": ""
+  },
+  {
+    "title": "Start with the parts you have",
+    "paragraphs": [
+      "Right and left mean the pilot looking toward the nose. The nose is the narrow front end; the motor is at the rear. In drawings, X runs across the wings, Y increases aft and Z is upward. All quoted dimensions are millimetres unless stated otherwise.",
+      "The source wing span is 2.00 m. Two whole 5 x 1000 mm carbon rods support the wings across the centre. Plywood is nominal 6 mm and foamboard nominal 5 mm; measure your stock. Never scale parts to solve a fit.",
+      "Sort pieces into fuselage, right wing, left wing, tail and electronics bags. Match IDs to the part pictures in this guide. A40 is already incorporated into the unified A62 keel; do not stack another A40. Keep old wooden A44 ribs aside as references; fit the printed pair instead.",
+      "FW01/FW02 inner foam skins may be whole R5C cuts or R5E ROOT/TIP pairs. Both use the same final outline. Keep whole skins intact; join only skins already supplied as two pieces. Existing R5C plywood needs the documented local fitting in the next pages, not a full new cutting job."
+    ],
+    "check": "",
+    "image": "preclose",
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Start",
+    "step": null,
+    "caption": ""
+  },
+  {
+    "title": "Tools, glue and curing",
+    "paragraphs": [
+      "Use a flat board, straightedge, square, calipers, sharp knife, sanding block, clamps, hand drill, smooth trial pin, reinforced tape, zip ties, Velcro straps, soldering iron, heat-shrink and multimeter. For early servo centring use a regulated 5 V supply and standalone servo tester with neutral mode; availability is unconfirmed. A current-limited source helps the first electrical check.",
+      "For close wood-to-wood joints, use a wood adhesive approved for the plywood and clamp full contact. For print-to-wood joints, lightly abrade only the bond patch, remove dust, and qualify an adhesive explicitly compatible with both the chosen filament and wood. A gap-filling two-part epoxy is a candidate only after its offcut test passes.",
+      "For foam use an adhesive explicitly approved for its foam core and paper. Ordinary CA and solvent glue can damage exposed foam; test the exact product first. Hot glue can locate light equipment but must not be the sole battery restraint or proof of a loaded joint.",
+      "Write the exact adhesive name, mix ratio if required, working time, clamp time and full-cure time from its label on a bench card. Apply at the stated temperature. Keep each joint supported for the label clamp time and unloaded until full cure. No exact adhesive is identified in the local BOM, so there is no universal hour value to copy.",
+      "Bond one wood lap, one print-to-wood offcut and one foam fold first. After full cure pull and bend the samples. Stop if paper peels, plastic separates, the core melts or the bond remains soft; choose and test a compatible adhesive before using it on the aircraft."
+    ],
+    "check": "Continue only when the exact adhesives, clamp times and full-cure times are written down and the sample joints pass.",
+    "image": null,
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Start",
+    "step": null,
+    "caption": ""
+  },
+  {
+    "title": "Finish the known wood seating errors",
+    "paragraphs": [
+      "Dry-fit the complete cut pieces before glue. The R5C cut DXFs describe stock blanks; the finished CAD includes local paring. These are documented corrections to already-cut wood.",
+      "On A43, the two gear-bay seats at Y125-131 and Y142.7-148.7 lose 1 mm from the underside locally, leaving 5 mm. The seats against A16 and A04 also require local relief to the removal shape. Keep the surrounding A43 at 6 mm.",
+      "A05_L/R and A07_L_I/R_I need local relief at inner/middle rib tabs, around X53-59 and X247.35-253.35 and their mirrors. A62_F needs local relief at A54, Y-5 to 1. Use the actual mating part and source removal detail as the stop; a whole bounding rectangle is not a removal instruction.",
+      "Dress the tiny A53 and outer rear-spar edge wedges only if they prevent seating. Make small cuts, refit and stop when each joint seats without force. If a defect lies outside these locations, mark it and measure it before removing structural material."
+    ],
+    "check": "Slots seat fully without bending parts; no entire former, spar or endplate has been thinned.",
+    "image": "frames",
+    "detail": "paring_A43",
+    "parts": [
+      "A43",
+      "A05_R",
+      "A62_F"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 1,
+    "caption": "Lower detail: orange volumes are material to remove from A43 at the gear-bay seats. They are not extra aircraft pieces."
+  },
+  {
+    "title": "Align the two keel halves",
+    "paragraphs": [
+      "Take A62_F (front keel) and A62_A (aft keel). Stand their broad side faces in one plane on a straight jig, matching the top and bottom edge shapes. The butt seam is at Y100.",
+      "Use the A13/A43 frames loosely as an alignment check before bonding. Do not use glue to fill a misaligned step. The seam locates the halves; the two side laps in the next step carry the joint."
+    ],
+    "check": "A straightedge crosses the seam without a step or kink, and the dry frames seat.",
+    "image": "keel_halves",
+    "detail": null,
+    "parts": [
+      "A62_F",
+      "A62_A"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 2,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Bond both keel side laps",
+    "paragraphs": [
+      "Fit A62_DL to the left broad side and A62_DR to the right side of the aligned keel. Each 120 mm lap spans Y40-160, giving 60 mm on each half. Align their lower edges with the keel at Z-41.714.",
+      "Apply the qualified wood adhesive to the complete mating faces. Clamp the halves and both laps flat in the jig. Wipe squeeze-out away from nearby slots. Keep the jig in place through clamp time and leave the joint unloaded through full cure.",
+      "If the keel is already joined, inspect both laps, the straight seam and the cured contact. Do not dismantle a sound joint to repeat this step."
+    ],
+    "check": "Both opposite laps are installed, fully bonded and straight; no loose edge, soft glue or split wood.",
+    "image": "keel_laps",
+    "detail": null,
+    "parts": [
+      "A62_DL",
+      "A62_DR"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 3,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Dry-fit the horizontal body frames",
+    "paragraphs": [
+      "Fit A13 at the front and A43 at the rear onto the keel tabs. Their upper faces are the common Z0 plane. The rounded front of A13 points toward the nose; A43 runs toward the motor.",
+      "Keep the assembly supported so the thin frame members do not bow. Fit without glue now; the formers, gear-bay pieces, nose and tail carrier must all agree before you bond the body."
+    ],
+    "check": "The frames sit level on a straight keel, all tabs seat and the structure stays square without force.",
+    "image": "frames",
+    "detail": null,
+    "parts": [
+      "A13",
+      "A43"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 4,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Add the two forward body formers",
+    "paragraphs": [
+      "A34 is the front ring former, with its forward face at Y-130. Fit its lower slot and frame contacts first. A54 is the centre ring former, with its forward face at Y-5: 125 mm aft of A34.",
+      "The former rings stand upright across the body. Keep their top arcs above the frame and their lower notches toward the keel. Check a square against each ring. Use the local A62_F relief from Step 1 if A54 will not seat."
+    ],
+    "check": "The two rings are upright, square to the centreline and 125 mm apart between forward faces.",
+    "image": "forward_formers",
+    "detail": null,
+    "parts": [
+      "A34",
+      "A54"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 5,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Add the two aft body formers",
+    "paragraphs": [
+      "Fit A16 with its forward face at Y233.65, then A04 with its forward face at Y384.65. From the A34 forward face these distances are 363.65 and 514.65.",
+      "Keep each ring square and the top of A43 at Z0. If a former lifts A43, use only the documented local underside seat relief. Trial a lower foam wrap over the rings to see whether the body outline remains smooth."
+    ],
+    "check": "All four ring formers seat without twisting the body; left and right frame rails remain level.",
+    "image": "aft_formers",
+    "detail": null,
+    "parts": [
+      "A16",
+      "A04"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 6,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Fit the gear-bay pieces and tail bulkhead",
+    "paragraphs": [
+      "Dry-fit A25 at Y125 and A48 at Y142.7, then A47 across their matching tabs. These three pieces stay in the wood skeleton even though purchased landing gear is deferred until after midsems.",
+      "Fit A18 tail-carrier bulkhead with its aft face at Y460.5. Its raised centre and opening locate the printed A12 carrier. Preserve the surrounding slots and motor-driver approach.",
+      "Leave the motor mount out until its separate fit step. Existing gear-bay structure is not proof of a bolt pattern or load capacity for the later gear."
+    ],
+    "check": "A25/A47/A48 sit flat and A18 is square; later gear and motor access remain open.",
+    "image": "bay_bulkhead",
+    "detail": null,
+    "parts": [
+      "A25",
+      "A47",
+      "A48",
+      "A18"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 7,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Trial the printed body parts, then bond the wood",
+    "paragraphs": [
+      "Slide the owned A59/N1 nose over the forward frame, place A06 centre fairing over the centre body and seat A12 tail carrier against A18. Put the parts on and take them off before applying adhesive. Do not force a shell over proud wood tabs.",
+      "The prints attach at their actual wood seating faces and sockets. A12 surrounds the tail bulkhead; A06 follows the centre formers and frame; A45/A55 roots seat against the wing structure and locate the two carbon rods. These contact patches carry load into the skeleton. Foam skin and tape can close seams but cannot replace the sound wood-to-print joints.",
+      "Mark which print contacts need the qualified print-to-wood adhesive. For the nose and access covers retain a removable path using tape/ties at sound frame contact, rather than sealing electronics inside. There is no dimensioned universal screw pattern for all shells.",
+      "When the complete dry body aligns, remove shells, bond wood contacts and clamp square through label clamp time and full cure. Then bond A12 to its A18 seating faces with the qualified print-to-wood adhesive and hold square until fully cured. Retain A06 serviceably with tape/ties at sound frame contact. Keep the nose removable, the motor mount out and the body open."
+    ],
+    "check": "The cured wood is straight; shells seat by hand and motor, battery and USB/SD access can be reached.",
+    "image": "shell_dryfit",
+    "detail": null,
+    "parts": [
+      "A59",
+      "A06",
+      "A12"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 8,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Align each rear wing spar",
+    "paragraphs": [
+      "On the right, align A07_R_I (inner section) with A07_R_O (outer section). Their seam is at X360. On the left use A07_L_I and A07_L_O, with the mirrored seam at X-360.",
+      "Lay each spar broad face on a flat jig. Keep its notches facing the matching ribs. Trial-fit the ribs before glue so a reversed half is caught now."
+    ],
+    "check": "Each spar is straight across its seam and its notches match the correct-side ribs.",
+    "image": "spar_halves",
+    "detail": null,
+    "parts": [
+      "A07_R_I",
+      "A07_R_O"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 9,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Bond both face laps on each spar",
+    "paragraphs": [
+      "Fit A07_R_D1 and A07_R_D2 to opposite broad faces of the right spar. Each 100 mm lap covers X310-410, giving 50 mm per half. Repeat with A07_L_D1/D2 on the left.",
+      "Bond full contact with the qualified wood adhesive. Clamp straight and keep glue out of rib notches. Both laps are structural pieces; a rigid-looking butt joint is not a reason to omit one. Leave unloaded until full cure."
+    ],
+    "check": "Both spars have two opposite cured laps, straight edges and open rib seats.",
+    "image": "spar_laps",
+    "detail": null,
+    "parts": [
+      "A07_R_D1",
+      "A07_R_D2"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 10,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Build the right wing with its printed outer rib",
+    "paragraphs": [
+      "Lay out A05_R front spar, the joined A07_R rear spar, A35_R inner rib, A24_R middle rib and A01_R rear-rod support rib. Fit the printed A44_R outer rib instead of its cut wooden predecessor.",
+      "The ribs run fore-aft with their rounded noses toward the leading edge. Inner rib datum is about X53, middle about X250 and outer about X490. The front and rear spars run spanwise through their matching seats. A01_R supports the rear rod near X130.",
+      "Dry-fit first, including the real servo in A44_R and the outer skin. Keep the airfoil shape, spar seats and servo opening intact. Bond wood-to-wood seats using the tested wood adhesive; use the tested print-to-wood adhesive only at A44_R mating patches. Support the assembly without twist through full cure."
+    ],
+    "check": "Every rib seats, the printed outer rib preserves the source airfoil and real servo access is clear.",
+    "image": "wing_ribs",
+    "detail": null,
+    "parts": [
+      "A05_R",
+      "A35_R",
+      "A24_R",
+      "A01_R",
+      "A44_R"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 11,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Build the left wing and compare both sides",
+    "paragraphs": [
+      "Repeat Step 11 with A05_L, A07_L, A35_L, A24_L, A01_L and printed A44_L. This is a mirror, not a second right wing. Keep the servo pockets and control attachments on their correct sides.",
+      "Compare both frames on the same flat board before adhesive cures: rib stations, leading edges, spar joints, root faces and twist. Trial each outer foam skin and fixed hinge rail. Correct only a proven local interference, never shorten one wing to match a mistaken fit."
+    ],
+    "check": "Left and right rib spacing, airfoil attitude and root-to-tip straightness match.",
+    "image": "both_wings",
+    "detail": null,
+    "parts": [
+      "A44_L",
+      "A44_R"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 12,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Fit both roots and the two whole carbon rods",
+    "paragraphs": [
+      "Fit A55 left root and A45 right root with the complete body and both wing frames supported. Slide the front rod through the nominal 5.2 mm printed bores and mating wood seats at Y60.454/Z15.632. Slide the rear rod at Y100.500/Z15.070.",
+      "Each rod is solid carbon, 5 mm diameter and 1000 mm long, centred from X-500 to +500. Keep both whole; do not cut or butt-join them at the body. The outer front-rod seat is an open local notch.",
+      "Trial the actual rods, roots and wood simultaneously. Finish a bore locally only enough for a snug fit; do not scale a root. Mark the loaded root-to-wood contact and bond only after a qualified offcut joint and full dry fit.",
+      "Before covering, prove that neither a wing nor a rod can move out spanwise. The source does not define a fully qualified removable locking system. A friction fit alone is insufficient: hold this stage for a documented positive restraint and physical pull/load check if the installed bonded arrangement cannot resist escape."
+    ],
+    "check": "Rods remain whole; both roots seat without cracks; wings and rods have demonstrated restraint against escape.",
+    "image": "whole_rods",
+    "detail": null,
+    "parts": [
+      "A45",
+      "A55",
+      "ROD1",
+      "ROD2"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 13,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Install the fixed aileron rails and endplates",
+    "paragraphs": [
+      "Right side: fit A36 fixed hinge rail with A53_R inner wooden endplate and A10_R outer endplate. Left side: A23 with A53_L and A10_L. Trial the corresponding moving aileron before bonding the fixed pieces.",
+      "The endplates lie beyond the moving surface ends, not inside its free span. Preserve their pivot-support material. The inner A53 datum remains about X493 on the right and its mirror on the left. Keep the printed rail aligned with the common hinge line.",
+      "Use qualified wood adhesive at wood contacts and qualified print-to-wood adhesive at the fixed rail contact. Keep all hinge pilots free of glue and leave space for the captive pin heads."
+    ],
+    "check": "Both rails are fixed and straight; moving ailerons can fit between their endplates without being pinched.",
+    "image": "hinge_rails",
+    "detail": null,
+    "parts": [
+      "A36",
+      "A23",
+      "A53_R",
+      "A10_R"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 14,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Fit the unchanged ailerons and captive pins",
+    "paragraphs": [
+      "Use A21 on the right and A11 on the left. These are the existing unmodified print geometries supplied again because they were missed. Use their 2 mm common-axis pilots, not a full-length hinge shaft.",
+      "Measure the actual spoke/pin diameter. Align the two end pilots and finish them carefully to a smooth rotating fit. Each aileron uses two short end pins. Keep adhesive out of the bearing and keep the surface clear of its fixed rail.",
+      "Make bent L heads from suitable spoke offcuts, and trap each head against the wooden endplate with reinforced tape or a tie. The head must remain clear of the moving surface and cannot slide out. Test the restraint in both directions; replace tape if it peels or allows pin movement."
+    ],
+    "check": "Both ailerons move freely; four end pins are positively captive without bearing glue or hinge rub.",
+    "image": "ailerons",
+    "detail": "pin_retention",
+    "parts": [
+      "A21",
+      "A11"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 15,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Mount wing servos, horns and pushrods",
+    "paragraphs": [
+      "Fit an MG90S at each printed outer-rib pocket: S3 left and S4 right. Before fitting arms, keep flight battery/ESC disconnected and prop removed. Connect one servo to a standalone tester: verified signal to signal, positive to regulated 5 V and ground to ground, following its keyed contact view. Select neutral mode; then fit the factory arm near a right angle to the pushrod and retain its supplied centre screw.",
+      "If no verified 5 V tester is available, leave arms off and skins open. Complete the bench power/configuration checks in Steps 26-29 and 30-31, command neutral from the configured FC, then return here and fit the arms. Do not close wings at Step 22 before this dependency and actual full-travel tests pass.",
+      "Seat the real mounting tabs against the actual rib. Use the servo supplied mounting hardware only after matching tab holes and screw/pilot dimensions; do not drive a guessed screw into a thin printed edge. The source servo envelope does not prove MG90S tab fit. If the tabs cannot be securely captured, hold this joint for measured fitting.",
+      "Fit HWL/HWR to their respective moving ailerons at the CAD contact. Abrade only the bond patch, clean and use the qualified adhesive through full cure. Horn pilot holes are nominal 2 mm for the pushrod, not servo mounting holes.",
+      "Trial one bicycle-spoke pushrod per wing with captive articulating ends. Measure its diameter, thread, arm hole and horn hole before cutting. The pictured 10 mm arm radius and straight rod are references, not a cut-length instruction. Leave all adjusters and the servo arm screw reachable."
+    ],
+    "check": "Servos and horns cannot shift under light control load; linkage moves without over-centre motion, rub or pin escape.",
+    "image": "wing_servos",
+    "detail": "spoke_linkage_section",
+    "parts": [
+      "A44_R",
+      "HWR"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 16,
+    "caption": "Actual airframe, horns and source servo envelopes. Arm and pushrod cylinders illustrate a route; set length and captive bends on the real parts."
+  },
+  {
+    "title": "Form and fit the fixed upright V-tail",
+    "paragraphs": [
+      "FW05 becomes the right fixed tail A57; FW06 becomes the left fixed tail A22. Each is one whole folded skin including its root collar. Match the source tail profile and trial the root against A12.",
+      "Precurve and fold progressively, keeping the outer paper intact. Remove or compress inner foam only where the fold and root need relief. Test on an offcut first. Dry-fit both fixed tails before bonding so their angles and trailing edges are symmetric.",
+      "Bond the tail skin and its A12 seating patch with a tested foam-safe adhesive that also suits the printed carrier where they contact. Support both tails at the CAD angles through full cure; do not force a warped tail into a socket."
+    ],
+    "check": "Tail roots seat in A12, both halves angle upward symmetrically and no paper is torn or core crushed.",
+    "image": "tail_fixed",
+    "detail": "tail_fixed_rear",
+    "parts": [
+      "A12",
+      "A57",
+      "A22"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 17,
+    "caption": "Upper: evolving body assembly. Lower: rear close-up shows both fixed tails seated symmetrically in the actual A12 carrier."
+  },
+  {
+    "title": "Laminate the moving tail controls and hinge them",
+    "paragraphs": [
+      "FW12 right uses two 5 mm blanks to make A41; FW13 left uses two to make A60. Bond matching layers flat with the qualified foam adhesive. Keep supported through full cure, then finish the marked outline, trim allowance and rounded leading edge.",
+      "Hold each moving surface at neutral next to the fixed trailing edge. Apply reinforced tape to both faces and press the exposed tape together across the gap to form a flexible web. Keep the gap free from a hard glue bridge.",
+      "Trial movement roughly 15 degrees each way as a basic bench fit check, not a flight-qualified throw. The web must not peel, bind or allow fore-aft slop. Stop and remake a hinge that tears the paper or cannot move symmetrically."
+    ],
+    "check": "Both laminated controls are flat, retained by sound flexible webs and move freely in both directions.",
+    "image": "tail_moving",
+    "detail": "tail_tape_section",
+    "parts": [
+      "A41",
+      "A60"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 18,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Fit the two tail servos and backed horns",
+    "paragraphs": [
+      "S5 is the left tail MG90S and S6 the right. The source shaft targets are X-63.85/+63.85, Y411.10, Z6.215. They sit beside the original tail roots, with arms, centre screws and pushrod adjustments accessible.",
+      "Use the verified 5 V tester/neutral procedure in Step 16 before fitting the factory arms and retaining the arm screws. With no tester, leave arms off and return after the FC power/configuration checks; keep the skins open. Trial actual body/tabs, and use matching supplied hardware at sound mounting contact only. Hold a joint if the envelope does not securely seat the real unit.",
+      "Fit HTL/HTR horns to the left/right moving controls with HTLB/HTRB backing plates against the opposite foam face. The backers spread local load. Fit and cure the tested foam/print bond without crushing the core. Do not trust a horn glued to unsupported paper.",
+      "Use two more bicycle spokes as tail pushrods with measured, captive articulating ends. Cut only after full neutral and combined pitch/yaw movement has been tested. Keep rods clear of the carrier and motor wiring."
+    ],
+    "check": "Both tail servo mounts, horns and backers remain secure; every combined endpoint moves without rubbing or foam peel.",
+    "image": "tail_linkage",
+    "detail": "spoke_linkage_section",
+    "parts": [
+      "HTR",
+      "HTRB"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 19,
+    "caption": "Right-side tail close-up; mirror the hardware for the left. Source servo envelope and schematic rod route require actual tab and linkage fitting."
+  },
+  {
+    "title": "Check the complete open structure",
+    "paragraphs": [
+      "Put the body, both wings, fixed tails and controls together before any skin is glued closed. Confirm all wood laps are cured, printed root contacts are sound and rods and hinge pins are retained.",
+      "Move each control through full intended bench travel while supporting the airframe. Check rubbing, play, horn peel, servo buzz and an arm approaching over-centre. Correct the mechanical cause before limiting travel in software.",
+      "Run each wing servo cable to its root with enough slack for wing handling. Use smooth-edge tape/tie supports on fixed structure, avoiding hinges, pushrods and rod movement. Plan removable wing connectors and label S3 left / S4 right at both ends. Run tail cables forward along the frame, clear of the motor and driver path.",
+      "Leave an accessible route to the servo mounting and arm screws, connector separation points and tail adjusters. If you cannot service one of them after skinning, change the access plan now."
+    ],
+    "check": "Four controls move freely, every connector is labelled, and all restraints and service points can be inspected.",
+    "image": "preclose",
+    "detail": null,
+    "parts": [
+      "A11",
+      "A21",
+      "A12"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 20,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Form the inner wing skins you already cut",
+    "paragraphs": [
+      "FW02 is the right inner skin (A49) and FW01 the left (A52). If each is already a whole skin, keep it intact. If supplied as ROOT/TIP cuts, butt the matching straight edges on a flat board, bond the core with foam-safe glue and tape across the outer paper. Cure the join before curving.",
+      "Mark the inside, leading edge and part ID from the cut map. Curve progressively over the actual inner wing frame; keep the outer paper continuous. Only relieve the inner core where a rib, rod or fold interferes. The source fold marks are hand references, not extra through-cuts.",
+      "Dry-fit the root, inner/middle ribs and rods together. Hold the airfoil without twisting it. Do not hide a broken spar or force a poor root fit under the skin."
+    ],
+    "check": "Each skin matches its side, forms without buckles and clears the whole rods and root without forcing.",
+    "image": "inner_skin",
+    "detail": "foam_wing_process",
+    "parts": [
+      "A49",
+      "A45"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 21,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Dry-fit outer skins and keep access open",
+    "paragraphs": [
+      "FW03 is the right outer skin A38 and FW04 the left outer skin A27. Trial around the completed ribs, fixed rails, servos and controls. On the right, documented inner-foam relief is against A10_R and A53_R; mirror only the corresponding physical contact on the left.",
+      "Confirm rod/root retention, captive aileron pins, horn bond and servo mounting. Route the servo cable, test its connector and leave the servo arm accessible. Keep an inspectable/removable seam or opening at each servo rather than permanently burying it.",
+      "Hold the skins with removable tape now. Leave them unbonded until FC configuration, actual Vx/Vx2 loaded-servo movement, direction and failsafe tests pass. Final wing bonding is in Step 34; keep tape clear of the moving hinges."
+    ],
+    "check": "Both wings dry-fit symmetrically with smooth cable exits; all joints, servos and connectors remain accessible.",
+    "image": "outer_skin",
+    "detail": null,
+    "parts": [
+      "A38",
+      "A21"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 22,
+    "caption": "Actual outer skin shown in its final position, held temporarily for fit. Permanent closure waits for powered controls and supply checks."
+  },
+  {
+    "title": "Place and restrain the battery and electronics",
+    "paragraphs": [
+      "Start with the battery on sound A13 wood in the forward bay; the old centre target Y-260 is only a trial location. Use an insulating nonslip pad and two independent straps around the existing frame and battery. Round or pad sharp contact edges. Adhesive may locate the pad but must not be the only pack restraint.",
+      "Fit F405-WING V2 with known arrow/orientation on a suitable insulated vibration pad near the forward centre body. Leave USB, microSD and all plugs reachable. Place FS-iA10B nearby with separated antenna tips away from carbon and motor-current wiring.",
+      "Place the SiK AIR unit in the middle/aft body where its antenna and serial plug remain serviceable. Mount ReadytoSky 40A ESC aft on sound frame with ties/tape, cooling surface exposed and motor wires secured. Check its lead-length guidance before adding battery-wire length.",
+      "These drawn device boxes are nominal envelopes placed on real CAD, not exact device models or a fit certification. Trial the real leads, straps, cover and removal path. The old analysis already shows battery positions near Y-192 can collide with A34; do not force that position to chase a predicted CG."
+    ],
+    "check": "Battery cannot slip and can be removed unplugged; board USB/SD, receiver plug, radio and ESC remain accessible.",
+    "image": "equipment",
+    "detail": "battery_straps",
+    "parts": [
+      "A13"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 23,
+    "caption": "Top view of actual frame with nominal device envelopes. Final positions follow real connector access, interference tests and measured balance."
+  },
+  {
+    "title": "Place GPS, pitot and airspeed tubes",
+    "paragraphs": [
+      "Place the documented M9N-5883 GPS/compass with antenna face skyward in the upper nose region. Keep the compass at least 100 mm from power wiring, ESC, motor and ferrous hardware as the manufacturer recommends; centre-to-centre box spacing alone is insufficient. Verify the real clearance to leads.",
+      "Reuse the owned A59/N1 nose. With electronics and battery removed, offer up the actual pitot and mark a forward-facing passage that clears the shell, frame and nose removal path. Drill a controlled pilot and enlarge only for a snug tube/support fit. Do not copy a guessed CAD hole location.",
+      "Secure the pitot to sound support with tape/ties without covering sensing ports. Lead both silicone tubes to ASPD-4525 near the forward body; support gently, avoid kinks and leave the sensor ports reachable. Identify total/static ports from the actual sensor/manual.",
+      "The pressure sensor, GPS and radio must match their documented models before connector pin order is used. If a label differs, stop that connection and identify its exact manual; continue the other mechanical work."
+    ],
+    "check": "Nose removal does not pull the tubes; sensing holes remain open and compass separation is measured.",
+    "image": "sensors",
+    "detail": null,
+    "parts": [
+      "A59"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 24,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Resolve and trial the rear motor interface",
+    "paragraphs": [
+      "The documented motor is EMAX ECO II 2807 1300KV. The official drawing specifies four M3 threads on a 19 mm pitch-circle diameter, giving 13.435 mm adjacent square spacing. The earlier guide and A26 literal 19 x 19 square are wrong for that drawing.",
+      "Set the cut wooden A26 aside. Use A26_ASA_6W_100RECT_NOSUP_L0p2_B8.stl: ASA, 6 walls, 100% rectilinear, 0.20 mm layers, no supports and 8 mm brim, broad forward face on the bed with motor face up. Keep the 6 mm source plate section. The filament/printer must support enclosed ASA printing; no PLA substitution is approved here.",
+      "The corrected printed flank seats are 6 mm deep, from Z0 down to Z-6, for the nominal 6 mm rear frame. The old wooden plate had 5 mm flank seats. Adding pitch-circle holes beside its old square holes would leave only about 0.735 mm ligament, so that old plate is not the replacement.",
+      "Remove all brim from the slots, keyhole and outer face, then check flatness after cooling. Dry-fit on A43/A62 with the real base, underside boss and propeller removed. Check holes, bell/wire clearance and driver access. Use a coupon-proved epoxy rated for ASA and wood at the actual frame contact, with the motor removed. Hold square through full cure; keep the shell open for the next check."
+    ],
+    "check": "Printed mount seats on the actual frame without force; actual motor base and holes match; ASA/wood bond sample passes before installation.",
+    "image": "motor_interface",
+    "detail": null,
+    "parts": [
+      "A26",
+      "A43",
+      "A12"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 25,
+    "caption": "Corrected printed A26 on the actual rear frame. The footprint and slots are source geometry; material, layer strength, heat and actual fit still require physical proof."
+  },
+  {
+    "title": "Motor fitting detail: keep the rest of the frame",
+    "paragraphs": [
+      "Trim only the A62_A aft projection: it currently ends at Y595.665. Mark the firewall aft plane Y582.650 and remove the 13.015 mm behind that plane. Support the keel and saw/file flush, keeping all material forward of the firewall and its joint. The CAD removes a demonstrated motor-envelope clash; check the real base and boss still seat.",
+      "A26 shaft centre remains X approximately 0 and Z-2.5. Four 3.2 mm clearance holes are equally spaced on diameter 19; their diagonal coordinates about the shaft are +/-6.718 mm in X/Z. Match the actual motor against the print before fastening.",
+      "Measure the screw/washer stack, head diameter and safe M3 thread depth. EMAX supplies M3x8/M3x10 but neither length is automatically approved. A screw must clamp the print without bottoming or reaching windings. Use compatible load-spreading heads/washers only after real driver, bell and slot clearance is verified; do not crush the polymer.",
+      "ASA has better heat resistance than PLA but is not a certified motor mount. Flat printing keeps the notch profile and torque path within continuous layers; prop thrust loads across layers and screws can cause creep. Qualify the cured frame joint, print layer adhesion, screw retention and the exact propulsion heating/vibration progressively before flight."
+    ],
+    "check": "If any interface still catches, provide a square-on photo of the mates with a ruler, actual wood thickness and safe M3 thread depth. Keep this stage open until proven.",
+    "image": "keel_trim",
+    "detail": "motor_front",
+    "parts": [],
+    "table": null,
+    "section": "Motor detail",
+    "step": null,
+    "caption": "Actual trimmed keel and corrected printed firewall. Only the aft projection is removed. Lower view shows the current source-derived ASA mounting face."
+  },
+  {
+    "title": "Connect high-current power with the prop off",
+    "paragraphs": [
+      "Keep the GenX RKI-4897 4S 5200 mAh pack disconnected. Its nominal voltage is 14.8 V and full voltage 16.8 V. Check the actual matching high-current main connector, positive and negative; the balance plug is for the charger, not the FC.",
+      "Connect the battery main positive/negative to F405-WING V2 BAT input with the verified connector and suitable rated wiring. Connect ESC thick positive/negative to the board PDB ESC power pads, following their actual labels. Connect the three motor phase wires to the ESC and restrain them clear of the bell and controls.",
+      "Connect ESC throttle signal to S1 and its control ground to G. The ReadytoSky family has a documented BEC despite some OPTO titles: inspect and meter your unit. If its red BEC wire is live, isolate and insulate that positive so it is not accidentally paralleled with onboard servo power.",
+      "Insulate every joint and support wires at frame ties without crushing insulation. With the battery still unplugged, check continuity, shorts, polarity and connector key orientation with a multimeter. Route high-current wiring away from compass, receiver antennas and sensor cables."
+    ],
+    "check": "Polarity and insulation pass; ESC BEC handling is verified; no motor wire can reach a moving part.",
+    "image": "power_route",
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Follow-along",
+    "step": 26,
+    "caption": "Red traces show power routing on the real frame. Match the actual wire lengths and service loops; device boxes are nominal envelopes."
+  },
+  {
+    "title": "Power and motor connection map",
+    "paragraphs": [],
+    "check": "Use actual board pad marks and actual keyed contacts; wire colour alone does not establish polarity.",
+    "image": null,
+    "detail": null,
+    "parts": [],
+    "table": [
+      [
+        "From",
+        "To / net",
+        "Check"
+      ],
+      [
+        "Battery main + / -",
+        "FC BAT + / GND",
+        "4S 14.8 V nominal, 16.8 V full; connector polarity"
+      ],
+      [
+        "FC/PDB ESC + / -",
+        "ESC DC + / -",
+        "Wire and pad rating; continuity; insulated joints"
+      ],
+      [
+        "ESC three phase leads",
+        "Motor three phase leads",
+        "Prop off; secure away from rotating bell"
+      ],
+      [
+        "FC S1 / G",
+        "ESC throttle signal / ground",
+        "Live ESC BEC positive isolated if onboard BEC used"
+      ],
+      [
+        "FC Vx set to 5 V",
+        "S3 and S4 servo + rail",
+        "Measure before plugging in servos"
+      ],
+      [
+        "FC Vx bridge to Vx2",
+        "S5 / S6 servo + rail; S7 later",
+        "Vx2 is unpowered without bridge or separate supply"
+      ],
+      [
+        "FC S3 / S4 / S5 / S6",
+        "Each servo signal",
+        "Each servo also has +5 V and common GND"
+      ]
+    ],
+    "section": "Connections",
+    "step": null,
+    "caption": ""
+  },
+  {
+    "title": "Connect servo power and receiver",
+    "paragraphs": [
+      "Set the F405-WING V2 servo BEC Vx to 5 V for MG90S. Bridge Vx to Vx2 when using the onboard supply for the tail servos. Vx powers S3/S4; Vx2 powers S5/S6 and later S7. Measure both rails before connecting servo plugs.",
+      "Connect each servo lead signal, positive and ground to its matching output: S3 left aileron, S4 right aileron, S5 left V-tail, S6 right V-tail. Confirm the actual plug orientation. Keep S7 steering unplugged until gear is fitted after midsems.",
+      "Connect FS-iA10B servo-iBUS output signal to FC RX2, plus rated peripheral 5 V and common GND. Do not use the receiver SENS port. Label the wing connectors on both ends; protect their latch/release access.",
+      "Onboard Vx is rated 5 A continuous and 6 A peak; peripheral 5 V is rated 2 A total. Test actual simultaneous servo and accessory load before closing. Add up rated accessory consumption rather than assuming every 5 V connector has a separate supply."
+    ],
+    "check": "Each plug polarity and side is checked; Vx and Vx2 read 5 V; receiver servo-iBUS is on RX2.",
+    "image": "servo_route",
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Follow-along",
+    "step": 27,
+    "caption": "Amber traces show fixed-frame harness routes from the four source servo locations to the FC. Leave labelled detachable connectors at wing roots. S7 is deferred."
+  },
+  {
+    "title": "Connect sensors and the SiK air radio",
+    "paragraphs": [
+      "For documented M9N-5883, connect GPS TX to FC RX3 and GPS RX to FC TX3, plus rated 5 V/GND. Connect compass SDA to DA2 and SCL to CL2. TX crosses to RX; do not join TX to TX.",
+      "For documented ASPD-4525, connect its SDA to DA2 and SCL to CL2 on the same I2C2 bus, plus 5 V/GND. Its manufacturer GH order is 5V, SCL, SDA, GND. Check connector view/key on the actual device before fitting it; do not infer numbering from the aircraft picture.",
+      "Connect RKI-1980 SiK AIR TX to FC RX1 and AIR RX to FC TX1, with verified 5 V and GND. A standard 3DR GH-6 harness uses 1=5V, 2=FC TX1, 3=FC RX1, 4/5=CTS/RTS unused here, 6=GND; verify key orientation and continuity of your owned harness.",
+      "The black USB GROUND radio plugs into the computer, never into aircraft UART pads. Keep signal grounds common. Use a verified splitter/parallel harness for shared I2C; insulate unused contacts and support solder joints."
+    ],
+    "check": "Every labelled net reaches its intended device, no supply/signal contact is swapped, and I2C harness continuity passes.",
+    "image": "signal_route",
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Follow-along",
+    "step": 28,
+    "caption": "Teal traces show sensor/receiver/radio routes on the real frame. Keep signal routes clear of high-current wiring; final plug orientation comes from the actual devices."
+  },
+  {
+    "title": "Receiver, sensor and radio map",
+    "paragraphs": [],
+    "check": "If any received device differs from the named model, identify its manual before connecting it.",
+    "image": null,
+    "detail": null,
+    "parts": [],
+    "table": [
+      [
+        "Device pin / net",
+        "F405-WING V2 pad",
+        "Notes"
+      ],
+      [
+        "FS-iA10B servo-iBUS signal",
+        "RX2",
+        "BRD_ALT_CONFIG=0; not SENS"
+      ],
+      [
+        "Receiver + / GND",
+        "Peripheral 5V / GND",
+        "Check actual keyed harness"
+      ],
+      [
+        "M9N GPS TX / RX",
+        "RX3 / TX3",
+        "Cross serial directions"
+      ],
+      [
+        "M9N compass SDA / SCL",
+        "DA2 / CL2",
+        "I2C2 shared with airspeed"
+      ],
+      [
+        "ASPD-4525 SDA / SCL",
+        "DA2 / CL2",
+        "GH order 5V, SCL, SDA, GND"
+      ],
+      [
+        "GPS and ASPD power / GND",
+        "Peripheral 5V / GND",
+        "2 A total peripheral BEC budget"
+      ],
+      [
+        "SiK AIR TX / RX",
+        "RX1 / TX1",
+        "Cross serial; verify real harness"
+      ],
+      [
+        "SiK AIR power / GND",
+        "Verified 5V / GND",
+        "GROUND USB unit stays at computer"
+      ],
+      [
+        "Pitot total / static pressure",
+        "ASPD total / static ports",
+        "Two tubes; identify real ports; no kinks"
+      ]
+    ],
+    "section": "Connections",
+    "step": null,
+    "caption": ""
+  },
+  {
+    "title": "Complete wiring foldout",
+    "paragraphs": [],
+    "check": "",
+    "image": null,
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Connections",
+    "step": null,
+    "caption": "",
+    "foldout": true
+  },
+  {
+    "title": "Power carefully and prove the open installation",
+    "paragraphs": [
+      "Propeller removed, transmitter on with throttle low: first power the isolated board by USB for inspection. After continuity/polarity checks, test the flight-power wiring with an appropriate current-limited source. Do not exceed any input range.",
+      "Measure Vx/Vx2 and peripheral 5 V. Connect accessories one group at a time, watching for heat, wrong polarity and unusual current. Leave servo movement for the following firmware/output checks; then test all four simultaneously on the actual Vx/Vx2 rails under a representative light control load before final skin closure.",
+      "Save the observed voltages, load current and any fault. Disconnect battery power before swapping a plug. Correct a mechanical bind before increasing power or adjusting endpoints.",
+      "Check nose and cover removal with all harnesses in place. Mark every detachable connector and leave a short service loop without a loose coil near the motor. Take clear photos of the complete open installation for later service."
+    ],
+    "check": "Polarity and idle rails pass; no heat or resets; powered servo-load proof stays open until after output configuration.",
+    "image": "preclose",
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Follow-along",
+    "step": 29,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Install firmware and save the starting settings",
+    "paragraphs": [
+      "With the propeller removed, connect the F405-WING V2 to Mission Planner over USB. In Initial Setup > Install Firmware choose Plane and the exact MatekF405-Wing target supported for the V2 board. Follow the current board instructions; do not flash a similarly named target by appearance.",
+      "Connect, record firmware version and board identity, then save a parameter file in Config/Tuning > Full Parameter List before changes. In the attitude display move the airframe by hand: nose down/up and right/left roll must match the display. Set board/compass orientation to the real installation.",
+      "Set BRD_ALT_CONFIG=0 for iBUS on RX2 and check channel bars in Initial Setup > Radio Calibration. Turn transmitter V-tail mixing off so the controller owns the mix. Reboot when a parameter instruction requires it, then read the value back.",
+      "Menu wording can vary by ground-station version. This procedure is an instruction for your hardware; no aircraft was connected or firmware flashed while creating this guide."
+    ],
+    "check": "Correct target/version and baseline file recorded; attitude and every receiver channel respond in the correct sense.",
+    "image": "finished",
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Follow-along",
+    "step": 30,
+    "caption": "Aircraft orientation reference for checking the ground-station attitude display; software values require readback on the real controller."
+  },
+  {
+    "title": "Assign the actual outputs explicitly",
+    "paragraphs": [
+      "In Full Parameter List set and write the output functions below. Read them back after restart. Output IDs do not establish correct movement; Step 33 proves the directions.",
+      "Do not import a ready-to-fly file. Keep S7 steering deferred until measured gear fitting. Start with conservative neutral/endpoints established from free mechanical travel; flight throws require experienced pilot acceptance."
+    ],
+    "check": "Write, restart as required and read back; final reversal, endpoints and failsafe still need physical tests.",
+    "image": null,
+    "detail": null,
+    "parts": [],
+    "table": [
+      [
+        "Parameter",
+        "Starting value",
+        "Actual device"
+      ],
+      [
+        "SERVO1_FUNCTION",
+        "70",
+        "Throttle / ESC S1"
+      ],
+      [
+        "SERVO3_FUNCTION",
+        "4",
+        "Left aileron S3"
+      ],
+      [
+        "SERVO4_FUNCTION",
+        "4",
+        "Right aileron S4"
+      ],
+      [
+        "SERVO5_FUNCTION",
+        "79",
+        "Left V-tail S5"
+      ],
+      [
+        "SERVO6_FUNCTION",
+        "80",
+        "Right V-tail S6"
+      ],
+      [
+        "SERVO7_FUNCTION",
+        "26 later",
+        "GroundSteering only after gear fitted"
+      ],
+      [
+        "BRD_ALT_CONFIG",
+        "0",
+        "iBUS RX2"
+      ],
+      [
+        "SERIAL3_PROTOCOL",
+        "5 if required",
+        "GPS on UART3"
+      ],
+      [
+        "BATT_VOLT_MULT / BATT_AMP_PERVLT",
+        "11.0 / 66.7 for V2",
+        "Calibrate readings against meter"
+      ],
+      [
+        "ARSPD_TYPE / ARSPD_BUS",
+        "1 / 1 for ASPD-4525",
+        "Verify actual firmware bus mapping"
+      ]
+    ],
+    "section": "Configuration",
+    "step": null,
+    "caption": ""
+  },
+  {
+    "title": "Calibrate radio, attitude, compass and airspeed",
+    "paragraphs": [
+      "Propeller off: follow Radio Calibration and Accelerometer Calibration in Initial Setup. Set known board and compass orientations. Recheck displayed roll/pitch and save changed parameters. Check SiK UART1 and the air/ground pair settings before claiming telemetry works.",
+      "Take the aircraft outdoors away from metal and power interference for compass calibration and GPS lock. Check live satellite/position data; keep the compass at its final mounted location. Recheck interference after the power harness is fixed.",
+      "Zero ASPD-4525 in still air and inspect both pressure tubes. Use the current ArduPilot airspeed setup for the actual firmware; ARSPD_TUBE_ORDER=2 is auto only if supported. Gently direct airflow toward the pitot and confirm a positive reading. Do not blow strongly into the sensor or assume swapped ports are acceptable.",
+      "Compare battery voltage/current with a suitable measured reference. The V2 starting scales are 11.0 and 66.7 A/V, not the older V1 current scale. A displayed sensible number alone is not a calibration."
+    ],
+    "check": "Radio endpoints, attitude signs, compass orientation, GNSS and positive airspeed response are recorded; voltage/current agree with measurement.",
+    "image": "sensors",
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Follow-along",
+    "step": 31,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Pair the SiK radios and prove telemetry",
+    "paragraphs": [
+      "Fit the correct antennas to both radios before powering them. With the ground station disconnected from the vehicle, choose the GROUND USB radio COM port at 57600 baud. In Mission Planner open Initial Setup > Optional Hardware > SiK Radio and Load Settings for local and remote units.",
+      "Inspect the pair before changing good defaults. Net ID and required Air Speed/ECC settings must agree. If they do not, use Copy Required Items to Remote and Save Settings per the current SiK procedure. AIR serial baud must match FC UART1; GROUND serial baud must match the computer. Do not invent radio transmit power or range.",
+      "On the F405 set SERIAL1_PROTOCOL=1 for MAVLink1, or 2 only if the radio firmware supports MAVLink2; SERIAL1_BAUD=57 means 57600. Write, restart as required and read back the values. These settings apply to TX1/RX1, not the GPS UART.",
+      "A solid green SiK link LED indicates a paired link; blinking indicates searching. Select the GROUND COM at its matching baud and Connect. Check live heartbeat/parameters and tilt the aircraft to see Flight Data attitude update over radio. If it fails, disconnect flight power before checking crossed TX/RX, supply/ground, baud and pair settings. Keep USB available for recovery."
+    ],
+    "check": "Actual radio-link connection and live attitude/parameters pass; a lit power LED alone does not prove telemetry.",
+    "image": "signal_route",
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Configuration",
+    "step": null,
+    "caption": "The AIR unit in the frame sends telemetry; the GROUND USB unit remains at the computer. Teal lines show actual-frame harness routes."
+  },
+  {
+    "title": "Check motor direction without a propeller",
+    "paragraphs": [
+      "Secure the airframe, clear the motor bell and keep the propeller removed. Follow the actual ESC calibration procedure if its protocol requires it; do not run a generic calibration blindly.",
+      "Command only a short low-power direction test with a means to disconnect power. Confirm the rear pusher rotates in the intended direction for the actual prop. If wrong, disconnect battery and swap any two motor phase leads; repeat the test.",
+      "Stop for vibration, rubbing, heat or loose mount contact. Check every motor screw and the frame joint afterward. This unloaded motor test does not qualify the 9045 three-blade prop on 4S."
+    ],
+    "check": "Rotation agrees with the actual pusher prop orientation; motor runs smoothly and the mount stays secure.",
+    "image": "motor_interface",
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Follow-along",
+    "step": 32,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Prove every control direction and failsafe",
+    "paragraphs": [
+      "In manual mode command roll right: right aileron trailing edge rises, left lowers; roll left reverses both. On this upright V-tail, pitch up raises both trailing edges, pitch down lowers both. Viewed from behind toward the nose, yaw right shifts both trailing edges toward aircraft right; yaw left shifts both toward aircraft left. Test pitch/yaw together and have an experienced builder verify the mix.",
+      "In stabilized mode raise the nose: both tail trailing edges must lower; lower the nose: both rise. Roll the right wing down: right aileron must lower and left rise to oppose the disturbance. If wrong, check board orientation, function assignment and the specific output reverse. Change one cause, then repeat every direction and mode.",
+      "At all combined endpoints check no bind, horn peel, pin escape, cable snag or servo stall. Record neutral, physical throws and endpoints. Reducing software travel must not hide a broken mount.",
+      "Propeller off, test transmitter loss in a controlled setting. Verify the intended safe throttle and mode action and its recovery on the actual receiver/controller, then perform the radio manufacturer range check. Repeat these tests after firmware, output, reversal or linkage changes."
+    ],
+    "check": "Manual and stabilized responses are correct in all directions; failsafe/recovery and free combined travel pass and are logged.",
+    "image": "finished",
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Follow-along",
+    "step": 33,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Fit lower body wraps after open checks",
+    "paragraphs": [
+      "First bond the previously dry-fitted wing skins after powered direction, failsafe and loaded Vx/Vx2 checks have passed. Use qualified foam adhesive progressively with each wing supported straight, retain servo service access, keep hinges clear and support through full cure. Repeat travel and symmetry checks.",
+      "FW07 is the long lower body wrap replacing A56/A17 surface faces. FW08 covers the aft lower body A42. FW11 is the tail underside A20. Use the already-cut outlines; the FW07 205 mm cross-line is a hand station reference.",
+      "Precurve progressively, peeling inner paper where the documented wrap requires it while preserving outer paper. Trial FW11 in paper first; its compound curve may need short overlapping perimeter darts while remaining one connected piece. Do not flatten a buckle by crushing the core.",
+      "Keep the later gear openings and battery restraint path open. Confirm motor screw access, tail adjusters and wire routing once more, then bond fixed lower-wrap contacts progressively with the qualified foam adhesive. Hold shape through full cure and tape fixed seams."
+    ],
+    "check": "Lower wraps follow the frame, no wires are trapped, later gear access remains open and the nose remains removable.",
+    "image": "lower_wraps",
+    "detail": "foam_body_process",
+    "parts": [
+      "A17",
+      "A42",
+      "A20"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 34,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Fit removable top covers and centre fairing",
+    "paragraphs": [
+      "FW09 is the front upper body A08 and FW10 the aft upper body A15. Trial over the fully wired aircraft alongside A06 centre fairing, A59 nose and A12 tail carrier. Make only local dry-fit relief; do not recut a whole sheet.",
+      "Retain front/rear access covers with removable tape/ties at fixed skin/frame contact. Keep release edges reachable. Do not permanently glue closed the battery, FC USB/SD, wing connectors, tail linkage or motor service path.",
+      "Open and close each cover with the pack disconnected; remove and reinstall the battery without pulling a sensor hose or harness. Tape exposed fixed paper edges but keep all hinges free. Take the final access photos."
+    ],
+    "check": "Every required service point is reachable after closing; the pack is independently restrained and can be removed safely.",
+    "image": "upper_covers",
+    "detail": null,
+    "parts": [
+      "A08",
+      "A15",
+      "A06"
+    ],
+    "table": null,
+    "section": "Follow-along",
+    "step": 35,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Park safely until gear work after midsems",
+    "paragraphs": [
+      "Landing gear fitting is deferred. Leave S7 and its steering linkage inactive, keep gear openings and A25/A47/A48 structure inspectable, and support the aircraft on padded cradles away from control surfaces.",
+      "After midsems measure the purchased gear, axle height, mounting footprint, steering clearances and supplied fasteners. Spread its landing loads into the wood skeleton; foam is not the landing-load mount. The original gear prints are not an automatic substitute.",
+      "Fit MG90S S7 only after its actual gear linkage is established. Set SERVO7_FUNCTION=26 and appropriate GROUND_STEER_ALT per the current manual, then test direction and travel without binding. Obtain physical mount/load acceptance before taxiing."
+    ],
+    "check": "Deferred gear work is clearly identified; no taxi or flight is attempted with an unqualified attachment.",
+    "image": "finished",
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Follow-along",
+    "step": 36,
+    "caption": "Orange identifies parts added or checked now. All airframe shapes are placed CAD geometry."
+  },
+  {
+    "title": "Physical acceptance gate 1: structure and balance",
+    "paragraphs": [
+      "Record the completed mass with the flight pack, straps, propeller/hub, final gear, wiring and fasteners. Measure lateral balance and fore/aft CG physically. The old Y74 / 20%-chord value is a geometric starting point, not an approved stability range.",
+      "Choose any provisional balance target with an experienced aircraft builder from the actual final geometry and mass distribution. Moving the battery must preserve real frame support, restraint and removal access. A predicted balance point cannot approve a position that clashes with A34.",
+      "Agree progressive representative load tests for the keel and spar laps, roots/rods, printed A44 servo supports, tail carrier, horns, motor mount and gear load path. Support the aircraft safely and record applied loads, deflection and recovery. Stop for cracks, slip, permanent bending or adhesive peel.",
+      "These drawings and mesh checks establish digital geometry only. No structural capacity, fatigue life or safe flight load is certified. Continue to powered propulsion testing only after the actual structure, restraint and controls are accepted."
+    ],
+    "check": "Gate stays closed until mass/CG, joint and control-load evidence are recorded and reviewed.",
+    "image": "preclose",
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Physical acceptance",
+    "step": null,
+    "caption": "Inspect the internal load paths shown before and after each physical test; reopen service covers if needed."
+  },
+  {
+    "title": "Physical acceptance gate 2: propulsion and ground",
+    "paragraphs": [
+      "Qualify the exact EMAX ECO II 2807 1300KV, owned 9045 three-blade prop, 4S pack and ReadytoSky 40A ESC as one combination. The manufacturer recommends 6-7 inch propellers; a 9-inch prop requires actual current, thrust and temperature testing.",
+      "Use a secure purpose-made test restraint and competent help. Clear the complete propeller plane, fit the verified pusher prop/hub correctly and provide a safe disconnect. Record battery voltage sag, current, thrust, motor/ESC temperatures, vibration and mount movement progressively. Stop if the hardware limits are exceeded or any part loosens.",
+      "After qualified gear fitting, load the aircraft to its completed mass. Check propeller-ground clearance with gear deflection and nose-raised rotation, using the entire 228.6 mm prop disk. Inspect steering, tracking, braking/rolling behavior and attachment after controlled ground tests.",
+      "Thrust, launch method, runway requirement, endurance and safe control throws remain unestablished until tested and reviewed. Obtain experienced pilot acceptance of structure, CG, propulsion, controls, failsafe and site before any flight attempt."
+    ],
+    "check": "Flight remains gated until all physical evidence and pilot acceptance are documented. Passing a CAD or bench check alone does not open this gate.",
+    "image": "finished",
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Physical acceptance",
+    "step": null,
+    "caption": "No flight-ready claim is made. The pictured aircraft remains an intended assembly until real acceptance is completed."
+  },
+  {
+    "title": "If a check fails",
+    "paragraphs": [],
+    "check": "Record the failure and correction. Repeat every affected earlier check; do not continue because the cover hides it.",
+    "image": null,
+    "detail": null,
+    "parts": [],
+    "table": [
+      [
+        "Symptom",
+        "Stop and inspect",
+        "Safe next action"
+      ],
+      [
+        "Wood tab will not seat",
+        "Orientation; measured thickness; documented relief",
+        "Compare actual mates; pare only specified local patches"
+      ],
+      [
+        "Motor holes miss",
+        "Exact motor label; diameter19 PCD; actual mount",
+        "Template against real base; measure before any drilling"
+      ],
+      [
+        "Servo buzz or binds",
+        "Horn/arm travel; pushrod rub; pin retention",
+        "Power off; fix mechanical cause; retest all directions"
+      ],
+      [
+        "Board resets on servo motion",
+        "Vx/Vx2 voltage, BEC load and short",
+        "Prop off; isolate loads; correct supply/connection"
+      ],
+      [
+        "Airspeed is negative/unstable",
+        "Ports, tube kink/leak, zero, exact sensor SKU",
+        "Identify actual ports/manual; test gentle positive flow"
+      ],
+      [
+        "GPS/compass disturbed",
+        "Power wiring/metal distance; orientation",
+        "Reposition with measured clearance; recalibrate"
+      ],
+      [
+        "Battery cannot be removed",
+        "Straps; nose/cover; hose and plug routing",
+        "Disconnect; revise service route before closing"
+      ],
+      [
+        "Print/wood bond peels",
+        "Surface preparation, compatibility, cure",
+        "Remove load; remake tested joint; inspect all similar joints"
+      ]
+    ],
+    "section": "Reference",
+    "step": null,
+    "caption": ""
+  },
+  {
+    "title": "Fuselage wood",
+    "paragraphs": [],
+    "check": "",
+    "image": null,
+    "detail": null,
+    "parts": [
+      "A04",
+      "A13",
+      "A16",
+      "A18",
+      "A25",
+      "A34",
+      "A43",
+      "A47"
+    ],
+    "table": null,
+    "section": "Part pictures",
+    "step": null,
+    "caption": "",
+    "atlas": true
+  },
+  {
+    "title": "Fuselage wood continued",
+    "paragraphs": [],
+    "check": "",
+    "image": null,
+    "detail": null,
+    "parts": [
+      "A48",
+      "A54",
+      "A62_F",
+      "A62_A",
+      "A62_DL",
+      "A62_DR"
+    ],
+    "table": null,
+    "section": "Part pictures",
+    "step": null,
+    "caption": "",
+    "atlas": true
+  },
+  {
+    "title": "Wing wood",
+    "paragraphs": [],
+    "check": "",
+    "image": null,
+    "detail": null,
+    "parts": [
+      "A01_R",
+      "A01_L",
+      "A05_R",
+      "A05_L",
+      "A10_R",
+      "A10_L",
+      "A24_R",
+      "A24_L"
+    ],
+    "table": null,
+    "section": "Part pictures",
+    "step": null,
+    "caption": "",
+    "atlas": true
+  },
+  {
+    "title": "Wing wood continued",
+    "paragraphs": [],
+    "check": "",
+    "image": null,
+    "detail": null,
+    "parts": [
+      "A35_R",
+      "A35_L",
+      "A53_R",
+      "A53_L",
+      "A07_R_I",
+      "A07_R_O",
+      "A07_R_D1",
+      "A07_R_D2"
+    ],
+    "table": null,
+    "section": "Part pictures",
+    "step": null,
+    "caption": "",
+    "atlas": true
+  },
+  {
+    "title": "Wing wood continued",
+    "paragraphs": [],
+    "check": "",
+    "image": null,
+    "detail": null,
+    "parts": [
+      "A07_L_I",
+      "A07_L_O",
+      "A07_L_D1",
+      "A07_L_D2"
+    ],
+    "table": null,
+    "section": "Part pictures",
+    "step": null,
+    "caption": "",
+    "atlas": true
+  },
+  {
+    "title": "Printed aircraft parts",
+    "paragraphs": [],
+    "check": "",
+    "image": null,
+    "detail": null,
+    "parts": [
+      "A26",
+      "A44_R",
+      "A44_L",
+      "A06",
+      "A11",
+      "A12",
+      "A21",
+      "A23"
+    ],
+    "table": null,
+    "section": "Part pictures",
+    "step": null,
+    "caption": "",
+    "atlas": true
+  },
+  {
+    "title": "Printed aircraft parts continued",
+    "paragraphs": [],
+    "check": "",
+    "image": null,
+    "detail": null,
+    "parts": [
+      "A36",
+      "A45",
+      "A55",
+      "A59",
+      "HWR",
+      "HWL",
+      "HTR",
+      "HTL"
+    ],
+    "table": null,
+    "section": "Part pictures",
+    "step": null,
+    "caption": "",
+    "atlas": true
+  },
+  {
+    "title": "Printed aircraft parts continued",
+    "paragraphs": [],
+    "check": "",
+    "image": null,
+    "detail": null,
+    "parts": [
+      "HTRB",
+      "HTLB"
+    ],
+    "table": null,
+    "section": "Part pictures",
+    "step": null,
+    "caption": "",
+    "atlas": true
+  },
+  {
+    "title": "Foam installed shapes",
+    "paragraphs": [],
+    "check": "",
+    "image": null,
+    "detail": null,
+    "parts": [
+      "A08",
+      "A15",
+      "A17",
+      "A20",
+      "A22",
+      "A27",
+      "A38",
+      "A41"
+    ],
+    "table": null,
+    "section": "Part pictures",
+    "step": null,
+    "caption": "",
+    "atlas": true
+  },
+  {
+    "title": "Foam installed shapes continued",
+    "paragraphs": [],
+    "check": "",
+    "image": null,
+    "detail": null,
+    "parts": [
+      "A42",
+      "A49",
+      "A52",
+      "A56",
+      "A57",
+      "A60"
+    ],
+    "table": null,
+    "section": "Part pictures",
+    "step": null,
+    "caption": "",
+    "atlas": true
+  },
+  {
+    "title": "Foam ID to installed shape",
+    "paragraphs": [],
+    "check": "Existing whole skins need no new seam. Already split skins need only their documented straight ROOT/TIP joins.",
+    "image": null,
+    "detail": null,
+    "parts": [],
+    "table": [
+      [
+        "Cut pattern",
+        "Installed CAD ID / plain name",
+        "Blank count"
+      ],
+      [
+        "FW01 / FW02",
+        "A52 left / A49 right inner wing",
+        "Whole: 2; split ROOT/TIP: 4"
+      ],
+      [
+        "FW03 / FW04",
+        "A38 right / A27 left outer wing",
+        "2"
+      ],
+      [
+        "FW05 / FW06",
+        "A57 right / A22 left fixed V-tail",
+        "2"
+      ],
+      [
+        "FW07",
+        "A56 + A17 forward/middle lower body",
+        "1"
+      ],
+      [
+        "FW08",
+        "A42 aft lower body",
+        "1"
+      ],
+      [
+        "FW09 / FW10",
+        "A08 forward / A15 aft upper covers",
+        "2"
+      ],
+      [
+        "FW11",
+        "A20 tail underside",
+        "1"
+      ],
+      [
+        "FW12 / FW13",
+        "A41 right / A60 left moving tail",
+        "2 per side, laminate to 10 mm"
+      ]
+    ],
+    "section": "Reference",
+    "step": null,
+    "caption": ""
+  },
+  {
+    "title": "Print the missed pieces and the current ribs",
+    "paragraphs": [
+      "Reprint only missed, changed or rejected parts. A11_2W_10GYR_SUP_L0p2_B8.stl is left; A21_2W_10GYR_SUP_L0p2_B8.stl is right. These existing aileron files are unchanged. Their span-upright print orientation needs actual printer-height confirmation.",
+      "A44_L_PLAplus_4W_100RECT_NOSUP_L0p2_B5.stl and A44_R_PLAplus_4W_100RECT_NOSUP_L0p2_B5.stl are the new ribs: PLA+, 4 walls, 100% rectilinear, 0.20 mm layers, 0.4 mm nozzle, no supports, 5 mm brim. Put the broad side on the bed. The unchanged 6 mm section is thin; solid infill and in-plane layers retain stiffness at its source spar/rod seats.",
+      "For unchanged PLA+ parts use a calibrated 0.4 mm nozzle / 0.20 mm layers at 100% millimetre scale, filament-maker temperatures and initial 4 top/4 bottom solid layers. Inspect sliced thin edges, skins, supports and bores; print a fit coupon first.",
+      "Remove support locally, reject cracked or warped parts and weigh finished prints. Infill percentage is not a structural rating; layer bonding, walls, load direction and adhesive fit need physical acceptance."
+    ],
+    "check": "",
+    "image": null,
+    "detail": null,
+    "parts": [],
+    "table": [
+      [
+        "IDs",
+        "Walls / infill",
+        "Supports / brim"
+      ],
+      [
+        "A06 / A11 / A21",
+        "2 / 10% gyroid",
+        "Build plate only / 8 mm"
+      ],
+      [
+        "A12",
+        "2 / 15% gyroid",
+        "Build plate only / 8 mm"
+      ],
+      [
+        "A23 / A36",
+        "3 / 15% gyroid",
+        "Off / 8 mm"
+      ],
+      [
+        "A45 / A55",
+        "4 / 35% gyroid",
+        "Off / 8 mm"
+      ],
+      [
+        "HWL / HWR / HTLB / HTRB",
+        "3 / 100% rectilinear",
+        "Off / 5 mm"
+      ],
+      [
+        "HTL / HTR",
+        "3 / 100% rectilinear",
+        "Build plate only / 5 mm"
+      ],
+      [
+        "A44_L / A44_R",
+        "4 / 100% rectilinear PLA+",
+        "Off / 5 mm"
+      ],
+      [
+        "A26 motor firewall",
+        "6 / 100% rectilinear ASA",
+        "Off / 8 mm; enclosed printer"
+      ]
+    ],
+    "section": "Reference",
+    "step": null,
+    "caption": ""
+  },
+  {
+    "title": "Record acceptance and keep the sources",
+    "paragraphs": [
+      "Keep one build record: actual stock thickness, print masses, adhesive product/cure times, measured pin and servo-tab fits, motor pattern/thread engagement, voltage/current calibration, control throws, failsafe, structural loads, propulsion results, final mass/CG and pilot review.",
+      "Geometry and part identity come from the supplied source assembled CAD and R5 placed assembly, wood/print/foam records and removal solids. The original construction source is Michael Rechtin, Building a DIY REAPER Drone... Ended Badly. The current printed rib and rear-mount corrections must remain paired with their current manifests.",
+      "After every hard landing, ground strike or failed test inspect the high-load joints inside the access covers. Log the correction and repeat affected tests before an experienced pilot accepts the aircraft again."
+    ],
+    "check": "",
+    "image": null,
+    "detail": null,
+    "parts": [],
+    "table": null,
+    "section": "Reference",
+    "step": null,
+    "caption": "",
+    "sources": [
+      [
+        "Matek F405-WING V2 board and power",
+        "https://www.mateksys.com/?portfolio=f405-wing-v2"
+      ],
+      [
+        "Matek M9N-5883 GPS / compass",
+        "https://www.mateksys.com/?portfolio=m9n-5883"
+      ],
+      [
+        "Matek ASPD-4525 airspeed sensor",
+        "https://www.mateksys.com/?portfolio=aspd-4525"
+      ],
+      [
+        "FlySky FS-iA10B receiver",
+        "https://www.flysky-cn.com/ia10b-canshu"
+      ],
+      [
+        "ArduPilot Matek board and configuration",
+        "https://ardupilot.org/plane/docs/common-matekf405-wing.html"
+      ],
+      [
+        "ArduPilot output functions",
+        "https://ardupilot.org/plane/docs/servo-functions.html"
+      ],
+      [
+        "ArduPilot V-tail direction checks",
+        "https://ardupilot.org/plane/docs/guide-vtail-plane.html"
+      ],
+      [
+        "ArduPilot airspeed setup",
+        "https://ardupilot.org/plane/docs/airspeed-parameters-setup.html"
+      ],
+      [
+        "ArduPilot Plane failsafe",
+        "https://ardupilot.org/plane/docs/apms-failsafe-function.html"
+      ],
+      [
+        "ArduPilot UART telemetry settings",
+        "https://ardupilot.org/plane/docs/common-telemetry-port-setup.html"
+      ],
+      [
+        "EMAX ECO II 2807 official motor",
+        "https://shop.emaxmodel.com/products/emax-eco-ii-series-2807-1300kv-1700kv-1500kv-brushless-motor-for-rc-drone-fpv-racing"
+      ],
+      [
+        "Prusament ASA technical data - properties are not a mount rating",
+        "https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/bc8551ef-tds_prusament-asa_2024_en.pdf"
+      ]
+    ]
+  }
+]

@@ -4,7 +4,7 @@ A13,Front horizontal fuselage frame,6 mm plywood,1,laser panel; local fitting if
 A16,Body former at Y233.65mm,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
 A18,Tail-carrier bulkhead,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
 A25,Forward main-gear crossmember,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A26,Printed motor firewall,ASA,1,print6mm solidASA prototype; hardware/thermal/loadproof required,Print/Individual/A26_ASA_6W_100RECT_NOSUP_L0p2_B8.stl
+A26,Printed motor firewall,PLA fit prototype; plywood option conditional,1,PLA fit test submitted; plywood cut pending fit and actual thickness,Print/Individual/A26_ASA_6W_100RECT_NOSUP_L0p2_B8.stl
 A34,Front body former at Y-130mm,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
 A43,Aft horizontal fuselage frame,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
 A47,Main-gear crossplate,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf

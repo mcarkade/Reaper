@@ -1,18 +1,19 @@
-# Reaper R5F assembly and print set
+# Reaper
 
-Follow [Reaper_Beginner_Assembly_R5F.pdf](Reaper_Beginner_Assembly_R5F.pdf) for the new beginner sequence. Reaper is DARTS' founding project; registration is pending. Foamboard and plywood are already cut, most parts are printed, and assembly has begun. Keep useful completed work. Landing gear installation and its steering/taxi checks are deferred until after midsems.
+**[Open the R5F beginner assembly guide](Reaper_Beginner_Assembly_R5F.pdf).** It covers assembly, wiring and bench checks using the parts already cut and printed.
 
-This set changes only the documented manufacturing issues and supplies the missed ailerons:
+| Find | Location |
+|---|---|
+| STL print files | [Print/Individual](Print/Individual) and [print list](Print/README.md) |
+| Wood DXFs and part maps | [Plywood](Plywood) |
+| Foam DXFs and part maps | [Foam](Foam) |
+| Assembly and part STEP files | [CAD](CAD) |
+| Part IDs and reference print settings | [Parts.csv](Data/Parts.csv), [Print_Names_and_Settings.csv](Data/Print_Names_and_Settings.csv) |
+| Wood fitting details | [Wood_Assembly_Datums.md](Data/Wood_Assembly_Datums.md) |
+| Wiring overview | [Complete_Wiring.svg](Illustrations/Complete_Wiring.svg) |
 
-- A44_L and A44_R become PLA+ printed wing ribs. Their installed source geometry and interfaces are preserved. Print the exact material/settings filenames in `Print/Individual/`; four walls and 100% rectilinear infill are a starting specification for physical qualification.
-- A26 is now an ASA printed motor firewall for the documented EMAX ECO II 2807 1300KV. Its four 3.2 mm clearance holes follow the manufacturer's 19 mm diameter bolt circle, rather than the previous erroneous 19 mm square. Local rear-frame notches match the nominal 6 mm frame. Use `A26_ASA_6W_100RECT_NOSUP_L0p2_B8.stl`, six walls and 100% rectilinear infill, with the forward broad face on the bed. ASA-capable printer and spool availability remain unconfirmed. Check real wood fit, motor seating, safe screw penetration, metal-washer contact, wood-to-ASA bond, heat, vibration, creep and thrust/torque before accepting the mount. It is a prototype without a qualified load or temperature rating.
-- A62_A needs only the documented local rear-keel trim flush with the motor mounting face. Preserve the forward joint. The guide shows the operation on already-cut stock.
-- A11 left and A21 right ailerons are unchanged copies of the existing print files. Their SHA-256 hashes and exact print settings are recorded in the verification data. The existing upright orientation needs approximately 271 mm print height before machine clearance.
+Current build: the missed A11/A21 ailerons and converted A44_L/A44_R ribs are supplied. A26 has already been submitted for a **PLA fit test**. If it fits, the team plans a plywood replacement; that conditional option is kept locally pending the fit result and stock thickness, and is not a current laser job. The earlier ASA recommendation in the guide is not the shop's available material. See [motor-mount notes](Data/A26_Motor_Mount.md).
 
-Use [SHOP_README.md](SHOP_README.md), `Data/Parts.csv`, `Data/Print_Names_and_Settings.csv`, and the current plywood maps to identify manufacturing parts. Earlier A44 wood contours and the obsolete A26 pattern are excluded from the current cutting set. Already-cut A44 wood pieces and A26 are superseded by printed replacements; the rest of the cut skeleton is retained subject to the documented local fitting checks. An internally corrected A26 DXF is geometry reference only and is excluded from the user delivery bundle. Existing R5E foam patterns remain unchanged, including the FW01/FW02 ROOT/TIP joins where those pieces were cut separately.
+Keep the useful cutting and printing already completed. Landing gear remains deferred until after midsems; DARTS registration is pending. Fit/bench checks do not establish flight readiness, and the 20%-chord CG is only a geometric starting point.
 
-`Build_Guide.pdf` is retained as the earlier R5E reference. Its 19 x 19 mm A26 motor-pattern claim and A44 wood manufacturing instructions are superseded by this set and the new beginner guide. Do not use it as the current assembly sequence. Historical release ZIPs and the preserved dirty primary checkout are not current manufacturing instructions.
-
-Digital CAD, DXF, mesh, reference slicing and PDF checks establish file consistency. They do not establish physical fit, adhesive strength, printed-part load capacity, measured aircraft balance, safe propulsion or flight readiness. Record real results in `Data/Physical_Checks.csv`. The 20%-chord CG is a geometric starting point only. The owned 9045 three-blade propeller, 4S battery and 40 A ESC still require measured current, thrust, temperature and structural acceptance before flight.
-
-[Original source model](https://cad.onshape.com/documents/da0c1a9f98b6358f736153b1/w/040544fbf77b8cf6608e2eb9/e/28c526eeb45b3f50fa69269f) and [source build video](https://www.youtube.com/watch?v=X-Q08HQq7fM).
+[Original CAD model](https://cad.onshape.com/documents/da0c1a9f98b6358f736153b1/w/040544fbf77b8cf6608e2eb9/e/28c526eeb45b3f50fa69269f) · [Source build video](https://www.youtube.com/watch?v=X-Q08HQq7fM)

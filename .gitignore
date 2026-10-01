@@ -9,3 +9,17 @@ __pycache__/
 Thumbs.db
 .DS_Store
 *.tmp
+
+# Keep generated verification evidence local.
+/_verification/
+/SHA256SUMS.txt
+/Data/Independent_QA/
+/Data/*_QA.json
+/Data/*_CHECKS.json
+/Data/*_READBACK.json
+/Data/Print_Mesh_Checks.json
+/Data/Print_Slices.json
+/CAD/Assembly_Verification.json
+/Plywood/VERIFICATION.json
+/Foam/VERIFICATION.json
+/Delivery/DELIVERY_MANIFEST.json

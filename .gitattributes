@@ -1,4 +1,4 @@
-# Keep exact released bytes, including hashed verification inputs, on every OS.
+# Keep CAD and manufacturing bytes exact on every OS.
 * -text -diff
 *.md -text diff whitespace=cr-at-eol
 *.json -text diff whitespace=cr-at-eol

@@ -1,0 +1,1 @@
+Superseded R5F wood panel/coupon jobs and maps. Current37-piece cutting uses the four jobs in ../Batches or the unchanged ../Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf master once, never both. These archived jobs are not current manufacturing instructions.

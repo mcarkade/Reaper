@@ -1,0 +1,1027 @@
+{
+  "master_sha256": "c7749355b11861697099f9cd60bb1e06196350c08f9e45d6933015a9e8c852a5",
+  "master_bytes": 367205,
+  "units": "mm",
+  "scale": "1:1; translation only",
+  "source_parts": 37,
+  "source_contours": 81,
+  "batch_count": 4,
+  "stock_width_mm": 609.6,
+  "stock_height_mm": 228.6,
+  "actual_cutter_bed": "not established; footprints reported, no compatibility claim",
+  "grain_axis": "X unchanged",
+  "files": [
+    {
+      "file": "Plywood/Batches/Reaper_PLY_R5G_BATCH_01_OF_04_6mm_PROVISIONAL.dxf",
+      "filename": "Reaper_PLY_R5G_BATCH_01_OF_04_6mm_PROVISIONAL.dxf",
+      "sha256": "e41934dfa3b82b13104b68ed12a5252b69e3e52b47198adcfa7a1ddc0cddf686",
+      "bytes": 103867,
+      "piece_count": 9,
+      "contour_count": 26,
+      "cut_length_mm": 5011.7278688088545,
+      "material_area_mm2": 22631.635535600726,
+      "cut_bounds_mm": [
+        10.0,
+        10.0,
+        597.0728051161519,
+        198.5244781382122
+      ],
+      "parts": [
+        {
+          "id": "A13",
+          "quantity": 1,
+          "master_handles": [
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "3A",
+            "3B",
+            "3C",
+            "3D",
+            "3E"
+          ],
+          "batch_handles": [
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "3A",
+            "3B",
+            "3C"
+          ],
+          "translation_from_master_mm": [
+            -10.0,
+            -10.0
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 10730.707575338933,
+          "cut_length_mm": 2393.968129129623,
+          "bounds_mm": [
+            10.0,
+            10.0,
+            560.6601999041,
+            105.64444893701601
+          ]
+        },
+        {
+          "id": "A07_L_I",
+          "quantity": 1,
+          "master_handles": [
+            "52"
+          ],
+          "batch_handles": [
+            "3E"
+          ],
+          "translation_from_master_mm": [
+            -10.0,
+            -270.579381062984
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 3364.385862085863,
+          "cut_length_mm": 655.580906908331,
+          "bounds_mm": [
+            10.0,
+            110.64444893701602,
+            316.999978717992,
+            123.83936076847351
+          ]
+        },
+        {
+          "id": "A16",
+          "quantity": 1,
+          "master_handles": [
+            "7D",
+            "7E"
+          ],
+          "batch_handles": [
+            "40",
+            "41"
+          ],
+          "translation_from_master_mm": [
+            -357.600021282008,
+            -42.94589106298399
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 2523.574510438469,
+          "cut_length_mm": 555.9418682505211,
+          "bounds_mm": [
+            321.999978717992,
+            110.64444893701601,
+            417.644427654996,
+            198.5244781382122
+          ]
+        },
+        {
+          "id": "A24_R",
+          "quantity": 1,
+          "master_handles": [
+            "64",
+            "65",
+            "66"
+          ],
+          "batch_handles": [
+            "43",
+            "44",
+            "45"
+          ],
+          "translation_from_master_mm": [
+            25.318047654996008,
+            -289.142051062984
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 1258.3302005715407,
+          "cut_length_mm": 394.65167050215643,
+          "bounds_mm": [
+            422.644427654996,
+            110.64444893701602,
+            576.5358445225892,
+            124.20711608585333
+          ]
+        },
+        {
+          "id": "A48",
+          "quantity": 1,
+          "master_handles": [
+            "88"
+          ],
+          "batch_handles": [
+            "47"
+          ],
+          "translation_from_master_mm": [
+            -669.6,
+            -240.51103923152652
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 1986.204921458802,
+          "cut_length_mm": 288.0345824210381,
+          "bounds_mm": [
+            10.0,
+            128.8393607684735,
+            105.64444893701398,
+            153.8393607684725
+          ]
+        },
+        {
+          "id": "A47",
+          "quantity": 1,
+          "master_handles": [
+            "90",
+            "91",
+            "92"
+          ],
+          "batch_handles": [
+            "49",
+            "4A",
+            "4B"
+          ],
+          "translation_from_master_mm": [
+            -669.600001062986,
+            -24.750979231526486
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 1240.8663707030914,
+          "cut_length_mm": 247.4349758686018,
+          "bounds_mm": [
+            110.64444893701398,
+            128.8393607684735,
+            183.38883989023293,
+            151.5393607684735
+          ]
+        },
+        {
+          "id": "A07_L_D2",
+          "quantity": 1,
+          "master_handles": [
+            "7B"
+          ],
+          "batch_handles": [
+            "4D"
+          ],
+          "translation_from_master_mm": [
+            -491.2111601097671,
+            -13.750979231526486
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 599.9997930666183,
+          "cut_length_mm": 211.99999586133237,
+          "bounds_mm": [
+            188.38883989023293,
+            128.8393607684735,
+            288.38883989023293,
+            134.8393586991397
+          ]
+        },
+        {
+          "id": "A10_R",
+          "quantity": 1,
+          "master_handles": [
+            "97",
+            "98"
+          ],
+          "batch_handles": [
+            "4F",
+            "50"
+          ],
+          "translation_from_master_mm": [
+            -256.95557234500404,
+            -291.8690839141467
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 496.1582278868934,
+          "cut_length_mm": 157.2507727291649,
+          "bounds_mm": [
+            422.644427654996,
+            129.20711608585333,
+            493.3497606979788,
+            142.24159077384775
+          ]
+        },
+        {
+          "id": "A01_L",
+          "quantity": 1,
+          "master_handles": [
+            "9C",
+            "9D"
+          ],
+          "batch_handles": [
+            "52",
+            "53"
+          ],
+          "translation_from_master_mm": [
+            -189.64513009590007,
+            -411.07620000000003
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 431.4080740505207,
+          "cut_length_mm": 106.86496713808509,
+          "bounds_mm": [
+            565.6601999041,
+            10.0,
+            597.0728051161519,
+            25.216730473708196
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Plywood/Batches/Reaper_PLY_R5G_BATCH_02_OF_04_6mm_PROVISIONAL.dxf",
+      "filename": "Reaper_PLY_R5G_BATCH_02_OF_04_6mm_PROVISIONAL.dxf",
+      "sha256": "19ec0a0e0737e10f1b0052c12a2f16159cfa2c123b6ee443948b6e1a9a0f2f49",
+      "bytes": 105663,
+      "piece_count": 9,
+      "contour_count": 19,
+      "cut_length_mm": 5041.346256411713,
+      "material_area_mm2": 22795.861913603272,
+      "cut_bounds_mm": [
+        10.0,
+        10.0,
+        599.3327483749666,
+        144.17209578861775
+      ],
+      "parts": [
+        {
+          "id": "A43",
+          "quantity": 1,
+          "master_handles": [
+            "44",
+            "45",
+            "46",
+            "47",
+            "48"
+          ],
+          "batch_handles": [
+            "32",
+            "33",
+            "34",
+            "35",
+            "36"
+          ],
+          "translation_from_master_mm": [
+            -10.0,
+            -199.07232
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 9425.941099736248,
+          "cut_length_mm": 2090.3634143339605,
+          "bounds_mm": [
+            10.0,
+            10.0,
+            476.99243328151726,
+            105.644448937015
+          ]
+        },
+        {
+          "id": "A07_R_I",
+          "quantity": 1,
+          "master_handles": [
+            "54"
+          ],
+          "batch_handles": [
+            "38"
+          ],
+          "translation_from_master_mm": [
+            -10.0,
+            -288.774291062985
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 3364.3858620860124,
+          "cut_length_mm": 655.5809069083325,
+          "bounds_mm": [
+            10.0,
+            110.644448937015,
+            316.9999787179921,
+            123.8393607684722
+          ]
+        },
+        {
+          "id": "A18",
+          "quantity": 1,
+          "master_handles": [
+            "78",
+            "79"
+          ],
+          "batch_handles": [
+            "3A",
+            "3B"
+          ],
+          "translation_from_master_mm": [
+            -197.60756671848276,
+            -10.0
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 4066.7660490996977,
+          "cut_length_mm": 629.663861938551,
+          "bounds_mm": [
+            481.99243328151726,
+            10.0,
+            599.3327483749666,
+            91.0
+          ]
+        },
+        {
+          "id": "A35_L",
+          "quantity": 1,
+          "master_handles": [
+            "56",
+            "57",
+            "58",
+            "59"
+          ],
+          "batch_handles": [
+            "3D",
+            "3E",
+            "3F",
+            "40"
+          ],
+          "translation_from_master_mm": [
+            301.9999787179921,
+            -306.969201062985
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 1845.4783830736417,
+          "cut_length_mm": 493.38179810761653,
+          "bounds_mm": [
+            321.9999787179921,
+            110.644448937015,
+            505.66316462872214,
+            127.312312422547
+          ]
+        },
+        {
+          "id": "A44_L",
+          "quantity": 1,
+          "master_handles": [
+            "73",
+            "74"
+          ],
+          "batch_handles": [
+            "42",
+            "43"
+          ],
+          "translation_from_master_mm": [
+            -387.32638,
+            -289.50980923152787
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 717.1327055874416,
+          "cut_length_mm": 323.10551067142046,
+          "bounds_mm": [
+            10.0,
+            128.8393607684722,
+            123.3939225126328,
+            144.17209578861775
+          ]
+        },
+        {
+          "id": "A62_DL",
+          "quantity": 1,
+          "master_handles": [
+            "68"
+          ],
+          "batch_handles": [
+            "45"
+          ],
+          "translation_from_master_mm": [
+            -339.6060974873672,
+            -180.8774092315278
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 1679.999999999999,
+          "cut_length_mm": 267.9999999999999,
+          "bounds_mm": [
+            128.3939225126328,
+            128.8393607684722,
+            248.39392251263274,
+            142.8393607684722
+          ]
+        },
+        {
+          "id": "A07_L_D1",
+          "quantity": 1,
+          "master_handles": [
+            "6C"
+          ],
+          "batch_handles": [
+            "47"
+          ],
+          "translation_from_master_mm": [
+            22.992433281517265,
+            -271.34955
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 599.9997930667178,
+          "cut_length_mm": 211.99999586133436,
+          "bounds_mm": [
+            481.99243328151726,
+            96.0,
+            581.9924332815173,
+            101.99999793066718
+          ]
+        },
+        {
+          "id": "A07_R_D2",
+          "quantity": 1,
+          "master_handles": [
+            "A4"
+          ],
+          "batch_handles": [
+            "49"
+          ],
+          "translation_from_master_mm": [
+            -631.8505264243713,
+            122.312312422547
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 599.9997930666173,
+          "cut_length_mm": 211.99999586133234,
+          "bounds_mm": [
+            253.39392251263268,
+            132.312312422547,
+            353.3939225126327,
+            138.31231035321318
+          ]
+        },
+        {
+          "id": "A10_L",
+          "quantity": 1,
+          "master_handles": [
+            "94",
+            "95"
+          ],
+          "batch_handles": [
+            "4B",
+            "4C"
+          ],
+          "translation_from_master_mm": [
+            -273.9368353712779,
+            -27.896682069332826
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 496.1582278868931,
+          "cut_length_mm": 157.25077272916488,
+          "bounds_mm": [
+            510.66316462872214,
+            106.99999793066718,
+            581.368497671705,
+            120.03447261866162
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Plywood/Batches/Reaper_PLY_R5G_BATCH_03_OF_04_6mm_PROVISIONAL.dxf",
+      "filename": "Reaper_PLY_R5G_BATCH_03_OF_04_6mm_PROVISIONAL.dxf",
+      "sha256": "ab9a4c68873f7e220db0199798ca473d392da599811f49044a1a4234b6277d2f",
+      "bytes": 87842,
+      "piece_count": 9,
+      "contour_count": 16,
+      "cut_length_mm": 5032.610662786643,
+      "material_area_mm2": 20913.95629763295,
+      "cut_bounds_mm": [
+        10.0,
+        10.0,
+        553.6444702189941,
+        144.61060351081818
+      ],
+      "parts": [
+        {
+          "id": "A62_F",
+          "quantity": 1,
+          "master_handles": [
+            "40"
+          ],
+          "batch_handles": [
+            "32"
+          ],
+          "translation_from_master_mm": [
+            -10.0,
+            -110.64445
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 4050.057027787877,
+          "cut_length_mm": 1094.0130522078553,
+          "bounds_mm": [
+            10.0,
+            10.0,
+            539.0704517017,
+            51.71392342760319
+          ]
+        },
+        {
+          "id": "A05_L",
+          "quantity": 1,
+          "master_handles": [
+            "4E"
+          ],
+          "batch_handles": [
+            "34"
+          ],
+          "translation_from_master_mm": [
+            -10.0,
+            -281.4296065723969
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 5359.42420466703,
+          "cut_length_mm": 922.272644209814,
+          "bounds_mm": [
+            10.0,
+            56.71392342760316,
+            444.00000058579326,
+            73.25407383216202
+          ]
+        },
+        {
+          "id": "A07_L_O",
+          "quantity": 1,
+          "master_handles": [
+            "4A"
+          ],
+          "batch_handles": [
+            "36"
+          ],
+          "translation_from_master_mm": [
+            -10.0,
+            -231.46269616783795
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 2805.1821625724483,
+          "cut_length_mm": 898.710934523019,
+          "bounds_mm": [
+            10.0,
+            78.25407383216205,
+            453.00002128199003,
+            87.46745379136175
+          ]
+        },
+        {
+          "id": "A54",
+          "quantity": 1,
+          "master_handles": [
+            "A6",
+            "A7"
+          ],
+          "batch_handles": [
+            "38",
+            "39"
+          ],
+          "translation_from_master_mm": [
+            -532.244427655014,
+            46.71392342760319
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 2511.1976832206155,
+          "cut_length_mm": 557.931137738462,
+          "bounds_mm": [
+            458.00002128199003,
+            56.71392342760319,
+            553.6444702189941,
+            144.61060351081818
+          ]
+        },
+        {
+          "id": "A35_R",
+          "quantity": 1,
+          "master_handles": [
+            "5B",
+            "5C",
+            "5D",
+            "5E"
+          ],
+          "batch_handles": [
+            "3B",
+            "3C",
+            "3D",
+            "3E"
+          ],
+          "translation_from_master_mm": [
+            -198.66319,
+            -325.14619620863823
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 1845.478383073653,
+          "cut_length_mm": 493.3817981076188,
+          "bounds_mm": [
+            10.0,
+            92.46745379136178,
+            193.6631859107299,
+            109.13531727689394
+          ]
+        },
+        {
+          "id": "A24_L",
+          "quantity": 1,
+          "master_handles": [
+            "60",
+            "61",
+            "62"
+          ],
+          "batch_handles": [
+            "40",
+            "41",
+            "42"
+          ],
+          "translation_from_master_mm": [
+            -133.3367940892701,
+            -288.75637620863824
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 1258.3302005715561,
+          "cut_length_mm": 394.6516705021506,
+          "bounds_mm": [
+            198.6631859107299,
+            92.46745379136178,
+            352.55460277832293,
+            106.03012094019886
+          ]
+        },
+        {
+          "id": "A62_DR",
+          "quantity": 1,
+          "master_handles": [
+            "6A"
+          ],
+          "batch_handles": [
+            "44"
+          ],
+          "translation_from_master_mm": [
+            -269.3368340892701,
+            -217.68664905980117
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 1679.999999999999,
+          "cut_length_mm": 267.9999999999999,
+          "bounds_mm": [
+            198.6631859107299,
+            111.03012094019883,
+            318.66318591072985,
+            125.03012094019883
+          ]
+        },
+        {
+          "id": "A07_R_D1",
+          "quantity": 1,
+          "master_handles": [
+            "A2"
+          ],
+          "batch_handles": [
+            "46"
+          ],
+          "translation_from_master_mm": [
+            -456.58126302627414,
+            101.03012094019883
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 599.9997930667162,
+          "cut_length_mm": 211.99999586133433,
+          "bounds_mm": [
+            323.66318591072985,
+            111.03012094019883,
+            423.66318591072985,
+            117.03011887086599
+          ]
+        },
+        {
+          "id": "A53_L",
+          "quantity": 1,
+          "master_handles": [
+            "8A",
+            "8B"
+          ],
+          "batch_handles": [
+            "48",
+            "49"
+          ],
+          "translation_from_master_mm": [
+            -669.6,
+            -285.2150827231061
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 804.2868426730557,
+          "cut_length_mm": 191.64942963638885,
+          "bounds_mm": [
+            10.0,
+            114.13531727689394,
+            95.86539455819673,
+            130.8611150790258
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Plywood/Batches/Reaper_PLY_R5G_BATCH_04_OF_04_6mm_PROVISIONAL.dxf",
+      "filename": "Reaper_PLY_R5G_BATCH_04_OF_04_6mm_PROVISIONAL.dxf",
+      "sha256": "fba85458aaa3386bc88835e9d5947057c9ef096bdf4281ae2c1cc805b7bbd79d",
+      "bytes": 130642,
+      "piece_count": 10,
+      "contour_count": 20,
+      "cut_length_mm": 5083.002384060577,
+      "material_area_mm2": 21878.700324796733,
+      "cut_bounds_mm": [
+        10.0,
+        10.0,
+        593.294448946284,
+        166.47788585873042
+      ],
+      "parts": [
+        {
+          "id": "A62_A",
+          "quantity": 1,
+          "master_handles": [
+            "42"
+          ],
+          "batch_handles": [
+            "32"
+          ],
+          "translation_from_master_mm": [
+            -10.0,
+            -157.35837000000004
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 3731.6617872931574,
+          "cut_length_mm": 1006.9984672472037,
+          "bounds_mm": [
+            10.0,
+            10.0,
+            492.65000000928,
+            45.71392343163399
+          ]
+        },
+        {
+          "id": "A05_R",
+          "quantity": 1,
+          "master_handles": [
+            "50"
+          ],
+          "batch_handles": [
+            "34"
+          ],
+          "translation_from_master_mm": [
+            -10.0,
+            -308.96975656836605
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 5359.4242046670115,
+          "cut_length_mm": 922.2726442098142,
+          "bounds_mm": [
+            10.0,
+            50.71392343163399,
+            444.00000058579326,
+            67.25407383619284
+          ]
+        },
+        {
+          "id": "A07_R_O",
+          "quantity": 1,
+          "master_handles": [
+            "4C"
+          ],
+          "batch_handles": [
+            "36"
+          ],
+          "translation_from_master_mm": [
+            -10.0,
+            -251.67607616380718
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 2805.1821625723856,
+          "cut_length_mm": 898.7109345230193,
+          "bounds_mm": [
+            10.0,
+            72.25407383619284,
+            453.00002128199014,
+            81.46745379539277
+          ]
+        },
+        {
+          "id": "A34",
+          "quantity": 1,
+          "master_handles": [
+            "80",
+            "81",
+            "82",
+            "83",
+            "84"
+          ],
+          "batch_handles": [
+            "38",
+            "39",
+            "3A",
+            "3B",
+            "3C"
+          ],
+          "translation_from_master_mm": [
+            -181.94999999072002,
+            -236.47037
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 2494.348878322865,
+          "cut_length_mm": 576.7149201480438,
+          "bounds_mm": [
+            497.65000000928,
+            10.0,
+            593.294448946284,
+            97.88002920119703
+          ]
+        },
+        {
+          "id": "A04",
+          "quantity": 1,
+          "master_handles": [
+            "6E",
+            "6F",
+            "70",
+            "71"
+          ],
+          "batch_handles": [
+            "3E",
+            "3F",
+            "40",
+            "41"
+          ],
+          "translation_from_master_mm": [
+            -481.99243,
+            -122.60486620460722
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 2312.737245171822,
+          "cut_length_mm": 552.7421817487913,
+          "bounds_mm": [
+            10.0,
+            86.46745379539277,
+            105.64726706878798,
+            166.47788585873042
+          ]
+        },
+        {
+          "id": "A44_R",
+          "quantity": 1,
+          "master_handles": [
+            "A9",
+            "AA"
+          ],
+          "batch_handles": [
+            "43",
+            "44"
+          ],
+          "translation_from_master_mm": [
+            -980.2416308052199,
+            76.46745379539277
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 717.132705587447,
+          "cut_length_mm": 323.10551067142745,
+          "bounds_mm": [
+            110.64726706878798,
+            86.46745379539277,
+            224.04118958142078,
+            101.80018881553832
+          ]
+        },
+        {
+          "id": "A25",
+          "quantity": 1,
+          "master_handles": [
+            "86"
+          ],
+          "batch_handles": [
+            "46"
+          ],
+          "translation_from_master_mm": [
+            -450.55881041857924,
+            -252.88294620460726
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 1986.2049214587992,
+          "cut_length_mm": 288.03458242103807,
+          "bounds_mm": [
+            229.04118958142078,
+            86.46745379539277,
+            324.68563851843476,
+            111.46745379539175
+          ]
+        },
+        {
+          "id": "A26",
+          "quantity": 1,
+          "master_handles": [
+            "9A"
+          ],
+          "batch_handles": [
+            "48"
+          ],
+          "translation_from_master_mm": [
+            -450.5588114815653,
+            -94.82288620460722
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 1236.3135029996104,
+          "cut_length_mm": 215.90874631676294,
+          "bounds_mm": [
+            329.68563851843476,
+            86.46745379539277,
+            377.2310776660315,
+            126.3088337953898
+          ]
+        },
+        {
+          "id": "A53_R",
+          "quantity": 1,
+          "master_handles": [
+            "8D",
+            "8E"
+          ],
+          "batch_handles": [
+            "4A",
+            "4B"
+          ],
+          "translation_from_master_mm": [
+            -388.23431233396855,
+            -312.88294620460726
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 804.2868426731151,
+          "cut_length_mm": 191.64942963639166,
+          "bounds_mm": [
+            382.2310776660315,
+            86.46745379539277,
+            468.0964722242293,
+            103.1932515975256
+          ]
+        },
+        {
+          "id": "A01_R",
+          "quantity": 1,
+          "master_handles": [
+            "9F",
+            "A0"
+          ],
+          "batch_handles": [
+            "4D",
+            "4E"
+          ],
+          "translation_from_master_mm": [
+            -349.69698941420677,
+            -370.36227656836604
+          ],
+          "rotation_deg": 0,
+          "material_area_mm2": 431.4080740505208,
+          "cut_length_mm": 106.86496713808508,
+          "bounds_mm": [
+            449.00000058579326,
+            50.71392343163399,
+            480.41260579784523,
+            65.93065390534218
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "PASS_INDEPENDENT_DIGITAL_AND_VISUAL_PHYSICAL_QUALIFICATION_PENDING"
+}

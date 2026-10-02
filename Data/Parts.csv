@@ -1,41 +1,41 @@
 id,name,material,quantity,make,file
-A04,Rear body former,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A13,Front horizontal fuselage frame,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A16,Body former at Y233.65mm,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A18,Tail-carrier bulkhead,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A25,Forward main-gear crossmember,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A26,Printed motor firewall,PLA fit prototype; plywood option conditional,1,PLA fit test submitted; plywood cut pending fit and actual thickness,Print/Individual/A26_ASA_6W_100RECT_NOSUP_L0p2_B8.stl
-A34,Front body former at Y-130mm,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A43,Aft horizontal fuselage frame,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A47,Main-gear crossplate,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A48,Aft main-gear crossmember,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A54,Body former at Y-5mm,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A01_R,Rear-rod support rib at span130mm - right,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A01_L,Rear-rod support rib at span130mm - left,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A05_R,Front wing spar - right,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A05_L,Front wing spar - left,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A10_R,Outer aileron endplate - right,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A10_L,Outer aileron endplate - left,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A24_R,Middle wing rib at span250mm - right,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A24_L,Middle wing rib at span250mm - left,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A35_R,Inner wing rib at span53mm - right,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A35_L,Inner wing rib at span53mm - left,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A44_R,Outer wing rib at span490mm - right,PLA+,1,print; replaces superseded plywood rib,Print/Individual/A44_R_PLAplus_4W_100RECT_NOSUP_L0p2_B5.stl
-A44_L,Outer wing rib at span490mm - left,PLA+,1,print; replaces superseded plywood rib,Print/Individual/A44_L_PLAplus_4W_100RECT_NOSUP_L0p2_B5.stl
-A53_R,Inner aileron endplate - right,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A53_L,Inner aileron endplate - left,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A62_F,Lower fuselage keel - front half,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A62_A,Lower fuselage keel - aft half,6 mm plywood,1,retain already cut blank; trim rear projection flush to A26 aft mounting face,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A62_DL,Keel joint - left side lap,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A62_DR,Keel joint - right side lap,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A07_R_I,Rear wing spar - right inboard section,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A07_R_O,Rear wing spar - right outboard section,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A07_R_D1,Rear wing spar - right first face lap,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A07_R_D2,Rear wing spar - right second face lap,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
-A07_L_I,Rear wing spar - left inboard section,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A07_L_O,Rear wing spar - left outboard section,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A07_L_D1,Rear wing spar - left first face lap,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_01.dxf
-A07_L_D2,Rear wing spar - left second face lap,6 mm plywood,1,laser panel; local fitting if listed,Plywood/REAPER_R5C_PLY_PANEL_02.dxf
+A04,Rear body former,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A13,Front horizontal fuselage frame,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A16,Body former at Y233.65mm,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A18,Tail-carrier bulkhead,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A25,Forward main-gear crossmember,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A26,Motor firewall; no motor screw holes,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A34,Front body former at Y-130mm,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A43,Aft horizontal fuselage frame,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A47,Main-gear crossplate,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A48,Aft main-gear crossmember,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A54,Body former at Y-5mm,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A01_R,Rear-rod support rib at span130mm - right,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A01_L,Rear-rod support rib at span130mm - left,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A05_R,Front wing spar - right,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A05_L,Front wing spar - left,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A10_R,Outer aileron endplate - right,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A10_L,Outer aileron endplate - left,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A24_R,Middle wing rib at span250mm - right,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A24_L,Middle wing rib at span250mm - left,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A35_R,Inner wing rib at span53mm - right,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A35_L,Inner wing rib at span53mm - left,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A44_R,Right reinforced outer wing rib; pare underside tail allowance,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A44_L,Left reinforced outer wing rib; pare underside tail allowance,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A53_R,Inner aileron endplate - right,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A53_L,Inner aileron endplate - left,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A62_F,Lower fuselage keel - front half,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A62_A,Lower fuselage keel - aft half,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A62_DL,Keel joint - left side lap,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A62_DR,Keel joint - right side lap,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A07_R_I,Rear wing spar - right inboard section,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A07_R_O,Rear wing spar - right outboard section,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A07_R_D1,Rear wing spar - right first face lap,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A07_R_D2,Rear wing spar - right second face lap,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A07_L_I,Rear wing spar - left inboard section,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A07_L_O,Rear wing spar - left outboard section,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A07_L_D1,Rear wing spar - left first face lap,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
+A07_L_D2,Rear wing spar - left second face lap,nominal 6 mm plywood; actual stock unmeasured,1,laser stock; listed secondary finishing and physical dry-fit required,Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf
 FW01_ROOT,left_inner_wing root,5 mm foamboard,1,laser panel; join matching ROOT/TIP straight edges with foam-safe glue and outer-paper tape,Foam/REAPER_R5E_FOAM_400x600_PANEL_02.dxf
 FW01_TIP,left_inner_wing tip,5 mm foamboard,1,laser panel; join matching ROOT/TIP straight edges with foam-safe glue and outer-paper tape,Foam/REAPER_R5E_FOAM_400x600_PANEL_06.dxf
 FW02_ROOT,right_inner_wing root,5 mm foamboard,1,laser panel; join matching ROOT/TIP straight edges with foam-safe glue and outer-paper tape,Foam/REAPER_R5E_FOAM_400x600_PANEL_03.dxf

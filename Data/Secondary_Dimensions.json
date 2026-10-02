@@ -389,7 +389,7 @@
   {
     "part": "A62_F",
     "stock_mm": 6,
-    "removal_step": "Secondary_Removal/A62_F_1.step",
+    "removal_step": "Secondary_Removal/A62_F_A54_shallow_seat_removal.step",
     "world_bounds_mm": [
       -2.999984384471487,
       -4.999999900000008,
@@ -633,17 +633,37 @@
     "instruction": "Local notch/edge fit follows the supplied removal solid and mating member. This is not a uniform depth over the whole bounding rectangle. Preserve the adjoining full6mm bridges; do not plane the whole part thinner."
   },
   {
-    "part": "A62_A",
-    "removal_step": "Secondary_Removal/A62_A_AFT_TRIM.step",
+    "part": "A44_L",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A44_L_tail_underside.step",
     "world_bounds_mm": [
-      -2.99998438444832,
-      582.6500000055997,
-      -22.012138087511417,
-      3.000015615553213,
-      595.66528328722,
-      -4.999977343468555
+      -493.0000230238,
+      152.45838415154,
+      8.221131086365,
+      -487.0000230238,
+      166.85909000477,
+      11.221131086365
     ],
-    "instruction": "Trim only the existing rear keel projection flush to motor mounting face Y582.650mm; leave forward firewall slot joint and surrounding keel unchanged.",
-    "removed_volume_mm3": 952.1889106060949
+    "removal_volume_mm3": 126.78737608556246,
+    "instruction": "Pare ONLY the stock underside tail allowance to the full source finished taper. Preserve the trailing tip. Stock has3mm minimum vertical tail web; use the non-laser1:1 paring template. Do not through-cut the removal bounding box. Physical fit, adhesive and loaded qualification remain unperformed.",
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null
+  },
+  {
+    "part": "A44_R",
+    "stock_mm": 6,
+    "removal_step": "Secondary_Removal/A44_R_tail_underside.step",
+    "world_bounds_mm": [
+      487.00002155668,
+      152.45838415154,
+      8.221131086365,
+      493.00002155668,
+      166.85909000477,
+      11.221131086365
+    ],
+    "removal_volume_mm3": 126.78737608556246,
+    "instruction": "Pare ONLY the stock underside tail allowance to the full source finished taper. Preserve the trailing tip. Stock has3mm minimum vertical tail web; use the non-laser1:1 paring template. Do not through-cut the removal bounding box. Physical fit, adhesive and loaded qualification remain unperformed.",
+    "uniform_face_rebate_depth_mm": null,
+    "uniform_remaining_thickness_mm": null
   }
 ]

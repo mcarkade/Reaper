@@ -1,0 +1,1360 @@
+{
+  "status": "PASS_DIGITAL_PHYSICAL_QUALIFICATION_PENDING",
+  "file": "Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf",
+  "units": "mm",
+  "scale": "1:1",
+  "part_count": 37,
+  "quantity_total": 37,
+  "stock_panel_count": 2,
+  "panels": [
+    {
+      "stock_panel": 1,
+      "x_mm": 0.0,
+      "y_mm": 0,
+      "width_mm": 609.6,
+      "height_mm": 457.2,
+      "grain_axis": "X",
+      "grain_vector": [
+        1,
+        0
+      ],
+      "nominal_stock_mm": 6
+    },
+    {
+      "stock_panel": 2,
+      "x_mm": 659.6,
+      "y_mm": 0,
+      "width_mm": 609.6,
+      "height_mm": 457.2,
+      "grain_axis": "X",
+      "grain_vector": [
+        1,
+        0
+      ],
+      "nominal_stock_mm": 6
+    }
+  ],
+  "parts": [
+    {
+      "id": "A13",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A13.dxf",
+      "sha256": "eb01a8de2450dbe585fd33db8f3d25dab50a5f521d1726c8b5f500484ba8b647",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        20.0,
+        20.0
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        20.0
+      ],
+      "geometry_loops": 11,
+      "entity_handles": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "3A",
+        "3B",
+        "3C",
+        "3D",
+        "3E"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        550.6601999041,
+        95.64444893701601
+      ]
+    },
+    {
+      "id": "A62_F",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A62_F.dxf",
+      "sha256": "0571e73e169e92adc5a6db0aff8d587307cd0139254c1c1fd232f50f8c8f3e2e",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        19.999999999999716,
+        120.64445
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        120.64445
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "40"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        529.0704517017,
+        41.7139234276032
+      ]
+    },
+    {
+      "id": "A62_A",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A62_A.dxf",
+      "sha256": "cd3bd2aefa185686c3bc6f68fddf3327558ce1275bf3bf63d3eb15ba414a39c0",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        19.999999999999744,
+        167.35836999999606
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        167.35837
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "42"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        482.65000000928,
+        35.713923431634
+      ]
+    },
+    {
+      "id": "A43",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A43.dxf",
+      "sha256": "448ecda85e1b7c9c5fb62ea085816afef5ce3a632b77eeba925b8a25e1ab25ba",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        20.0,
+        209.07232
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        209.07232
+      ],
+      "geometry_loops": 5,
+      "entity_handles": [
+        "44",
+        "45",
+        "46",
+        "47",
+        "48"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        466.99243328151726,
+        95.644448937015
+      ]
+    },
+    {
+      "id": "A07_L_O",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A07_L_O.dxf",
+      "sha256": "cc08e6eac11f832ba872a74188b03da2fc0a3f71fe536eb77ec1698b9f055f60",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        20.0,
+        309.71677
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        309.71677
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "4A"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        443.00002128199003,
+        9.213379959199687
+      ]
+    },
+    {
+      "id": "A07_R_O",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A07_R_O.dxf",
+      "sha256": "4e619b0d57269072d1d1708c5d993485e82691f37a5368d84b298fdaf51e8ef6",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        20.0,
+        323.93015
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        323.93015
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "4C"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        443.00002128199014,
+        9.213379959199939
+      ]
+    },
+    {
+      "id": "A05_L",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A05_L.dxf",
+      "sha256": "a44cbfc7da14bc1dd78298a06fe047c8a4c0401de3b96343d466f77a4320bb8e",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        20.0,
+        338.14353000000006
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        338.14353000000006
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "4E"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        434.00000058579326,
+        16.540150404558855
+      ]
+    },
+    {
+      "id": "A05_R",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A05_R.dxf",
+      "sha256": "98ed34e123306ac5bf03bfd5f595a403116f630356f33cb64cfb66890f68fbc7",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        20.0,
+        359.68368000000004
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        359.68368000000004
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "50"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        434.00000058579326,
+        16.540150404558855
+      ]
+    },
+    {
+      "id": "A07_L_I",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A07_L_I.dxf",
+      "sha256": "eb3d9051be5b6aa2c34e09322ffdb8416417e9ddcc47b54b9d09e8e0778c3d33",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        19.999999999999915,
+        381.22383
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        381.22383
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "52"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        306.999978717992,
+        13.194911831457496
+      ]
+    },
+    {
+      "id": "A07_R_I",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A07_R_I.dxf",
+      "sha256": "33b1d0e6f1c17f76f72df4ad5afcb637d677e8eac19c4be0b2a732786dba0ac9",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        19.99999999999997,
+        399.41873999999973
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        399.41874
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "54"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        306.9999787179921,
+        13.194911831457233
+      ]
+    },
+    {
+      "id": "A35_L",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A35_L.dxf",
+      "sha256": "4df8010181ee787b38257f0d5c011c3ee15eb3db7ba6e6d4f9bf4c9bfab34b44",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        20.00000000000003,
+        417.61365
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        417.61365
+      ],
+      "geometry_loops": 4,
+      "entity_handles": [
+        "56",
+        "57",
+        "58",
+        "59"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        183.66318591073,
+        16.667863485531996
+      ]
+    },
+    {
+      "id": "A35_R",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A35_R.dxf",
+      "sha256": "d9202cbac23e795e25f447a7ffa2f9f053fdb619ba66af606de7b159e07f4b58",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        208.66318999999984,
+        417.61365
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        208.66319,
+        417.61365
+      ],
+      "geometry_loops": 4,
+      "entity_handles": [
+        "5B",
+        "5C",
+        "5D",
+        "5E"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        183.66318591072988,
+        16.667863485532195
+      ]
+    },
+    {
+      "id": "A24_L",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A24_L.dxf",
+      "sha256": "18cd5c96e1a9f62b54771308718792143f3e2b3a9b1ec4115f229fead122f96c",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        331.9999799999998,
+        381.2238299999998
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        331.99998,
+        381.22383
+      ],
+      "geometry_loops": 3,
+      "entity_handles": [
+        "60",
+        "61",
+        "62"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        153.891416867593,
+        13.56266714883707
+      ]
+    },
+    {
+      "id": "A24_R",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A24_R.dxf",
+      "sha256": "2fcb9c503d8a311b5b9ef35767b9f4223e8927c0c7d86140560880c24e76043c",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        397.32638,
+        399.78650000000005
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        397.32638,
+        399.78650000000005
+      ],
+      "geometry_loops": 3,
+      "entity_handles": [
+        "64",
+        "65",
+        "66"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        153.8914168675932,
+        13.56266714883731
+      ]
+    },
+    {
+      "id": "A62_DL",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A62_DL.dxf",
+      "sha256": "c8f225bf102b07456b342869340a1ef5513fe6239434a3544e4fc62854ffc835",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        468.00002,
+        309.71677
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        468.00002,
+        309.71677
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "68"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        120.0,
+        14.0
+      ]
+    },
+    {
+      "id": "A62_DR",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A62_DR.dxf",
+      "sha256": "becab2bc367f3c9baa25860397c42b4bef1a337b30733a741f254669629ccb98",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        468.00002,
+        328.71677
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        468.00002,
+        328.71677
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "6A"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        120.0,
+        14.0
+      ]
+    },
+    {
+      "id": "A07_L_D1",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A07_L_D1.dxf",
+      "sha256": "7500649dadee52005a2de3b3af9188a07f92db3ebca4a089980bda2517bb9ea8",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        459.0,
+        367.34955
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        459.0,
+        367.34955
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "6C"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        100.0,
+        5.999997930667169
+      ]
+    },
+    {
+      "id": "A04",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A04.dxf",
+      "sha256": "fb05b7743fe2caad5dc26c58782d9b594c2ffa6356c406158aef1a590f2d3d12",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        491.99243,
+        209.07231999999988
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        491.99243,
+        209.07232
+      ],
+      "geometry_loops": 4,
+      "entity_handles": [
+        "6E",
+        "6F",
+        "70",
+        "71"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        95.647267068788,
+        80.01043206333762
+      ]
+    },
+    {
+      "id": "A44_L",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A44_L.dxf",
+      "sha256": "2959a0ac027ff53408931f64ea08bb7c46d7e1ebe4007c5c04ffce5428a72e87",
+      "stock_panel": 1,
+      "rotation_deg": 0,
+      "translation_mm": [
+        397.32638,
+        418.3491700000001
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        397.32638,
+        418.3491700000001
+      ],
+      "geometry_loops": 2,
+      "entity_handles": [
+        "73",
+        "74"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        113.39392251263277,
+        15.332735020145549
+      ]
+    },
+    {
+      "id": "A18",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A18.dxf",
+      "sha256": "7d901de37ef9069a0ae751255118d8118b2f3f77c1aed1684fa191d171c4fe9f",
+      "stock_panel": 2,
+      "rotation_deg": 90,
+      "translation_mm": [
+        796.9403150934706,
+        20.0
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        20.0
+      ],
+      "geometry_loops": 2,
+      "entity_handles": [
+        "78",
+        "79"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        0,
+        1
+      ],
+      "grain_vector_panel": [
+        -1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        117.34031509344926,
+        81.0
+      ]
+    },
+    {
+      "id": "A07_L_D2",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A07_L_D2.dxf",
+      "sha256": "6c3c631e8cf81f947536001b455ed0751cdfacbeac0ccbbdf919fd7a5a30b6c3",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        679.6,
+        142.59034
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        142.59034
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "7B"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        100.0,
+        5.999997930666174
+      ]
+    },
+    {
+      "id": "A16",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A16.dxf",
+      "sha256": "bfcec2affc0eb5b6ada50d91017934362886e5e853fe818abd30df6152d77e49",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        679.6,
+        153.59034
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        153.59034
+      ],
+      "geometry_loops": 2,
+      "entity_handles": [
+        "7D",
+        "7E"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        95.644448937004,
+        87.88002920119622
+      ]
+    },
+    {
+      "id": "A34",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A34.dxf",
+      "sha256": "3f4eb25e8c6a4d13188f7a32abce4d5b983fbd0328032f8617d8fd926cc9ae49",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        679.6,
+        246.47037
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        246.47037
+      ],
+      "geometry_loops": 5,
+      "entity_handles": [
+        "80",
+        "81",
+        "82",
+        "83",
+        "84"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        95.644448937004,
+        87.88002920119705
+      ]
+    },
+    {
+      "id": "A25",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A25.dxf",
+      "sha256": "2aa03cbfa5c299eeef235e5cebc20dbfa3c3523e74ee426041d159fe81432682",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        679.6,
+        339.35039999999964
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        339.35040000000004
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "86"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        95.64444893701399,
+        24.999999999998998
+      ]
+    },
+    {
+      "id": "A48",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A48.dxf",
+      "sha256": "70f270953d9cd30a162856c6ac8378a6290491bf42ee5a2d7aa0071592de45d0",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        679.6,
+        369.35039999999964
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        369.35040000000004
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "88"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        95.64444893701399,
+        24.999999999998998
+      ]
+    },
+    {
+      "id": "A53_L",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A53_L.dxf",
+      "sha256": "8f1bad1663ab9021ce2213ec454dae583f5a9be8a1728e3b10f83d5e494c0b37",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        679.6,
+        399.3503999999982
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        399.35040000000004
+      ],
+      "geometry_loops": 2,
+      "entity_handles": [
+        "8A",
+        "8B"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        85.8653945581967,
+        16.725797802131872
+      ]
+    },
+    {
+      "id": "A53_R",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A53_R.dxf",
+      "sha256": "cf004277f86db29dfb9f78b7d162f7d473c72a98a22715c8961c3fe1fdf3f354",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        770.46539,
+        399.3503999999992
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        110.86539,
+        399.35040000000004
+      ],
+      "geometry_loops": 2,
+      "entity_handles": [
+        "8D",
+        "8E"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        85.86539455819778,
+        16.725797802132853
+      ]
+    },
+    {
+      "id": "A47",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A47.dxf",
+      "sha256": "59743c75c5937341c31506ab42f1b0d11559daed77669a5d687fc5d3752d4500",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        780.24445,
+        153.59034
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        120.64445,
+        153.59034
+      ],
+      "geometry_loops": 3,
+      "entity_handles": [
+        "90",
+        "91",
+        "92"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        72.744390953219,
+        22.69999999999999
+      ]
+    },
+    {
+      "id": "A10_L",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A10_L.dxf",
+      "sha256": "3fe51db0b556a6cb4e042463dd2afd487bfbdf2e62627b6dc4bc4566220a0276",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        784.6,
+        134.89668
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        125.0,
+        134.89668
+      ],
+      "geometry_loops": 2,
+      "entity_handles": [
+        "94",
+        "95"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        70.70533304298283,
+        13.03447468799444
+      ]
+    },
+    {
+      "id": "A10_R",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A10_R.dxf",
+      "sha256": "4960cb0a2f6de832ce1dccf1f48b2174e1a88760e9091e07315eae380608ac2c",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        679.6,
+        421.07620000000003
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        20.0,
+        421.07620000000003
+      ],
+      "geometry_loops": 2,
+      "entity_handles": [
+        "97",
+        "98"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        70.70533304298284,
+        13.034474687994447
+      ]
+    },
+    {
+      "id": "A26",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A26.dxf",
+      "sha256": "1e7396ee1f0a5aec054874fdddb5d2a832ab081c32ca32fc8540ed5cfa16c66a",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        780.24445,
+        181.29034
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        120.64445,
+        181.29034
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "9A"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        47.54543914759681,
+        39.84137999999703
+      ]
+    },
+    {
+      "id": "A01_L",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A01_L.dxf",
+      "sha256": "3d5f0d26637968e89dfbc16a9c501b5630419bda468fa23ebf066c74b4a89cfa",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        755.30533,
+        421.07620000000003
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        95.70533,
+        421.07620000000003
+      ],
+      "geometry_loops": 2,
+      "entity_handles": [
+        "9C",
+        "9D"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        31.412605212052,
+        15.216730473708207
+      ]
+    },
+    {
+      "id": "A01_R",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A01_R.dxf",
+      "sha256": "d2d1fc1884d7d66b51c197badb87d5314a319c01e25822cd310de36b367c0c0d",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        798.69699,
+        421.07620000000003
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        139.09699,
+        421.07620000000003
+      ],
+      "geometry_loops": 2,
+      "entity_handles": [
+        "9F",
+        "A0"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        31.412605212052,
+        15.216730473708207
+      ]
+    },
+    {
+      "id": "A07_R_D1",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A07_R_D1.dxf",
+      "sha256": "9847645a090740211c3f5185904c67bf541ced8104935fa2c94eb63c43758980",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        780.244448937004,
+        10.000000000000004
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        120.644448937004,
+        10
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "A2"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        100.0,
+        5.9999979306671625
+      ]
+    },
+    {
+      "id": "A07_R_D2",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A07_R_D2.dxf",
+      "sha256": "9e9304f26112bba5b23945ddfb6d220e40ad07c6be8acb702047794840a5d9ae",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        885.244448937004,
+        10.000000000000002
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        225.644448937004,
+        10.0
+      ],
+      "geometry_loops": 1,
+      "entity_handles": [
+        "A4"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        100.0,
+        5.999997930666174
+      ]
+    },
+    {
+      "id": "A54",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A54.dxf",
+      "sha256": "6c75b1084e7938a9879f4f283157f3485f041164a44f8c93460d330727dea7d0",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        990.244448937004,
+        10.0
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        330.644448937004,
+        10.0
+      ],
+      "geometry_loops": 2,
+      "entity_handles": [
+        "A6",
+        "A7"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        95.644448937004,
+        87.896680083215
+      ]
+    },
+    {
+      "id": "A44_R",
+      "quantity": 1,
+      "source_dxf": "Plywood/Individual/A44_R.dxf",
+      "sha256": "6bb83b89308462d0a2d0638daa9af923052c606878974c4186ae6de2e7b3d530",
+      "stock_panel": 2,
+      "rotation_deg": 0,
+      "translation_mm": [
+        1090.8888978740079,
+        10.0
+      ],
+      "translation_frame": "GLOBAL_DXF_AFTER_SOURCE_ROTATION",
+      "panel_local_position_mm": [
+        431.28889787400794,
+        10.0
+      ],
+      "geometry_loops": 2,
+      "entity_handles": [
+        "A9",
+        "AA"
+      ],
+      "nominal_stock_mm": 6,
+      "grain_vector_dxf": [
+        1,
+        0
+      ],
+      "grain_vector_panel": [
+        1.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        113.39392251263277,
+        15.332735020145549
+      ]
+    }
+  ],
+  "minimum_gap_mm": 4.999996572618948,
+  "stock_edge_margin_mm": 10,
+  "required_part_gap_mm": 5,
+  "cut_layer": "CUT",
+  "noncut_layers": [
+    "REFERENCE_NOT_CUT",
+    "LABELS_NOT_CUT"
+  ],
+  "kerf_compensation": "None encoded; qualify actual laser kerf separately. A18 requested geometric clearance is already applied.",
+  "changes": {
+    "A18": "0.5 mm TOTAL opposed receiver perimeter allowance, .25 each side locally; full6mm stock and bottomkeel preserved",
+    "A01_L/R": "Fragile toe/shelf removed; broad sparcontacts and5mmhole preserved; fixture rear spar height",
+    "A62_A": "Cut length482.650mm;13.015mm aft trim incorporated",
+    "A62_F": "Source length529.070452mm preserved; shallow A54 seat remains secondary",
+    "A26": "No motor screw holes; shaft relief retained; physical rear-frame fit remains provisional",
+    "A44_L/R": "Reinforced front rod seat and servo-bay roof retained; full source trailing tail/A53 bond restored. Laser stock adds a minimum 3 mm vertical underside tail web; pare the exact sacrificial underside allowance to the supplied finished profile without shortening the tip before bonding A53 or closing skins. Manual actual servo/retainer hole marking, foam relief and axial rod insertion remain required."
+  },
+  "sha256": "c7749355b11861697099f9cd60bb1e06196350c08f9e45d6933015a9e8c852a5",
+  "size_bytes": 367205
+}

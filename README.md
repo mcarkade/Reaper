@@ -1,19 +1,21 @@
 # Reaper
 
-**[Open the R5F beginner assembly guide](Reaper_Beginner_Assembly_R5F.pdf).** It covers assembly, wiring and bench checks using the parts already cut and printed.
+**Current shop jobs: [four smaller sequential DXFs](Plywood/Batches/README.md).** Cut those four OR the full master once, never both. Their part geometry is identical.
+**[Open the complete R5G beginner assembly guide](Reaper_Beginner_Assembly_R5G.pdf).** Use its part atlas, illustrated fitting and assembly sequence, wiring, configuration and physical acceptance gates.
 
-| Find | Location |
+| Find | Current location |
 |---|---|
-| STL print files | [Print/Individual](Print/Individual) and [print list](Print/README.md) |
-| Wood DXFs and part maps | [Plywood](Plywood) |
-| Foam DXFs and part maps | [Foam](Foam) |
-| Assembly and part STEP files | [CAD](CAD) |
-| Part IDs and reference print settings | [Parts.csv](Data/Parts.csv), [Print_Names_and_Settings.csv](Data/Print_Names_and_Settings.csv) |
-| Wood fitting details | [Wood_Assembly_Datums.md](Data/Wood_Assembly_Datums.md) |
-| Wiring overview | [Complete_Wiring.svg](Illustrations/Complete_Wiring.svg) |
+| All 37 plywood pieces, one combined cutting file | [R5G DXF](Plywood/Reaper_ALL_PLYWOOD_R5G_6mm_PROVISIONAL.dxf) and [cutting instructions](Plywood/README.md) |
+| Part quantities and stock-panel positions | [Parts.csv](Data/Parts.csv), [panel map](Plywood/PART_TO_PANEL.csv) |
+| Missed unchanged A23/A36/HTRB STLs | [Print/Individual](Print/Individual), [print instructions](Print/README.md) |
+| Current finished CAD and laser stock | [CAD](CAD), [wood fitting details](Data/Wood_Assembly_Datums.md) |
+| Existing foam cutting files | [Foam](Foam) |
+| Wiring and remaining acceptance checks | [Wiring](Illustrations/Complete_Wiring.svg), [physical checks](Data/Physical_Checks.csv) |
 
-Current build: the missed A11/A21 ailerons and converted A44_L/A44_R ribs are supplied. A26 has already been submitted for a **PLA fit test**. If it fits, the team plans a plywood replacement; that conditional option is kept locally pending the fit result and stock thickness, and is not a current laser job. The earlier ASA recommendation in the guide is not the shop's available material. See [motor-mount notes](Data/A26_Motor_Mount.md).
+The current requested cutting set contains 37 nominal 6 mm plywood pieces including A26 and reinforced A44_L/R. A26 has no motor screw holes; verify the real motor and complete mount fit before hand marking/drilling. This cutting file includes A18's requested 0.5 mm total upper receiver allowance, strengthened A01 profiles and the shortened A62_A stock. A43 face rebates and A44 underside paring remain secondary operations shown in the guide; the laser cannot make them.
 
-Keep the useful cutting and printing already completed. Landing gear remains deferred until after midsems; DARTS registration is pending. Fit/bench checks do not establish flight readiness, and the 20%-chord CG is only a geometric starting point.
+The geometry/layout is digitally checked. Actual stock thickness, kerf, printed receiver batch, physical insertion, screw engagement, adhesive quality and loaded performance remain qualification checks. The earlier R5F PDF, old wood jobs and printed A26/A44 fit prototypes are archived references; use the R5G guide and cutting set for the current job. Existing foam and unrelated prints are retained. Most parts are already printed; do not reprint them automatically.
 
-[Original CAD model](https://cad.onshape.com/documents/da0c1a9f98b6358f736153b1/w/040544fbf77b8cf6608e2eb9/e/28c526eeb45b3f50fa69269f) · [Source build video](https://www.youtube.com/watch?v=X-Q08HQq7fM)
+Landing gear is deferred until after midsems; DARTS registration is pending. The 20%-chord CG is a geometric starting point. CAD or bench checks do not establish flight readiness.
+
+[Original CAD model](https://cad.onshape.com/documents/da0c1a9f98b6358f736153b1/w/040544fbf77b8cf6608e2eb9/e/28c526eeb45b3f50fa69269f) Â· [Source build video](https://www.youtube.com/watch?v=X-Q08HQq7fM)

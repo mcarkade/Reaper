@@ -1,0 +1,1 @@
+Earlier A26 and A44 printed-fit geometry/settings are archived references. The current R5G job uses plywood A26 and reinforced plywood A44_L/R. These files are not current manufacturing instructions and do not establish flight-qualified PLA mounts.
